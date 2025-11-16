@@ -1,0 +1,13 @@
+function ingame/platform
+function ingame/coins
+function ingame/main
+function ingame/coconut
+function ingame/laser
+function ingame/snowball
+function ingame/snowcanon
+function ingame/rail
+function ingame/boulder
+function ingame/badufo
+function ingame/cannongame
+function ingame/double
+function ingame/gorrille

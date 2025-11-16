@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10.0",
+	"geometry.button": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 5, 8],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-8, 0, -8], "size": [16, 4, 16], "uv": [0, 21], "mirror": false},
+					{"origin": [-2, 4, -2], "size": [4, 12, 4], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "body2",
+				"parent": "body",
+				"pivot": [0, 12, 9],
+				"rotation": [15, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-8, 14.96593, -6.74118], "size": [16, 5, 16], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "body3",
+				"parent": "body",
+				"pivot": [2, 15, 4],
+				"rotation": [15, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-4, 17.75, -3.6], "size": [8, 4, 8], "uv": [0, 41], "mirror": false}
+				]
+			}
+		]
+	}
+}

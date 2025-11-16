@@ -1,0 +1,20 @@
+﻿pack.name=Zombie outpost RP
+pack.description=By Nitric Concepts
+
+entity.nitric:zombie_big.name=Business Zombie
+entity.nitric:zombie_gardener.name=Gardener Zombie
+entity.nitric:zombie_scientist.name=Scientist Zombie
+entity.nitric:zombie_chef.name=Chef Zombie
+entity.nitric:zombie_lawn.name=Lawn Zombie
+entity.nitric:zombie_muscular.name=Muscular Zombie
+entity.nitric:zombie_scream.name=Scream Zombie
+entity.nitric:zombie_tnt.name=TNT Zombie
+
+item.spawn_egg.entity.nitric:zombie_big.name=Spawn Business Zombie
+item.spawn_egg.entity.nitric:zombie_gardener.name=Spawn Gardener Zombie
+item.spawn_egg.entity.nitric:zombie_scientist.name=Spawn Scientist Zombie
+item.spawn_egg.entity.nitric:zombie_chef.name=Spawn Chef Zombie
+item.spawn_egg.entity.nitric:zombie_lawn.name=Spawn Lawn Zombie
+item.spawn_egg.entity.nitric:zombie_muscular.name=Spawn Muscular Zombie
+item.spawn_egg.entity.nitric:zombie_scream.name=Spawn Scream Zombie
+item.spawn_egg.entity.nitric:zombie_tnt.name=Spawn TNT Zombie

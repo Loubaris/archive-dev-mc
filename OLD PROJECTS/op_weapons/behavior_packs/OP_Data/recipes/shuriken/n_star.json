@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:n_star"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "HYH",
+      "Y#Y",
+      "HYH"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      },
+      "Y": {
+        "item": "minecraft:flint"
+      }
+    },
+    "result": {
+      "item": "ninja:n_star",
+      "count": 16
+    }
+  }
+}

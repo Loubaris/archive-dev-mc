@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wave.button_clicked": {
+			"animation_length": 0.36,
+			"bones": {
+				"bone": {
+					"rotation": [0, 0, 0],
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0, -0.6, 0],
+						"0.3167": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+pack.name=Skylord Weapons Behavior Pack
+pack.description=Behavior Pack for Skylord Weapons
+item.sw:sw_axe.name=Iron Axe
+item.sw:sw_stone_axe.name=Stone Axe
+item.sw:sw_gold_axe.name=Gold Axe
+item.sw:sw_obsidian_axe.name=Obsidian Axe
+
+item.sw:sw_sword.name=Iron Sword
+item.sw:sw_stone_sword.name=Stone Sword
+item.sw:sw_gold_sword.name=Gold Sword
+item.sw:sw_obsidian_sword.name=Obsidian Sword
+
+
+item.sw:spear.name=Spear
+item.sw:stone_spear.name=Stone Spear
+item.sw:gold_spear.name=Gold Spear
+item.sw:obsidian_spear.name=Obsidian Spear
+
+item.sw:hammer.name=Hammer
+item.sw:stone_hammer.name=Stone Hammer
+item.sw:gold_hammer.name=Gold Hammer
+item.sw:obsidian_hammer.name=Obsidian Hammer
+
+item.sw:legendary_hammer.name=Legendary Hammer
+item.sw:legendary_sword.name=Legendary Sword
+item.sw:magic_wand.name=Magic Wand
+item.sw:legenday_bow.name=Legendary Bow
+item.sw:tnt_wand.name=TNT Wand
+
+item.sw:safe_staff.name=Safe Staff
+item.sw:health_staff.name=Health Staff
+item.sw:strength_staff.name=Strength Staff
+
+item.spawn_egg.entity.sw:catapult.name=Trebuchet
+
+

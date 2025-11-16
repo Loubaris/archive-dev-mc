@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "nitric:big_cannon",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/big_cannon"
+			},
+			"geometry": {
+				"default": "geometry.big_cannon"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.big_cannon.first_person",
+				"third_person": "animation.big_cannon.third_person",
+				"using_item": "animation.big_cannon.using_item"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"nitric:big_cannon": "(1.0)"
+			}
+		}
+	}
+}

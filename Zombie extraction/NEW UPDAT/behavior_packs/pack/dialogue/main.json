@@ -1,0 +1,597 @@
+{
+   "format_version": "1.17.20",
+   "minecraft:npc_dialogue": {
+      "scenes": [
+         {
+            "scene_tag": "main",
+            "npc_name": "Upgrader",
+            "text": "§cHere you can upgrade your abilities!\n",
+            "buttons": [
+               {
+                  "name": "§4 Strength",
+                  "commands": [
+                     "/dialogue open @s @p[r=5,scores={strength=0}] strength1",
+                     "/dialogue open @s @p[r=5,scores={strength=1}] strength2",
+                     "/dialogue open @s @p[r=5,scores={strength=2}] strength3",
+                     "/dialogue open @s @p[r=5,scores={strength=3}] strength4",
+                     "/dialogue open @s @p[r=5,scores={strength=4}] strength5",
+                     "/dialogue open @s @p[r=5,scores={strength=5}] strength6",
+                     "/dialogue open @s @p[r=5,scores={strength=6}] strength7",
+                     "/dialogue open @s @p[r=5,scores={strength=7}] strength8",
+                     "/dialogue open @s @p[r=5,scores={strength=8}] strength9",
+                     "/dialogue open @s @p[r=5,scores={strength=9}] strength10"
+                  ]
+               },
+               {
+                  "name": "§c Health",
+                  "commands": [
+                     "/dialogue open @s @p[r=5,scores={health=0}] health1",
+                     "/dialogue open @s @p[r=5,scores={health=1}] health2",
+                     "/dialogue open @s @p[r=5,scores={health=2}] health3",
+                     "/dialogue open @s @p[r=5,scores={health=3}] health4",
+                     "/dialogue open @s @p[r=5,scores={health=4}] health5",
+                     "/dialogue open @s @p[r=5,scores={health=5}] health6",
+                     "/dialogue open @s @p[r=5,scores={health=6}] health7",
+                     "/dialogue open @s @p[r=5,scores={health=7}] health8",
+                     "/dialogue open @s @p[r=5,scores={health=8}] health9"
+                  ]
+               },
+               {
+                  "name": "§9 Resistance",
+                  "commands": [
+                     "/dialogue open @s @p[r=5,scores={resistance=0}] resistance1",
+                     "/dialogue open @s @p[r=5,scores={resistance=1}] resistance2",
+                     "/dialogue open @s @p[r=5,scores={resistance=2}] resistance3",
+                     "/dialogue open @s @p[r=5,scores={resistance=3}] resistance4",
+                     "/dialogue open @s @p[r=5,scores={resistance=4}] resistance5",
+                     "/dialogue open @s @p[r=5,scores={resistance=5}] resistance6",
+                     "/dialogue open @s @p[r=5,scores={resistance=6}] resistance7",
+                     "/dialogue open @s @p[r=5,scores={resistance=7}] resistance8",
+                     "/dialogue open @s @p[r=5,scores={resistance=8}] resistance9",
+                     "/dialogue open @s @p[r=5,scores={resistance=9}] resistance10"
+                  ]
+               }
+            ],
+            "on_open_commands": [
+               "/scoreboard players add @a strength 0",
+               "/scoreboard players add @a resistance 0",
+               "/scoreboard players add @a health 0",
+               ""
+            ]
+         },
+         {
+            "scene_tag": "strength1",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§21§8]\n\n§8Cost to upgrade: 64",
+            "buttons": [
+               {
+                  "name": "§2Upgrade",
+                  "commands": [
+                     "/function upgrades/strength"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "strength2",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§22§8]\n\n§8Cost to upgrade: 64",
+            "buttons": [
+               {
+                  "name": "§2Upgrade",
+                  "commands": [
+                     "/function upgrades/strength"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "strength3",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§23§8]\n\n§8Cost to upgrade: 64 + 16 ",
+            "buttons": [
+               {
+                  "name": "§2Upgrade",
+                  "commands": [
+                     "/function upgrades/strength"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "strength4",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§24§8]\n\n§8Cost to upgrade: 64 + 16 ",
+            "buttons": [
+               {
+                  "name": "§2Upgrade",
+                  "commands": [
+                     "/function upgrades/strength"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "strength5",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§25§8]\n\n§8Cost to upgrade: 64 + 16 ",
+            "buttons": [
+               {
+                  "name": "§2Upgrade",
+                  "commands": [
+                     "/function upgrades/strength"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "strength6",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§26§8]\n\n§8Cost to upgrade: 64 + 32 ",
+            "buttons": [
+               {
+                  "name": "§2Upgrade",
+                  "commands": [
+                     "/function upgrades/strength"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "strength7",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§27§8]\n\n§8Cost to upgrade: 64 + 32 ",
+            "buttons": [
+               {
+                  "name": "§2Upgrade",
+                  "commands": [
+                     "/function upgrades/strength"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "strength8",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§28§8]\n\n§8Cost to upgrade: 64 + 32 ",
+            "buttons": [
+               {
+                  "name": "§2Upgrade",
+                  "commands": [
+                     "/function upgrades/strength"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "strength9",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§29§8]\n\n§8Cost to upgrade: 64 + 64",
+            "buttons": [
+               {
+                  "name": "§2Upgrade",
+                  "commands": [
+                     "/function upgrades/strength"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "strength10",
+            "npc_name": "Upgrader",
+            "text": "§4Strength §8[§210§8]\n\n§aMax Level Reached!",
+            "buttons": [
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "health1",
+            "npc_name": "Upgrader",
+            "text": "§cHealth §8[§21§8]\n\n§8Cost to upgrade: 64",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/health"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "health2",
+            "npc_name": "Upgrader",
+            "text": "§cHealth §8[§22§8]\n\n§8Cost to upgrade: 64",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/health"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "health3",
+            "npc_name": "Upgrader",
+            "text": "§cHealth §8[§23§8]\n\n§8Cost to upgrade: 64 + 16 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/health"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "health4",
+            "npc_name": "Upgrader",
+            "text": "§cHealth §8[§24§8]\n\n§8Cost to upgrade: 64 + 16 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/health"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "health5",
+            "npc_name": "Upgrader",
+            "text": "§cHealth §8[§25§8]\n\n§8Cost to upgrade: 64 + 16 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/health"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "health6",
+            "npc_name": "Upgrader",
+            "text": "§cHealth §8[§26§8]\n\n§8Cost to upgrade: 64 + 32 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/health"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "health7",
+            "npc_name": "Upgrader",
+            "text": "§cHealth §8[§27§8]\n\n§8Cost to upgrade: 64 + 64 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/health"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "health8",
+            "npc_name": "Upgrader",
+            "text": "§cHealth §8[§28§8]\n\n§8Cost to upgrade: 64 + 64 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/health"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "health9",
+            "npc_name": "Upgrader",
+            "text": "§cHealth §8[§29§8]\n\n§aMax Level Reached!",
+            "buttons": [
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance1",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§21§8]\n\n§8Cost to upgrade: 64",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/resistance"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance2",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§22§8]\n\n§8Cost to upgrade: 64",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/resistance"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance3",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§23§8]\n\n§8Cost to upgrade: 64 + 32 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/resistance"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance4",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§24§8]\n\n§8Cost to upgrade: 64 + 32 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/resistance"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance5",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§25§8]\n\n§8Cost to upgrade: 64 + 32 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/resistance"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance6",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§26§8]\n\n§8Cost to upgrade: 64 + 32 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/resistance"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance7",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§27§8]\n\n§8Cost to upgrade: 64 + 32 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/resistance"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance8",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§28§8]\n\n§8Cost to upgrade: 64 + 64 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/resistance"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance9",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§29§8]\n\n§8Cost to upgrade: 64 + 64 ",
+            "buttons": [
+               {
+                  "name": "§aUpgrade",
+                  "commands": [
+                     "/function upgrades/resistance"
+                  ]
+               },
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag": "resistance10",
+            "npc_name": "Upgrader",
+            "text": "§9Resistance §8[§210§8]\n\n§aMax Level Reached!",
+            "buttons": [
+               {
+                  "name": "§cBack",
+                  "commands": [
+                     "/dialogue open @s @initiator main"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

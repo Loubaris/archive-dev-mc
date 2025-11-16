@@ -1,0 +1,117 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ice_wand": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'ice_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add ice_wand"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'ice_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add ice_wand"			
+          ]
+        }
+      }
+    },
+	"controller.animation.fire_wand": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'fire_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add fire_wand"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'fire_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add fire_wand"			
+          ]
+        }
+      }
+    },
+	"controller.animation.wind_wand": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'wind_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add wind_wand"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'wind_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add wind_wand"			
+          ]
+        }
+      }
+    },
+	"controller.animation.lightning_wand": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'lightning_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add lightning_wand"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'lightning_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add lightning_wand"			
+          ]
+        }
+      }
+    },
+	"controller.animation.tnt_wand": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'tnt_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add tnt_wand"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'tnt_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add tnt_wand"			
+          ]
+        }
+      }
+    },
+	"controller.animation.gravity_wand": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'gravity_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add gravity_wand"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'gravity_wand' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add gravity_wand"			
+          ]
+        }
+      }
+    },
+    "controller.animation.walk": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [
+            "/function commands"
+          ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [
+            "/function commands"
+          ]
+        }
+      }
+    }
+  }
+}

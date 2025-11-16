@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:crocroc",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/crocroc"
+			},
+			"geometry": {
+				"default": "geometry.crocroc"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"crocroc": "animation.wave.crocroc"
+			},
+			"animation_controllers": [
+				{
+					"crocroc": "controller.animation.crocroc"
+				}
+			]
+		}
+	}
+}

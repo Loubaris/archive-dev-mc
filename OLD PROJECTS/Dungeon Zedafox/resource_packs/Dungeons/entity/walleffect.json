@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:walleffect",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/walleffect"
+			},
+			"geometry": {
+				"default": "geometry.walleffect"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"walleffect": "animation.wave.walleffect"
+			},
+			"animation_controllers": [
+				{
+					"walleffect": "controller.animation.walleffect"
+				}
+			]
+		}
+	}
+}

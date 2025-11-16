@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_mrhrs:shadow_horse",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/mes/mrhrs/entity/shadow_horse"
+            },
+            "geometry": {
+                "default": "geometry.mes_mrhrs.shadow_horse"
+            },
+            "spawn_egg": {
+                "base_color": "#0a0a0a",
+                "overlay_color": "#544f4f"
+            },
+            "scripts": {
+                "should_update_bones_and_effects_offscreen": false,
+                "pre_animation": [
+                    "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+                ],
+                "animate": [
+                    "move_custom"
+                ]
+            },
+            "animations": {
+                "idle": "animation.mes_mrhrs.idle",
+                "walk": "animation.mes_mrhrs.walk",
+		"run": "animation.mes_mrhrs.run",
+                "move_custom": "controller.animation.mes_mrhrs.horse.move"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+	}
+    }
+}

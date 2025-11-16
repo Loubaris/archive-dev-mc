@@ -1,0 +1,81 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.executive_pistol_shoot",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-0.5, -0.5, -1],
+							"size": [1, 1, 1],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 1], "uv_size": [1, 1]},
+								"south": {"uv": [1, 0], "uv_size": [1, 1]},
+								"west": {"uv": [1, 1], "uv_size": [1, 1]},
+								"up": {"uv": [0, 2], "uv_size": [1, 1]},
+								"down": {"uv": [2, 1], "uv_size": [1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Main",
+					"pivot": [2, 23, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)"
+				},
+				{
+					"name": "base",
+					"parent": "Main",
+					"pivot": [2, -1, 0]
+				},
+				{
+					"name": "bone4",
+					"parent": "base",
+					"pivot": [-0.5, 22, 0],
+					"rotation": [-37.5, 0, 0]
+				},
+				{
+					"name": "bone5",
+					"parent": "bone4",
+					"pivot": [-0.5, 25, -2],
+					"rotation": [37.5, 0, 0]
+				},
+				{
+					"name": "bone6",
+					"parent": "bone5",
+					"pivot": [-0.5, 25, -5.9],
+					"rotation": [32.5, 0, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "base",
+					"pivot": [1, 24.5, 0],
+					"rotation": [15, 0, 0]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [0.5, 20.2, -1.4],
+					"rotation": [-15, 0, 0]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone2",
+					"pivot": [0.5, 20.2, -4.4],
+					"rotation": [-67.5, 0, 0]
+				}
+			]
+		}
+	]
+}

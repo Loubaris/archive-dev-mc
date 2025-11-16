@@ -1,0 +1,25 @@
+item.4ks_ring:fire_ring.name=Fire Ring
+item.4ks_ring:ice_ring.name=Ice Ring
+item.4ks_ring:water_ring.name=Water Ring
+item.4ks_ring:ender_ring.name=Ender Ring
+item.4ks_ring:light_ring.name=Light Ring
+item.4ks_ring:lightning_ring.name=Lightning Ring
+item.4ks_ring:metal_ring.name=Metal Ring
+item.4ks_ring:tnt_ring.name=TNT Ring
+item.4ks_ring:rock_ring.name=Rock Ring
+item.4ks_ring:nature_ring.name=Nature Ring
+item.4ks_ring:guidebook.name=Guidebook
+
+item.spawn_egg.entity.4ks_ring:water_minion.name=Wavey
+item.spawn_egg.entity.4ks_ring:tnt_minion.name=Boomki
+item.spawn_egg.entity.4ks_ring:nature_minion=Fauna
+item.spawn_egg.entity.4ks_ring:rock_minion=Quartix
+item.spawn_egg.entity.4ks_ring:metal_minion=Juggernaut
+item.spawn_egg.entity.4ks_ring:light_minion=Jira
+item.spawn_egg.entity.4ks_ring:electric_minion=Zipzap
+item.spawn_egg.entity.4ks_ring:ice_minion=Bigbear
+item.spawn_egg.entity.4ks_ring:fire_minion=Rattamo
+item.spawn_egg.entity.4ks_ring:ender_minion=Voodoom
+
+pack.name=Ring Pets Add-On
+pack.description=Ring Pets Add-On

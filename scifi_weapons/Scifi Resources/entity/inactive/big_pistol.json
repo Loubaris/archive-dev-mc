@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "nitric:i_big_pistol",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/entity/holdables/big_pistol"
+            },
+            "geometry": {
+                "default": "geometry.big_pistol"
+            },
+            "scripts": {
+        "animate": [ "controller" ]
+      },
+      "animations": {
+        "controller": "controller.animation.inactive",
+        "idle": "animation.weapon.spin"
+      },
+            "render_controllers": [
+                "controller.render.wave"
+            ]
+        }
+    }
+}

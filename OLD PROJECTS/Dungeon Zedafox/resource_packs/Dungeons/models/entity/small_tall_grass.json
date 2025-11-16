@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"geometry.small_tall_grass": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 3, 8],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-7, 0, -7], "size": [14, 5, 14], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

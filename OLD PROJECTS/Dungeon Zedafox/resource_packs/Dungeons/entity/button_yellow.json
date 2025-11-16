@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:button_yellow",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/buttons/button_yellow"
+			},
+			"geometry": {
+				"default": "geometry.button"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:swift_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "HHZ",
+      "YUH",
+      "#YH"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "U": {
+        "item": "minecraft:nether_star"
+      },
+      "Y": {
+        "item": "minecraft:feather"
+      },
+      "Z": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "ninja:swift_sword"
+    }
+  }
+}

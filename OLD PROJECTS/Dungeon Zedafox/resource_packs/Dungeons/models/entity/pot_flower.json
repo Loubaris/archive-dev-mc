@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"geometry.pot_flower": {
+		"texturewidth": 128,
+		"textureheight": 128,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 3.5,
+		"visible_bounds_offset": [0, 0.25, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 5, 3],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-6, 0, -6], "size": [12, 2, 12], "uv": [36, 36], "mirror": false},
+					{"origin": [-6, 13, -6], "size": [12, 3, 12], "uv": [0, 24], "mirror": false},
+					{"origin": [-5, 12, -5], "size": [10, 2, 10], "uv": [36, 24], "mirror": false},
+					{"origin": [-7, 2, -7], "size": [14, 10, 14], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "bone",
+				"parent": "body",
+				"pivot": [0, 18, 0],
+				"rotation": [-20, -10, 0]
+			},
+			{
+				"name": "bone2",
+				"parent": "body",
+				"pivot": [0, 18, -1],
+				"rotation": [15, -10, 0]
+			}
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:inferno_wand",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "inferno_wand",
+   "minecraft:render_offsets": "inferno_wand"
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.ice_cube": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "ice_cube": "query.is_alive"
+                        }
+                    ]
+                },
+                "ice_cube": {
+                    "on_entry": [
+                        "/function entity/ice_cube"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.is_alive"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mm:mob_mask"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "GZH",
+      "ZYZ",
+      "ZZZ"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:red_flower"
+      },
+      "H": {
+        "item": "minecraft:yellow_flower"
+      },
+      "Z": {
+        "item": "minecraft:log"
+      },
+      "Y": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "mm:mob_mask"
+    }
+  }
+}

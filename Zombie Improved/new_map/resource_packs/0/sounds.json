@@ -1,0 +1,118 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "nitric:zombie_big": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "nitric.zombie.idle_one",
+          "hurt": "mob.zombie.walking_one",
+          "death": "mob.zombie.walking_two",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "nitric:zombie_chef": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "nitric.zombie.idle_one",
+          "hurt": "mob.zombie.walking_one",
+          "death": "mob.zombie.walking_two",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "nitric:zombie_lawn": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "nitric.zombie.idle_one",
+          "hurt": "mob.zombie.walking_one",
+          "death": "mob.zombie.walking_two",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "nitric:zombie_muscular": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "nitric.zombie.idle_one",
+          "hurt": "mob.zombie.walking_one",
+          "death": "mob.zombie.walking_two",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "nitric:zombie_scientist": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "nitric.zombie.idle_one",
+          "hurt": "mob.zombie.walking_one",
+          "death": "mob.zombie.walking_two",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "nitric:zombie_scream": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "nitric.zombie.idle_one",
+          "hurt": "mob.zombie.walking_one",
+          "death": "mob.zombie.walking_two",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "nitric:zombie_tnt": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "nitric.zombie.idle_one",
+          "hurt": "mob.zombie.walking_one",
+          "death": "mob.zombie.walking_two",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "nitric:zombie_gardener": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "nitric.zombie.idle_one",
+          "hurt": "mob.zombie.walking_one",
+          "death": "mob.zombie.walking_two",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      }
+    }
+  }
+}

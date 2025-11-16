@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:gold_knife",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "gold_knife",
+   "minecraft:render_offsets": "gold_knife"
+  }
+ }
+}

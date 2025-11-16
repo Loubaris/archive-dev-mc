@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.button": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"used": "variable.attack_time"
+						}
+					]
+				},
+				"used": {
+					"on_entry": [
+						"/execute @e[type=mm:playground,r=4,tag=!clicked] ~ ~ ~ tag @e[type=mm:playground] add clicked",
+						"/execute @e[type=mm:playground,r=4,tag=clicked] ~ ~ ~ particle mm:buttonno ~ ~ ~"
+					
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

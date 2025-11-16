@@ -1,0 +1,19 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"version": [1, 0, 0],
+		"uuid": "2142cc83-2277-4bac-af63-e0e3412b3add",
+		"lock_template_options": true,
+		"base_game_version": [1, 16, 0]
+	},
+	"modules": [{
+		"version": [1, 0, 0],
+		"type": "world_template",
+		"uuid": "880aeba5-c606-41e0-801e-af61ad69f1e0"
+	}],
+	"metadata": {
+		"authors": ["4KS Studios"]
+	}
+}

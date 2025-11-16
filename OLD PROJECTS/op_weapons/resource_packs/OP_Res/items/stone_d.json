@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:stone_dagger",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "stone_d",
+   "minecraft:render_offsets": "stone_d"
+  }
+ }
+}

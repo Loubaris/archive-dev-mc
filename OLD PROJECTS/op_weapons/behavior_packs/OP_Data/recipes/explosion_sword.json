@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:explosion_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZXZ",
+      "ZYZ",
+      "Z#Z"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:diamond"
+      },
+      "Z": {
+        "item": "minecraft:tnt"
+      },
+      "X": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "ninja:explosion_sword"
+    }
+  }
+}

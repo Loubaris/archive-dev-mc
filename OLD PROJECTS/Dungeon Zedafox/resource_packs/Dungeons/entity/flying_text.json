@@ -1,0 +1,36 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "zedafox:flying_text",
+         "spawn_egg": {
+            "base_color": "#FFFFFF",
+            "overlay_color": "#313131"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/notexture"
+            }, 
+         "geometry": { 
+            "default": "geometry.tv" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "tv" : "animation.wave.tv"
+              },
+         "animation_controllers" : [
+              {
+              "tylerHand" : "controller.animation.tv"
+              } 
+         ] 
+       
+       
+       
+       
+         }
+      }
+}

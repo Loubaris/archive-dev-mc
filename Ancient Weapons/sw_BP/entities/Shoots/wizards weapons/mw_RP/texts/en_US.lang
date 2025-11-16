@@ -1,0 +1,10 @@
+pack.name=Mythic Weapons Resource Pack
+pack.description=Resource Pack for Mythic Weapons
+
+
+item.mw:ice_wand.name=Ice Wand
+item.mw:fire_wand.name=Fire Wand
+item.mw:wind_wand.name=Wind Wand
+item.mw:lightning_wand.name=Lightning Wand
+item.mw:tnt_wand.name=TNT Wand
+item.mw:gravity_wand.name=Gravity Wand

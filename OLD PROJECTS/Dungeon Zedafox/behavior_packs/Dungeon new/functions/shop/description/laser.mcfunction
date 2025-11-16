@@ -1,0 +1,1 @@
+tellraw @p[x=375,y=104,z=471] {"rawtext":[{"text":"§f----[ LASER ]----\n§7Allows you to shoot a laser.\n§f-------------------"}]}

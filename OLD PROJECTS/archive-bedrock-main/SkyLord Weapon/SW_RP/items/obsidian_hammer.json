@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:obsidian_hammer",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "obsidian_hammer",
+   "minecraft:render_offsets": "obsidian_hammer"
+  }
+ }
+}

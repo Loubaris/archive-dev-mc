@@ -1,0 +1,32 @@
+tile.chest.name=Chest
+entity.kubo:atomic_tnt=Atomic TNT
+entity.kubo:camo_tnt=Camo TNT
+entity.kubo:creeper_tnt=Creeper TNT
+entity.kubo:diamond_tnt=Diamond TNT
+entity.kubo:flaming_tnt=Flaming TNT
+entity.kubo:freeze_tnt=Freeze TNT
+entity.kubo:smoke_tnt=Smoke TNT
+entity.kubo:thunder_tnt=Thunder TNT
+entity.kubo:timer_tnt=Timer TNT
+entity.kubo:tiny_tnt=Tiny TNT
+entity.kubo:tnt_canon=TNT Canon
+entity.kubo:tnt_launcher=TNT Launcher
+entity.kubo:tripleshot_tnt=TripleShot TNT
+entity.kubo:firework_tnt=Firework TNT
+item.spawn_egg.entity.kubo:atomic_tnt=Atomic TNT
+item.spawn_egg.entity.kubo:camo_tnt=Camo TNT
+item.spawn_egg.entity.kubo:creeper_tnt=Creeper TNT
+item.spawn_egg.entity.kubo:diamond_tnt=Diamond TNT
+item.spawn_egg.entity.kubo:flaming_tnt=Flaming TNT
+item.spawn_egg.entity.kubo:freeze_tnt=Freeze TNT
+item.spawn_egg.entity.kubo:smoke_tnt=Smoke TNT
+item.spawn_egg.entity.kubo:thunder_tnt=Thunder TNT
+item.spawn_egg.entity.kubo:timer_tnt=Timer TNT
+item.spawn_egg.entity.kubo:tiny_tnt=Tiny TNT
+item.spawn_egg.entity.kubo:tnt_canon_tnt=TNT Canon
+item.spawn_egg.entity.kubo:tnt_launcher=TNT Launcher
+item.spawn_egg.entity.kubo:tripleshot_tnt=TripleShot TNT
+item.spawn_egg.entity.kubo:firework_tnt=Firework TNT
+
+
+

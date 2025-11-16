@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:mushroom_vertical",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/mushroom_vertical"
+			},
+			"geometry": {
+				"default": "geometry.mushroom_vertical"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"mushroom_up": "animation.wave.mushroom_up"
+			},
+			"animation_controllers": [
+				{
+					"mushroom_up": "controller.animation.mushroom_up"
+				}
+			]
+		}
+	}
+}

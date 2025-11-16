@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "saddle",
+                    "functions": []
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dirt",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": "horse_spawn"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "horsearmorgold",
+                    "functions": []
+                }
+            ]
+        }
+    ]
+}

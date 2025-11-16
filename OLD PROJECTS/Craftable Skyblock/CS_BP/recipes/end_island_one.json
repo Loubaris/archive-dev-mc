@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:end_island_one_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "YYY",
+      "YYY"
+    ],
+    "key": {
+      "Y": {
+        "item": "minecraft:end_stone"
+      }
+    },
+    "result": {
+      "item": "cs:end_island_one_spawn_egg"
+    }
+  }
+}

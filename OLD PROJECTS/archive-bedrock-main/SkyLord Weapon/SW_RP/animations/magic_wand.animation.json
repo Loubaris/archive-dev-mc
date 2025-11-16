@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.magic_wand.third_person": {
+			"loop": true,
+			"animation_length": 1.56,
+			"bones": {
+				"cube": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.8": [0, 1, 0],
+						"1.56": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.magic_wand.first_person": {
+			"loop": true,
+			"animation_length": 1.56,
+			"bones": {
+				"stick": {
+					"rotation": [50, 0, 0],
+					"position": [0, -11, 6],
+					"scale": [1, 0.7, 1]
+				},
+				"cube": {
+					"position": {
+						"0.0": [0, -1, 0],
+						"0.84": [0, -3, 0],
+						"1.56": [0, -1, 0]
+					},
+					"scale": [1, 1.4, 1]
+				}
+			}
+		}
+	}
+}

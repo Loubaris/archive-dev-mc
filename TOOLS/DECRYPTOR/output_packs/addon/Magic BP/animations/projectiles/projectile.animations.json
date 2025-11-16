@@ -1,0 +1,130 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cyd_mgspl.fireball.launch": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.fireball_cast @a[r=20]"]
+      },
+      "animation_length": 1
+    },
+    "animation.cyd_mgspl.fireball.on_impact": {
+      "loop": false,
+      "timeline": {
+		"0.0": ["/playsound cyd_mgspl.fireball_impact @a[r=25]",
+				"/particle cyd_mgspl:fireball_explosion_ex ~ ~ ~",
+				"/particle cyd_mgspl:fireball_impact_ember ~ ~ ~",
+				"/particle cyd_mgspl:fireball_sparks_small ~ ~ ~",
+				"@s evt:despawn"]
+      },
+      "animation_length": 1
+    },
+    "animation.cyd_mgspl.witherskull.launch": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.whitherskull_cast @a[r=20]"],
+		"0.2": ["@s evt:target"]
+      },
+      "animation_length": 1
+    },
+    "animation.cyd_mgspl.witherskull.on_impact": {
+      "loop": false,
+      "timeline": {
+		"0.0": ["/scriptevent cyd_mgspl:witherskulls impact",
+				"/playsound cyd_mgspl.whitherskull_impact @a[r=20]",
+				"/particle cyd_mgspl:witherskull_explosion ~ ~ ~",
+				"/particle cyd_mgspl:witherskull_impact_ember ~ ~ ~",
+				"/particle cyd_mgspl:witherskull_sparks_small ~ ~ ~"],
+		"0.1": ["@s evt:despawn"]
+      },
+      "animation_length": 1
+    },
+	"animation.cyd_mgspl.illuminate.launch": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.fireball_cast @a[r=20]"]
+      },
+      "animation_length": 1
+    },
+    "animation.cyd_mgspl.illuminate.on_impact": {
+      "loop": false,
+      "timeline": {
+		"0.0": ["/scriptevent cyd_mgspl:fireball impact",
+				"/playsound cyd_mgspl.fireball_impact @a[r=20]",
+				"/particle cyd_mgspl:fireball_explosion_ex ~ ~ ~",
+				"/particle cyd_mgspl:fireball_impact_ember ~ ~ ~",
+				"/particle cyd_mgspl:fireball_sparks_small ~ ~ ~",
+				"@s evt:despawn"]
+      },
+      "animation_length": 1
+    },
+	"animation.cyd_mgspl.gravity_vortex.launch": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.fireball_cast @a[r=20]"]
+      },
+      "animation_length": 1
+    },
+    "animation.cyd_mgspl.gravity_vortex.on_impact": {
+      "loop": false,
+      "timeline": {
+		"0.0": ["/scriptevent cyd_mgspl:fireball impact",
+				"/playsound cyd_mgspl.fireball_impact @a[r=20]",
+				"/particle cyd_mgspl:fireball_explosion_ex ~ ~ ~",
+				"/particle cyd_mgspl:fireball_impact_ember ~ ~ ~",
+				"/particle cyd_mgspl:fireball_sparks_small ~ ~ ~",
+				"@s evt:despawn"]
+      },
+      "animation_length": 1
+    },
+	"animation.cyd_mgspl.polymorph.launch": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.polymorph_cast @a[r=20]"]
+      },
+      "animation_length": 1
+    },
+    "animation.cyd_mgspl.polymorph.on_impact": {
+      "loop": false,
+      "timeline": {
+		"0.0": ["/playsound cyd_mgspl.fireball_impact @a[r=20]",
+				"@s evt:despawn"]
+      },
+      "animation_length": 1
+    },
+	"animation.cyd_mgspl.summon_minion.launch": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.minion_cast @a[r=20]"]
+      },
+      "animation_length": 1
+    },
+    "animation.cyd_mgspl.summon_minion.on_impact": {
+      "loop": false,
+      "timeline": {
+		"0.0": ["/scriptevent cyd_mgspl:summon_minion impact",
+				"/playsound cyd_mgspl.glimmer_loop @a[r=20]",
+				"/particle cyd_mgspl:minion_circle ~ ~ ~",
+				"/particle cyd_mgspl:minion_outline ~ ~ ~",
+				"@s evt:despawn"]
+      },
+      "animation_length": 1
+    },
+	"animation.cyd_mgspl.enderblight.launch": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.fireball_cast @a[r=20]"]
+      },
+      "animation_length": 1
+    },
+    "animation.cyd_mgspl.enderblight.on_impact": {
+      "loop": false,
+      "timeline": {
+		"0.0": ["/summon cyd_mgspl:spell_enderblight",
+				"/playsound cyd_mgspl.fireball_impact @a[r=20]",
+				"@s evt:despawn"]
+      },
+      "animation_length": 1
+    }
+  }
+}

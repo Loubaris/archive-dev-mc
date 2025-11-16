@@ -1,0 +1,35 @@
+{
+  "format_version": [ 0, 0, 1 ],
+  "nitric:block": {
+    "textures": "block",
+    "sound": "stone"
+  },
+  "nitric:commonblock": {
+    "textures": "commonblock",
+    "sound": "stone"
+  },
+  "nitric:rareblock": {
+    "textures": "rareblock",
+    "sound": "stone"
+  },
+  "nitric:legendaryblock": {
+    "textures": "legendaryblock",
+    "sound": "stone"
+  },
+  "nitric:commonore": {
+    "textures": "commonore",
+    "sound": "stone"
+  },
+  "nitric:legendaryore": {
+    "textures": "legendaryore",
+    "sound": "stone"
+  },
+  "nitric:rareore": {
+    "textures": "rareore",
+    "sound": "stone"
+  },
+  "nitric:luckyore": {
+    "textures": "luckyore",
+    "sound": "stone"
+  }
+}

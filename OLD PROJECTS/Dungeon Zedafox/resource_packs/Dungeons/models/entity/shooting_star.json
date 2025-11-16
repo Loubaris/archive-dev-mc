@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"geometry.shooting_star": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 4,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 9, 0],
+				"rotation": [-172.5, -45, 180],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-9, 0, 0], "size": [18, 18, 0], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

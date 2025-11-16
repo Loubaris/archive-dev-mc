@@ -1,0 +1,296 @@
+{
+  "num_mip_levels" : 2,
+	"texture_data": {
+		"pebble1": {
+			"textures": "textures/blocks/pebble1"
+		},
+		"pebble2": {
+			"textures": "textures/blocks/pebble2"
+		},
+		"myleaves": {
+			"textures": "textures/blocks/myleaves"
+		},
+		"applebasket": {
+			"textures": "textures/blocks/applebasket"
+		},
+		"plant": {
+			"textures": "textures/blocks/plant"
+		},
+		"pot": {
+			"textures": "textures/blocks/pot"
+		},
+		"pot2": {
+			"textures": "textures/blocks/pot2"
+		},
+		"pot3": {
+			"textures": "textures/blocks/pot3"
+		},
+		"mypainting": {
+			"textures": "textures/blocks/mypainting"
+		},
+		"mypainting2": {
+			"textures": "textures/blocks/mypainting2"
+		},
+		"wetbook": {
+			"textures": "textures/blocks/wetbook"
+		},
+		"bush": {
+			"textures": "textures/blocks/bush"
+		},
+		"bigbush": {
+			"textures": "textures/blocks/bigbush"
+		},
+		"small_tall_grass": {
+			"textures": "textures/blocks/small_tall_grass"
+		},
+		"small_tall_grass2": {
+			"textures": "textures/blocks/small_tall_grass2"
+		},
+		"treffle": {
+			"textures": "textures/blocks/treffle"
+		},
+		"treffle_flower": {
+			"textures": "textures/blocks/treffle_flower"
+		},
+		"grassground": {
+			"textures": "textures/blocks/grassground"
+		},
+		"dirtground": {
+			"textures": "textures/blocks/dirtground"
+		},
+		"flowerground": {
+			"textures": "textures/blocks/flowerground"
+		},
+		"mold": {
+			"textures": "textures/blocks/mold"
+		},
+		"elevator": {
+			"textures": "textures/blocks/elevator"
+		},
+		"marketroof1": {
+			"textures": "textures/blocks/marketroof1"
+		},
+		"marketroof2": {
+			"textures": "textures/blocks/marketroof2"
+		},
+		"marketroof3": {
+			"textures": "textures/blocks/marketroof3"
+		},
+		"marketroof_red1": {
+			"textures": "textures/blocks/marketroof_red1"
+		},
+		"marketroof_red2": {
+			"textures": "textures/blocks/marketroof_red2"
+		},
+		"marketroof_red3": {
+			"textures": "textures/blocks/marketroof_red3"
+		},
+		"trapdoor2": {
+			"textures": "textures/blocks/trapdoor2"
+		},
+		"box": {
+			"textures": "textures/blocks/box"
+		},
+		"box2": {
+			"textures": "textures/blocks/box2"
+		},
+		"persona1": {
+			"textures": "textures/blocks/persona1"
+		},
+		"persona2": {
+			"textures": "textures/blocks/persona2"
+		},
+		"persona3": {
+			"textures": "textures/blocks/persona3"
+		},
+		"persona4": {
+			"textures": "textures/blocks/persona4"
+		},
+		"persona5": {
+			"textures": "textures/blocks/persona5"
+		},
+		"persona6": {
+			"textures": "textures/blocks/persona6"
+		},
+		"persona7": {
+			"textures": "textures/blocks/persona7"
+		},
+		"persona8": {
+			"textures": "textures/blocks/persona8"
+		},
+		"persona9": {
+			"textures": "textures/blocks/persona9"
+		},
+		"persona10": {
+			"textures": "textures/blocks/persona10"
+		},
+		"persona11": {
+			"textures": "textures/blocks/persona11"
+		},
+		"persona12": {
+			"textures": "textures/blocks/persona12"
+		},
+		"persona13": {
+			"textures": "textures/blocks/persona13"
+		},
+		"persona14": {
+			"textures": "textures/blocks/persona14"
+		},
+		"persona15": {
+			"textures": "textures/blocks/persona15"
+		},
+		"persona16": {
+			"textures": "textures/blocks/persona16"
+		},
+		"persona17": {
+			"textures": "textures/blocks/persona17"
+		},
+		"persona18": {
+			"textures": "textures/blocks/persona18"
+		},
+		"persona19": {
+			"textures": "textures/blocks/persona19"
+		},
+		"persona20": {
+			"textures": "textures/blocks/persona20"
+		},
+		"persona21": {
+			"textures": "textures/blocks/persona21"
+		},
+		"persona22": {
+			"textures": "textures/blocks/persona22"
+		},
+		"persona23": {
+			"textures": "textures/blocks/persona23"
+		},
+		"persona24": {
+			"textures": "textures/blocks/persona24"
+		},
+		"persona25": {
+			"textures": "textures/blocks/persona25"
+		},
+		"persona26": {
+			"textures": "textures/blocks/persona26"
+		},
+		"persona27": {
+			"textures": "textures/blocks/persona27"
+		},
+		"persona28": {
+			"textures": "textures/blocks/persona28"
+		},
+		"persona29": {
+			"textures": "textures/blocks/persona29"
+		},
+		"persona30": {
+			"textures": "textures/blocks/persona30"
+		},
+		"persona31": {
+			"textures": "textures/blocks/persona31"
+		},
+		"persona32": {
+			"textures": "textures/blocks/persona32"
+		},
+		"persona33": {
+			"textures": "textures/blocks/persona33"
+		},
+		"persona34": {
+			"textures": "textures/blocks/persona34"
+		},
+		"purplebrick1": {
+			"textures": "textures/blocks/purple/purplebrick1"
+		},
+		"purplebrick2": {
+			"textures": "textures/blocks/purple/purplebrick2"
+		},
+		"purplebrick3": {
+			"textures": "textures/blocks/purple/purplebrick3"
+		},
+		"purplebrick4": {
+			"textures": "textures/blocks/purple/purplebrick4"
+		},
+		"darkpurple1": {
+			"textures": "textures/blocks/purple/darkpurple1"
+		},
+		"darkpurple2": {
+			"textures": "textures/blocks/purple/darkpurple2"
+		},
+		"darkpurple3": {
+			"textures": "textures/blocks/purple/darkpurple3"
+		},
+		"darkpurple4": {
+			"textures": "textures/blocks/purple/darkpurple4"
+		},
+		"ppersona1": {
+			"textures": "textures/blocks/purple/persona1"
+		},
+		"ppersona2": {
+			"textures": "textures/blocks/purple/persona2"
+		},
+		"ppersona3": {
+			"textures": "textures/blocks/purple/persona3"
+		},
+		"ppersona4": {
+			"textures": "textures/blocks/purple/persona4"
+		},
+		"ppersona5": {
+			"textures": "textures/blocks/purple/persona5"
+		},
+		"ppersona6": {
+			"textures": "textures/blocks/purple/persona6"
+		},
+		"ppersona7": {
+			"textures": "textures/blocks/purple/persona7"
+		},
+		"ppersona8": {
+			"textures": "textures/blocks/purple/persona8"
+		},
+		"ppersona9": {
+			"textures": "textures/blocks/purple/persona9"
+		},
+		"white_planks": {
+			"textures": "textures/blocks/white_planks"
+		},
+		"dungeon_bricks": {
+			"textures": "textures/blocks/dungeon_bricks"
+		},
+		"dungeon_bricks2": {
+			"textures": "textures/blocks/dungeon_bricks2"
+		},
+		"acid": {
+			"textures": "textures/blocks/acid"
+		},
+		"mushroom": {
+			"textures": "textures/blocks/mushroom"
+		},
+		"cart": {
+			"textures": "textures/blocks/cart"
+		},
+		"lamp": {
+			"textures": "textures/blocks/lamp"
+		},
+		"table": {
+			"textures": "textures/blocks/table"
+		},
+		"potion": {
+			"textures": "textures/blocks/potion"
+		},
+		"feuille": {
+			"textures": "textures/blocks/feuille"
+		},
+		"cyberlight": {
+			"textures": "textures/blocks/cyberlight"
+		},
+		"cyberlight_purple": {
+			"textures": "textures/blocks/cyberlight_purple"
+		},
+		"restaurant_table": {
+			"textures": "textures/blocks/restaurant_table"
+		},
+		"carrot": {
+			"textures": "textures/blocks/carrot"
+		},
+		"deepslate_elevator": {
+			"textures": "textures/blocks/deepslate_elevator"
+		}
+	}
+}

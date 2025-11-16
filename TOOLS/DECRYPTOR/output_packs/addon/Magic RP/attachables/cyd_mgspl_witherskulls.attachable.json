@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "cyd_mgspl:witherskulls",
+			"render_controllers": ["controller.render.item_default"],
+			"materials": {
+				"default": "entity_emissive_alpha",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/cyd/mgspl/attachable/staff_witherskulls",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.cyd_mgspl_staff"
+			},
+			"animations": {
+				"first_person_hold": "animation.cyd_mgspl_staff.first_person_hold",
+				"third_person_hold": "animation.cyd_mgspl_staff.third_person_hold",
+				
+				"use": "animation.cyd_mgspl_staff.cast",
+				"charge": "animation.cyd_mgspl_staff.loop",
+				"control_use": "controller.animation.cyd_mgspl_item_chargeable",
+				
+				"use_3p": "animation.cyd_mgspl_staff.cast_3p",
+				"charge_3p": "animation.cyd_mgspl_staff.loop_3p",
+				"control_use_3p": "controller.animation.cyd_mgspl_item_chargeable_3p"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"first_person_hold": "c.is_first_person"
+					},
+					{
+						"third_person_hold": "!c.is_first_person"
+					},
+					{
+						"control_use": "c.is_first_person"
+					},
+					{
+						"control_use_3p": "!c.is_first_person"
+					}
+				]
+			}
+		}
+	}
+}

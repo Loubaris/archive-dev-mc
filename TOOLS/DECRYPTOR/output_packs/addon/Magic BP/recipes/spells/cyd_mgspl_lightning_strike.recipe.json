@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:lightning_strike"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      " S ",
+      "AS "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:lightning_rod"
+      },
+      "X": {
+        "item": "minecraft:gold_ingot"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:lightning_strike",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ballista.fire": {
+      "states": {
+        "default": {
+          "animations": [
+            { "firing": "query.has_target" }
+          ]
+        }
+      }
+    }
+  }
+}

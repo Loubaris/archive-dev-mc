@@ -1,0 +1,38 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.jet_ski",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 6.18366, -4.45149],
+					"cubes": [
+						{"origin": [-7, 5.56481, -23.10123], "size": [14, 5, 13], "pivot": [0, 7.06481, -23.60123], "rotation": [-25, 0, 0], "uv": [56, 0]},
+						{"origin": [-7, 0, -12], "size": [14, 5, 27], "uv": [0, 0]},
+						{"origin": [-5, 5, -13], "size": [10, 4, 19], "uv": [0, 33]},
+						{"origin": [-6, 5, 6], "size": [12, 5, 8], "uv": [39, 67]},
+						{"origin": [-6, 4.40552, -20.42297], "size": [12, 9, 14], "pivot": [0, 8.90552, -13.42297], "rotation": [25, 0, 0], "uv": [45, 43]}
+					]
+				},
+				{
+					"name": "stearingwheel",
+					"parent": "root",
+					"pivot": [0, 14.66667, -10.30754],
+					"cubes": [
+						{"origin": [-16, 14, -10], "size": [11, 2, 2], "pivot": [-11, 15, -9], "rotation": [0, 25, 0], "uv": [0, 0]},
+						{"origin": [5, 14, -10], "size": [11, 2, 2], "pivot": [11, 15, -9], "rotation": [0, -25, 0], "uv": [0, 5]},
+						{"origin": [-7, 11, -17], "size": [14, 6, 9], "uv": [0, 58]}
+					]
+				}
+			]
+		}
+	]
+}

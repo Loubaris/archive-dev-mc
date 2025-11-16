@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:stone_spear"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "ZZZ",
+      "ZGZ"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:stone_sword"
+      },
+      "Z": {
+        "item": "minecraft:stone"
+      }
+    },
+    "result": {
+      "item": "sw:stone_spear"
+    }
+  }
+}

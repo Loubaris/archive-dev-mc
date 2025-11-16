@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"geometry.acid_projectile": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-8, 0, -8], "size": [16, 8, 16], "uv": [0, 0], "mirror": false},
+					{"origin": [-8, 8, -8], "size": [16, 3, 16], "uv": [0, 24], "mirror": false}
+				]
+			},
+			{
+				"name": "bone2",
+				"pivot": [17.5, 0, 2.5],
+				"cubes": [
+					{"origin": [16, 0, 1], "size": [3, 3, 3], "uv": [16, 25]}
+				]
+			},
+			{
+				"name": "bone3",
+				"pivot": [24, 0, -1],
+				"cubes": [
+					{"origin": [23, 0, -2], "size": [2, 2, 2], "uv": [16, 25]}
+				]
+			},
+			{
+				"name": "bone",
+				"pivot": [12.5, 0, -4],
+				"cubes": [
+					{"origin": [10, 0, -6], "size": [5, 5, 5], "uv": [16, 25]}
+				]
+			}
+		]
+	}
+}

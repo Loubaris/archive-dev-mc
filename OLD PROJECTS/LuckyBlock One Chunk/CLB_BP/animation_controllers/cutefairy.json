@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cute_fairy": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"fairy": "(1.0)"
+						}
+					]
+				},
+				"fairy": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/particle minecraft:crop_growth_emitter ~0 ~0 ~0"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:squidhand_up",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/squidhand"
+			},
+			"geometry": {
+				"default": "geometry.squidhand"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"squidhand_up": "animation.wave.squidhand_up"
+			},
+			"animation_controllers": [
+				{
+					"squidhand_up": "controller.animation.squidhand_up"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cg:enderman"
+		},
+		"components": {
+			"minecraft:food": {
+				"can_always_eat": true
+			}
+		}
+	}
+}

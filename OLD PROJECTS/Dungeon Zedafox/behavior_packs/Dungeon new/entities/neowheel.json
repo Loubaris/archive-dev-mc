@@ -1,0 +1,57 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:neowheel",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true,
+			"scripts": {
+				"animate": [
+					"neowheel"
+				]
+			},
+			"animations": {
+				"neowheel": "controller.animation.neowheel"
+			}
+		},
+		"components": {
+			"minecraft:scale": {
+				"value": 1.2
+			},
+			"minecraft:boss": {
+				"should_darken_sky": false,
+				"hud_range": 20,
+				"name": "Neowheel"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"boss"
+				]
+			},
+			"minecraft:health": {
+				"value": 500,
+				"max": 500
+			},
+			"minecraft:collision_box": {
+				"width": 1.0,
+				"height": 3.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

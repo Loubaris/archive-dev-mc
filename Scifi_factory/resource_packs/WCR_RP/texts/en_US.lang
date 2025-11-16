@@ -1,0 +1,38 @@
+pack.name=Sci Fi Factory
+pack.description=A resource pack for the Sci-Fi Factory!
+
+
+item.spawn_egg.entity.nitric:cyber_elephant.name=Cyber Elephant
+entity.nitric:cyber_elephant.name=Cyber Elephant
+item.spawn_egg.entity.nitric:cyber_trex.name=Cyber TRex
+entity.nitric:cyber_trex.name=Cyber TRex
+item.spawn_egg.entity.nitric:hoverbike_0.name=Hoverbike
+entity.nitric:hoverbike_0.name=Hoverbike
+item.spawn_egg.entity.nitric:hoverbike_1.name=Hoverbike
+entity.nitric:hoverbike_1.name=Hoverbike
+item.spawn_egg.entity.nitric:hoverbike_2.name=Hoverbike
+entity.nitric:hoverbike_2.name=Hoverbike
+item.spawn_egg.entity.nitric:hoverbike_3.name=Hoverbike
+entity.nitric:hoverbike_3.name=Hoverbike
+item.spawn_egg.entity.nitric:hovercar_0.name=Hovercar
+entity.nitric:hovercar_0.name=Hovercar
+item.spawn_egg.entity.nitric:hovercar_1.name=Hovercar
+entity.nitric:hovercar_1.name=Hovercar
+item.spawn_egg.entity.nitric:red_car.name=Car
+entity.nitric:red_car.name=Car
+item.spawn_egg.entity.nitric:robot.name=Robot
+entity.nitric:robot.name=Robot
+
+action.hint.exit.nitric:hoverbike_0=Crouch or jump to exit
+action.hint.exit.nitric:hoverbike_1=Crouch or jump to exit
+action.hint.exit.nitric:hoverbike_2=Crouch or jump to exit
+action.hint.exit.nitric:hoverbike_3=Crouch or jump to exit
+
+action.hint.exit.nitric:cyber_elephant=Crouch or jump to exit
+action.hint.exit.nitric:cyber_trex=Crouch or jump to exit
+
+action.hint.exit.nitric:hovercar_0=Crouch or jump to exit
+action.hint.exit.nitric:hovercar_1=Crouch or jump to exit
+
+action.interact.ride.nitric:hoverbike=Drive hoverbike
+action.interact.ride.nitric:hovercar=Drive hovercar

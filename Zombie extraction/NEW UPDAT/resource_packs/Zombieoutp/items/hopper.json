@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:hopper",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "hopper",
+   "minecraft:render_offsets": "hopper"
+  }
+ }
+}

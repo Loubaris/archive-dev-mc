@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:castle_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZFZ",
+      "YHY",
+      "YYY"
+    ],
+    "key": {
+      "H": {
+        "item": "cs:village_two_spawn_egg"
+      },
+      "Z": {
+        "item": "minecraft:stone_stairs"
+      },
+      "Y": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "cs:castle_spawn_egg"
+    }
+  }
+}

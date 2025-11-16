@@ -1,0 +1,66 @@
+{
+    "entity_sounds": {
+      "entities": {
+        "nitric:laurri": {
+          "volume": 1,
+          "events": {
+            "step": "car_2"
+          }
+        },
+        "nitric:roys_ice": {
+          "volume": 1,
+          "events": {
+            "step": "car_1"
+          }
+        },
+        "nitric:rival": {
+          "volume": 1,
+          "events": {
+            "step": "car_2"
+          }
+        },
+        "nitric:murran": {
+          "volume": 1,
+          "events": {
+            "step": "car_2"
+          }
+        },
+        "nitric:lavetti": {
+          "volume": 1,
+          "events": {
+            "step": "car_1"
+          }
+        },
+        "nitric:sige": {
+          "volume": 1,
+          "events": {
+            "step": "car_1"
+          }
+        },
+        "nitric:cyclone": {
+          "volume": 1,
+          "events": {
+            "step": "car_2"
+          }
+        },
+        "nitric:mclauren": {
+          "volume": 1,
+          "events": {
+            "step": "car_2"
+          }
+        },
+        "nitric:steed": {
+          "volume": 1,
+          "events": {
+            "step": "car_1"
+          }
+        },
+        "nitric:super": {
+          "volume": 1,
+          "events": {
+            "step": "car_2"
+          }
+        }
+      }
+    }
+  }

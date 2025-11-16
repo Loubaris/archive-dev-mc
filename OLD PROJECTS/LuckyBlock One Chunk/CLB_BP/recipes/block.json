@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nitric:block"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "planks",
+    "pattern": [
+      "###",
+      "#F#",
+      "###"
+    ],
+    "key": {
+      "F": {
+        "item": "minecraft:iron_ingot"
+      },
+      "#": {
+        "item": "nitric:luckyshard"
+      }
+    },
+    "result": {
+      "item": "nitric:block"
+    }
+  }
+}

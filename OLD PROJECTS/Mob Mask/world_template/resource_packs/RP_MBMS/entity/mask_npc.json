@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mm:mask_npc",
+      "materials": { 
+         "default": "entity_alphatest" 
+      },
+      "textures": {
+        "default": "textures/entity/mask_npc"
+      },
+      "geometry": {
+        "default": "geometry.mask_npc"
+      },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "animations": {
+        "controller": "controller.animation.mask",
+        "idle": "animation.mask.idle"
+      },
+      "render_controllers": [ "controller.render.wave" ],
+      "spawn_egg": {
+        "base_color": "#a5adad",
+        "overlay_color": "#54545c"
+      }
+    }
+  }
+}

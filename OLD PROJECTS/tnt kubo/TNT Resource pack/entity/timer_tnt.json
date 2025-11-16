@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:timer_tnt",
+      "materials": {
+        "default": "timer_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/timer_tnt"
+      },
+      "geometry": {
+        "default": "geometry.timer_tnt"
+      },
+      "render_controllers": [ "controller.render.timer_tnt" ],
+      "spawn_egg": {
+        "texture": "timer_tnt",
+        "texture_index": 0
+      }
+    }
+  }
+}

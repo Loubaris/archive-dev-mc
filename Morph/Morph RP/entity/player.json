@@ -1,0 +1,397 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"materials": {
+				"default": "entity_alphatest",
+				"enderman": "enderman",
+				"zombie": "zombie",
+				"warden": "warden",
+				"skeleton": "skeleton",
+				"piglin": "piglin",
+				"creeper": "creeper",
+				"witch": "witch",
+				"drowned": "drowned",
+				"spider": "spider",
+				"zoglin": "zoglin",
+				"husk": "husk",
+				"wither": "wither_boss",
+				"wither_skeleton": "skeleton",
+				"zombie_villager": "zombie_villager"
+			},
+			"textures": {
+				"default": "textures/entity/steve",
+				"enderman": "textures/entity/enderman/enderman",
+				"zombie": "textures/entity/zombie/zombie",
+				"warden": "textures/entity/warden/warden",
+				"skeleton": "textures/entity/skeleton/skeleton",
+				"piglin": "textures/entity/piglin/piglin",
+				"creeper": "textures/entity/creeper/creeper",
+				"witch": "textures/entity/witch",
+				"drowned": "textures/entity/zombie/drowned",
+				"spider": "textures/entity/spider/spider",
+				"zoglin": "textures/entity/zoglin/zoglin",
+				"husk": "textures/entity/zombie/husk",
+				"wither": "textures/entity/wither_boss/wither",
+				"wither_skeleton": "textures/entity/skeleton/wither_skeleton",
+				"zombie_villager": "textures/entity/zombie_villager/zombie_smith"
+			},
+			"geometry": {
+				"default": "geometry.humanoid.custom",
+				"enderman": "geometry.enderman",
+				"zombie": "geometry.zombie",
+				"warden": "geometry.warden",
+				"skeleton": "geometry.skeleton",
+				"piglin": "geometry.piglin",
+				"creeper": "geometry.creeper",
+				"witch": "geometry.villager.witch",
+				"drowned": "geometry.zombie.drowned.v1.16",
+				"spider": "geometry.spider",
+				"zoglin": "geometry.hoglin",
+				"husk": "geometry.zombie.husk",
+				"wither": "geometry.witherBoss",
+				"wither_skeleton": "geometry.skeleton.wither",
+				"zombie_villager": "geometry.zombie.villager"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+					"variable.animation_speed = Math.min(0.5, 3.0 * query.modified_move_speed); query.variant == 3;",
+					"variable.anim_pos_mod = 49.388962; query.variant == 3;",
+					"variable.bob = query.life_time * 20; query.variant == 3;",
+					"variable.modified_bob = variable.bob * 0.1 * 57.2958; query.variant == 3;",
+					"variable.modified_bob_sin = math.sin(variable.modified_bob); query.variant == 3;",
+					"variable.modified_bob_cos = math.cos(variable.modified_bob); query.variant == 3;",
+					"variable.pi = 180; query.variant == 3;",
+					"variable.halfpi = variable.pi / 2.0; query.variant == 3;",
+					"variable.tendril_animation_length = 0.5; query.variant == 3;",
+					"variable.head_x_rot = (68.7549 * math.cos(query.modified_distance_moved * variable.anim_pos_mod + variable.halfpi) * math.min(0.35, variable.animation_speed)) + (math.sin(variable.bob * 5.72958) * 0.06); query.variant == 3;",
+					"variable.head_z_rot = (17.1887 * math.sin(query.modified_distance_moved * variable.anim_pos_mod) * variable.animation_speed) + (Math.cos(variable.bob * 5.72958) * 0.06); query.variant == 3;",
+					"variable.body_x_rot = (57.2958 * math.cos(query.modified_distance_moved * variable.anim_pos_mod) * math.min(0.35, variable.animation_speed)) + (math.cos(variable.bob * 5.72958) * 0.025); query.variant == 3;",
+					"variable.body_z_rot = (5.72958 * math.sin(query.modified_distance_moved * variable.anim_pos_mod) * variable.animation_speed) + (math.sin(variable.bob * 5.72958) * 0.025); query.variant == 3;",
+					"variable.left_leg_x_rot = 57.2958 * math.cos(query.modified_distance_moved * variable.anim_pos_mod) * variable.animation_speed; query.variant == 3;",
+					"variable.right_leg_x_rot = 57.2958 * math.cos(query.modified_distance_moved * variable.anim_pos_mod + variable.pi) * variable.animation_speed; query.variant == 3;",
+					"variable.left_arm_x_rot = -(45.8366 * math.cos(query.modified_distance_moved * variable.anim_pos_mod) * variable.animation_speed); query.variant == 3;",
+					"variable.right_arm_x_rot = -(45.8366 * math.sin(query.modified_distance_moved * variable.anim_pos_mod) * variable.animation_speed); query.variant == 3;",
+					"variable.vibration_phase = query.time_since_last_vibration_detection; query.variant == 3;",
+					"variable.tendril_animation = variable.vibration_phase < 0.0 ? 0.0 : 1.0 - (math.min(query.time_since_last_vibration_detection, variable.tendril_animation_length) / variable.tendril_animation_length); query.variant == 3;",
+					"variable.left_tendril_x_rot = variable.tendril_animation * (math.cos(variable.bob * 128.9155) * variable.pi * 0.1); query.variant == 3;",
+					"variable.right_tendril_x_rot = variable.left_tendril_x_rot * -1; query.variant == 3;",
+					"variable.spots_1_alpha = 0.25 * math.cos(variable.bob * 2.578); query.variant == 3;",
+					"variable.spots_2_alpha = 0.25 * math.cos(variable.bob * 2.578 + 180.0); query.variant == 3;",
+					"variable.tendrils_alpha = variable.tendril_animation; query.variant == 3;",
+					"variable.heart_alpha = 0.8 * (1.0 - query.heartbeat_phase); query.variant == 3;",
+					"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+					"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+					"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+					"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+					"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);",
+					"variable.tcos_right_side = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+					"variable.tcos_left_side = -variable.tcos_right_side;",
+					"variable.attack_head_rot =  Math.sin(variable.attack_time * 180.0) * -37.3;"
+				],
+				"animate": [
+					{
+						"root": "query.variant==0"
+					},
+					{
+						"player_controller_move": "query.variant==1||query.variant==2||query.variant==4||query.variant==5||query.variant==8||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_sneaking": "query.variant==4||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"riding.arms": "query.is_riding&&query.variant==8"
+					},
+					{
+						"riding.legs": "query.is_riding&&query.variant==8"
+					},
+					{
+						"player_controller_look_at_target": "query.variant==1||query.variant==2||query.variant==4||query.variant==5||query.variant==8||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_attack": "query.variant==1||query.variant==4||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_bob": "query.variant==1||query.variant==2||query.variant==4||query.variant==5||query.variant==8||query.variant==11||query.variant==14"
+					},
+					{
+						"player_controller_humanoid_baby_big_head": "query.variant==2||query.variant==11||query.variant==14"
+					},
+					{
+						"player_controller_humanoid_base_pose": "query.variant==2||query.variant==4||query.variant==8||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_holding": "query.variant==2||query.variant==4||query.variant==8||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_brandish_spear": "query.variant==2||query.variant==4||query.variant==8||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_charging": "query.is_charging&&query.variant==2||query.is_charging&&query.variant==4||query.is_charging&&query.variant==8||query.is_charging&&query.variant==11||query.is_charging&&query.variant==13||query.is_charging&&query.variant==14"
+					},
+					{
+						"player_controller_damage_nearby_mobs": "query.variant==2||query.variant==4||query.variant==8||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_bow_and_arrow": "query.variant==2||query.variant==4||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_swimming": "query.variant==2||query.variant==4||query.variant==8||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_use_item_progress": "query.variant==2||query.variant==4||query.variant==8||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"player_controller_riding": "query.variant==5||query.variant==11||query.variant==13||query.variant==14"
+					},
+					{
+						"enderman_controller_base_pose": "query.variant==1"
+					},
+					{
+						"enderman_controller_carrying": "query.variant==1"
+					},
+					{
+						"enderman_controller_scary_face": "query.variant==1"
+					},
+					{
+						"zombie_controller_attack_bare_hand": "query.variant==2||query.variant==11||query.variant==14"
+					},
+					{
+						"zombie_controller_swimming": "query.variant==11"
+					},
+					{
+						"warden_controller_roar_controller": "query.variant==3"
+					},
+					{
+						"warden_controller_shiver_controller": "query.variant==3"
+					},
+					{
+						"warden_controller_melee_attack_controller": "query.variant==3"
+					},
+					{
+						"warden_controller_sniff_controller": "query.variant==3"
+					},
+					{
+						"warden_controller_sonic_boom_controller": "query.variant==3"
+					},
+					{
+						"warden_move": "query.variant==3"
+					},
+					{
+						"warden_bob": "query.variant==3"
+					},
+					{
+						"skeleton_attack": "query.variant==4"
+					},
+					{
+						"creeper_head": "query.variant==6"
+					},
+					{
+						"creeper_legs": "query.variant==6"
+					},
+					{
+						"creeper_swelling": "query.variant==6"
+					},
+					{
+						"creeper_controller_head": "query.variant==6"
+					},
+					{
+						"creeper_controller_legs": "query.variant==6"
+					},
+					{
+						"creeper_controller_swelling": "query.variant==6"
+					},
+					{
+						"witch_controller_general": "query.variant==7"
+					},
+					{
+						"villager_controller_move": "query.variant==7"
+					},
+					{
+						"drowned_controller_attack_controller": "query.variant==8"
+					},
+					{
+						"spider_controller_move": "query.variant==9"
+					},
+					{
+						"hoglin_walk": "query.variant==10"
+					},
+					{
+						"hoglin_look_at_target": "query.variant==10"
+					},
+					{
+						"hoglin_attack": "query.variant==10&&variable.has_target&&variable.attack_time>=0"
+					},
+					{
+						"hoglin_baby_scaling": "query.variant==10&&query.is_baby"
+					},
+					{
+						"wither_controller_move": "query.variant==12"
+					},
+					{
+						"wither_skeleton_controller_attack": "query.variant==13"
+					}
+				]
+			},
+			"animations": {
+				"root": "controller.animation.player.root",
+				"player_base_controller": "controller.animation.player.base",
+				"player_hudplayer": "controller.animation.player.hudplayer",
+				"player_look_at_target_ui": "animation.player.look_at_target.ui",
+				"player_look_at_target_inverted": "animation.player.look_at_target.inverted",
+				"player_cape": "animation.player.cape",
+				"player_move.arms": "animation.player.move.arms",
+				"player_move.legs": "animation.player.move.legs",
+				"player_swimming": "animation.player.swim",
+				"player_swimming.legs": "animation.player.swim.legs",
+				"player_riding.arms": "animation.player.riding.arms",
+				"player_riding.legs": "animation.player.riding.legs",
+				"player_holding": "animation.player.holding",
+				"player_attack.positions": "animation.player.attack.positions",
+				"player_attack.rotations": "animation.player.attack.rotations",
+				"player_sneaking": "animation.player.sneaking",
+				"player_bob": "animation.player.bob",
+				"player_sleeping": "animation.player.sleeping",
+				"player_first_person_base_pose": "animation.player.first_person.base_pose",
+				"player_first_person_empty_hand": "animation.player.first_person.empty_hand",
+				"player_first_person_swap_item": "animation.player.first_person.swap_item",
+				"player_first_person_shield_block": "animation.player.first_person.shield_block",
+				"player_first_person_attack_controller": "controller.animation.player.first_person_attack",
+				"player_first_person_attack_rotation": "animation.player.first_person.attack_rotation",
+				"player_first_person_vr_attack_rotation": "animation.player.first_person.vr_attack_rotation",
+				"player_first_person_walk": "animation.player.first_person.walk",
+				"player_first_person_map_controller": "controller.animation.player.first_person_map",
+				"player_first_person_map_hold": "animation.player.first_person.map_hold",
+				"player_first_person_map_hold_attack": "animation.player.first_person.map_hold_attack",
+				"player_first_person_map_hold_off_hand": "animation.player.first_person.map_hold_off_hand",
+				"player_first_person_map_hold_main_hand": "animation.player.first_person.map_hold_main_hand",
+				"player_first_person_crossbow_equipped": "animation.player.first_person.crossbow_equipped",
+				"player_third_person_crossbow_equipped": "animation.player.crossbow_equipped",
+				"player_third_person_bow_equipped": "animation.player.bow_equipped",
+				"player_crossbow_hold": "animation.player.crossbow_hold",
+				"player_crossbow_controller": "controller.animation.player.crossbow",
+				"player_shield_block_main_hand": "animation.player.shield_block_main_hand",
+				"player_shield_block_off_hand": "animation.player.shield_block_off_hand",
+				"blink": "controller.animation.persona.blink",
+				"tooting_goat_horn": "animation.humanoid.tooting_goat_horn",
+				"humanoid_big_head": "animation.humanoid.big_head",
+				"humanoid_base_pose": "animation.humanoid.base_pose",
+				"look_at_target": "controller.animation.humanoid.look_at_target",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+				"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+				"look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+				"holding_spyglass": "animation.humanoid.holding_spyglass",
+				"move": "animation.humanoid.move",
+				"riding.arms": "animation.humanoid.riding.arms",
+				"riding.legs": "animation.humanoid.riding.legs",
+				"holding": "animation.humanoid.holding",
+				"brandish_spear": "animation.humanoid.brandish_spear",
+				"charging": "animation.humanoid.charging",
+				"attack.rotations": "animation.humanoid.attack.rotations",
+				"sneaking": "animation.humanoid.sneaking",
+				"bob": "animation.humanoid.bob",
+				"damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
+				"bow_and_arrow": "animation.humanoid.bow_and_arrow",
+				"swimming": "animation.humanoid.swimming.v1.0",
+				"use_item_progress": "animation.humanoid.use_item_progress",
+				"base_pose": "animation.humanoid.base_pose.v1.0",
+				"player_controller_humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head",
+				"player_humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head",
+				"player_controller_humanoid_base_pose": "controller.animation.humanoid.base_pose",
+				"player_controller_look_at_target": "controller.animation.humanoid.look_at_target",
+				"player_controller_move": "controller.animation.humanoid.move",
+				"player_controller_riding": "controller.animation.humanoid.riding",
+				"player_controller_holding": "controller.animation.humanoid.holding",
+				"player_controller_brandish_spear": "controller.animation.humanoid.brandish_spear",
+				"player_controller_charging": "controller.animation.humanoid.charging",
+				"player_controller_attack": "controller.animation.humanoid.attack",
+				"player_controller_sneaking": "controller.animation.humanoid.sneaking",
+				"player_controller_bob": "controller.animation.humanoid.bob",
+				"player_controller_damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs",
+				"player_controller_bow_and_arrow": "controller.animation.humanoid.bow_and_arrow",
+				"player_controller_swimming": "controller.animation.humanoid.swimming",
+				"player_controller_use_item_progress": "controller.animation.humanoid.use_item_progress",
+				"zombie_swimming": "animation.zombie.swimming",
+				"zombie_attack_bare_hand": "animation.zombie.attack_bare_hand",
+				"zombie_controller_attack_bare_hand": "controller.animation.zombie.attack_bare_hand",
+				"zombie_controller_swimming": "controller.animation.zombie.swimming",
+				"enderman_base_pose": "animation.enderman.base_pose_v1.0",
+				"enderman_arms_legs": "animation.enderman.arms_legs",
+				"enderman_carrying": "animation.enderman.carrying",
+				"enderman_scary_face": "animation.enderman.scary_face_v1.0",
+				"enderman_controller_base_pose": "controller.animation.enderman.base_pose",
+				"enderman_controller_carrying": "controller.animation.enderman.carrying",
+				"enderman_controller_scary_face": "controller.animation.enderman.scary_face",
+				"warden_emerge": "animation.warden.emerge",
+				"warden_sniff": "animation.warden.sniff",
+				"warden_dig": "animation.warden.dig",
+				"warden_roar": "animation.warden.roar",
+				"warden_shiver": "animation.warden.shiver",
+				"warden_look_at_target": "animation.warden.look_at_target.default",
+				"warden_move": "animation.warden.move",
+				"warden_melee_attack": "animation.warden.attack",
+				"warden_bob": "animation.warden.bob",
+				"warden_sonic_boom": "animation.warden.sonic_boom",
+				"warden_controller_roar_controller": "controller.animation.warden.roar",
+				"warden_controller_shiver_controller": "controller.animation.warden.shiver",
+				"warden_controller_melee_attack_controller": "controller.animation.warden.melee_attacking",
+				"warden_controller_sniff_controller": "controller.animation.warden.sniff",
+				"warden_controller_sonic_boom_controller": "controller.animation.warden.sonic_boom",
+				"skeleton_attack": "animation.skeleton.attack.v1.0",
+				"piglin_move": "animation.piglin.move",
+				"piglin_admire": "animation.piglin.admire",
+				"piglin_celebrate_hunt": "animation.piglin.celebrate_hunt",
+				"piglin_celebrate_hunt_special": "animation.piglin.celebrate_hunt_special",
+				"piglin_crossbow_hold": "animation.piglin.crossbow.hold",
+				"piglin_crossbow_charge": "animation.piglin.crossbow.charge",
+				"piglin_melee_attack": "animation.piglin.sword.attack",
+				"piglin_hand_attack": "animation.piglin.hand.attack",
+				"piglin_controller_attack_controller": "controller.animation.piglin.attack",
+				"creeper_head": "animation.common.look_at_target",
+				"creeper_legs": "animation.creeper.legs",
+				"creeper_swelling": "animation.creeper.swelling",
+				"creeper_controller_head": "controller.animation.creeper.head",
+				"creeper_controller_legs": "controller.animation.creeper.legs",
+				"creeper_controller_swelling": "controller.animation.creeper.swelling",
+				"villager_general": "animation.villager.general.v1.0",
+				"villager_move": "animation.villager.move",
+				"villager_controller_move": "controller.animation.villager.move",
+				"villager_look_at_target": "animation.common.look_at_target",
+				"witch_general": "animation.witch.general",
+				"witch_controller_general": "controller.animation.witch.general",
+				"drowned_attack_rotations": "animation.drowned.attack.rotations.v1.0",
+				"drowned_swimming": "animation.drowned.swimming.v1.0",
+				"drowned_controller_attack_controller": "controller.animation.drowned.attack.rotations",
+				"spider_default_leg_pose": "animation.spider.default_leg_pose",
+				"spider_look_at_target": "animation.spider.look_at_target",
+				"spider_walk": "animation.spider.walk",
+				"spider_controller_move": "controller.animation.spider.move",
+				"wither_scale": "animation.wither_boss.scale",
+				"wither_move": "animation.wither_boss.move",
+				"wither_look_at_target": "animation.wither_boss.look_at_target",
+				"wither_controller_move": "controller.animation.wither_boss.move",
+				"wither_skeleton_attack": "animation.wither_skeleton.attack",
+				"wither_skeleton_controller_attack": "controller.animation.wither_skeleton.attack",
+				"hoglin_walk": "animation.hoglin.walk",
+				"hoglin_look_at_target": "animation.hoglin.look_at_target",
+				"hoglin_attack": "animation.hoglin.attack",
+				"hoglin_baby_scaling": "animation.hoglin.baby_scaling"
+			},
+			"render_controllers": [
+				{
+					"controller.render.default.first_person": "variable.is_first_person&&!query.is_spectator"
+				},
+				{
+					"controller.render.default.third_person": "!variable.is_first_person&&!variable.map_face_icon&&!query.is_spectator"
+				}
+			],
+			"enable_attachables": true,
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 12
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"nitric:heat_sinking_rifle",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "heat_sinking_rifle"
+    }
+    
+  }
+}

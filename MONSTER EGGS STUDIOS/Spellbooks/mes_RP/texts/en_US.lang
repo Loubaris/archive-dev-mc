@@ -1,0 +1,66 @@
+pack.name=Spellbooks Add-On
+pack.description=Resource Pack for SpellBooks
+
+
+item.mes_splbk:light_book.name=Light Book
+item.mes_splbk:mana_potion=§bMana Potion
+item.mes_splbk:earth_book.name=Earth Book
+item.mes_splbk:arcane_book.name=Arcane Book
+item.mes_splbk:fire_book.name=Fire Book
+item.mes_splbk:water_book.name=Water Book
+item.mes_splbk:druid_book.name=Druid Book
+item.mes_splbk:necro_book.name=Necro Book
+item.mes_splbk:shadow_book.name=Shadowmancer Book
+item.mes_splbk:air_book.name=Air Book
+item.mes_splbk:guide_book.name=Guide Book
+
+item.spawn_egg.entity.mes_splbk:nskeleton.name=Skeleton Minion
+item.spawn_egg.entity.mes_splbk:nzombie.name=Zombie Minion
+item.spawn_egg.entity.mes_splbk:nrabbit.name=§cRideable Rabbit
+item.spawn_egg.entity.mes_splbk:nwither_skeleton.name=Wither Skeleton Minion
+
+entity.mes_splbk:boulder_toss.name=Boulder Toss
+entity.mes_splbk:instanttnt.name=Explosion
+entity.mes_splbk:instanttntmedium.name=Explosion
+entity.mes_splbk:miniinstanttnt.name=Explosion
+entity.mes_splbk:heat_shoot.name=Magic Ball
+entity.mes_splbk:tballs_shoot.name=Magic Ball
+
+mes_splbk.general.wait=§cSpell on cooldown!
+mes_splbk.zephyr.jump=§rJump! Watch your Head.
+mes_splbk.noone.text=§7You don't have any mobs in that area!
+mes_splbk.nominion.text=§7You don't have any minions in that area!
+mes_splbk.sneakdruid.text=§7Sneak to Cancel Spell.
+action.hint.exit.mes_splbk:nrabbit=§7Sneak to Cancel Spell.
+
+
+
+mes_splbk.tutorial_title=§9Guide book
+mes_splbk.page1_body=§f§lHello!%1§rWelcome to the spellbook guidebook that contains all the information you need about spellbooks. %1Learn about the different books and their crafting recipes.
+mes_splbk.page1_btn1=General Info
+mes_splbk.page1_btn2=Items Infos
+mes_splbk.page1_btn3=Close Book
+
+mes_splbk.bookmenu_title=§9Book Spells
+mes_splbk.bookpage1_body=§2Choose a spell to cast!
+
+mes_splbk.crafting_title=§9§lSpellbook Infos
+mes_splbk.crafting_body=§2Here you can find the spellbook recipes and all the necessary items and instructions for crafting your magical spellbooks.
+
+
+mes_splbk.mana_potion_craft=§l§bMana Potion%1%1§l§6Crafting Recipe :%1§%1§r§11 - Water Bottle §f[§1W§f]%1§e1 - Dandelion §f[§1D§f]%1§g1 - Sunflower §f[§gS§f]%1§c1 - Red Tulip §f[§cR§f]%1%1§f[§f ]§f[§f ]§f[§f ]%1§f[§eD§f]§f[§cR§f]§f[§gS§r§f]%1§f[§f ]§f[§1W§r§f]§f[§f ]
+mes_splbk.guide_book_craft=§l§aGuide Book%1%1§l§6Crafting Recipe :%1§%1§r§71 - Iron Ingot §f[§7I§f]%1§21 - Book §f[§2B§f]%1%1§f[§f]§f[§f]§f[§f]%1§f[§2B§f]§f[§7I§f]§f[§f]%1§f[§f]§f[§f]§f[§f]
+mes_splbk.fire_book_craft=§c§lFire Book%1%1§l§cFireball§r - 1-3 §bmana§r:§r Launches a fiery projectile at the target, causing burning damage upon impact.%1§l§cFirewall§r - 4 §bmana§r:§r Erects a 3x3 barrier that scorches anything it comes into contact with.%1§l§cFlame Geyser§r - 3 §bmana:§r Summons columns of fire that surge in a straight line, incinerating everything in their path.%1§l§cInferno§r - 3 §bmana§r: Creates a fiery floor around the caster, setting ablaze anything nearby.%1§l§cVolcano§r - 5 §bmana:§r Erupts a geyser of lava from the ground, dealing massive damage to anything caught in the blast.%1%1§r§l§6Crafting Recipe :%1§%1§r§c2 - Magma Cream §f[§cMC§f]%1§63 - Blaze Powder §f[§6BP§f]%1§24 - Book §f[§2B§f]%1%1§f[§6BP§f]§f[§cMC§f]§f[§6BP§f]%1§f[§2B §f]§f[§2B §f]§f[§cMC§f]%1§f[§2B §f]§f[§2B §f]§f[§6BP§f]
+mes_splbk.air_book_craft=§f§lAir Book%1%1§l§fZephyr Jump§r - 5 §bmana§r: Allows the caster to leap higher and farther.%1§l§fCyclone§r - 3 §bmana§r: Creates a swirling vortex of wind that sucks in and damages foes.%1§l§fWind Tunnel§r - 3 §bmana§r: Summons a powerful gust of wind that propels enemies up.%1§l§fAir Defense§r - 3 §bmana§r: Forms a protective ring of air that repels nearby monsters.%1§l§fLightning Strike§r - 2-4 §bmana§r: Calls down a bolt of lightning on a specified target.%1%1§r§l§6Crafting Recipe :%1§%1§r§f3 - Feather §f[§fF§f]%1§92 - Breeze Rod §f[§9BR§f]%1§24 - Book §f[§2B§f]%1%1§f[F §f]§f[§9BR§f]§f[F §f]%1§f[§2B §f]§f[§2B §f]§f[§9BR§f]%1§f[§2B §f]§f[§2B §f]§f[F §f]
+mes_splbk.water_book_craft=§b§lWater Book%1%1§l§bTidal Wave§r - 3 §bmana§r: Conjures a wave that pushes back entities in front, functioning like a wall of water.%1§l§bIce Double§r - 3 §bmana§r: Creates an ice duplicate (snowman) in your place and teleports you.%1§l§bWater Jet§r - 3 §bmana§r: Releases a continuous stream of water from the caster for 8 seconds.%1§l§bIce Lance§r - 1-3 §bmana§r: Fires a sharp icicle in the intended direction, piercing targets.%1§l§bWater's Embrace§r - 3 §bmana§r: Forms a water barrier that blocks attacks and hinders movement.%1%1§l§6Crafting Recipe :%1§%1§r§93 - Prismarine Shard §f[§9PS§f]%1§b2 - Water Bucket §f[§bWB§f]%1§24 - Book §f[§2B§f]%1%1§f[§9PS§f]§f[§bWB§f]§f[§9PS§f]%1§f[§2B §f]§f[§2B §f]§f[§bWB§f]%1§f[§2B §f]§f[§2B §f]§f[§9PS§f]
+mes_splbk.earth_book_craft=§2§lEarth Book%1%1§l§6Stone Fists§r - 3 §bmana§r: Summons two massive boulders to hurl at enemies.%1§l§6Entomb§r - 3 §bmana§r: Encloses the target in a prison of stone, immobilizing them.%1§l§6Stone Body§r - 5 §bmana§r: Enhances the caster's defense.%1§l§6Stalactite Drop§r - 3 §bmana§r: Causes rocks to fall from above, crushing enemies below.%1§l§6Earthquake§r - 3 §bmana§r: Sends tremors radiating from the caster, causing area-of-effect damage.§r%1%1§l§6Crafting Recipe :%1§%1§r§f3 - Raw Iron §f[§fR§f]%1§82 - Mud §f[§8M§f]%1§24 - Book §f[§2B§f]%1%1§f[§fR§f]§f[§8M§f]§f[§fR§f]%1§f[§2B§f]§f[§2B§f]§f[§8M§f]%1§f[§2B§f]§f[§2B§f]§f[§fR§f]
+mes_splbk.necro_book_craft=§d§lNecro Book%1%1§l§dSkeleton Army§r - 3-5 §bmana§r: Summons up to 5 skeletons to fight for you.%1§l§dUndead Horde§r - 3-5 §bmana§r: Summons up to 5 zombies to assist in battle.%1§l§dCorpse Explosion§r - 2 §bmana§r: Causes one of your minions to explode, dealing area-of-effect damage.%1§l§dDeath Ward§r - 15 §bmana§r: Grants a target protection from death, Totem of Undying.%1§l§dDeath Coil§r - 3 §bmana§r: Launches a dark projectile that deals damage upon hitting the target.§r%1%1§l§6Crafting Recipe :%1§%1§r§f3 - Bone §f[§fBO§f]%1§g2 - Rotten Flesh §f[§gRF§f]%1§24 - Book §f[§2B§f]%1%1§f[§fBO§f]§f[§gRF§f]§f[§fBO§f]%1§f[§2B §f]§f[§2B §f]§f[§gRF§f]%1§f[§2B §f]§f[§2B §f]§f[§fBO§f]
+mes_splbk.shadow_book_craft=§0§lShadow Book%1%1§l§0Shroud of Shadows§r - 3 §bmana§r: Renders the caster invisible for 15 seconds.%1§l§0Darkness§r - 2 §bmana§r: Inflicts blindness on enemies within a 8x8 radius.%1§l§0Shadow Shot§r - 4 §bmana§r: Fires three projectiles that seek out the nearest enemies.%1§l§0Ebon Tendrils§r - 4 §bmana§r: Summons shadowy tendrils that ensnare and damage a target.%1§l§0Dash Attack§r - 6 §bmana§r: Summons a minion that teleports to nearby enemies and attacks them.§r%1%1§l§6Crafting Recipe :%1§%1§r§13 - Echo Shard §f[§1ES§f]%1§92 - Sculk Vein §f[§9SV§f]%1§24 - Book §f[§2B§f]%1%1§f[§1ES§f]§f[§9SV§f]§f[§1ES§f]%1§f[§2B §f]§f[§2B §f]§f[§9SV§f]%1§f[§2B §f]§f[§2B §f]§f[§1ES§f]
+mes_splbk.druid_book_craft=§a§lDruid Book%1%1§l§aSummon Familiar§r - 3 §bmana§r: Calls forth two wolves to aid you in combat.%1§l§aShapeshift: Bat§r - 10 §bmana§r: Transforms the caster into a bat, allowing flight.%1§l§aShapeshift: Rabbit§r - 5 §bmana§r: Morphs the caster into a rabbit for stealthy movement.%1§l§aEntangling Vines§r - 4 §bmana§r: Creates a 3x3 area of ensnaring vines that slow and damage enemies.%1§l§aSacred Seed§r - 4 §bmana§r: Plants a tree that heals the caster and harms undead mobs.§r%1%1§l§6Crafting Recipe :%1§%1§r§a3 - Wheat Seeds §f[§aS§f]%1§g2 - Oak Log §f[§gL§f]%1§24 - Book §f[§2B§f]%1%1§f[§aS§f]§f[§gL§f]§f[§aS§f]%1§f[§2B§f]§f[§2B§f]§f[§gL§f]%1§f[§2B§f]§f[§2B§f]§f[§aS§f]
+mes_splbk.arcane_book_craft=§5§lArcane Book%1%1§l§5Arcane Bolts§r - 3 §bmana§r: Fires a triad of magical projectiles in a chosen direction.%1§l§5Blink§r - 2 §bmana§r: Teleports the caster forward.%1§l§5Polymorph§r - 8 §bmana§r: Transforms a target into a passive mob temporarily.%1§l§5Arcane Explosion§r - 8 §bmana§r: Releases a burst of magical energy from the caster, dealing area-of-effect damage.%1§l§5Arcane Ward§r - 3 §bmana§r: Summons a magical seal that imprisons the target.§r%1%1§l§6Crafting Recipe :%1§%1§r§53 - Enderpearl §f[§5E§f]%1§d2 - Amethyst Shard §f[§dA§f]%1§24 - Book §f[§2B§f]%1%1§f[§5E§f]§f[§dA§f]§f[§5E§f]%1§f[§2B§f]§f[§2B§f]§f[§dA§f]%1§f[§2B§f]§f[§2B§f]§f[§5E§f]
+mes_splbk.light_book_craft=§g§lLight Book%1%1§l§eLight Orb§r - 2 §bmana§r: Summon a light source.%1§l§eSword Of Light§r - 5 §bmana§r: Summon a sword from the heavens that damages the target.%1§l§eLuminous Arrow§r - 3 §bmana§r: Shoot a Blinding arrow of light at a target.%1§l§eSolar Burst§r - 4 §bmana§r: Send out a burst of light energy from the user causing blindness and knockback.%1§l§eCelestial Wave§r - 5 §bmana§r: Send out a blast of light energy.§r%1%1§l§6Crafting Recipe :%1§%1§r§e3 - Sunflower §f[§eS§f]%1§f2 - Glass Block §f[§fG§f]%1§24 - Book §f[§2B§f]%1%1§f[§eS§f]§f[§fG§f]§f[§eS§f]%1§f[§2B§f]§f[§2B§f]§f[§fG§f]%1§f[§2B§f]§f[§2B§f]§f[§eS§f]
+
+mes_splbk.general_info.text=Here you can find info on how the spellbooks and mana work.%1%1§b§lMana System and Spell use%1§rEach spell requires a specific amount of mana to cast, reflecting its potency and the skill required to wield it. As you navigate your adventures, careful mana management is crucial. You'll need to balance the use of high-cost, powerful spells with conserving energy for prolonged engagements.%1You regenerate mana naturally over time, but you can also use §bmana potions§r to quickly replenish your mana reserves.%1To see your current mana level, use the §2§lsneak button.%1%1   %1%1§4§lSpellbooks and Spellcasting%1§rEach Spellbook is a treasure trove of arcane knowledge, containing §cfive distinct spells§r, meticulously crafted for unique scenarios and challenges. These spells offer a wide array of tactical options, allowing players to adapt to various combat situations and strategic needs. Accessing the full range of spells within your Spellbook is made easy with the §2§lSneak and use-item controls at the same time.%1%1       %1%1+      %1%1§rThis intuitive mechanism lets you cycle through your available spells effortlessly, providing quick access to the right spell for any situation.%1%1§cCharging Spells§r%1Additionally, certain spells can be charged by using the item for a longer time (long-use)%1%1   %1%1Enabling players to amplify their power and effectiveness. Charged spells consume additional mana but unleash significantly enhanced effects, rewarding players for their patience and strategic planning.
+
+mes_splbk.notenoughmana.text=§bYou don't have enough mana!
+

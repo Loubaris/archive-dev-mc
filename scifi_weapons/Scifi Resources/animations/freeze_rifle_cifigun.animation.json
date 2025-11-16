@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.freeze_rifle.third_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"rotation": [92.5, 0, 0],
+					"position": [0, 0, -5]
+				}
+			}
+		},
+		"animation.freeze_rifle.first_person": {
+			"loop": true,
+			"bones": {
+				"Main": {
+					"rotation": [0, 57.5, -112.5],
+					"position": [-1, 0, -4],
+					"scale": 1.3
+				}
+			}
+		}
+	}
+}

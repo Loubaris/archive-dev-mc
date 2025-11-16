@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_mrhrs:hippogriff_horse",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/mes/mrhrs/entity/hippogriff_horse"
+            },
+            "spawn_egg": {
+                "base_color": "#fff1db",
+                "overlay_color": "#ffb540"
+            },
+            "scripts": {
+                "should_update_bones_and_effects_offscreen": false,
+                "pre_animation": [
+                    "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+                ],
+                "animate": [
+                    "move_custom"
+                ]
+            },
+            "animations": {
+                "idle": "animation.mes_mrhrs.hippogriff_idle",
+                "fly": "animation.mes_mrhrs.hippogriff_fly",
+		"run": "animation.mes_mrhrs.hippogriff_run",
+                "move_custom": "controller.animation.mes_mrhrs.fly_horse.move"
+            },
+            "geometry": {
+                "default": "geometry.mes_mrhrs.hippogriff_horse"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+	}
+    }
+}

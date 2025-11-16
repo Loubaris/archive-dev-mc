@@ -1,0 +1,28 @@
+{
+	"entity": "sw:wizard",
+	"recipes": [
+		{
+			"ingredients": [
+				{
+					"item": "minecraft:stick",
+					"data": 0
+				},
+				{
+					"item": "minecraft:iron_ingot",
+					"data": 0
+				},
+				{
+					"item": "minecraft:iron_ingot",
+					"data": 0
+				}
+			],
+			"results": [
+				{
+					"item": "minecraft:iron_sword",
+					"data": 0,
+					"count": 1
+				}
+			]
+		}
+	]
+}

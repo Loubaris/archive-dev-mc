@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mes_splbk:nrabbit",
+      "materials": { "default": "rabbit" },
+      "textures": {
+        "brown": "textures/entity/rabbit/brown",
+        "white": "textures/entity/rabbit/white",
+        "black": "textures/entity/rabbit/blackrabbit",
+        "white_splotched": "textures/entity/rabbit/white_splotched",
+        "gold": "textures/entity/rabbit/gold",
+        "salt": "textures/entity/rabbit/salt",
+        "toast": "textures/entity/rabbit/toast"
+      },
+      "scripts": {
+	"animate": [
+		{ "move": "q.ground_speed > 0" }
+        ]
+      },
+      "animations": {
+        "move": "animation.mes_splbk.nrabbit.move"
+      },
+      "geometry": {
+        "default": "geometry.rabbit.v1.8"
+      },
+      "render_controllers": [ "controller.render.rabbit" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 24
+      }
+    }
+  }
+}

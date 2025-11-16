@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tnt:mobtnt",
+      "materials": {
+         "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/mobtnt"
+      },
+      "geometry": {
+        "default": "geometry.mobtnt"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "texture": "mobtnt",
+        "texture_index": 0
+      }
+    }
+  }
+}

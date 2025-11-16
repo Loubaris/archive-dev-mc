@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mage.attack": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "attack": "query.is_charged"
+            }
+          ]
+        },
+        "attack": {
+          "animations": ["attack"],
+          "transitions": [
+            {
+              "default": "!query.is_charged"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

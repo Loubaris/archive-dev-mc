@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:fairy",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"blue": "textures/entity/fairy/blue",
+				"green": "textures/entity/fairy/green",
+				"purple": "textures/entity/fairy/purple"
+			},
+			"geometry": {
+				"default": "geometry.fairy"
+			},
+			"render_controllers": [
+				"controller.render.fairy"
+			],
+			"scripts": {
+				"animate": [
+					{
+						"walk": "!query.is_on_ground"
+					}
+				]
+			},
+			"animations": {
+				"walk": "animation.fairy.flying"
+			},
+			"spawn_egg": {
+				"texture": "fairy",
+				"texture_index": 0
+			}
+		}
+	}
+}

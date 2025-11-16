@@ -1,0 +1,5 @@
+gamerule showcoordinates false
+gamerule commandblockoutput false
+gamerule sendcommandfeedback false
+
+scoreboard objectives add icetime dummy

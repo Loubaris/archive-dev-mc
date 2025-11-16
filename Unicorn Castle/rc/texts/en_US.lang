@@ -1,0 +1,38 @@
+﻿pack.name=Unicorn Castle RP
+pack.description=By Nitric Concepts
+
+entity.nitric:unicorn1.name=Unicorn
+entity.nitric:unicorn2.name=Unicorn
+entity.nitric:unicorn3.name=Unicorn
+
+entity.nitric:unicorn1_wings.name=Unicorn
+entity.nitric:unicorn2_wings.name=Unicorn
+entity.nitric:unicorn3_wings.name=Unicorn
+
+entity.nitric:unicorn_baby1.name=Unicorn
+entity.nitric:unicorn_baby2.name=Unicorn
+entity.nitric:unicorn_baby3.name=Unicorn
+
+item.spawn_egg.entity.nitric:unicorn1.name=Spawn Violet Unicorn
+item.spawn_egg.entity.nitric:unicorn2.name=Spawn Blue Unicorn
+item.spawn_egg.entity.nitric:unicorn3.name=Spawn Green Unicorn
+item.spawn_egg.entity.nitric:unicorn1_wings.name=Spawn Flying Violet Unicorn
+item.spawn_egg.entity.nitric:unicorn2_wings.name=Spawn Flying Blue Unicorn
+item.spawn_egg.entity.nitric:unicorn3_wings.name=Spawn Flying Green Unicorn
+item.spawn_egg.entity.nitric:unicorn_baby1.name=Spawn Violet Baby Unicorn
+item.spawn_egg.entity.nitric:unicorn_baby2.name=Spawn Blue Baby Unicorn
+item.spawn_egg.entity.nitric:unicorn_baby3.name=Spawn Green Baby Unicorn
+
+
+
+action.hint.exit.nitric:unicorn1=Jump from the unicorn
+action.hint.exit.nitric:unicorn2=Jump from the unicorn
+action.hint.exit.nitric:unicorn3=Jump from the unicorn
+
+action.hint.exit.nitric:unicorn1_wings=Jump from the unicorn
+action.hint.exit.nitric:unicorn2_wings=Jump from the unicorn
+action.hint.exit.nitric:unicorn3_wings=Jump from the unicorn
+
+action.hint.exit.nitric:unicorn_baby1=Jump from the unicorn
+action.hint.exit.nitric:unicorn_baby2=Jump from the unicorn
+action.hint.exit.nitric:unicorn_baby3=Jump from the unicorn

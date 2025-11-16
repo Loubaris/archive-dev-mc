@@ -1,0 +1,38 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mes_heroes:archer_campsite"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#A#",
+            "BAB",
+            "QIQ"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:crossbow"
+            },
+            "A": {
+                "item": "minecraft:arrow"
+            },
+            "B": {
+                "item": "minecraft:banner",
+                "data": 15
+            },
+            "Q": {
+                "item": "minecraft:bow"
+            },
+            "I": {
+                "item": "minecraft:barrel"
+            }
+        },
+        "result": {
+            "item": "mes_heroes:archer_campsite_spawn_egg",
+            "count": 1
+        }
+    }
+}

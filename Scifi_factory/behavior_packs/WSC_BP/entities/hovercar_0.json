@@ -1,0 +1,126 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nitric:hovercar_0",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
+		"component_groups": {
+			"nitric:default": {
+				"minecraft:skin_id": {
+					"value": 0
+				},
+				"minecraft:interact": {
+					"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [{
+									"test": "is_family", "subject": "other", "value": "player"
+								}]
+							},
+							"event": "nitric:open"
+						},
+						"swing": true
+					}
+					]
+				}
+			},
+			"nitric:open": {
+				"minecraft:skin_id": {
+					"value": 1
+				},
+				"minecraft:timer": {
+					"looping": false,
+					"time": 0.5,
+					"randomInterval": false,
+					"time_down_event": {
+						"event": "nitric:default",
+						"target": "self"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:physics": {},
+			"minecraft:scale": {
+				"value": 0.9
+			},
+			"minecraft:movement": {
+				"value": 0.33
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:type_family": {
+				"family": ["cyber", "car"]
+			},
+			"minecraft:loot": {
+                "table": "loot_tables/nitric/hovercar_0.json"
+            },
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 1.5,
+				"height": 1.5
+			},
+			"minecraft:movement.generic": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:rideable": {
+				"interact_text": "action.interact.ride.nitric:hovercar",
+				"family_types": [
+					"player"
+				],
+				"controlling_seat": 0,
+				"seat_count": 2,
+				"seats": [
+					{
+						"position": [
+							0.55,
+							0.7,
+							-0.6
+						]
+					},
+					{
+						"position": [
+							-0.55,
+							0.7,
+							-0.6
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [ "nitric:default" ]
+				}
+			},
+			"nitric:default": {
+				"remove": {
+					"component_groups": [ "nitric:open" ]
+				},
+				"add": {
+					"component_groups": [ "nitric:default" ]
+				}
+			},
+			"nitric:open": {
+				"remove": {
+					"component_groups": [ "nitric:default" ]
+				},
+				"add": {
+					"component_groups": [ "nitric:open" ]
+				}
+			}
+		}
+	}
+}

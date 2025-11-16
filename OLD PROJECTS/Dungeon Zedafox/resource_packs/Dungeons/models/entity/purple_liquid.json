@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"geometry.purple_liquid": {
+		"texturewidth": 1024,
+		"textureheight": 1024,
+		"visible_bounds_width": 13,
+		"visible_bounds_height": 8,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-89, 0, -88], "size": [177, 8, 176], "uv": [0, 0], "mirror": false},
+					{"origin": [-89, 8, -88], "size": [177, 8, 176], "uv": [0, 189], "mirror": false}
+				]
+			}
+		]
+	}
+}

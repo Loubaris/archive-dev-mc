@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "zedafox:crystal1"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:stacked_by_data": false,
+			"minecraft:icon": {
+				"texture": "crystal1"
+			},
+			"minecraft:display_name": {
+				"value": "§a§lGREEN CRYSTAL"
+			}
+		}
+	}
+}

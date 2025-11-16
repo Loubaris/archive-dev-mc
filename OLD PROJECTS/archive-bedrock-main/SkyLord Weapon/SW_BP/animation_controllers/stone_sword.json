@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.stone_sword_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"stone_sword_detection": "query.get_equipped_item_name == 'sw_stone_sword' && query.is_using_item == true"
+						}
+					]
+				},
+				"stone_sword_detection": {
+					"on_entry": [
+						"/tag @p[r=1,rx=20,rxm=-7] add stone_sword_a"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

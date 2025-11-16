@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nitric:hoverbike_2"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "UUU",
+      "XZX"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:emerald"
+      },
+      "Z": {
+        "item": "minecraft:emerald_block"
+      }
+    },
+    "result": {
+      "item": "nitric:hoverbike_2_spawn_egg"
+    }
+  }
+}

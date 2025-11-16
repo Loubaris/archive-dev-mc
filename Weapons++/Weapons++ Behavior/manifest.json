@@ -1,0 +1,27 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Weapons++",
+		"description": "Weapons++ Behavior Pack",
+		"uuid": "a679e755-4a35-9709-e4e0-214b63082fcc",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Nitric"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "6a0e4574-278c-777c-6fc0-5c08c29fa50f",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "0c5311ec-7502-7686-fc13-b57d5994ba57",
+			"version": [1, 0, 0]
+		}
+	]
+}

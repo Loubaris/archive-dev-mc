@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tnt:landmine",
+      "materials": {
+         "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/landmine"
+      },
+      "geometry": {
+        "default": "geometry.landmine"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "texture": "landmine",
+        "texture_index": 0
+      }
+    }
+  }
+}

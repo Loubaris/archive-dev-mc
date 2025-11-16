@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Sci-fi-blaster",
+		"description": "Sci-fi-blaster Resource Pack",
+		"uuid": "067038b1-0aed-4dd5-9e71-fd2fab30ccad",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Nitric"]
+	},
+	"modules": [
+		{
+			"description": "Sci-fi-blaster",
+			"type": "resources",
+			"uuid": "54d95684-d4c8-4154-932e-adb89074519c",
+			"version": [1, 0, 0]
+		}
+	]
+}

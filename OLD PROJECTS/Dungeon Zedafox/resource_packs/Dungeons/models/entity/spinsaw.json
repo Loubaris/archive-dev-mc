@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"geometry.spinsaw": {
+		"texturewidth": 256,
+		"textureheight": 256,
+		"visible_bounds_width": 5,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-8, 3, -8], "size": [16, 15, 16], "uv": [0, 32], "mirror": false},
+					{"origin": [-25, 10, -24], "size": [48, 0, 48], "uv": [0, 0], "mirror": false},
+					{"origin": [-7, 0, -7], "size": [14, 3, 14], "uv": [50, 50], "mirror": false}
+				]
+			}
+		]
+	}
+}

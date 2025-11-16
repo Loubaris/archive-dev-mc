@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:portal",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/portal"
+			},
+			"geometry": {
+				"default": "geometry.portal"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"portal": "animation.wave.portal"
+			},
+			"animation_controllers": [
+				{
+					"portal": "controller.animation.portal"
+				}
+			]
+		}
+	}
+}

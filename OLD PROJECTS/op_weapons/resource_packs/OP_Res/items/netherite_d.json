@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:netherite_dagger",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "netherite_d",
+   "minecraft:render_offsets": "netherite_d"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:acid_projectile",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/acid_projectile"
+			},
+			"geometry": {
+				"default": "geometry.acid_projectile"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"acid_projectile": "animation.wave.acid_projectile"
+			},
+			"animation_controllers": [
+				{
+					"acid_projectile": "controller.animation.acid_projectile"
+				}
+			]
+		}
+	}
+}

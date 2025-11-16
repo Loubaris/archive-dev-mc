@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mes_splbk.human_masked": {
+			"loop": true,
+			"animation_length": 0.0417,
+			"bones": {
+				"body": {
+					"scale": 0
+				},
+				"waist": {
+					"scale": 0
+				},
+				"head": {
+					"scale": 0
+				},
+				"hat": {
+					"scale": 0
+				},
+				"rightArm": {
+					"scale": 0
+				},
+				"leftArm": {
+					"scale": 0
+				},
+				"rightLeg": {
+					"scale": 0
+				},
+				"leftLeg": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

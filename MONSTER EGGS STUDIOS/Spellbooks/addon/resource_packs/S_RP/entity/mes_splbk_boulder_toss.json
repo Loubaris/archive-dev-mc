@@ -1,0 +1,25 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "mes_splbk:boulder_toss",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/mes/splbk/entity/boulder_toss"
+            }, 
+         "geometry": { 
+            "default": "geometry.mes_splbk.boulder_toss" 
+            },
+         "render_controllers": [ 
+              "controller.render.default"
+              ]
+       
+         }
+      }
+}

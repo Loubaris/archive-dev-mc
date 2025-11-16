@@ -1,0 +1,22 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "e6861e9d-3e85-455e-b5ab-16a31e403050",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 13, 0]
+	},
+	"modules": [{
+		"type": "data",
+		"uuid": "6da2a323-b7f0-4f66-9da8-cb6d3ffd81eb",
+		"version": [1, 0, 0]
+	}],
+	"dependencies": [{
+		"uuid": "5ff0ab02-1d23-41bb-a4d9-6d8a09a5e80b",
+		"version": [1, 0, 0]
+	}],
+	"metadata": {
+		"authors": ["Nitric Concepts"]
+	}
+}

@@ -1,0 +1,117 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cs:giant_zombie",
+      "runtime_identifier": "minecraft:zombie",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "monster" ]
+      },
+      "minecraft:health": {
+        "value": 50,
+        "max": 50
+      },
+	"minecraft:boss": {
+		"name": "Giant Zombie",
+                "should_darken_sky": false,
+                "hud_range": 13
+            },
+        "minecraft:scale": {
+          "value": 3
+        },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:movement": {
+        "value": 0.28
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_open_doors": true
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 2.8
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:follow_range": {
+        "value": 80,
+        "max": 80
+      },
+      "minecraft:attack": {
+        "damage": 8
+      },
+      "minecraft:tick_world": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 5,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "within_radius": 25,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "player" },
+                { "test": "is_family", "subject": "other", "value": "snowgolem" },
+                { "test": "is_family", "subject": "other", "value": "irongolem" }
+              ]
+            },
+            "max_dist": 35
+          },
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "villager" },
+                { "test": "is_family", "subject": "other", "value": "wandering_trader" }
+              ]
+            },
+            "max_dist": 35,
+            "must_see": false
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "baby_turtle" },
+                { "test": "in_water", "subject": "other", "operator": "!=", "value": true }
+              ]
+            },
+            "max_dist": 35
+          }
+        ],
+        "must_see": true,
+        "must_see_forget_duration": 17.0
+      },
+      "minecraft:physics": {
+      }
+
+    }
+
+  }
+}

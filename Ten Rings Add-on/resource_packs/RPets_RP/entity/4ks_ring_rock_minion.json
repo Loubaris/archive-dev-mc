@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "4ks_ring:rock_minion",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/4ks/ring/entity/rock_guy_texture"
+            },
+            "geometry": {
+                "default": "geometry.4ks_ring.rock_guy"
+            },
+            "scripts": {
+                "animate": [
+                    "controller"
+                ]
+            },
+            "animations": {
+                "idle": "animation.4ks_ring.rock_guy.idle",
+                "walk": "animation.4ks_ring.rock_guy.walk",
+                "attack": "animation.4ks_ring.rock_guy.attack",
+                "controller": "controller.animation.4ks_ring.minion"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

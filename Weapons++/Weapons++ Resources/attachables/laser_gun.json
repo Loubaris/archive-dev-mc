@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "nitric:laser_gun",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/laser_gun"
+			},
+			"geometry": {
+				"default": "geometry.laser_gun"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.laser_gun.first_person",
+				"third_person": "animation.laser_gun.third_person",
+				"using_item": "animation.laser_gun.using_item"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"nitric:laser_gun": "(1.0)"
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:recipe_wizard_hat"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BAB",
+      "BCB",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      },
+      "B": {
+        "item": "minecraft:purple_wool"
+      },
+	  "C": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+	"unlock": [
+		{
+			"item": "cyd_mgspl:manamote"
+		}
+    ],
+    "result": {
+      "item": "cyd_mgspl:wizard_hat",
+      "count": 1
+    }
+  }
+}

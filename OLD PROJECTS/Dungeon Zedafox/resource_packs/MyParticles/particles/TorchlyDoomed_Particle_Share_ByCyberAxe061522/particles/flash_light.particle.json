@@ -1,0 +1,60 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "olctd:flash_light",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/particle/flash_light"
+			}
+		},
+		"components": {
+			"minecraft:emitter_local_space": {
+				"position": true,
+				"rotation": true
+			},
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 10,
+				"max_particles": 90
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 5
+			},
+			"minecraft:emitter_shape_point": {
+				"offset": [0.25, "math.random(-0.25, -1.5)", -0.25]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "math.random(0.1, 3)"
+			},
+			"minecraft:particle_initial_speed": 0,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [20, 12],
+				"facing_camera_mode": "emitter_transform_xz",
+				"uv": {
+					"texture_width": 270,
+					"texture_height": 480,
+					"uv": [0, 0],
+					"uv_size": [270, 480]
+				}
+			},
+			"minecraft:particle_motion_collision": {
+				"collision_drag": 1,
+				"coefficient_of_restitution": 0.1,
+				"collision_radius": 0.01
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "(variable.particle_lifetime - variable.particle_age)",
+					"gradient": {
+						"0.0": "#30000000",
+						"0.06": "#0FEDF3F3",
+						"1.7399999999999998": "#00FEFFEE",
+						"2.88": "#0098F4FF",
+						"3.0": "#C7FFFEDD"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nitric:boulder_toss",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball",
+      "scripts": {
+	"animate": [
+		"explode"
+	]
+      },
+      "animations": { "explode": "controller.animation.explode" }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:scale": {
+	"value": 1.2
+      },
+      "minecraft:projectile": {
+        "onHit": {
+          "impact_damage": {
+            "damage": 1,
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": false
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          },
+          "arrow_effect": {}
+        },
+        "power": 1,
+        "gravity": 0.023,
+        "angleoffset": 0.0
+      },
+      "minecraft:physics": {}
+    }
+  }
+}

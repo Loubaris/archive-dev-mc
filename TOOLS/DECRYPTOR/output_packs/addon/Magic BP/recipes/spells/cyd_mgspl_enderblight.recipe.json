@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:enderblight"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      " S ",
+      "AS "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:end_rod"
+      },
+      "X": {
+        "item": "minecraft:ender_eye"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:enderblight",
+      "count": 1
+    }
+  }
+}

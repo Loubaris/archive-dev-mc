@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:purple_liquid",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/purple_liquid"
+			},
+			"geometry": {
+				"default": "geometry.purple_liquid"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"purple_liquid": "animation.wave.purple_liquid"
+			},
+			"animation_controllers": [
+				{
+					"purple_liquid": "controller.animation.purple_liquid"
+				}
+			]
+		}
+	}
+}

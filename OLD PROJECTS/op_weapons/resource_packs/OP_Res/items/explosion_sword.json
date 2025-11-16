@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:explosion_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "explosion_sword",
+   "minecraft:render_offsets": "explosion_sword"
+  }
+ }
+}

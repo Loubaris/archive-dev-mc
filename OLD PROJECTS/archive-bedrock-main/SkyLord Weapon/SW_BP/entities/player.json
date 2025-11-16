@@ -1,0 +1,344 @@
+{
+	"format_version": "1.11.10",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"walk",
+					{"inferno_wand_detection": "(1.0)"},
+					{"tnt_wand_detection": "(1.0)"},
+					{"health_staff_detection": "(1.0)"},
+					{"safe_staff_detection": "(1.0)"},
+					{"strength_staff_detection": "(1.0)"},
+					{"legendary_wand_detection": "(1.0)"},
+					{"legendary_sword_detection": "(1.0)"},
+					{"legendary_hammer_detection": "(1.0)"},
+					{"shield_detection": "(1.0)"},
+					{"hammer_detection": "(1.0)"},
+					{"stone_hammer_detection": "(1.0)"},
+					{"obsidian_hammer_detection": "(1.0)"},
+					{"gold_hammer_detection": "(1.0)"},
+					{"spear_detection": "(1.0)"},
+					{"stone_spear_detection": "(1.0)"},
+					{"gold_spear_detection": "(1.0)"},
+					{"obsidian_spear_detection": "(1.0)"},
+					{"sword_detection": "(1.0)"},
+					{"obsidian_sword_detection": "(1.0)"},
+					{"gold_sword_detection": "(1.0)"},
+					{"stone_sword_detection": "(1.0)"},
+					{"axe_detection": "(1.0)"},
+					{"obsidian_axe_detection": "(1.0)"},
+					{"stone_axe_detection": "(1.0)"},
+					{"gold_axe_detection": "(1.0)"}
+
+				]
+			},
+			"animations": {
+				"walk": "controller.animation.walk",
+				"inferno_wand_detection": "controller.animation.inferno_wand_controller",
+				"tnt_wand_detection": "controller.animation.tnt_wand_controller",
+				"legendary_wand_detection": "controller.animation.legendary_wand_controller",
+				"health_staff_detection": "controller.animation.health_staff_controller",
+				"strength_staff_detection": "controller.animation.strength_staff_controller",
+				"safe_staff_detection": "controller.animation.safe_staff_controller",
+				"legendary_sword_detection": "controller.animation.legendary_sword_controller",
+				"axe_detection": "controller.animation.axe_controller",
+				"obsidian_axe_detection": "controller.animation.obsidian_axe_controller",
+		                "gold_axe_detection": "controller.animation.gold_axe_controller",
+				"stone_axe_detection": "controller.animation.stone_axe_controller",
+				"shield_detection": "controller.animation.shield_controller",
+				"legendary_hammer_detection": "controller.animation.legendary_hammer_controller",
+				"hammer_detection": "controller.animation.hammer_controller",
+				"obsidian_hammer_detection": "controller.animation.obsidian_hammer_controller",
+				"gold_hammer_detection": "controller.animation.gold_hammer_controller",
+				"stone_hammer_detection": "controller.animation.stone_hammer_controller",
+				"spear_detection": "controller.animation.spear_controller",
+				"gold_spear_detection": "controller.animation.gold_spear_controller",
+				"stone_spear_detection": "controller.animation.stone_spear_controller",
+				"obsidian_spear_detection": "controller.animation.obsidian_spear_controller",
+				"sword_detection": "controller.animation.sword_controller",
+				"obsidian_sword_detection": "controller.animation.obsidian_sword_controller",
+				"gold_sword_detection": "controller.animation.gold_sword_controller",
+				"stone_sword_detection": "controller.animation.stone_sword_controller"
+			}
+		},
+		"component_groups": {
+			"minecraft:normal_player": {
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "regeneration", "strength", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"]
+				}
+			},
+			"minecraft:tnt_wand": {
+				"minecraft:attack": {
+					"damage": 10
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+			},
+			"sp:n_tnt_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:tnt_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+			"minecraft:add_bad_omen": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "bad_omen",
+							"duration": 6000,
+							"display_on_screen_animation": true
+						}
+					]
+				},
+				"minecraft:timer": {
+					"time": [
+						0,
+						0
+					],
+					"looping": false,
+					"time_down_event": {
+						"event": "minecraft:clear_add_bad_omen",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:clear_bad_omen_spell_effect": {
+				"minecraft:spell_effects": {}
+			},
+			"minecraft:raid_trigger": {
+				"minecraft:raid_trigger": {
+					"triggered_event": {
+						"event": "minecraft:remove_raid_trigger",
+						"target": "self"
+					}
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": "bad_omen"
+				}
+			}
+		},
+		"components": {
+			"minecraft:experience_reward": {
+				"on_death": "Math.Min(query.player_level * 7, 100)"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:can_climb": {},
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:player.saturation": {
+				"value": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 4
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": -1,
+				"inhale_time": 3.75,
+				"generates_bubbles": false
+			},
+			"minecraft:nameable": {
+				"always_show": true,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:insomnia": {
+				"days_until_insomnia": 3
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"family_types": [
+					"parrot_tame"
+				],
+				"pull_in_entities": true,
+				"seats": [
+					{
+						"position": [
+							0.4,
+							-0.2,
+							-0.1
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 0,
+						"lock_rider_rotation": 0
+					},
+					{
+						"position": [
+							-0.4,
+							-0.2,
+							-0.1
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 0
+					}
+				]
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:block_climber": {},
+			"minecraft:environment_sensor": [{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+									"test": "has_mob_effect",
+									"subject": "self",
+									"value": "bad_omen"
+								},
+								{
+									"test": "is_in_village",
+									"subject": "self",
+									"value": true
+								}
+							]
+						},
+						"event": "minecraft:trigger_raid"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "is_family",
+								"subject": "self",
+								"value": "player"
+							}]
+						},
+						"event": "minecraft:reset_player"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:tnt_wand"
+							}]
+						},
+						"event": "minecraft:tnt_wand"
+					}
+				}
+			]
+		},
+		"events": {
+			"minecraft:reset_player": {
+				"add": {
+					"component_groups": [
+						"minecraft:normal_player"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:tnt_wand"
+					]
+				}
+			},
+			"sp:n_tnt_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_tnt_shoot"
+					]
+				}
+			},
+			"minecraft:gain_bad_omen": {
+				"add": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				}
+			},
+			"minecraft:clear_add_bad_omen": {
+				"remove": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:clear_bad_omen_spell_effect"
+					]
+				}
+			},
+			"minecraft:trigger_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:remove_raid_trigger": {
+				"remove": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			}
+		}
+	}
+}

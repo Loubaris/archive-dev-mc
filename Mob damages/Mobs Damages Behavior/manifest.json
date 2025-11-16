@@ -1,0 +1,27 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mobs Damage",
+		"description": "Mobs Damage Behavior Pack",
+		"uuid": "2ac5c990-78cc-e60a-e6af-94622b8d38c6",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 50]
+	},
+	"metadata": {
+		"authors": ["Maukat"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "ccb46ec9-ea22-7923-13e5-13e9bb266f10",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "7c875554-4a4d-a960-afa2-8204ff01ad9d",
+			"version": [1, 0, 0]
+		}
+	]
+}

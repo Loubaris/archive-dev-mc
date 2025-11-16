@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:eye1",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/eye"
+			},
+			"geometry": {
+				"default": "geometry.eye"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"eye1": "animation.wave.eye1"
+			},
+			"animation_controllers": [
+				{
+					"eye1": "controller.animation.eye1"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:acid_snake_head",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/acid_snake"
+			},
+			"geometry": {
+				"default": "geometry.acid_snake"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"cutehead": "animation.wave.cutehead"
+			},
+			"animation_controllers": [
+				{
+					"cutehead": "controller.animation.cutehead"
+				}
+			]
+		}
+	}
+}

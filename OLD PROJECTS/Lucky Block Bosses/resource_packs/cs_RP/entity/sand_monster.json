@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+      "description": {
+          "identifier": "cs:sand_monster",
+	  "materials": { 
+         	"default": "entity_alphatest" 
+      	  },
+          "textures": {
+              "default": "textures/entity/monsters/sand_monster"
+          },
+          "geometry": {
+              "default": "geometry.sand_monster"
+          },
+          "animations": {
+            "walk": "animation.sand_monster.walk",
+            "idle": "animation.sand_monster.idle",
+            "attack1": "animation.sand_monster.attack1",
+	    "attack2": "animation.sand_monster.attack2",
+            "attack_controller": "controller.animation.sand_monster"
+          },
+          "scripts": {
+            "pre_animation": [
+              "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+            ],
+            "animate": [
+              "attack_controller"
+            ]
+          },
+          "render_controllers": ["controller.render.basic"],
+          "spawn_egg": {
+              "base_color": "#52443b",
+              "overlay_color": "#b3927d"
+          }
+      }
+  }
+}

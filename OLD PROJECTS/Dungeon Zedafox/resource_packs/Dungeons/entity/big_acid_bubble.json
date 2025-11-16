@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:big_acid_bubble",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/big_acid_bubble"
+			},
+			"geometry": {
+				"default": "geometry.big_acid_bubble"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"big_acid_bubble": "animation.wave.big_acid_bubble"
+			},
+			"animation_controllers": [
+				{
+					"big_acid_bubble": "controller.animation.big_acid_bubble"
+				}
+			]
+		}
+	}
+}

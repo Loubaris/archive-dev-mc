@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:skiholder",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/skiholder/color1"
+			},
+			"geometry": {
+				"default": "geometry.skiholder"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "skiholder",
+				"texture_index": 0
+			}
+		}
+	}
+}

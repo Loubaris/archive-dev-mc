@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.great_sword_shoot",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, -33],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 0, 16],
+							"uv": {
+								"north": {"uv": [33.92, 55.32], "uv_size": [21.12, 8.68]},
+								"east": {"uv": [30.72, 64], "uv_size": [13.44, 0]},
+								"south": {"uv": [48, 63], "uv_size": [13.44, 1]},
+								"west": {"uv": [53.12, 60.44], "uv_size": [10.88, 3.56]},
+								"up": {"uv": [3.2, 2.56], "uv_size": [55.68, 51.84]},
+								"down": {"uv": [3.84, 53.28], "uv_size": [54.4, -51.84]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

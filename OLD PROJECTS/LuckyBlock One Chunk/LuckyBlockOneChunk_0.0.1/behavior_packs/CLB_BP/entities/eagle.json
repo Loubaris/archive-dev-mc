@@ -1,0 +1,76 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "animal:eagle",
+      "runtime_identifier": "minecraft:chicken",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+	"minecraft:loot": {"table": "loot_tables/entities/eagle.json"},
+    "minecraft:type_family": {"family":["animal", "eagle" ]},
+    "minecraft:breathable": {"totalSupply": 2,"suffocateTime": 0},
+    "minecraft:nameable": {},
+    "minecraft:fall_damage": {"value": 0.0},
+    "minecraft:movement": {"value": 0.15},
+    "minecraft:health": {"value": 20},
+    "minecraft:navigation.float": {"can_path_over_water": true},
+    "minecraft:movement.basic": {},
+    "minecraft:jump.static": {},
+    "minecraft:can_climb": {},
+    "minecraft:collision_box": {"width": 0.4,"height": 1.2},
+    "minecraft:behavior.float_wander": {
+      "xz_dist": 20,
+      "y_dist": 5,
+      "y_offset": -2.0,
+      "random_reselect": true,
+      "float_duration": [ 0.1, 0.35 ]
+    },
+    "minecraft:can_fly": {},
+    "minecraft:behavior.random_look_around": {"priority": 8},
+    "minecraft:behavior.look_at_player": {"priority": 7,"look_distance": 6.0,"probability": 0.02},
+    "minecraft:behavior.float": {"priority": 1},
+    "minecraft:physics": {},
+	"minecraft:attack": {"damage": 4},
+	"minecraft:on_target_acquired": {
+        "event": "minecraft:become_aggressive",
+        "target": "self"
+    },
+	"minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "within_radius": 64,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "salamander" }
+              ]
+            },
+            "max_dist": 64
+          }
+        ],
+        "must_see": false,
+        "must_see_forget_duration": 17.0,
+		"scan_interval": 20,
+        "target_search_height": 80.0
+    },
+  "minecraft:behavior.swoop_attack": {
+	"priority": 2,
+	"delay_range": [ 10.0, 20.0 ]
+  },
+  "minecraft:behavior.circle_around_anchor": {
+	"priority": 3,
+	"radius_range": [ 5.0, 15.0 ],
+	"radius_change_chance": 250,
+	"height_above_target_range": [ 20.0, 40.0 ],
+	"height_offset_range": [ -4.0, 5.0 ],
+	"height_change_chance": 350,
+	"goal_radius": 1.0
+  }
+	
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wave.purple_liquid": {
+			"loop": true,
+			"animation_length": 10.44,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"10.4333": [0, 0, 0],
+						"3.0": [0.5, 0, 0],
+						"5.5667": [0, 0, 0],
+						"8.0333": [-0.3, 0, 0.3]
+					},
+					"scale": 1
+				}
+			}
+		}
+	}
+}

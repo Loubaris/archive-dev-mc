@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:king",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/npc/king"
+			},
+			"geometry": {
+				"default": "geometry.nitricnpc"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"scripts": {
+				"animate": [
+					{ "walk": "query.modified_move_speed" }
+				]
+			},
+			"animations": {
+				"walk": "animation.npc.move"
+			},
+			"spawn_egg": {
+				"base_color": "#0B7CD4",
+				"overlay_color": "#025697"
+			}
+		}
+	}
+}

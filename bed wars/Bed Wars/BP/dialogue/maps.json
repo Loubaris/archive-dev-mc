@@ -1,0 +1,58 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "maps",
+				"npc_name": "§2Game settings",
+				"text": { "rawtext": [ { "translate": "§2Select level!", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "§gTropical" } ] },
+						"commands": [
+							"/scoreboard players add @e[type=nitric:game] timer 1",
+							"/scoreboard players set @e[type=nitric:game] map 1"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "§4Lava" } ] },
+						"commands": [
+							"/scoreboard players add @e[type=nitric:game] timer 1",
+							"/scoreboard players set @e[type=nitric:game] map 2"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "§9Sci-fi" } ] },
+						"commands": [
+							"/scoreboard players add @e[type=nitric:game] timer 1",
+							"/scoreboard players set @e[type=nitric:game] map 3"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "§0Moon" } ] },
+						"commands": [
+							"/scoreboard players add @e[type=nitric:game] timer 1",
+							"/scoreboard players set @e[type=nitric:game] map 4"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "§2Forest" } ] },
+						"commands": [
+							"/scoreboard players add @e[type=nitric:game] timer 1",
+							"/scoreboard players set @e[type=nitric:game] map 5"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "§fSnow" } ] },
+						"commands": [
+							"/scoreboard players add @e[type=nitric:game] timer 1",
+							"/scoreboard players set @e[type=nitric:game] map 6"
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"geometry.pot3": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 5, 3],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-4, 0, -4], "size": [8, 1, 8], "uv": [24, 24], "mirror": false},
+					{"origin": [-3, 6, -3], "size": [6, 1, 6], "uv": [24, 15], "mirror": false},
+					{"origin": [-5, 1, -5], "size": [10, 5, 10], "uv": [0, 0], "mirror": false},
+					{"origin": [-4, 7, -4], "size": [8, 2, 8], "uv": [0, 15], "mirror": false}
+				]
+			}
+		]
+	}
+}

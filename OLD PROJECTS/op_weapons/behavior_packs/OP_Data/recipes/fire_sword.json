@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:fire_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "HYU",
+      "YZY",
+      "#YH"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:lava_bucket"
+      },
+      "Z": {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      "U": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "ninja:fire_sword"
+    }
+  }
+}

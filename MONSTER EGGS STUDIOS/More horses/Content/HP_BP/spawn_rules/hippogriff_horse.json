@@ -1,0 +1,50 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:spawn_rules": {
+        "description": {
+            "identifier": "mes_mrhrs:hippogriff_horse",
+            "population_control": "animal"
+        },
+        "conditions": [
+            {
+                "minecraft:spawns_on_surface": {},
+                "minecraft:difficulty_filter": {
+                    "min": "easy",
+                    "max": "hard"
+                },
+                "minecraft:weight": {
+                    "default": 10
+                },
+                "minecraft:biome_filter": {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "snowy_slopes"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "jagged_peaks"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "frozen_peaks"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "ice_montains"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "grove"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

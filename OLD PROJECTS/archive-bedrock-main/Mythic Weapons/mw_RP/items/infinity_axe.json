@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mw:infinity_axe",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "infinity_axe",
+   "minecraft:render_offsets": "infinity_axe"
+  }
+ }
+}

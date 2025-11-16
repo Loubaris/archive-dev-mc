@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:water_ruin_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "UXU",
+      "UUU"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:cobblestone"
+      },
+      "X": {
+        "item": "cs:water_oasis_spawn_egg"
+      },
+      "Z": {
+        "item": "minecraft:dirt"
+      }
+    },
+    "result": {
+      "item": "cs:water_ruin_spawn_egg"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "cs:frozen_lake",
+         "spawn_egg": {
+            "texture": "frozen_lake",
+            "texture_index": 0
+	 }
+      }
+   }
+}

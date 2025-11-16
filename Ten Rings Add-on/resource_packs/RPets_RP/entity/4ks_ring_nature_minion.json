@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "4ks_ring:nature_minion",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/4ks/ring/entity/nature_deer_texture"
+            },
+            "geometry": {
+                "default": "geometry.4ks_ring.nature_deer"
+            },
+            "scripts": {
+                "animate": [
+                    "controller"
+                ]
+            },
+            "animations": {
+                "idle": "animation.4ks_ring.nature_deer.idle",
+                "walk": "animation.4ks_ring.nature_deer.walk",
+                "attack": "animation.4ks_ring.nature_deer.attack",
+                "controller": "controller.animation.4ks_ring.minion"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

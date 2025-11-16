@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "nitric:dagger",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/dagger"
+			},
+			"geometry": {
+				"default": "geometry.dagger"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.dagger.first_person",
+				"third_person": "animation.dagger.third_person",
+				"using_item": "animation.dagger.using_item"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"nitric:dagger": "(1.0)"
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:lightning_n_star"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "HYH",
+      "Y#Y",
+      "HYH"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:ender_eye"
+      },
+      "Y": {
+        "item": "minecraft:flint"
+      }
+    },
+    "result": {
+      "item": "ninja:lightning_n_star",
+      "count": 16
+    }
+  }
+}

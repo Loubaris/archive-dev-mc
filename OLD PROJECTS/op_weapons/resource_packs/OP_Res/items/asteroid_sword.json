@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:asteroid_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "asteroid_sword",
+   "minecraft:render_offsets": "asteroid_sword"
+  }
+ }
+}

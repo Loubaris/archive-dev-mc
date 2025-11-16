@@ -1,0 +1,41 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "sw:specials_trader",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "villager"
+      },
+      "textures": {
+        "farmer": "textures/entity/NPC/Porter",
+        "librarian": "textures/entity/NPC/Jenna",
+        "priest": "textures/entity/NPC/Owl",
+        "smith": "textures/entity/NPC/Rain",
+        "butcher": "textures/entity/NPC/Porter"
+      },
+      "geometry": {
+        "default": "geometry.trader"
+      },
+      "scripts": {
+        "scale": "0.9375"
+      },
+      "animations": {
+        "general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move",
+        "baby_transform": "animation.villager.baby_transform"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.villager.general" },
+        { "move": "controller.animation.villager.move" },
+        { "baby": "controller.animation.villager.baby" }
+      ],
+      "render_controllers": [ "controller.render.villager" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 14
+      }
+    }
+  }
+}

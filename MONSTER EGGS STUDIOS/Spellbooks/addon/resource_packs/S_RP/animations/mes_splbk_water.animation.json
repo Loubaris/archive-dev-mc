@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mes_splbk.water.spin": {
+			"animation_length": 5.4583,
+			"bones": {
+				"water": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.4583": [0, 1800, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

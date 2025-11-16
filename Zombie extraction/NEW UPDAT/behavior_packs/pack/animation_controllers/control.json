@@ -1,0 +1,138 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.firecharge": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'fireball' && query.is_using_item" }]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'fireball'" } ],
+          "on_entry": [
+	    "/title @p[tag=!okay,r=1] actionbar §cYou can't use that here!",
+	    "/clear @p[tag=okay,r=1] sw:fireball 0 1",
+	    "/event entity @p[tag=okay,r=1] sp:n_fireball_shoot"		
+          ]
+        }
+      }
+    },
+    "controller.animation.campfire": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'campfire' && query.is_using_item" }]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'campfire'" } ],
+          "on_entry": [
+	    "/title @p[tag=!okay,r=1] actionbar §cYou can't use that here!",
+	    "/clear @p[tag=okay,r=1] sw:campfire 0 1",
+	    "/title @p[tag=okay] actionbar §cFire trap placed!",
+	    "/execute @p[r=1,tag=okay] ~ ~ ~ particle sw:campfire_launch",
+	    "/execute @p[r=1,tag=okay] ~ ~ ~ summon sw:fire_trap"
+          ]
+        }
+      }
+    },
+    "controller.animation.soul_campfire": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'soul_campfire' && query.is_using_item" }]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'soul_campfire'" } ],
+          "on_entry": [
+	    "/title @p[tag=!okay,r=1] actionbar §cYou can't use that here!",
+	    "/clear @p[tag=okay,r=1] sw:soul_campfire 0 1",
+	    "/title @p[tag=okay] actionbar §cSoul trap placed!",
+	    "/execute @p[r=1,tag=okay] ~ ~ ~ particle sw:soul_campfire_launch",
+	    "/execute @p[r=1,tag=okay] ~ ~ ~ summon sw:soul_trap"
+          ]
+        }
+      }
+    },
+    "controller.animation.freeze": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'freeze' && query.is_using_item" }]
+        },
+        "click1": {
+          "transitions": [ { "default": "!query.is_using_item" } ],
+          "on_entry": [
+	    "/title @p[tag=!okay,r=1] actionbar §cYou can't use that here!",
+	    "/clear @p[r=1,tag=okay,tag=!freeze] sw:freeze 0 1",
+	    "/execute @p[r=1,tag=okay,tag=!freeze] ~ ~ ~ playsound firework.twinkle @a[r=10]",
+	    "/tag @p[r=1,tag=okay] add freeze"	
+          ]
+        }
+      }
+    },
+    "controller.animation.hopper": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'hopper' && query.is_using_item" }]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'hopper'" } ],
+          "on_entry": [
+	    "/title @p[tag=!okay,r=1] actionbar §cYou can't use that here!",
+	    "/tellraw @a[tag=okay,tag=hopper] {\"rawtext\":[{\"text\":\"§cYou are already using a hopper!\"}]}",
+	    "/clear @p[tag=okay,r=1,tag=!hopper] sw:hopper 0 1",
+	    "/tag @p[tag=okay,r=1,tag=!hopper] add hopper"
+          ]
+        }
+      }
+    },
+    "controller.animation.rocket": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'rocket' && query.is_using_item" }]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'rocket'" } ],
+          "on_entry": [
+	    "/title @p[tag=!okay,r=1] actionbar §cYou can't use that here!",
+	    "/tellraw @a[tag=okay,tag=rocket] {\"rawtext\":[{\"text\":\"§cYou are already using a rocket!\"}]}",
+	    "/clear @p[tag=okay,r=1,tag=!rocket] sw:rocket 0 1",
+	    "/tag @p[tag=okay,r=1,tag=!rocket] add rocket"
+          ]
+        }
+      }
+    },
+    "controller.animation.minecart_tnt": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'minecart_tnt' && query.is_using_item" }]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'minecart_tnt'" } ],
+          "on_entry": [
+	    "/title @p[tag=!okay,r=1] actionbar §cYou can't use that here!",
+	    "/clear @p[r=1,tag=okay] sw:minecart_tnt 0 1",
+	    "/execute @p[r=1,tag=okay] ~ ~ ~ playsound mob.blaze.shoot @a[r=10]",
+	    "/event entity @p[r=1,tag=okay] sp:n_minecart_tnt_shoot"		
+          ]
+        }
+      }
+    },
+    "controller.animation.fire_attacking": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'fire_sword' && variable.attack_time" } ]
+        },
+        "click1": {
+          "transitions": [ { "default": "!variable.attack_time" } ],
+          "on_entry": [
+	    "/effect @a[r=5] fire_resistance 5 255 true",
+	    "/effect @p[r=1] strength 1 10 true",
+	    "/execute @e[r=5,family=mob,family=!inac] ~ ~ ~ setblock ~ ~ ~ fire keep",
+	    "/playsound mob.blaze.shoot @a[r=10]",
+	    "/execute @e[r=5,family=mob,family=!inac] ~ ~ ~ particle minecraft:mobflame_single ~ ~1 ~",
+	    "/execute @e[r=5,family=mob,family=!inac] ~ ~ ~ particle minecraft:mobflame_single ~ ~1 ~0.3",
+	    "/execute @e[r=5,family=mob,family=!inac] ~ ~ ~ particle minecraft:mobflame_single ~0.3 ~1 ~"
+          ]
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,94 @@
+pack.name=Overpowered Weapons Resource Pack
+pack.description=Overpowered Resources Pack
+item.ninja:ninja_sword.name=§k§bOP§r §fSword
+item.ninja:grappling_hook.name=Grappling Hook
+item.ninja:portal_sword.name=Portal Sword
+item.ninja:slime_sword.name=Slime Staff
+item.ninja:shulker_sword.name=Shulker Sword
+item.ninja:creeper_sword.name=Creeper Sword
+item.ninja:chicken_sword.name=Chicken Sword
+item.ninja:vortex_sword.name=Vortex Sword
+item.ninja:fire_sword.name=Fire Sword
+item.ninja:mountain_sword.name=Mountain Sword
+item.ninja:asteroid_sword.name=Asteroid Sword
+item.ninja:tank_hammer.name=Lightning Axe
+item.ninja:explosion_sword.name=TNT Sword
+item.ninja:swift_sword.name=Swift Sword
+item.ninja:n_star.name=Ninja Star
+item.ninja:lightning_n_star.name=Lightning Star
+item.ninja:fire_n_star.name=Fire Star
+item.ninja:explosion_n_star.name=TNT Star
+item.ninja:explosion_n_startwo.name=Mega TNT Star
+item.ninja:explosion_n_starthree.name=Ultra TNT Star
+
+item.ninja:wood_knife.name=Wooden Katana
+item.ninja:stone_knife.name=Stone Katana
+item.ninja:iron_knife.name=Iron Katana
+item.ninja:gold_knife.name=Golden Katana
+item.ninja:diamond_knife.name=Diamond Katana
+item.ninja:netherite_knife.name=Netherite Katana
+
+item.ninja:wood_axe.name=Wooden Battleaxe
+item.ninja:stone_axe.name=Stone Battleaxe
+item.ninja:iron_axe.name=Iron Battleaxe
+item.ninja:gold_axe.name=Golden Battleaxe
+item.ninja:diamond_axe.name=Diamond Battleaxe
+item.ninja:netherite_axe.name=Netherite Battleaxe
+
+item.ninja:wood_dagger.name=Wooden Hammer
+item.ninja:stone_dagger.name=Stone Hammer
+item.ninja:iron_dagger.name=Iron Hammer
+item.ninja:gold_dagger.name=Golden Hammer
+item.ninja:diamond_dagger.name=Diamond Hammer
+item.ninja:netherite_dagger.name=Netherite Hammer
+item.tnt.name=TNT
+item.stick.name=Stick
+item.diamond.name=Diamond
+item.netherStar.name=Nether Star
+item.snowball.name=Snowball
+
+
+item.spawn_egg.entity.ninja:creeper.name=Creeper
+item.spawn_egg.entity.ninja:vortex.name=Vortex
+item.spawn_egg.entity.ninja:masteridle.name=Master Ninja Idle
+item.spawn_egg.entity.ninja:mastertransition.name=Master Ninja Transition
+item.spawn_egg.entity.ninja:masterbalancing.name=Master Ninja Balancing
+item.spawn_egg.entity.ninja:masterdance.bame=Ninja Master Dancing
+item.spawn_egg.entity.ninja:masterbackflip.name=Master Ninja Backflip
+item.spawn_egg.entity.ninja:masterportal.name=Master Portal
+
+
+
+entity.ninja:instanttntmedium.name=§cTNT
+entity.ninja:instanttnttwo.name=§cTNT
+entity.ninja:instanttntthree.name=§cTNT
+entity.ninja:n_star.name=Ninja Star
+entity.ninja:fire_n_star.name=Fire Shuriken
+
+
+
+entity.ninja:mastertransition.name=Master Chi
+entity.ninja:masterbackflip.name=Master Chi
+entity.ninja:masterbalancing.name=Master Chi
+entity.ninja:masterdance.name=Master Chi
+entity.ninja:masterportal.name=Master Portal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

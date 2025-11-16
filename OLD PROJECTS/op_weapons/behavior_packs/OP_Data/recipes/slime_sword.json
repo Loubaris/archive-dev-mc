@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:slime_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "JHH",
+      "JYH",
+      "#JJ"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:enchanting_table"
+      },
+      "H": {
+        "item": "minecraft:slime"
+      }
+    },
+    "result": {
+      "item": "ninja:slime_sword"
+    }
+  }
+}

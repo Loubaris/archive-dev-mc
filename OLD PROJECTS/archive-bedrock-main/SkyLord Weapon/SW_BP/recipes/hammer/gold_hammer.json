@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:gold_hammer"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "GZZ",
+      "GZZ",
+      "UGG"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:stick"
+      },
+      "Z": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    "result": {
+      "item": "sw:gold_hammer"
+    }
+  }
+}

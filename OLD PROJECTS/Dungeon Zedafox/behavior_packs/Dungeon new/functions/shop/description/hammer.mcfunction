@@ -1,0 +1,1 @@
+tellraw @p[x=375,y=104,z=471] {"rawtext":[{"text":"§6----[ Hammer ]----\n§7Deals damage to all enemies within a radius of 5 blocks.\n§6-------------------"}]}

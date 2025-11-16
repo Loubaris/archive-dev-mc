@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+	"animation.cyd_mgspl.gravity_vortex_loop": {
+      "loop": true,
+      "timeline": {
+        "0.0": ["/particle cyd_mgspl:vortex_base ~ ~ ~",
+				"/particle cyd_mgspl:vortex_embers ~ ~ ~",
+				"/particle cyd_mgspl:vortex_core_black ~ ~ ~",
+				"/particle cyd_mgspl:vortex_core_black_ad ~ ~ ~",
+				"/scriptevent cyd_mgspl:gravity_vortex impact"],
+		"0.5": ["/scriptevent cyd_mgspl:gravity_vortex impact"]
+      },
+      "animation_length": 1
+    },
+	"animation.cyd_mgspl.gravity_vortex_start": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.gravity_vortex_loop @a[r=30]"]
+      },
+      "animation_length": 1
+    }
+  }
+}

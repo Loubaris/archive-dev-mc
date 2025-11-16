@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pk:spawn",
+      "textures": {
+        "default": "textures/entity/spawn"
+      },
+      "materials": { 
+        "default": "entity_alphatest" 
+      },
+      "geometry": {
+        "default": "geometry.spawn"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

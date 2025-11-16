@@ -1,0 +1,17 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "ninja:wood_axe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:use_duration": 20,
+			"minecraft:max_stack_size": 1,
+			"minecraft:max_damage": 1580,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": false
+		},
+		"events": {}
+	}
+}

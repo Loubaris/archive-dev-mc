@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "Mob Mask",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "mob_mask": {
+        "textures": "textures/items/mob_mask"
+       }
+  }
+}

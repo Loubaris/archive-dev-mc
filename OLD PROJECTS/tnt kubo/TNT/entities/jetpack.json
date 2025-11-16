@@ -1,0 +1,129 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "kubo:jetpack",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [ "jetpack_fly","remove_effect" ]
+      },
+      "animations": {
+        "jetpack_fly": "controller.animation.jetpack_fly",
+        "remove_effect": "controller.animation.remove_effect"
+      }
+    },
+    "component_groups": {
+      "jetpack1": {
+        "minecraft:variant": { "value": 0 }
+      },   
+      "jetpack2": {
+        "minecraft:variant": { "value": 1 }
+      },  
+      "jetpack3": {
+        "minecraft:variant": { "value": 2 }
+      },  
+      "jetpack4": {
+        "minecraft:variant": { "value": 3 }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "jetpack" ]
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesWater": true
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:movement": {
+        "value": {
+          "range_min": 0.36, 
+          "range_max": 0.44
+        }
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.4
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:horse.jump_strength": {
+        "value": {
+          "range_min": 1.8,
+          "range_max": 6.2
+        }
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 2,
+        "speed_multiplier": 1.5,
+        "target_dist": 4.0,
+        "track_target": true
+      },
+      "minecraft:input_ground_controlled": {
+      },
+      "minecraft:can_power_jump": {
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:collision_box": {
+        "width": 1.0,
+        "height": 1.0
+      },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [
+          "player",
+          "skeleton",
+          "zombie"
+        ],
+        "interact_text": "§f[§fRide jetpack§f]",
+        "seats": {
+          "position": [ 0.0, 0.0, 0.0 ]
+        }
+      },
+      "minecraft:physics": {
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 8,
+            "add": { "component_groups": [ "jetpack1" ] }
+          },
+          {
+            "weight": 8,
+            "add": { "component_groups": [ "jetpack2" ] }
+          },
+          {
+            "weight": 8,
+            "add": { "component_groups": [ "jetpack3" ] }
+          },
+          {
+            "weight": 1,
+            "add": { "component_groups": [ "jetpack4" ] }
+          }
+        ]
+      }
+    }
+  }
+}

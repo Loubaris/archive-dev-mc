@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:igloo_island_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "Z#Z",
+      "#F#",
+      "DDD"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:snow"
+      },
+      "F": {
+        "item": "cs:frozen_lake_spawn_egg"
+      },
+      "D": {
+        "item": "minecraft:dirt"
+      }
+    },
+    "result": {
+      "item": "cs:igloo_island_spawn_egg"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:nether_fortress_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "UFU",
+      "HHH",
+      "ZZZ"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:nether_brick_stairs"
+      },
+      "H": {
+     	"item": "minecraft:nether_brick" 
+      },
+      "Y": {
+     	"item": "minecraft:nether_wart_block"
+      }
+    },
+    "result": {
+      "item": "cs:nether_fortress_spawn_egg"
+    }
+  }
+}

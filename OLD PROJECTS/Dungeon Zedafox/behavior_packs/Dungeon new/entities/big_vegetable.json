@@ -1,0 +1,195 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:big_vegetable",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"vegetable"
+				]
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:scale": {
+				"value": 1.5
+			},
+			"minecraft:collision_box": {
+				"width": 2.0,
+				"height": 1.5
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"hug0": {
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:interact": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"event": "hug1"
+						},
+						"interact_text": "Give a hug"
+					}
+				]
+			},
+			"hug1": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:interact": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"event": "hug2"
+						},
+						"interact_text": "Give a hug"
+					}
+				]
+			},
+			"hug2": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"skin1": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"skin2": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			}
+		},
+		"events": {
+			"feed": {
+				"run_command": {
+					"command": [
+						"playanimation @s animation.wave.vegetable_eat",
+						"playsound mob.fox.eat @a ~ ~ ~",
+						"clear @p tallgrass 1 1"
+					]
+				}
+			},
+			"is_huggable": {
+				"add": {
+					"component_groups": [
+						"hug0"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"hug1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"hug2"
+					]
+				}
+			},
+			"hug1": {
+				"add": {
+					"component_groups": [
+						"hug1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"hug0"
+					]
+				},
+				"run_command": {
+					"command": [
+						"function entity/turnip_hug"
+					]
+				}
+			},
+			"hug2": {
+				"add": {
+					"component_groups": [
+						"hug2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"hug1"
+					]
+				},
+				"run_command": {
+					"command": [
+						"function entity/turnip_hug2"
+					]
+				}
+			},
+			"skin1": {
+				"add": {
+					"component_groups": [
+						"skin1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"skin0"
+					]
+				}
+			},
+			"skin2": {
+				"add": {
+					"component_groups": [
+						"skin2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"skin1"
+					]
+				}
+			}
+		}
+	}
+}

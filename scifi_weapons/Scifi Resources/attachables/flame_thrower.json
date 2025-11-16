@@ -1,0 +1,34 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "nitric:flame_thrower",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/entity/holdables/flame_thrower"
+            },
+            "geometry": {
+                "default": "geometry.flame_thrower"
+            },
+            "scripts": {
+                "animate": [
+                    "controller"
+                ]
+            },
+            "animations": {
+                "controller": "controller.animation.ffp",
+                "first_person": "animation.flame_thrower.first_person",
+                "third_person": "animation.flame_thrower.third_person",
+                "using_item": "animation.flame_thrower.using_item"
+            },
+            "render_controllers": [
+                "controller.render.wave"
+            ],
+            "item": {
+                "nitric:flame_thrower": "(1.0)"
+            }
+        }
+    }
+}

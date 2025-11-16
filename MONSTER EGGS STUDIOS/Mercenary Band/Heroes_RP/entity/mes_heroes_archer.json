@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:archer",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "farmer": "textures/mes/heroes/entity/archer/default",
+                "librarian": "textures/mes/heroes/entity/archer/autumn",
+                "priest": "textures/mes/heroes/entity/archer/nighthunter",
+                "smith": "textures/mes/heroes/entity/archer/shadow",
+                "butcher": "textures/mes/heroes/entity/archer/default"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.archer"
+            },
+            "scripts": {
+                "animate": [
+                    "move_custom"
+                ]
+            },
+            "animations": {
+                "idle": "animation.mes_heroes.archer.idle",
+                "walk": "animation.mes_heroes.archer.walk",
+                "run": "animation.mes_heroes.archer.run",
+                "move_custom": "controller.animation.mes_heroes.move"
+            },
+            "spawn_egg": {
+                "texture": "mes_heroes_archer_spawn_egg"
+            },
+            "render_controllers": [
+                "controller.render.villager"
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.mes_splbk.explode_lightning": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "stop": "query.is_on_ground"
+                        }
+                    ]
+                },
+                "stop": {
+                    "on_entry": [
+                        "/scoreboard players set @s mes_splbk_lightt 48"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.talkywalky": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "clickitem": "(query.is_using_item) && (query.get_equipped_item_name == 'talkywalky')"
+                        }
+                    ]
+                },
+                "clickitem": {
+                    "on_entry": [
+                        "/function talkywalky"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "(!query.is_using_item) || (query.get_equipped_item_name != 'talkywalky')"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

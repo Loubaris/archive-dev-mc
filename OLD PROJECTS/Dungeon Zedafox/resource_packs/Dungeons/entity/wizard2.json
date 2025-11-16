@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:wizard2",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/wizard2",
+				"wizard3": "textures/entity/wizard3"
+			},
+			"geometry": {
+				"default": "geometry.wizard2"
+			},
+			"render_controllers": [
+				"controller.render.wizard2"
+			],
+			"animations": {
+				"character": "animation.wave.character"
+			},
+			"animation_controllers": [
+				{
+					"character": "controller.animation.character"
+				}
+			]
+		}
+	}
+}

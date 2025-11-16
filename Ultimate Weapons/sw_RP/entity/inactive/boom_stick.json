@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "sw:i_boom_stick",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/items/boom_stick"
+            },
+            "geometry": {
+                "default": "geometry.item_posed"
+            },
+
+      "animations": {
+        "controller": "controller.animation.inactive",
+        "idle": "animation.weapon.spin"
+      },
+            "render_controllers": [
+                "controller.render.wave"
+            ]
+	}
+    }
+}

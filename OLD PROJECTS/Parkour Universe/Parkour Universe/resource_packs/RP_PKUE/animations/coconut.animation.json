@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.coconut.spin": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"coconut": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5417": [0, 180, 0],
+						"1.0": [0, 360, 0]
+					},
+					"position": [0, -2, 0],
+					"scale": 0.7
+				}
+			}
+		}
+	}
+}

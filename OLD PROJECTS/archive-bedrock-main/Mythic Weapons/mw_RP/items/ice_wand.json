@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mw:ice_wand",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "ice_wand",
+   "minecraft:render_offsets": "ice_wand"
+  }
+ }
+}

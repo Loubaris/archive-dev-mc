@@ -1,0 +1,22 @@
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "cs:restart",
+			"category": "equipment"
+		},
+		"components": {
+	                "minecraft:use_duration": 99999,
+          	        "minecraft:food": {
+            	          "saturation_modifier": "normal",
+           	          "nutrition": 0,
+          	          "can_always_eat": true
+         	        },
+			"minecraft:max_stack_size": 1,
+			"minecraft:max_damage": 1580,
+			"minecraft:hand_equipped": true,
+                        "minecraft:foil": false,
+			"minecraft:stacked_by_data": false
+		}
+	}
+}

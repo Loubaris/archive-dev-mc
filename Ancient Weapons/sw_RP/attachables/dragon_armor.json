@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+	  "description": {
+		"identifier": "sw:dragon_armor",
+		"materials": { 
+            "default": "entity_alphatest" 
+            },
+		"textures": {
+		  "default": "textures/dragon_armor"
+		},
+		"geometry": {
+		  "default": "geometry.dragon_armor"
+		},
+		"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.fffp",
+				"first_person": "animation.dragon_armor.first_person",
+				"third_person": "animation.dragon_armor.third_person"
+			},
+		"render_controllers": [ "controller.render.wave" ]
+	  
+	}
+	}
+  }
+  

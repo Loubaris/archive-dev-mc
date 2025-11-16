@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cyd_mgspl.illuminate_timeline": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/setblock ~ ~ ~ light_block [\"block_light_level\"=15]"],
+        "20.0": ["/fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air replace light_block [\"block_light_level\"=15]",
+				"/event entity @s evt:despawn"]
+      },
+      "animation_length": 21
+    }
+  }
+}

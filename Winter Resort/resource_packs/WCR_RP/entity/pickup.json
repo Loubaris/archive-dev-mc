@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:pickup",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/pickup/color1"
+			},
+			"geometry": {
+				"default": "geometry.pickup"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "pickup",
+				"texture_index": 0
+			}
+		}
+	}
+}

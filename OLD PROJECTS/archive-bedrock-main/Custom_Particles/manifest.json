@@ -1,0 +1,19 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "§e32+ custom particles the list can be found by looking in the §creadme.txt §efile or in the MCPEDL description! §aNOTE: §cSome of these particles are from the old version of game (Ones that were removed). §bMost of the particles were changed!",
+      "name" : "§o§eCustom Particles §fBy - §aColoringEmy86 §f|§a Anonymous",
+      "platform_locked" : false,
+      "uuid" : "1f5743b0-2f9c-11eb-adc1-0242ac120002",
+      "version" : [ 1, 0, 5 ]
+   },
+   "min_engine_version" : [ 0, 0, 0 ],
+   "modules" : [
+      {
+         "description" : "§e32+ custom particles the list can be found by looking in the §creadme.txt §efile or in the MCPEDL description! §aNOTE: §cSome of these particles are from the old version of game (Ones that were removed). §bMost of the particles were changed!",
+         "type" : "resources",
+         "uuid" : "2a3996e8-2f9c-11eb-adc1-0242ac120002",
+         "version" : [ 1, 0, 0 ]
+      }
+   ]
+}

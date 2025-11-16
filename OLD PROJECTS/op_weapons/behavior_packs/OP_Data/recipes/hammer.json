@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:tank_hammer"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "HYH",
+      "H#H"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:ender_eye"
+      },
+      "Z": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "ninja:tank_hammer"
+    }
+  }
+}

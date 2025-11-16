@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"geometry.carrot": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 3.5,
+		"visible_bounds_offset": [0, 0.25, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-6, 1, -6], "size": [12, 9, 12], "uv": [0, 0], "mirror": false},
+					{"origin": [-2, 10, -2], "size": [4, 4, 4], "uv": [36, 0], "mirror": false},
+					{"origin": [0, 12, -4], "size": [4, 4, 4], "uv": [32, 35], "mirror": false},
+					{"origin": [-4, 12, 0], "size": [4, 4, 4], "uv": [0, 35], "mirror": false},
+					{"origin": [-4, 11.4, -4], "size": [4, 4, 4], "uv": [16, 35], "mirror": false},
+					{"origin": [0, 11.4, 0], "size": [4, 4, 4], "uv": [33, 21], "mirror": false},
+					{"origin": [-5.5, 0, -5.5], "size": [11, 3, 11], "uv": [0, 21], "mirror": false}
+				]
+			},
+			{
+				"name": "bone",
+				"parent": "body",
+				"pivot": [-0.5, 30.1, -3.1]
+			}
+		]
+	}
+}

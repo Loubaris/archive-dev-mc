@@ -1,0 +1,209 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "sound.tutorial": {
+      "category": "natural",
+      "min_distance": 500.0,
+      "sounds": ["sounds/tutorial"]
+    },
+    "4ks.music.arena_music": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Arena_Music",
+				"volume": 0.45,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.boulder_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Boulder_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.crystal_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Crystal_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.demon_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Demon_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.dragon_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Dragon_Breath",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.crystal_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Crystal_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.ethereal_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Ethereal_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.fire_sword_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Fire_Sword_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.ice_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Ice_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.inferno_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Inferno_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.laser_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Laser_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.plasma_ability_charge": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Plasma_Ability_Charge",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.plasma_ability_explosion": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Plasma_Ability_Explosion",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.pop_tnt_shulker": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/pop_tnt_shulker",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.supersonic_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Supersonic_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.sword_swing_laser": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Sword_Swing_Laser",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.sword_swing_normal": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Sword_Swing_Normal",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.ultra_ability": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/Ultra_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	}
+    }
+  }
+}

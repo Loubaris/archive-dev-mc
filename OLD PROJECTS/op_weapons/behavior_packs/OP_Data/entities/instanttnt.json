@@ -1,0 +1,59 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ninja:instanttnt",
+      "runtime_identifier": "minecraft:tnt",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "from_explosion": {
+        "minecraft:explode": {
+          "fuseLength": {
+            "range_min": 0.5,
+            "range_max": 2.0
+          },
+          "fuseLit": true,
+          "power": 4,
+          "causesFire": false,
+          "destroyAffectedByGriefing": true
+        }
+      }
+    },
+	
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "tnt", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+        "minecraft:scale": {
+          "value": 0.1
+        },
+      "minecraft:explode": {
+        "fuseLength": 0,
+        "fuseLit": true,
+        "power": 4,
+        "causesFire": false,
+        "destroyAffectedByGriefing": true 
+      },
+	    "minecraft:physics": {
+      }
+    },
+    
+    "events": {
+      "from_explosion": {
+        "add": {
+          "component_groups": [
+            "from_explosion"
+          ]
+        }
+      }
+    }
+  }
+}

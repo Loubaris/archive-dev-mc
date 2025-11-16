@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:ignite_flaming_tnt",
+      "materials": {
+        "default": "flaming_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/flaming_tnt"
+      },
+      "geometry": {
+        "default": "geometry.flaming_tnt"
+      },
+      "render_controllers": [ "controller.render.flaming_tnt" ],
+      "spawn_egg": {
+        "texture": "flaming",
+        "texture_index": 0
+      }
+    }
+  }
+}

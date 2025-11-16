@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:hoverbike_0",
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"geometry": {
+				"default": "geometry.hoverbike_0"
+			},
+			"textures": {
+				"default": "textures/entity/hoverbike_0"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+"spawn_egg": {
+				"texture": "hoverbike_0",
+				"texture_index": 0
+			}
+		}
+	}
+}

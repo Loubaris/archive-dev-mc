@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.flash_rifle_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flash_rifle_detection": "query.get_equipped_item_name == 'flash_rifle' && query.is_using_item == true"
+						}
+					]
+				},
+				"flash_rifle_detection": {
+					"on_entry": [
+						"/tag @p[r=1] add flash_rifle"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

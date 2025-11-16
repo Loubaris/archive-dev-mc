@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:chicken_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "chicken_sword",
+   "minecraft:render_offsets": "chicken_sword"
+  }
+ }
+}

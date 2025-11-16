@@ -1,0 +1,52 @@
+{
+	"format_version": "1.10.0",
+	"geometry.acid_bubble": {
+		"texturewidth": 16,
+		"textureheight": 16,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, -2, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-2, -4, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "body2",
+				"pivot": [0, -2, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-2, -4, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "body3",
+				"pivot": [0, -2, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-2, -4, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "body4",
+				"pivot": [0, -2, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-2, -4, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "body5",
+				"pivot": [0, -2, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-2, -4, -2], "size": [4, 4, 4], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

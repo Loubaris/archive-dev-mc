@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:ocean_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "ZUZ",
+      "YYY"
+    ],
+    "key": {
+      "U": {
+        "item": "cs:water_ruin_spawn_egg"
+      },
+      "Z": {
+        "item": "minecraft:water_bucket"
+      },
+      "Y": {
+        "item": "minecraft:sand"
+      }
+    },
+    "result": {
+      "item": "cs:ocean_spawn_egg"
+    }
+  }
+}

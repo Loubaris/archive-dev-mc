@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.armor_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "golem_detection": "query.is_item_name_any('slot.armor.head', 0, 'sw:golem_armor')"},
+                        			{ "fire_detection": "query.is_item_name_any('slot.armor.head', 0, 'sw:fire_armor')"},
+                        			{ "dragon_detection": "query.is_item_name_any('slot.armor.head', 0, 'sw:dragon_armor')"},
+                        			{ "hydroblast_detection": "query.is_item_name_any('slot.armor.head', 0, 'sw:hydroblast_armor')"},
+						{ "claw_detection": "query.is_item_name_any('slot.armor.head', 0, 'sw:claw_armor')"}
+					]
+				},
+				"golem_detection": {
+					"on_entry": [
+						"/tag @s add golem"
+					],
+					"transitions": [ 
+						{ "default": "(1.0)"}
+					]
+				},
+				"dragon_detection": {
+					"on_entry": [
+						"/tag @s add dragon"
+					],
+					"transitions": [ { "default": "(1.0)"} ]
+				},
+				"claw_detection": {
+					"on_entry": [
+						"/tag @s add claw"
+					],
+					"transitions": [ { "default": "(1.0)"} ]
+				},
+				"fire_detection": {
+					"on_entry": [
+						"/tag @s add fire"
+					],
+					"transitions": [ { "default": "(1.0)"} ]
+				},
+				"hydroblast_detection": {
+					"on_entry": [
+						"/tag @s add hydroblast"
+					],
+					"transitions": [ { "default": "(1.0)"} ]
+				}
+			}
+		}
+	}
+}

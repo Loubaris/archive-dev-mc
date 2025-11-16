@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:flag_checkpoint",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/flag/flag_checkpoint1",
+				"flag2": "textures/entity/flag/flag_checkpoint2",
+				"flag3": "textures/entity/flag/flag_checkpoint3"
+			},
+			"geometry": {
+				"default": "geometry.flag_checkpoint"
+			},
+			"render_controllers": [
+				"controller.render.flag_checkpoint"
+			]
+		}
+	}
+}

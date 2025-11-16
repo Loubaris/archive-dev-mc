@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:ravager_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "ravager_sword",
+   "minecraft:render_offsets": "ravager_sword"
+  }
+ }
+}

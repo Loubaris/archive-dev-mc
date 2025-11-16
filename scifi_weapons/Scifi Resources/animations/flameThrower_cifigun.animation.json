@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.flame_thrower.third_person": {
+			"loop": true,
+			"bones": {
+				"Main": {
+					"position": [0, 3, -6]
+				}
+			}
+		},
+		"animation.flame_thrower.first_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"rotation": [53.94761, 54.46865, -55.64234],
+					"position": [-1, 0, -4]
+				}
+			}
+		},
+		"animation.flame_thrower.using_item": {
+			"animation_length": 0.29167,
+			"bones": {
+				"Main": {
+					"rotation": {
+						"0.0": [53.94761, 54.46865, -55.64234],
+						"0.0833": [31.44761, 54.46865, -55.64234],
+						"0.2083": [53.94761, 54.46865, -55.64234]
+					},
+					"position": {
+						"0.0": [-1, 0, -4],
+						"0.2083": [-1, 0, -4]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.obsidian_hammer_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"obsidian_hammer_detection": "query.get_equipped_item_name == 'obsidian_hammer' && query.is_using_item == true"
+						}
+					]
+				},
+				"obsidian_hammer_detection": {
+					"on_entry": [
+						"/tag @p[r=1,rx=20,rxm=-7] add obsidian_hammer_a"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

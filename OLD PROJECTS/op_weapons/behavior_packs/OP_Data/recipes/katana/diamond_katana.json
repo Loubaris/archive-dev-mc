@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:diamond_knife"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "UUY",
+      "UYU",
+      "#UU"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "ninja:diamond_knife"
+    }
+  }
+}

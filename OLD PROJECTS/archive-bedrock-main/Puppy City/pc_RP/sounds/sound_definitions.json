@@ -1,0 +1,22 @@
+{
+	"bike.sound": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/bike/bike_sound"
+		]
+	},
+	"car.sound":{
+		"category": "neutral",
+		"sounds":[
+			"sounds/car/car_sound"
+		]
+	},
+	"car.sound.drive":{
+		"category":"neutral",
+		"sounds":[
+			"sounds/car/car_drive_sound"
+		]
+	}
+	
+	
+}

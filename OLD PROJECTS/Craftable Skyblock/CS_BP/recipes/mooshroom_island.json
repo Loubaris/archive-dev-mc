@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:mooshroom_island_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "YYY",
+      "UUU"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:cobblestone"
+      },
+      "Z": {
+        "item": "minecraft:red_mushroom"
+      },
+      "Y": {
+        "item": "minecraft:mycelium"
+      }
+    },
+    "result": {
+      "item": "cs:mooshroom_island_spawn_egg"
+    }
+  }
+}

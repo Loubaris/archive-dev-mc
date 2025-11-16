@@ -1,0 +1,83 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:coin",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"coin"
+				]
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:scale": {
+				"value": 0.6
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": true
+			},
+			"minecraft:physics": {},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"disparition": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						1.0,
+						1.0
+					],
+					"time_down_event": {
+						"event": "to_death"
+					}
+				}
+			},
+			"death": {
+				"minecraft:despawn": {
+				}
+			}
+		},
+		"events": {
+			"takecoin": {
+				"add": {
+					"component_groups": [
+						"disparition"
+					]
+				}
+			},
+			"to_death": {
+				"add": {
+					"component_groups": [
+						"death"
+					]
+				}
+			}
+		}
+	}
+}

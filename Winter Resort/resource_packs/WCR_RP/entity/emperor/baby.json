@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:emperor_baby",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/emperor/baby"
+			},
+			"geometry": {
+				"default": "geometry.emperor_baby"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"scripts": {
+				"animate": [
+					"general"
+				]
+			},
+			"animations": {
+				"general": "controller.animation.nitric.general",
+				"idle": "animation.penguin.idle",
+				"move": "animation.emperor_baby.move"
+			},
+			"spawn_egg": {
+				"texture": "emperor_baby",
+				"texture_index": 0
+			}
+		}
+	}
+}

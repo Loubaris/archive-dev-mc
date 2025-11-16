@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:chair1",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/chair/1",
+                "color2": "textures/furniture/chair/2",
+                "color3": "textures/furniture/chair/3"
+            },
+            "geometry": {
+                "default": "geometry.chair"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "chair1",
+				"texture_index": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:iceball",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/iceball"
+			},
+			"geometry": {
+				"default": "geometry.iceball"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"iceball": "animation.wave.iceball"
+			},
+			"animation_controllers": [
+				{
+					"iceball": "controller.animation.iceball"
+				}
+			]
+		}
+	}
+}

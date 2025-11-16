@@ -1,0 +1,207 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mes_heroes:beastwolf",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "combat_mode": {
+                "minecraft:attack": {
+                    "damage": 4
+                },
+                "minecraft:behavior.melee_attack": {
+                    "priority": 2
+                }
+            },
+            "farmer": {
+                "minecraft:variant": {
+                    "value": 0
+                }
+            },
+            "librarian": {
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "priest": {
+                "minecraft:variant": {
+                    "value": 2
+                }
+            },
+            "smith": {
+                "minecraft:variant": {
+                    "value": 3
+                }
+            },
+            "butcher": {
+                "minecraft:variant": {
+                    "value": 4
+                }
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "villager"
+                ]
+            },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0
+            },
+            "minecraft:health": {
+                "value": 20,
+                "max": 20
+            },
+            "minecraft:collision_box": {
+                "width": 1.5,
+                "height": 1.9
+            },
+	    "minecraft:variable_max_auto_step": {
+                "base_value": 1.5625, // 1 block + 1 pixel
+                "controlled_value": 1.5625, // needed for mounts when they have a rider
+                "jump_prevented_value": 0.5625 // 0.5 blocks + 1 pixel
+            },
+	    "minecraft:jump.static": {},
+            "minecraft:can_power_jump": {},
+            "minecraft:movement": {
+                "value": 0.35
+            },
+            "minecraft:navigation.walk": {
+        		"can_path_over_water": true,
+        		"avoid_water": true,
+        		"avoid_damage_blocks": true
+      		},
+            "minecraft:movement.basic": {},
+            "minecraft:persistent": {},
+            "minecraft:can_climb": {},
+            "minecraft:behavior.float": {
+                "priority": 0
+            },
+            "minecraft:input_ground_controlled": {},
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:behavior.look_at_player": {
+                "priority": 8,
+                "look_distance": 8,
+                "probability": 0.02
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 3,
+                "must_reach": true,
+                "must_see": true,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "monster"
+                                }
+                            ]
+                        },
+                        "within_default": 10
+                    },
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "hoglin"
+                                }
+                            ]
+                        },
+                        "max_dist": 16
+                    },
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "zoglin"
+                                }
+                            ]
+                        },
+                        "max_dist": 16
+                    }
+                ]
+            },
+            "minecraft:attack": {
+                "damage": {
+                    "range_min": 12,
+                    "range_max": 25
+                }
+            },
+            "minecraft:behavior.random_stroll": {
+                "priority": 6
+            },
+            "minecraft:behavior.delayed_attack": {
+                "priority": 3,
+                "attack_duration": 1.10,
+                "attack_once": false,
+                "hit_delay_pct": 1,
+                "reach_multiplier": 3,
+                "require_complete_path": false,
+                "track_target": true
+            },
+            "minecraft:nameable": {
+                "alwaysShow": true,
+                "allowNameTagRenaming": true
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": true
+            }
+        },
+        "events": {
+            "farmer": {
+                "add": {
+                    "component_groups": [
+                        "farmer"
+                    ]
+                }
+            },
+            "librarian": {
+                "add": {
+                    "component_groups": [
+                        "librarian"
+                    ]
+                }
+            },
+            "butcher": {
+                "add": {
+                    "component_groups": [
+                        "butcher"
+                    ]
+                }
+            },
+            "smith": {
+                "add": {
+                    "component_groups": [
+                        "smith"
+                    ]
+                }
+            },
+            "priest": {
+                "add": {
+                    "component_groups": [
+                        "priest"
+                    ]
+                }
+            },
+            "enter_combat": {
+                "add": {
+                    "component_groups": [
+                        "combat_mode"
+                    ]
+                }
+            }
+        }
+    }
+}

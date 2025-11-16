@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:iron_knife",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "iron_knife",
+   "minecraft:render_offsets": "iron_knife"
+  }
+ }
+}

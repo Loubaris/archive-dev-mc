@@ -1,0 +1,878 @@
+{
+	"format_version": "1.11.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"walk", "plasma_sword", "ice_sword", "ethereal_sword", "spider_sword", "boulder_sword", "dragon_sword", "ultra_attacking", "ultra_sword", "inferno_sword", "tnt_sword", "shulker_sword", "supersonic_sword", "fire_sword", "fire_attacking", "demon_sword", "crystal_sword", "laser_sword"
+				]
+			},
+			"animations": {
+				"plasma_sword": "controller.animation.plasma_sword",
+				"ice_sword": "controller.animation.ice_sword",
+				"ethereal_sword": "controller.animation.ethereal_sword",
+				"spider_sword": "controller.animation.spider_sword",
+				"boulder_sword": "controller.animation.boulder_sword",
+				"dragon_sword": "controller.animation.dragon_sword",
+				"ultra_attacking": "controller.animation.ultra_attacking",
+				"ultra_sword": "controller.animation.ultra_sword",
+				"laser_sword": "controller.animation.laser_sword",
+				"inferno_sword": "controller.animation.inferno_sword",
+				"crystal_sword": "controller.animation.crystal_sword",
+				"fire_sword": "controller.animation.fire_sword",
+				"fire_attacking": "controller.animation.fire_attacking",
+				"supersonic_sword": "controller.animation.supersonic_sword",
+				"shulker_sword": "controller.animation.shulker_sword",
+				"tnt_sword": "controller.animation.tnt_sword",
+				"demon_sword": "controller.animation.demon_sword",
+				"walk": "controller.animation.walk"
+			}
+		},
+		"component_groups": {
+			"minecraft:normal_player": {
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "regeneration", "strength", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"]
+				}
+			},
+			"minecraft:boulder_sword": {
+				"minecraft:attack": {
+					"damage": 15
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:ice_sword": {
+				"minecraft:attack": {
+					"damage": 8
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:fire_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:plasma_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:spider_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:dragon_sword": {
+				"minecraft:attack": {
+					"damage": 12
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:inferno_sword": {
+				"minecraft:attack": {
+					"damage": 12
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:laser_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:crystal_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"sp:n_rainbow_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:rainbow_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_crystal_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:crystal_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_plasma_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:plasma_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_supersonic_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:laser_wave",
+					"num_to_spawn": 1
+				}]
+			},
+			"minecraft:supersonic_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "regeneration", "strength", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "speed",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				}
+			},
+			"minecraft:ultra_sword": {
+				"minecraft:attack": {
+					"damage": 16
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "regeneration", "strength", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "fire_resistance",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "regeneration",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "speed",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						}
+						
+					]
+				}
+			},
+		        "minecraft:ethereal_sword": {
+				"minecraft:attack": {
+					"damage": 5
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "regeneration", "strength", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "regeneration",
+							"duration": 2,
+							"amplifier": 1,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				}
+			},
+			"minecraft:demon_sword": {
+				"minecraft:attack": {
+					"damage": 13
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "regeneration", "strength", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "strength",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "regeneration",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "speed",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						}
+						
+					]
+				}
+			},
+			"sp:shulker_bullet": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:shulker_bullet",
+					"num_to_spawn": 1
+				}]
+			},
+			"minecraft:shulker_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+			},
+			"sp:n_tnt_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:tnt_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_boulder_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:boulder_toss",
+					"num_to_spawn": 1
+				}]
+			},
+			"minecraft:tnt_sword": {
+				"minecraft:attack": {
+					"damage": 10
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+			},
+			"minecraft:add_bad_omen": {
+				"minecraft:spell_effects": {
+					"add_effects": [{
+						"effect": "bad_omen",
+						"duration": 6000,
+						"display_on_screen_animation": true
+					}]
+				},
+				"minecraft:timer": {
+					"time": [
+						0,
+						0
+					],
+					"looping": false,
+					"time_down_event": {
+						"event": "minecraft:clear_add_bad_omen",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:clear_bad_omen_spell_effect": {
+				"minecraft:spell_effects": {}
+			},
+			"minecraft:raid_trigger": {
+				"minecraft:raid_trigger": {
+					"triggered_event": {
+						"event": "minecraft:remove_raid_trigger",
+						"target": "self"
+					}
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": "bad_omen"
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:can_climb": {},
+			"minecraft:player.saturation": {
+				"value": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 4
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": -1,
+				"inhaleTime": 3.75,
+				"generatesBubbles": false
+			},
+			"minecraft:nameable": {
+				"alwaysShow": true,
+				"allowNameTagRenaming": false
+			},
+			"minecraft:physics": {},
+			"minecraft:insomnia": {
+				"days_until_insomnia": 3
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"family_types": [
+					"parrot_tame"
+				],
+				"pull_in_entities": true,
+				"seats": [{
+						"position": [
+							0.4,
+							-0.15,
+							0.04
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 0,
+						"lock_rider_rotation": 0
+					},
+					{
+						"position": [
+							-0.4,
+							-0.15,
+							0.04
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 0
+					}
+				]
+			},
+			"minecraft:scaffolding_climber": {},
+			"minecraft:environment_sensor": [{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+									"test": "has_mob_effect",
+									"subject": "self",
+									"value": "bad_omen"
+								},
+								{
+									"test": "is_in_village",
+									"subject": "self",
+									"value": true
+								}
+							]
+						},
+						"event": "minecraft:trigger_raid"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "is_family",
+								"subject": "self",
+								"value": "player"
+							}]
+						},
+						"event": "minecraft:reset_player"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:ice_sword"
+							}]
+						},
+						"event": "minecraft:ice_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:plasma_sword"
+							}]
+						},
+						"event": "minecraft:plasma_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:boulder_sword"
+							}]
+						},
+						"event": "minecraft:boulder_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:ultra_sword"
+							}]
+						},
+						"event": "minecraft:ultra_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:dragon_sword"
+							}]
+						},
+						"event": "minecraft:dragon_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:fire_sword"
+							}]
+						},
+						"event": "minecraft:fire_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:supersonic_sword"
+							}]
+						},
+						"event": "minecraft:supersonic_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:inferno_sword"
+							}]
+						},
+						"event": "minecraft:inferno_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:crystal_sword"
+							}]
+						},
+						"event": "minecraft:crystal_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:tnt_sword"
+							}]
+						},
+						"event": "minecraft:tnt_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:laser_sword"
+							}]
+						},
+						"event": "minecraft:laser_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:shulker_sword"
+							}]
+						},
+						"event": "minecraft:shulker_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:spider_sword"
+							}]
+						},
+						"event": "minecraft:spider_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:ethereal_sword"
+							}]
+						},
+						"event": "minecraft:ethereal_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:demon_sword"
+							}]
+						},
+						"event": "minecraft:demon_sword"
+					}
+				}
+			]
+		},
+		"events": {
+			"minecraft:reset_player": {
+				"add": {
+					"component_groups": [
+						"minecraft:normal_player"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:supersonic_sword",
+						"minecraft:tnt_sword",
+						"minecraft:shulker_sword",
+						"minecraft:fire_sword",
+						"minecraft:demon_sword",
+						"minecraft:crystal_sword",
+						"minecraft:laser_sword",
+						"minecraft:inferno_sword",
+						"minecraft:ultra_sword",
+						"minecraft:dragon_sword",
+						"minecraft:boulder_sword",
+						"minecraft:spider_sword",
+						"minecraft:ethereal_sword",
+						"minecraft:plasma_sword",
+						"minecraft:ice_sword"
+					]
+				}
+			},
+			"sp:n_supersonic_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_supersonic_shoot"
+					]
+				}
+			},
+			"sp:n_boulder_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_boulder_shoot"
+					]
+				}
+			},
+			"sp:n_crystal_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_crystal_shoot"
+					]
+				}
+			},
+			"sp:n_rainbow_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_rainbow_shoot"
+					]
+				}
+			},
+			"minecraft:inferno_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:inferno_sword"
+					]
+				}
+			},
+			"minecraft:spider_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:spider_sword"
+					]
+				}
+			},
+			"minecraft:ice_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:ice_sword"
+					]
+				}
+			},
+			"minecraft:plasma_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:plasma_sword"
+					]
+				}
+			},
+			"minecraft:ethereal_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:ethereal_sword"
+					]
+				}
+			},
+			"minecraft:boulder_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:boulder_sword"
+					]
+				}
+			},
+			"minecraft:tnt_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:tnt_sword"
+					]
+				}
+			},
+			"minecraft:dragon_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:dragon_sword"
+					]
+				}
+			},
+			"minecraft:ultra_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:ultra_sword"
+					]
+				}
+			},
+			"minecraft:laser_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:laser_sword"
+					]
+				}
+			},
+			"minecraft:crystal_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:crystal_sword"
+					]
+				}
+			},
+			"sp:n_tnt_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_tnt_shoot"
+					]
+				}
+			},
+			"sp:n_plasma_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_plasma_shoot"
+					]
+				}
+			},
+			"minecraft:shulker_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:shulker_sword"
+					]
+				}
+			},
+			"minecraft:fire_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:fire_sword"
+					]
+				}
+			},
+			"minecraft:supersonic_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:supersonic_sword"
+					]
+				}
+			},
+			"minecraft:demon_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:demon_sword"
+					]
+				}
+			},
+			"sp:shulker_bullet": {
+				"add": {
+					"component_groups": [
+						"sp:shulker_bullet"
+					]
+				}
+			},
+			"minecraft:gain_bad_omen": {
+				"add": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				}
+			},
+			"minecraft:clear_add_bad_omen": {
+				"remove": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:clear_bad_omen_spell_effect"
+					]
+				}
+			},
+			"minecraft:trigger_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:remove_raid_trigger": {
+				"remove": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			}
+		}
+	}
+}

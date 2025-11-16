@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Monster Eggs"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.5.4"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Morph",
+		"description": "Morph by Monster Eggs",
+		"uuid": "89db7b43-5e29-42a9-a349-fabaf2abf0e1",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			19,
+			50
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "26a55513-8bd7-45a0-bb5e-1033bcd40940",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d74f0fa6-d76d-4e49-8d92-c23e7c250058",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

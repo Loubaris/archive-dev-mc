@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "sw:obsidian_hammer",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/obsidian_hammer"
+			},
+			"geometry": {
+				"default": "geometry.hammer"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.hammer.first_person",
+				"third_person": "animation.hammer.third_person"
+			},
+			"item": {
+				"sw:obsidian_hammer": "(1.0)"
+			}
+		}
+	}
+}

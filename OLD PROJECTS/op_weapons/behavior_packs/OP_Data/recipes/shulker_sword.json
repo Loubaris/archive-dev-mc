@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:shulker_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "DYU",
+      "YUY",
+      "#YD"
+    ],
+    "key": {
+      "Y": {
+        "item": "minecraft:diamond"
+      },
+      "U": {
+        "item": "minecraft:shulker_shell"
+      },
+      "#": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "ninja:shulker_sword"
+    }
+  }
+}

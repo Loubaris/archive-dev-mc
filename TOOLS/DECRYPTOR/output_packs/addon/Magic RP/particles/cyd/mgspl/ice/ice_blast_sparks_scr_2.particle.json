@@ -1,0 +1,57 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "cyd_mgspl:ice_blast_sparks_scr_2",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/cyd/mgspl/particle/flash_4"
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"creation_expression": "variable.size = 0.3;variable.lifetime = 0.5;variable.size_variant = 0.2;variable.age_growth = -0.8;variable.angle = 90;variable.offset = 1.5;"
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 60
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 0.5
+			},
+			"minecraft:emitter_shape_point": {
+				"offset": ["math.sin(variable.particle_random_2*variable.angle-variable.angle/2+variable.direction)*variable.offset", "math.sin(variable.particle_random_3*variable.angle-variable.angle/2)*variable.offset", "math.cos(variable.particle_random_2*variable.angle-variable.angle/2+variable.direction)*variable.offset"],
+				"direction": ["math.sin(variable.particle_random_2*variable.angle-variable.angle/2+variable.direction)", "math.sin(variable.particle_random_3*variable.angle-variable.angle/2)", "math.cos(variable.particle_random_2*variable.angle-variable.angle/2+variable.direction)"]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "(variable.particle_random_1*variable.lifetime)+0.1"
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.random(0,180)"
+			},
+			"minecraft:particle_initial_speed": "(variable.particle_random_1*6)+12",
+			"minecraft:particle_motion_dynamic": {
+				"linear_drag_coefficient": 3
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["1*math.clamp(((variable.size+variable.size_variant*variable.particle_random_4)+variable.particle_age*variable.age_growth),0.1,2)", "1*math.clamp(((variable.size+variable.size_variant*variable.particle_random_4)+variable.particle_age*variable.age_growth),0.1,2)"],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 64,
+					"texture_height": 64,
+					"uv": [0, 0],
+					"uv_size": [64, 64]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "variable.particle_age",
+					"gradient": {
+						"0.0": "#FF84EEF1",
+						"0.13": "#FF40A6C8",
+						"0.4": "#FF98CFE8"
+					}
+				}
+			}
+		}
+	}
+}

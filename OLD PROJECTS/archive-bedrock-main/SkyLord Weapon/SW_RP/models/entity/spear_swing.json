@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.spear_swing_a",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "swing",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [-8, 0, -7], "size": [0, 12, 14], "pivot": [-4, 6, -3], "rotation": [-180, 0, 180], "uv": [0, -14]}
+					]
+				}
+			]
+		}
+	]
+}

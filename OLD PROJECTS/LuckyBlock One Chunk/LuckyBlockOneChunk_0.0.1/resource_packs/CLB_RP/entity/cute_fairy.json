@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:cute_fairy",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"green": "textures/entity/cutefairy/green",
+				"pink": "textures/entity/cutefairy/pink",
+				"white": "textures/entity/cutefairy/white"
+			},
+			"geometry": {
+				"default": "geometry.cute_fairy"
+			},
+			"render_controllers": [
+				"controller.render.cute_fairy"
+			],
+			"scripts": {
+				"animate": [
+					{
+						"walk": "!query.is_on_ground"
+					}
+				]
+			},
+			"animations": {
+				"walk": "animation.cute_fairy.flying"
+			},
+			"spawn_egg": {
+				"texture": "cute_fairy",
+				"texture_index": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [ 1, 21, 0 ],
+		"uuid": "c2cda48d-76f6-4448-9ece-7f06bc70f4a2",
+		"pack_name": "SCRIPT TEST",
+		"pack_type": "behavior",
+		"associated_pack": "None",
+		"version": [ 1, 0, 2 ]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "9c6d375a-91bd-48ea-880b-f964e7064e11",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 2]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		}
+	]
+}

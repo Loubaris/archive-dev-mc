@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:laurri",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/laurri/color1"
+			},
+			"geometry": {
+				"default": "geometry.laurri"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "laurri",
+				"texture_index": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.rolling": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "rolling": "(query.is_jumping) && (query.is_sneaking)"
+                        }
+                    ]
+                },
+                "rolling": {
+                    "on_entry": [
+                        "/function player/rolling"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "(!query.is_jumping) && (!query.is_sneaking)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

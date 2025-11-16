@@ -1,0 +1,137 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.fuse": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/particle minecraft:basic_smoke_particle ~ ~1 ~" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/particle minecraft:basic_smoke_particle ~ ~1 ~" ]
+        }
+      }
+    },
+    "controller.animation.creepertnt": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function creepertnt" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function creepertnt" ]
+        }
+      }
+    },
+    "controller.animation.landmine": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function landmine" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function landmine" ]
+        }
+      }
+    },
+    "controller.animation.healthtnt": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function healthtnt" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function healthtnt" ]
+        }
+      }
+    },
+    "controller.animation.fireworkstnt": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function fireworkstnt" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function fireworkstnt" ]
+        }
+      }
+    },
+    "controller.animation.lavatnt": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function lavatnt" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function lavatnt" ]
+        }
+      }
+    },
+    "controller.animation.mobtnt": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function mobtnt" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function mobtnt" ]
+        }
+      }
+    },
+    "controller.animation.particletnt": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function particletnt" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function particletnt" ]
+        }
+      }
+    },
+    "controller.animation.poisontnt": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function poisontnt" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function poisontnt" ]
+        }
+      }
+    },
+    "controller.animation.siren": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function siren" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function siren" ]
+        }
+      }
+    },
+    "controller.animation.airstrike": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [ "/function airstrike" ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/function airstrike" ]
+        }
+      }
+    }
+  }
+}

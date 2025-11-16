@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "4ks_ring:ice_ring"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:iron_ingot"
+            },
+	    {
+                "item": "minecraft:packed_ice"
+            }
+        ],
+        "result": {
+            "item": "4ks_ring:ice_ring",
+            "count": 1
+        }
+    }
+}

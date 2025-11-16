@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.remove": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"used": "!query.is_riding && variable.attack_time"
+						}
+					]
+				},
+				"used": {
+					"on_entry": [
+						"/execute @e[tag=masked,r=8,c=1] ~ ~ ~ give @p mm:mob_mask 1",
+						"/execute @e[tag=masked,r=8,c=1] ~ ~ ~ event entity @s minecraft:masked_off",
+						"/execute @e[tag=masked,r=8,c=1] ~ ~ ~ particle mm:masked_off ~ ~ ~",
+						"/execute @e[tag=masked,r=8,c=1] ~ ~ ~ scoreboard players set @p ride 0",
+						"/execute @e[tag=masked,r=8,c=1] ~ ~ ~ tag @s remove masked"
+					
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mes_cnm:camera",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [ "mes", "path", "camera" ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:collision_box": {
+                "height": 0.3,
+                "width": 0.3
+            },
+            "minecraft:rideable": {
+                "crouching_skip_interact": true,
+                "family_types": [],
+                "interact_text": "Mount Camera",
+                "seat_count": 1,
+                "seats": {
+                    "lock_rider_rotation": 45,
+                    "position": [0, -0.4, -0.6]
+                }
+            },
+            "minecraft:physics": {
+                "has_gravity": false,
+                "has_collision": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:conditional_bandwidth_optimization": {
+            }
+        }
+    }
+}

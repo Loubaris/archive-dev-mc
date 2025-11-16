@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nitric:legendaryblock"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "planks",
+    "pattern": [
+      "G#G",
+      "#F#",
+      "G#G"
+    ],
+    "key": {
+      "F": {
+        "item": "nitric:legendarygem"
+      },
+      "#": {
+        "item": "nitric:raregem"
+      },
+      "G": {
+        "item": "nitric:commongem"
+      }
+    },
+    "result": {
+      "item": "nitric:legendaryblock"
+    }
+  }
+}

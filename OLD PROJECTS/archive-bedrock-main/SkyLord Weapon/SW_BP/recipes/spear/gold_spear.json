@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:gold_spear"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "ZZZ",
+      "ZGZ"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:golden_sword"
+      },
+      "Z": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "sw:gold_spear"
+    }
+  }
+}

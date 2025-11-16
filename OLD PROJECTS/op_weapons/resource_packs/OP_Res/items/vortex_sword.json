@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:vortex_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "vortex_sword",
+   "minecraft:render_offsets": "vortex_sword"
+  }
+ }
+}

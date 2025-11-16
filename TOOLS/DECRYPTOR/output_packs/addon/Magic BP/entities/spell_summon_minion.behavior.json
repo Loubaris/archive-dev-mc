@@ -1,0 +1,195 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cyd_mgspl:spell_summon_minion",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+	  "properties":{
+		"cyd:active":{
+		   "type":"bool",
+		   "client_sync":true,
+		   "default":false
+		}
+	  }
+    },
+    "component_groups": {
+	  "cyd:despawn":{
+        "minecraft:instant_despawn": {}
+      },
+	  "cyd:entity_spawning": {
+        "minecraft:timer": {
+			"looping": true,
+			"time": 1.5,
+			"time_down_event": {
+				"event": "evt:active"
+			}
+        }
+	  },
+	  "cyd_mgspl:timedown":{
+		"minecraft:timer":{
+		   "time":30,
+		   "looping":false,
+		   "time_down_event":{
+			  "event":"evt:despawn",
+			  "target":"self"
+		   }
+		}
+	  },
+	  "cyd:melee": {
+		"minecraft:attack": {
+			"damage": 5
+		},
+		"minecraft:behavior.melee_attack": {
+			"priority": 2,
+			"reach_multiplier": 1.4
+        },
+		"minecraft:behavior.stalk_and_pounce_on_target": {
+			"priority": 1,
+			"stalk_speed": 1.2,
+			"max_stalk_dist": 10.0,
+			"leap_height": 0.4,
+			"leap_dist": 0.8,
+			"pounce_max_dist": 8.0,
+			"interest_time": 0.5,
+			"stuck_time": 2.0,
+			"strike_dist": 6,
+			"stuck_blocks": { "test": "is_block", "subject": "block", "operator": "==", "value": "snow_layer" }
+		}
+	  },
+	  "cyd:active": {
+		"minecraft:behavior.look_at_player": {
+			"priority": 7,
+			"target_distance": 6,
+			"probability": 0.02
+		},
+		"minecraft:behavior.random_stroll": {
+			"priority": 7,
+			"speed_multiplier": 0.7,
+			"interval": 20,
+			"xz_dist": 10,
+			"y_dist": 4
+		}
+	  }
+	},
+    "components": {
+      "minecraft:nameable": {},
+      "minecraft:type_family": {
+        "family": [
+          "spell",
+          "prop",
+		  "summoned_minion",
+          "irongolem"
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.30
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:physics": {},
+      "minecraft:pushable": {},
+      "minecraft:navigation.generic": {
+        "is_amphibious": true,
+        "can_path_over_water": false,
+        "can_break_doors": false,
+        "can_swim": false,
+        "can_walk": true,
+        "avoid_sun": false
+      },
+      "minecraft:breathable": {
+        "total_supply": 35,
+        "suffocate_time": 0
+      },
+      "minecraft:collision_box": {
+        "width": 1.1,
+        "height": 2.2
+      },
+      "minecraft:health": {
+        "value": 30
+      },
+	  "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "entity_types": [
+		  {
+            "filters": {  
+                "any_of": [
+                  { "test" :  "is_family", "subject" : "other", "value" :  "monster"}
+                ] 
+            },
+            "max_dist": 24
+          }
+        ]
+      },
+	  "minecraft:follow_range": {
+         "value": 64
+      },
+	  "minecraft:behavior.avoid_mob_type": {
+		"priority": 3,
+		"entity_types": [
+			{
+			  "filters": {
+				"test": "is_family",
+				"subject": "other",
+				"value": "player"
+			  },
+			  "max_dist": 3,
+			  "walk_speed_multiplier": 1.0,
+			  "sprint_speed_multiplier": 1.0
+			}
+		]
+	  }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+		"add": {
+			"component_groups": [
+				"cyd:entity_spawning"
+			]
+		}
+	  },
+	  "minecraft:entity_transformed": {
+		"set_property":{
+               "cyd:active":true
+        },
+		"remove": {
+			"component_groups": [
+				"cyd:entity_spawning"
+			]
+		},
+		"add": {
+			"component_groups": [
+				"cyd:melee",
+				"cyd:active"
+			]
+		}
+	  },
+	  "evt:active": {
+		"set_property":{
+               "cyd:active":true
+        },
+		"remove": {
+			"component_groups": [
+				"cyd:entity_spawning"
+			]
+		},
+		"add": {
+			"component_groups": [
+				"cyd:melee",
+				"cyd:active",
+				"cyd_mgspl:timedown"
+			]
+		}
+      },
+	  "evt:despawn":{"add":{"component_groups":["cyd:despawn"]}}
+    }
+  }
+}

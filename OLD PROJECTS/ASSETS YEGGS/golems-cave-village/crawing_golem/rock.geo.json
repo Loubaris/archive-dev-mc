@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.crawing_golem",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "rock",
+					"pivot": [0.03031, -0.21931, 1.24479],
+					"cubes": [
+						{"origin": [-2, -7, -9], "size": [13, 9, 13], "pivot": [0.92354, -0.44369, 2.26966], "rotation": [-17.5, 0, 0], "uv": [186, 4]},
+						{"origin": [-10.72092, -5.24686, -6.6318], "size": [17, 12, 13], "pivot": [0.92354, -0.44369, 2.26966], "rotation": [-7.61435, -9.91358, 1.31845], "uv": [135, 18]},
+						{"origin": [-6.72092, -3.24686, 6.3682], "size": [10, 8, 3], "pivot": [0.92354, -0.44369, 2.26966], "rotation": [-7.61435, -9.91358, 1.31845], "uv": [131, 5]}
+					]
+				}
+			]
+		}
+	]
+}

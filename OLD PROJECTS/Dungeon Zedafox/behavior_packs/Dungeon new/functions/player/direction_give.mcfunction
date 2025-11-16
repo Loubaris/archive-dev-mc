@@ -1,0 +1,16 @@
+execute @s[scores={direction=1}] ~ ~ ~ function player/direction/direction1
+execute @s[scores={direction=2}] ~ ~ ~ function player/direction/direction2
+execute @s[scores={direction=3}] ~ ~ ~ function player/direction/direction3
+execute @s[scores={direction=4}] ~ ~ ~ function player/direction/direction4
+execute @s[scores={direction=5}] ~ ~ ~ function player/direction/direction5
+execute @s[scores={direction=6}] ~ ~ ~ function player/direction/direction6
+execute @s[scores={direction=7}] ~ ~ ~ function player/direction/direction7
+execute @s[scores={direction=8}] ~ ~ ~ function player/direction/direction8
+execute @s[scores={direction=9}] ~ ~ ~ function player/direction/direction9
+execute @s[scores={direction=10}] ~ ~ ~ function player/direction/direction10
+execute @s[scores={direction=11}] ~ ~ ~ function player/direction/direction11
+execute @s[scores={direction=12}] ~ ~ ~ function player/direction/direction12
+execute @s[scores={direction=13}] ~ ~ ~ function player/direction/direction13
+execute @s[scores={direction=14}] ~ ~ ~ function player/direction/direction14
+execute @s[scores={direction=15}] ~ ~ ~ function player/direction/direction15
+execute @s[scores={direction=16}] ~ ~ ~ function player/direction/direction16

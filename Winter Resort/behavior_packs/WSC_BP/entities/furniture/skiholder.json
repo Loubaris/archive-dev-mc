@@ -1,0 +1,68 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nitric:skiholder",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"rotation"
+				]
+			},
+			"animations": {
+				"rotation": "controller.animation.furniture"
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"mob"
+				]
+			},
+			"minecraft:health": {
+				"value": 4,
+				"max": 4
+			},
+			"minecraft:navigation.walk": {},
+			"minecraft:movement.basic": {},
+			"minecraft:movement": {
+				"value": 0,
+				"max": 0
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+  "minecraft:interact": {
+    "interactions": [
+      {
+        "cooldown": 2.5,
+        "add_items": {
+          "table": "loot_tables/nitric/ski.json"
+        },
+        "on_interact": {
+          "event": "animation",
+          "target": "self"
+        }
+      }
+    ]
+},
+			"minecraft:push_through": {
+				"value": 1.0
+			},
+			"minecraft:physics": {},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/nitric/skiholder.json"
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.stone_spear_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"stone_spear_detection": "query.get_equipped_item_name == 'stone_spear' && query.is_using_item == true"
+						}
+					]
+				},
+				"stone_spear_detection": {
+					"on_entry": [
+						"/tag @p[r=1,rx=20,rxm=-7] add stone_spear_a"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

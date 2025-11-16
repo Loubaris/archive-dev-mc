@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": 15,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "coral_block",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": {
+                                "min": 0,
+                                "max": 15
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

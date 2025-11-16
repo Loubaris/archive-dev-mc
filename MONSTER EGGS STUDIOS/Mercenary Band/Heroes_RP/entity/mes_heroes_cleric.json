@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:cleric",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "farmer": "textures/mes/heroes/entity/cleric/default",
+                "librarian": "textures/mes/heroes/entity/cleric/celestial",
+                "priest": "textures/mes/heroes/entity/cleric/lavender",
+                "smith": "textures/mes/heroes/entity/cleric/natural",
+                "butcher": "textures/mes/heroes/entity/cleric/default"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.cleric"
+            },
+            "scripts": {
+                "animate": [
+                    "move_custom"
+                ]
+            },
+            "animations": {
+                "idle": "animation.mes_heroes.cleric.idle",
+                "walk": "animation.mes_heroes.cleric.walk",
+                "run": "animation.mes_heroes.cleric.run",
+                "move_custom": "controller.animation.mes_heroes.move"
+            },
+            "spawn_egg": {
+                "texture": "mes_heroes_cleric_spawn_egg"
+            },
+            "render_controllers": [
+                "controller.render.villager"
+            ]
+        }
+    }
+}

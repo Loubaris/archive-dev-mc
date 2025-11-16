@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"geometry.wood2": {
+		"texturewidth": 256,
+		"textureheight": 256,
+		"visible_bounds_width": 6,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 3, 8],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-5, 0, -35], "size": [10, 3, 69], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "bone",
+				"parent": "body",
+				"pivot": [0, 3, 0],
+				"rotation": [-5, 25, 0],
+				"cubes": [
+					{"origin": [-5, 3, -35], "size": [10, 3, 69], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

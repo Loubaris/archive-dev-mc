@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:atomic_tnt",
+      "materials": {
+        "default": "atomic_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/atomic_tnt"
+      },
+      "geometry": {
+        "default": "geometry.atomic_tnt"
+      },
+      "render_controllers": [ "controller.render.atomic_tnt" ],
+      "spawn_egg": {
+        "texture": "atomic_tnt",
+        "texture_index": 0
+      }
+    }
+  }
+}

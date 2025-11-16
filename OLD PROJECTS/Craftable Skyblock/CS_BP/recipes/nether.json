@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:nether_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "UUU",
+      "HHH",
+      "ZZZ"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:lava_bucket"
+      },
+      "H": {
+     	"item": "minecraft:soul_sand" 
+      },
+      "Y": {
+     	"item": "minecraft:nether_wart_block"
+      }
+    },
+    "result": {
+      "item": "cs:nether_spawn_egg"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mes_heroes:sellsword_campsite"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "gCE",
+            "WIW",
+            "KAK"
+        ],
+        "key": {
+            "g": {
+                "item": "minecraft:gold_ingot"
+            },
+            "C": {
+                "item": "minecraft:cod"
+            },
+            "E": {
+                "item": "minecraft:emerald"
+            },
+            "W": {
+                "item": "minecraft:wooden_sword"
+            },
+            "I": {
+                "item": "minecraft:iron_sword"
+            },
+            "K": {
+                "item": "minecraft:cauldron"
+            },
+            "A": {
+                "item": "minecraft:anvil"
+            }
+        },
+        "result": {
+            "item": "mes_heroes:sellsword_campsite_spawn_egg",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Smart mansion",
+		"description": "Smart mansion Behavior Pack",
+		"uuid": "a4539295-9fdd-4076-b698-c74ee02abd6b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"metadata": {
+		"authors": ["Maukat"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "962d7c9b-9cb5-41d4-b530-1ea93b5ed997",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "726d55bb-da99-49ac-8e49-e10e204622e0",
+			"version": [1, 0, 0]
+		}
+	]
+}

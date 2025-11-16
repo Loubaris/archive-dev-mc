@@ -1,0 +1,27 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "tnt:particletntlit",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts":{"animate":["fuse","particletnt"]},
+      "animations":{"fuse":"controller.animation.fuse","particletnt":"controller.animation.particletnt"}
+    },
+    "components": {
+      "minecraft:explode": {
+        "fuse_length": 1.5,
+        "fuse_lit": true,
+        "power": 5,
+        "causes_fire": true
+      },
+      "minecraft:health": {
+        "value": 999,
+        "max": 999
+      },
+      "minecraft:physics": {
+      }
+    }
+  }
+}

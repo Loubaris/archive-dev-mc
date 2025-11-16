@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:safe_staff",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "safe_staff",
+   "minecraft:render_offsets": "safe_staff"
+  }
+ }
+}

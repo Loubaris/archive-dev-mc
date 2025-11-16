@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.intro": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"used": "variable.attack_time"
+						}
+					]
+				},
+				"used": {
+					"on_entry": [
+						"/execute @e[type=mm:mask_npc,r=4,tag=!intro1] ~ ~ ~ tag @e[type=mm:mask_npc] add intro1",
+						"/execute @e[type=mm:gold_mask_npc,r=4] ~ ~ ~ tag @p add random"
+					
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

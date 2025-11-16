@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:speaker",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/speaker/1",
+                "color2": "textures/furniture/speaker/1",
+                "color3": "textures/furniture/speaker/1"
+            },
+            "geometry": {
+                "default": "geometry.speaker"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "speaker",
+				"texture_index": 0
+            }
+        }
+    }
+}

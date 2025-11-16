@@ -1,0 +1,85 @@
+{
+    "format_version" : "1.8.0",
+   "minecraft:entity" : {
+      "description": {
+         "identifier": "cs:end_parkour",
+         "is_spawnable" : true,
+         "is_experimental" : false,
+         "is_summonable" : true
+      },
+      "components" : {
+            "minecraft:type_family": {
+                "family": [ "npc" ]
+                },
+	    "minecraft:damage_sensor": [
+                {
+                "cause": "all",
+                "deals_damage": false
+                }
+              ],
+            "minecraft:health": {
+                "value": 1,
+                "max": 1
+                },
+            "minecraft:collision_box": {
+                "width": 0.1,
+                "height": 0.1
+                },
+	    "minecraft:scale": {
+                "value": 0.1
+            },
+            "minecraft:nameable" : {
+                "alwaysShow" : true,
+                "allowNameTagRenaming" : true
+                },
+            "minecraft:physics" : {
+                "has_gravity" : true
+                },
+            "minecraft:push_through": {
+                "value": 1
+            },
+            "minecraft:interact": [
+                {
+                    "on_interact": {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                },
+                                {
+                                    "test": "has_equipment",
+                                    "domain": "hand",
+                                    "subject": "other",
+                                    "value": "barrier"
+                                }
+                            ]
+                        },
+                        "event": "kill"
+                    },
+                    "interact_text": "§cRemove"
+                }
+            ],
+            "minecraft:knockback_resistance": {
+                "value": 1
+            }
+        },
+        "component_groups": {
+            "kill": {
+                "minecraft:health": {
+                    "value": -1
+                }
+            }
+        },
+        "events": {
+            "kill": {
+                "add": {
+                    "component_groups": [
+                        "kill"
+                    ]
+                }
+            }
+        }
+    }
+}

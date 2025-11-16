@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"geometry.flag": {
+		"texturewidth": 256,
+		"textureheight": 256,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 8,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 3, 8],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-16, 0, -16], "size": [32, 7, 32], "uv": [0, 60], "mirror": false},
+					{"origin": [-4, 7, -4], "size": [8, 107, 8], "uv": [0, 99], "mirror": false},
+					{"origin": [-3, 98, -39], "size": [6, 8, 52], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "bone",
+				"parent": "body",
+				"pivot": [0, 98, -21.5],
+				"cubes": [
+					{"origin": [-1, 49, -34], "size": [2, 49, 25], "uv": [32, 99]}
+				]
+			}
+		]
+	}
+}

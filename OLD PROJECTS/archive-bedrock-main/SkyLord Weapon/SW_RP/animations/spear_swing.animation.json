@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.spear_swing_a.wave": {
+			"animation_length": 0.5,
+			"bones": {
+				"swing": {
+					"rotation": {
+						"0.0": {
+							"post": [-427.5, -85, -397.5],
+							"lerp_mode": "catmullrom"
+						},
+						"0.25": {
+							"post": [-442.5, -85, -397.5],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": {
+							"post": [-19, 27, 7],
+							"lerp_mode": "catmullrom"
+						},
+						"0.25": {
+							"post": [-6, 3, 2],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [0, -6, 2],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"post": [0.2, 0.2, 0.2],
+							"lerp_mode": "catmullrom"
+						},
+						"0.25": {
+							"post": [0.2, 0.9, 0.7],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [0.2, 0.2, 0.2],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "atomic_tnt:entity_alphatest": {},
+    "camo_tnt:entity_alphatest": {},
+    "creeper_tnt:entity_alphatest": {},
+    "diamond_tnt:entity_alphatest": {},
+    "firework_tnt:entity_alphatest": {},
+    "flaming_tnt:entity_alphatest": {},
+    "freeze_tnt:entity_alphatest": {},
+    "smoke_tnt:entity_alphatest": {},
+    "thunder_tnt:entity_alphatest": {},
+    "timer_tnt:entity_alphatest": {},
+    "tiny_tnt:entity_alphatest": {},
+    "tripleshot_tnt:entity_alphatest": {}
+  }
+}

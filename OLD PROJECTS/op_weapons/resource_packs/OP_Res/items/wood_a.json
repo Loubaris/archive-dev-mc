@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:wood_axe",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "wood_a",
+   "minecraft:render_offsets": "wood_a"
+  }
+ }
+}

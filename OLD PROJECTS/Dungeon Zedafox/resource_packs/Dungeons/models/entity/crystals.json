@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10.0",
+	"geometry.crystals": {
+		"texturewidth": 128,
+		"textureheight": 128,
+		"visible_bounds_width": 6,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "bone3",
+				"pivot": [-27.5, 8.5, 0],
+				"cubes": [
+					{"origin": [-36, 0, 0], "size": [17, 17, 0], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "body",
+				"pivot": [10.5, 8.5, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [2, 0, 0], "size": [17, 17, 0], "uv": [34, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "bone",
+				"pivot": [-8.5, 8.5, 0],
+				"cubes": [
+					{"origin": [-17, 0, 0], "size": [17, 17, 0], "uv": [0, 34]}
+				]
+			},
+			{
+				"name": "bone2",
+				"pivot": [29.5, 8.5, 0],
+				"cubes": [
+					{"origin": [21, 0, 0], "size": [17, 17, 0], "uv": [0, 17]}
+				]
+			}
+		]
+	}
+}

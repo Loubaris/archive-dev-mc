@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:missile_launcher",
+      "materials": {
+        "default": "freeze_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/missile_launcher"
+      },
+      "geometry": {
+        "default": "geometry.missile_launcher"
+      },
+      "render_controllers": [ "controller.render.freeze_tnt" ],
+      "spawn_egg": {
+        "texture": "missile_launcher",
+        "texture_index": 0
+      }
+    }
+  }
+}

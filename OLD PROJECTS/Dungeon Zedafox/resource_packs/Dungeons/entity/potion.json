@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:potion",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/potions/potion_empty",
+				"potion2": "textures/entity/potions/red_potion",
+				"potion3": "textures/entity/potions/blue_potion",
+				"potion4": "textures/entity/potions/green_potion"
+			},
+			"geometry": {
+				"default": "geometry.potion"
+			},
+			"render_controllers": [
+				"controller.render.potion"
+			],
+			"animations": {
+				"potion": "animation.wave.potion"
+			},
+			"animation_controllers": [
+				{
+					"potion": "controller.animation.potion"
+				}
+			]
+		}
+	}
+}

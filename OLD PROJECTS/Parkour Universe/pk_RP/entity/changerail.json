@@ -1,0 +1,25 @@
+{ 
+   "format_version": "1.10.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "pk:changerail",
+         "spawn_egg": {
+            "texture": "spawn_egg",
+            "texture_index": 39
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/changerail"
+            }, 
+         "geometry": { 
+            "default": "geometry.changerail" 
+            },
+
+         "render_controllers": [ 
+              "controller.render.wave"
+              ]
+         }
+      }
+}

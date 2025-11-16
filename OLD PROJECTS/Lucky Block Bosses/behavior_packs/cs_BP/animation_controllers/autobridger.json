@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.autobridger": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'autobridger' && query.is_using_item" } ],
+          "on_entry": [
+            "/execute @p[r=1,tag=!autowait] ~ ~ ~ summon cs:autobridger ^ ^ ^1",
+	    "/tag @p add autowait"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'autobridger' && query.is_using_item" } ],
+          "on_entry": [
+            "/execute @p[r=1,tag=!autowait] ~ ~ ~ summon cs:autobridger ^ ^ ^1",
+	    "/tag @p add autowait"
+         ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resource_pack_name": "Spellbooks",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "mes_splbk_guide_book": {
+			"textures": "textures/mes/splbk/items/guide_book.png"
+		},
+     "mes_splbk_fire_book": {
+			"textures": "textures/mes/splbk/items/fire_book.png"
+		},
+     "mes_splbk_air_book": {
+			"textures": "textures/mes/splbk/items/air_book.png"
+		},
+     "mes_splbk_shadow_book": {
+			"textures": "textures/mes/splbk/items/shadow_book.png"
+		},
+     "mes_splbk_arcane_book": {
+			"textures": "textures/mes/splbk/items/arcane_book.png"
+		},
+     "mes_splbk_necro_book": {
+			"textures": "textures/mes/splbk/items/necro_book.png"
+		},
+     "mes_splbk_earth_book": {
+			"textures": "textures/mes/splbk/items/earth_book.png"
+		},
+     "mes_splbk_druid_book": {
+			"textures": "textures/mes/splbk/items/druid_book.png"
+		},
+     "mes_splbk_light_book": {
+			"textures": "textures/mes/splbk/items/light_book.png"
+		},
+     "mes_splbk_mana_potion": {
+			"textures": "textures/mes/splbk/items/mana_potion.png"
+		},
+     "mes_splbk_water_book": {
+			"textures": "textures/mes/splbk/items/water_book.png"
+		}
+  }
+}

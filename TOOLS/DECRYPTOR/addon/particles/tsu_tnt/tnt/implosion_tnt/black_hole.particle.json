@@ -1,0 +1,54 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "tsu_tnt:black_hole",
+			"basic_render_parameters": {
+				"texture": "textures/tsu_tnt/0/particle/big_glow_pixel",
+				"material": "particles_alpha"
+			}
+		},
+		"events": {
+			"center": {
+				"particle_effect": {
+					"effect": "tsu_tnt:implosion_tnt_center",
+					"type": "emitter"
+				}
+			},
+			"dust": {
+				"particle_effect": {
+					"effect": "tsu_tnt:implosion_tnt_dust",
+					"type": "emitter"
+				}
+			},
+			"ring": {
+				"particle_effect": {
+					"effect": "tsu_tnt:implosion_tnt_ring",
+					"type": "emitter"
+				}
+			},
+			"accretion":{
+				"particle_effect": {
+					"effect": "tsu_tnt:implosion_tnt_accretion",
+					"type": "emitter"
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 0
+			},
+			"minecraft:emitter_lifetime_events": {
+				"creation_event":[
+					"accretion", 
+					"center",
+					"ring",
+					"dust"
+				]	
+			}
+		}
+	}
+}

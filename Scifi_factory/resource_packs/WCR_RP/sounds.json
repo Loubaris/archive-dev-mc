@@ -1,0 +1,48 @@
+{
+    "entity_sounds": {
+      "entities": {
+        "nitric:snowmobile1": {
+          "volume": 0.5,
+          "events": {
+            "step": "car"
+          }
+        },
+        "nitric:snowmobile2": {
+          "volume": 0.5,
+          "events": {
+            "step": "car"
+          }
+        },
+        "nitric:camper": {
+          "volume": 0.5,
+          "events": {
+            "step": "car"
+          }
+        },
+        "nitric:car": {
+          "volume": 0.5,
+          "events": {
+            "step": "car"
+          }
+        },
+        "nitric:jeep": {
+          "volume": 0.5,
+          "events": {
+            "step": "car"
+          }
+        },
+        "nitric:pickup": {
+          "volume": 0.5,
+          "events": {
+            "step": "car"
+          }
+        },
+        "nitric:snowcleaner": {
+          "volume": 0.5,
+          "events": {
+            "step": "car"
+          }
+        }
+      }
+    }
+  }

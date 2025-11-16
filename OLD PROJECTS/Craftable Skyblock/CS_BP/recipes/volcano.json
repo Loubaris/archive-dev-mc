@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:volcano_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZYZ",
+      "ZXZ",
+      "UUU"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:stone",
+	"data": 5
+      },
+      "X": {
+        "item": "cs:beach_island_spawn_egg"
+      },
+      "Z": {
+        "item": "minecraft:polished_basalt"
+      },
+      "Y": {
+        "item": "minecraft:magma"
+      }
+    },
+    "result": {
+      "item": "cs:volcano_spawn_egg"
+    }
+  }
+}

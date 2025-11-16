@@ -1,0 +1,120 @@
+{
+    "resource_pack_name": "pack.name",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "mes_cnm_grab": {
+            "textures": "textures/mes/cnm/items/grab"
+        },
+        "mes_cnm_edit": {
+            "textures": "textures/mes/cnm/items/edit"
+        },
+        "mes_cnm_guide_book": {
+            "textures": "textures/mes/cnm/items/guide_book"
+        },
+        "mes_cnm_pause": {
+            "textures": "textures/mes/cnm/items/pause"
+        },
+        "mes_cnm_play": {
+            "textures": "textures/mes/cnm/items/play"
+        },
+        "mes_cnm_add": {
+            "textures": "textures/mes/cnm/items/add"
+        },
+        "mes_cnm_settings": {
+            "textures": "textures/mes/cnm/items/settings"
+        },
+        "mes_cnm_cam": {
+            "textures": "textures/mes/cnm/items/cam"
+        },
+        "mes_cnm_blank": {
+            "textures": "textures/mes/cnm/items/blank"
+        },
+	"mes_cnm_add_focus": {
+            "textures": "textures/mes/cnm/items/add_focus"
+        },
+	"mes_cnm_backward": {
+            "textures": "textures/mes/cnm/items/backward"
+        },
+	"mes_cnm_forward": {
+            "textures": "textures/mes/cnm/items/forward"
+        },
+	"mes_cnm_right": {
+            "textures": "textures/mes/cnm/items/right"
+        },
+	"mes_cnm_left": {
+            "textures": "textures/mes/cnm/items/left"
+        },
+	"mes_cnm_cinema_mode": {
+            "textures": "textures/mes/cnm/items/cinema_mode"
+        },
+	"mes_cnm_path_mode": {
+            "textures": "textures/mes/cnm/items/path_mode"
+        },
+	"mes_cnm_cinema_settings": {
+            "textures": "textures/mes/cnm/items/settings"
+        },
+	"mes_cnm_down": {
+            "textures": "textures/mes/cnm/items/down"
+        },
+	"mes_cnm_up": {
+            "textures": "textures/mes/cnm/items/up"
+        },
+	"mes_cnm_exit": {
+            "textures": "textures/mes/cnm/items/exit"
+        },
+	"mes_cnm_focus_rotation": {
+            "textures": "textures/mes/cnm/items/focus_rotation"
+        },
+	"mes_cnm_head_rotation": {
+            "textures": "textures/mes/cnm/items/head_rotation"
+        },
+	"mes_cnm_help": {
+            "textures": "textures/mes/cnm/items/help"
+        },
+	"mes_cnm_hide_points": {
+            "textures": "textures/mes/cnm/items/hide_points"
+        },
+	"mes_cnm_next": {
+            "textures": "textures/mes/cnm/items/next"
+        },
+	"mes_cnm_previous": {
+            "textures": "textures/mes/cnm/items/previous"
+        },
+	"mes_cnm_previewno": {
+            "textures": "textures/mes/cnm/items/previewno"
+        },
+	"mes_cnm_path_settings": {
+            "textures": "textures/mes/cnm/items/settings"
+        },
+	"mes_cnm_perspective": {
+            "textures": "textures/mes/cnm/items/perspective"
+        },
+	"mes_cnm_preview": {
+            "textures": "textures/mes/cnm/items/preview"
+        },
+	"mes_cnm_quit_mode": {
+            "textures": "textures/mes/cnm/items/exit"
+        },
+	"mes_cnm_remove": {
+            "textures": "textures/mes/cnm/items/remove"
+        },
+	"mes_cnm_remove_focus": {
+            "textures": "textures/mes/cnm/items/remove_focus"
+        },
+	"mes_cnm_saves": {
+            "textures": "textures/mes/cnm/items/saves"
+        },
+	"mes_cnm_speed1": {
+            "textures": "textures/mes/cnm/items/Speed1"
+        },
+	"mes_cnm_speed2": {
+            "textures": "textures/mes/cnm/items/Speed2"
+        },
+	"mes_cnm_speed3": {
+            "textures": "textures/mes/cnm/items/Speed3"
+        },
+	"mes_cnm_start_movement": {
+            "textures": "textures/mes/cnm/items/play"
+        }
+    }
+}

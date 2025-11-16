@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:raxly_projectile",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/raxly_projectile"
+			},
+			"geometry": {
+				"default": "geometry.raxly_projectile"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"raxly_projectile": "animation.wave.raxly_projectile"
+			},
+			"animation_controllers": [
+				{
+					"raxly_projectile": "controller.animation.raxly_projectile"
+				}
+			]
+		}
+	}
+}

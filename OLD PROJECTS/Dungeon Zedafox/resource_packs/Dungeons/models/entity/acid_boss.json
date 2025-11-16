@@ -1,0 +1,44 @@
+{
+	"format_version": "1.10.0",
+	"geometry.acid_boss": {
+		"texturewidth": 256,
+		"textureheight": 256,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 5.5,
+		"visible_bounds_offset": [0, 1.25, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-24, 0, -24], "size": [48, 48, 48], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "bone",
+				"parent": "body",
+				"pivot": [-12, -8, 0],
+				"cubes": [
+					{"origin": [-36, -32, -26], "size": [48, 48, 48], "uv": [0, 96], "inflate": -18}
+				]
+			},
+			{
+				"name": "bone3",
+				"parent": "body",
+				"pivot": [2, -2, 17],
+				"cubes": [
+					{"origin": [-22, -26, -11], "size": [48, 48, 48], "uv": [0, 96], "inflate": -21}
+				]
+			},
+			{
+				"name": "bone2",
+				"parent": "body",
+				"pivot": [11, -9, -9],
+				"cubes": [
+					{"origin": [-13, -39, -33], "size": [48, 48, 48], "uv": [0, 96], "inflate": -20}
+				]
+			}
+		]
+	}
+}

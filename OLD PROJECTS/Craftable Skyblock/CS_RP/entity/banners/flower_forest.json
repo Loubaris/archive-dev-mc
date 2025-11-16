@@ -1,0 +1,24 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "cs:banner_flower_forest",
+         "spawn_egg": {
+            "texture": "spawn_egg",
+            "texture_index": 1
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/flower_forest"
+            }, 
+         "geometry": { 
+            "default": "geometry.bannerft" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ]
+         }
+      }
+}

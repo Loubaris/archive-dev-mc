@@ -1,0 +1,110 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fire_armor",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 25.5, 3], "size": [8, 7, 2], "uv": [0, 51]},
+						{"origin": [-5, 25.5, -4], "size": [1, 7, 8], "uv": [110, 0]},
+						{"origin": [4, 25.5, -4], "size": [1, 7, 8], "uv": [110, 0], "mirror": true},
+						{"origin": [-5, 24, -4], "size": [10, 2, 8], "uv": [0, 0]},
+						{
+							"origin": [-4, 32, -4],
+							"size": [8, 1, 8],
+							"uv": {
+								"north": {"uv": [9, 8], "uv_size": [8, 1]},
+								"east": {"uv": [17, 9], "uv_size": [7, 1]},
+								"south": {"uv": [17, 9], "uv_size": [7, 1]},
+								"west": {"uv": [17, 9], "uv_size": [7, 1]},
+								"up": {"uv": [9, 0], "uv_size": [8, 8]},
+								"down": {"uv": [19, 8], "uv_size": [8, -8]}
+							}
+						},
+						{"origin": [4, 28.5, 3], "size": [0, 10, 6], "pivot": [-2, -3, 4], "rotation": [0, 12.5, 0], "uv": [116, 69]},
+						{"origin": [-4, 28.5, 3], "size": [0, 10, 6], "pivot": [2, -3, 4], "rotation": [0, -12.5, 0], "uv": [116, 69], "mirror": true},
+						{"origin": [-5, 30.5, 0], "size": [0, 10, 6], "pivot": [0, 0, 0], "rotation": [0, -20, 0], "uv": [116, 93], "mirror": true},
+						{"origin": [5, 30.5, 0], "size": [0, 10, 6], "pivot": [0, 0, 0], "rotation": [0, 20, 0], "uv": [116, 93]}
+					]
+				},
+				{
+					"name": "chestplate",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 12.5, -2], "size": [8, 11, 4], "inflate": 0.5, "uv": [0, 10]},
+						{"origin": [-4, 17.5, -2], "size": [8, 6, 4], "inflate": 0.5, "pivot": [0, 0, 0], "rotation": [2.5, 0, 0], "uv": [20, 32]},
+						{"origin": [-4, 17.5, -2], "size": [8, 6, 4], "inflate": 0.5, "pivot": [0, 0, 0], "rotation": [-2.5, 0, 0], "uv": [32, 6]}
+					]
+				},
+				{
+					"name": "rightArm",
+					"parent": "chestplate",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [4, 12, 4], "inflate": 0.5, "uv": [40, 38]},
+						{"origin": [3, 11, -3], "size": [6, 7, 6], "uv": [18, 19]},
+						{"origin": [8, 13, 1], "size": [7, 18, 0], "pivot": [5, 22, 1], "rotation": [0, 0, 7.5], "uv": [42, 16], "mirror": true},
+						{"origin": [7, 13, 1], "size": [7, 13, 0], "pivot": [5, 22, 1], "rotation": [0, 25, 7.5], "uv": [32, 54]}
+					]
+				},
+				{
+					"name": "leftArm",
+					"parent": "chestplate",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-8, 12, -2], "size": [4, 12, 4], "inflate": 0.5, "uv": [40, 38], "mirror": true},
+						{"origin": [-9, 11, -3], "size": [6, 7, 6], "uv": [18, 19], "mirror": true},
+						{"origin": [-14, 13, 1], "size": [7, 13, 0], "pivot": [-5, 22, 1], "rotation": [0, -25, -7.5], "uv": [32, 54], "mirror": true},
+						{"origin": [-15, 13, 1], "size": [7, 18, 0], "pivot": [-5, 22, 1], "rotation": [0, 0, -7.5], "uv": [42, 16]}
+					]
+				},
+				{
+					"name": "leggings",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "leggings",
+					"pivot": [3, 11, 0],
+					"cubes": [
+						{"origin": [0, 5, -2], "size": [4, 7, 4], "inflate": 0.5, "uv": [52, 30]},
+						{"origin": [0, 6, -3], "size": [5, 5, 5], "uv": [18, 42]}
+					]
+				},
+				{
+					"name": "leftLeg2",
+					"parent": "leftLeg",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0, 0, -4], "size": [5, 4.5, 7], "uv": [0, 25]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "leggings",
+					"pivot": [-3, 11, 0],
+					"cubes": [
+						{"origin": [-4, 5, -2], "size": [4, 7, 4], "inflate": 0.5, "uv": [52, 30], "mirror": true},
+						{"origin": [-5, 6, -3], "size": [5, 5, 5], "uv": [18, 42], "mirror": true},
+						{"origin": [-5, 0, -4], "size": [5, 4.5, 7], "uv": [0, 25], "mirror": true}
+					]
+				},
+				{
+					"name": "rightLeg2",
+					"parent": "rightLeg",
+					"pivot": [0, 0, 0]
+				}
+			]
+		}
+	]
+}

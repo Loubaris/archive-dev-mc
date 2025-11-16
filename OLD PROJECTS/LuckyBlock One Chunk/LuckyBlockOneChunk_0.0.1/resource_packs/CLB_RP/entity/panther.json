@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animal:panther",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/panther"
+      },
+      "geometry": {
+        "default": "geometry.panther"
+      },
+      "animations": {
+        "walk": "animation.panther.walk"
+      },
+      "scripts": {
+        "animate": [
+          {"walk": "query.modified_move_speed"}
+        ]
+      },
+      "render_controllers": [ "controller.render.cow" ],
+      "spawn_egg": {
+        "base_color": "#000000",
+        "overlay_color": "#98f019"
+      }
+    }
+  }
+}

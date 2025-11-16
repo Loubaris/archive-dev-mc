@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:soul_campfire",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "soul_campfire",
+   "minecraft:render_offsets": "soul_campfire"
+  }
+ }
+}

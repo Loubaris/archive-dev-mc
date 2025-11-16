@@ -1,0 +1,149 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mes_heroes.dagger",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [
+					0,
+					0.25,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "Dagger",
+					"pivot": [
+						-2,
+						3,
+						0
+					],
+					"rotation": [
+						0,
+						180,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-2,
+								2,
+								-7
+							],
+							"size": [
+								1,
+								2,
+								6
+							],
+							"uv": [
+								0,
+								12
+							]
+						},
+						{
+							"origin": [
+								-2.5,
+								0,
+								-1
+							],
+							"size": [
+								2,
+								6,
+								1
+							],
+							"uv": [
+								14,
+								12
+							]
+						},
+						{
+							"origin": [
+								-2.5,
+								5,
+								0
+							],
+							"size": [
+								2,
+								1,
+								1
+							],
+							"uv": [
+								14,
+								19
+							]
+						},
+						{
+							"origin": [
+								-2.5,
+								0,
+								-2
+							],
+							"size": [
+								2,
+								1,
+								1
+							],
+							"uv": [
+								0,
+								20
+							]
+						},
+						{
+							"origin": [
+								-2,
+								1.5,
+								0
+							],
+							"size": [
+								1,
+								3,
+								9
+							],
+							"uv": [
+								0,
+								0
+							]
+						},
+						{
+							"origin": [
+								-2,
+								2.5,
+								9
+							],
+							"size": [
+								1,
+								1,
+								1
+							],
+							"uv": [
+								20,
+								3
+							]
+						},
+						{
+							"origin": [
+								-2,
+								2,
+								-8
+							],
+							"size": [
+								1,
+								2,
+								1
+							],
+							"inflate": 0.25,
+							"uv": [
+								20,
+								0
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

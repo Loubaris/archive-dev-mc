@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:cloud_parkour_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "YYY",
+      "YZY",
+      "YYY"
+    ],
+    "key": {
+      "Z": {
+        "item": "cs:cloud_city_spawn_egg"
+      },
+      "Y": {
+        "item": "minecraft:snow"
+      }
+    },
+    "result": {
+      "item": "cs:cloud_parkour_spawn_egg"
+    }
+  }
+}

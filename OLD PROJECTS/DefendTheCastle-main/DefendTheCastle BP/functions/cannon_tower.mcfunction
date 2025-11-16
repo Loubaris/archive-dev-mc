@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§2The Cannon Tower is upgraded to the maximum. You can't use the coin to upgrade it anymore. Please use it on another turret!"}]}

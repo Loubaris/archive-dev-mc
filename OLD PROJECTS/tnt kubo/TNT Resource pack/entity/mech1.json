@@ -1,0 +1,30 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:mech1",
+      "materials": {
+        "default": "tiny_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/mech1"
+      },
+      "geometry": {
+        "default": "geometry.mech1"
+      },
+      "animations": {
+        "walk": "animation.mech.walk"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.mech.move"
+        }
+      ],
+      "render_controllers": [ "controller.render.tiny_tnt" ],
+      "spawn_egg": {
+        "texture": "mech",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:yellowguy_frozen",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"soul": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"should_leash": true,
+						"single_use": true,
+						"spawn_entity": "zedafox:soul",
+						"num_to_spawn": 1
+					}
+				}
+			},
+			"become_normal": {
+				"minecraft:transformation": {
+					"into": "zedafox:yellowguy",
+					"delay": 0.0
+				}
+			},
+			"in_acid": {
+				"minecraft:transformation": {
+					"into": "zedafox:skeleton1",
+					"delay": 0.0
+				}
+			}
+		},
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"myzombie",
+					"monster",
+					"yellowguy",
+					"frozen"
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.7,
+				"height": 1.2
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 7,
+				"max": 7
+			},
+			"minecraft:damage_sensor": {
+				"on_damage": {
+					"filters": {
+						"with_damage_fatal": true
+					},
+					"event": "soul"
+				}
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0,
+				"breathesAir": true,
+				"breathesWater": true
+			},
+			"minecraft:physics": {}
+		},
+		"events": {
+			"unfreeze": {
+				"add": {
+					"component_groups": [
+						"become_normal"
+					]
+				}
+			},
+			"soul": {
+				"add": {
+					"component_groups": [
+						"soul"
+					]
+				}
+			},
+			"in_acid": {
+				"add": {
+					"component_groups": [
+						"in_acid"
+					]
+				}
+			}
+		}
+	}
+}

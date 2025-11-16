@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"geometry.snowball": {
+		"texturewidth": 128,
+		"textureheight": 128,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 4,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 18, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-16, 0, -16], "size": [32, 32, 32], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

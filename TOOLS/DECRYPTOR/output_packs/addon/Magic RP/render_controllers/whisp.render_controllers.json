@@ -1,0 +1,11 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cyd_mgspl.whisp": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" },
+					 { "wisp_cube": "Material.outline" } ],
+      "textures": [ "Texture.default" ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.slow_falling": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'slow_falling' && query.is_using_item" } ],
+          "on_entry": [
+            "/function slow_falling"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'slow_falling' && query.is_using_item" } ],
+          "on_entry": [
+            "/function slow_falling"
+         ]
+        }
+      }
+    }
+  }
+}

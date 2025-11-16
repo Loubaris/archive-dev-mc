@@ -1,0 +1,186 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:electricity_orb",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"electricity_orb"
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"orb1": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"orb2": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"orb3": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"orb4": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"electrification": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						0.3,
+						0.3
+					],
+					"time_down_event": {
+						"event": "to_death"
+					}
+				}
+			},
+			"death": {
+				"minecraft:despawn": {}
+			}
+		},
+		"events": {
+			"to_orb1": {
+				"add": {
+					"component_groups": [
+						"orb1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb2"
+					]
+				}
+			},
+			"to_orb2": {
+				"add": {
+					"component_groups": [
+						"orb2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb4"
+					]
+				}
+			},
+			"to_orb3": {
+				"add": {
+					"component_groups": [
+						"orb3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb1"
+					]
+				}
+			},
+			"to_orb4": {
+				"add": {
+					"component_groups": [
+						"orb4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"orb1"
+					]
+				}
+			},
+			"electrification": {
+				"add": {
+					"component_groups": [
+						"electrification"
+					]
+				}
+			},
+			"to_death": {
+				"add": {
+					"component_groups": [
+						"death"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:red_car",
+			"spawn_egg": {
+				"texture": "red_car",
+				"texture_index": 0
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"geometry": {
+				"default": "geometry.nitric.red_car"
+			},
+			"animations": {
+				"stop": "animation.nitric.red_car.stop",
+				"drive": "animation.nitric.red_car.drive",
+				"steer": "animation.nitric.red_car.steer",
+				"is_moving": "controller.animation.nitric.red_car.is_moving",
+				"playmusic_controller": "controller.animation.nitric.radio.playmusic",
+				"playmusic": "animation.nitric.radio.playmusic"
+			},
+			"scripts": {
+				"animate": [
+					"steer",
+					"playmusic_controller",
+					"is_moving"
+				]
+			},
+			"sound_effects": {
+				"empty": "nitric.ambient.empty",
+				"radio": "nitric.radio"
+			},
+			"textures": {
+				"default": "textures/entity/red_car"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			}
+		}
+	}
+}

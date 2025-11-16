@@ -1,0 +1,72 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:wood_door",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"wood"
+				]
+			},
+			"minecraft:interact": [
+				{
+					"on_interact": {
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"event": "interact"
+					},
+					"interact_text": "Open"
+				}
+			],
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:collision_box": {
+				"width": 1.5,
+				"height": 2.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {},
+		"events": {
+			"interact": {
+				"run_command": {
+					"command": [ 
+						"function entity/door"
+					]
+				}
+			}
+		}
+	}
+}

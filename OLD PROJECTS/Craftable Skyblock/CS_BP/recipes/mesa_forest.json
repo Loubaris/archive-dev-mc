@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:mesa_forest_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "YYY",
+      "UUU"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:hardened_clay"
+      },
+      "Z": {
+        "item": "minecraft:sapling",
+	"data": 4
+      },
+      "Y": {
+        "item": "minecraft:sand",
+	"data": 1
+      }
+    },
+    "result": {
+      "item": "cs:mesa_forest_spawn_egg"
+    }
+  }
+}

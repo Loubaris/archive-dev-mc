@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:purplebomb",
+         "spawn_egg": {
+                "texture": "purplebomb"
+            },
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/purplebomb"
+			},
+			"geometry": {
+				"default": "geometry.purplebomb"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			]
+		}
+	}
+}

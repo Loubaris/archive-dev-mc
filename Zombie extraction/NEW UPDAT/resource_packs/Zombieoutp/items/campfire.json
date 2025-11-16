@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:campfire",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "campfire",
+   "minecraft:render_offsets": "campfire"
+  }
+ }
+}

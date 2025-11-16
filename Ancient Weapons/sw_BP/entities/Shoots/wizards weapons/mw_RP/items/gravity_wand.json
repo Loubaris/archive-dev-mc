@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mw:gravity_wand",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "gravity_wand",
+   "minecraft:render_offsets": "gravity_wand"
+  }
+ }
+}

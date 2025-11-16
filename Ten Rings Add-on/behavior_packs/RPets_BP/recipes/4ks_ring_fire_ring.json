@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "4ks_ring:fire_ring"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:blaze_powder"
+            },
+	    {
+                "item": "minecraft:magma"
+            }
+        ],
+        "result": {
+            "item": "4ks_ring:fire_ring",
+            "count": 1
+        }
+    }
+}

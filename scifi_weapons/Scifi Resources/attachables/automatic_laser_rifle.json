@@ -1,0 +1,34 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "nitric:automatic_laser_rifle",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/entity/holdables/automatic_laser_rifle"
+            },
+            "geometry": {
+                "default": "geometry.automatic_laser_rifle"
+            },
+            "scripts": {
+                "animate": [
+                    "controller"
+                ]
+            },
+            "animations": {
+                "controller": "controller.animation.ffp",
+                "first_person": "animation.automatic_laser_rifle.first_person",
+                "third_person": "animation.automatic_laser_rifle.third_person",
+                "using_item": "animation.gun.using_item"
+            },
+            "render_controllers": [
+                "controller.render.wave"
+            ],
+            "item": {
+                "nitric:automatic_laser_rifle": "(1.0)"
+            }
+        }
+    }
+}

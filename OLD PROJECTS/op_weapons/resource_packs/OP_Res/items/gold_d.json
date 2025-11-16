@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:gold_dagger",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "gold_d",
+   "minecraft:render_offsets": "gold_d"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.player.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+	  "/scoreboard players add @p[r=45,rm=0.5] killcounter 1",
+          "/tag @s[tag=dead] add lost"
+        ]
+      }
+    }
+  }
+}

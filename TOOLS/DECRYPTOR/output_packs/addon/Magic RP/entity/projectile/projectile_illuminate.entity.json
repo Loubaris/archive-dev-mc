@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cyd_mgspl:projectile_illuminate",
+	  "materials": {"default": "zombie"},
+	  "textures":  {"default": "textures/none"},
+      "geometry":  {"default": "geometry.cyd_mgspl.fireball_mesh"},
+      "render_controllers": [ "controller.render.zombie" ],
+	  
+      "particle_effects": {
+        "particle_1": "cyd_mgspl:fireball_trail_small_explosive",
+		"particle_2": "cyd_mgspl:fireball_tiny_embers"
+      },
+	  "animations": {
+		"fly": "animation.cyd_mgspl.projectile.move_2",
+		"particle": "animation.cyd_mgspl.double_trail"
+      },
+      "scripts": {
+        "animate": 
+		[	
+			"fly",
+			"particle"
+		]
+      },
+	  
+	  "spawn_egg": {
+        "base_color": "#c7c2b5",
+        "overlay_color": "#524f49"
+      }
+    }
+  }
+}

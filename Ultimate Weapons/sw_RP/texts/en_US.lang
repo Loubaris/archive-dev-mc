@@ -1,0 +1,42 @@
+pack.name=Weapons Resource Pack
+pack.description=Resource Pack for sWeapons
+
+
+item.sw:sky_sword.name=Sky Sword
+item.sw:poof_sword.name=Poof Sword
+item.sw:pain_sword.name=Pain Sword
+item.sw:fire_sword.name=Judgement Sword
+item.sw:divine_sword.name=Divine Sword
+item.sw:banished_sword.name=Banished Sword
+item.sw:boom_stick.name=BOOM Stick
+item.sw:dark_sword.name=Dark Sword
+item.sw:duskblade_sword.name=Duskblade Sword
+item.sw:lightning_sword.name=Lightning Sword
+item.sw:love_sword.name=Love Sword
+item.sw:maelstrom_sword.name=Maelstrom Sword
+item.sw:sand_sword.name=Sand Sword
+
+item.spawn_egg.entity.sw:i_sky_sword.name=Sky Sword Spawner
+item.spawn_egg.entity.sw:i_poof_sword.name=Poof Sword Spawner
+item.spawn_egg.entity.sw:i_pain_sword.name=Pain Sword Spawner
+item.spawn_egg.entity.sw:i_fire_sword.name=Judgement Sword Spawner
+item.spawn_egg.entity.sw:i_divine_sword.name=Divine Sword Spawner
+item.spawn_egg.entity.sw:i_banished_sword.name=Banished Sword Spawner
+item.spawn_egg.entity.sw:i_boom_stick.name=BOOM Stick Spawner
+item.spawn_egg.entity.sw:i_dark_sword.name=Dark Sword Spawner
+item.spawn_egg.entity.sw:i_duskblade_sword.name=Duskblade Sword Spawner
+item.spawn_egg.entity.sw:i_lightning_sword.name=Lightning Sword Spawner
+item.spawn_egg.entity.sw:i_love_sword.name=Love Sword Spawner
+item.spawn_egg.entity.sw:i_maelstrom_sword.name=Maelstrom Sword Spawner
+item.spawn_egg.entity.sw:i_sand_sword.name=Sand Sword Spawner
+
+
+
+entity.sw:boulder_toss.name=Boulder Toss
+entity.sw:instanttnt.name=TNT
+entity.sw:instanttntmedium.name=TNT
+entity.sw:heat_shoot.name=TNT
+entity.sw:love_shoot.name=Love
+entity.sw:banished_shoot.name=Banished Sword
+
+

@@ -1,0 +1,33 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "sw:boulder_toss",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/boulder_toss"
+            }, 
+         "geometry": { 
+            "default": "geometry.boulder_toss" 
+            },
+	 "animations" : {
+              "boulder" : "animation.boulder.wave"
+              },
+         "animation_controllers" : [
+              {
+              "controller" : "controller.animation.boulder"
+              } 
+         ],
+         "render_controllers": [ 
+              "controller.render.wave"
+              ]
+       
+         }
+      }
+}

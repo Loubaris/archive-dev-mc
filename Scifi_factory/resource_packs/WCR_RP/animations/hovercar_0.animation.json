@@ -1,0 +1,61 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hovercar_0.open_door": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.44,
+			"bones": {
+				"door0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.44": [0, 85, 0]
+					}
+				},
+				"door1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.44": [0, -85, 0]
+					}
+				}
+			}
+		},
+		"animation.hovercar_0.close_door": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.44,
+			"bones": {
+				"door0": {
+					"rotation": {
+						"0.0": [0, 85, 0],
+						"0.44": [0, 0, 0]
+					}
+				},
+				"door1": {
+					"rotation": {
+						"0.0": [0, -85, 0],
+						"0.44": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.hovercar_0.run": {
+			"loop": true,
+			"animation_length": 0.24,
+			"bones": {
+				"wheel0": {
+					"rotation": {
+						"0.0": [55, 0, 0],
+						"0.12": [60, 0, 0],
+						"0.24": [55, 0, 0]
+					}
+				},
+				"wheel1": {
+					"rotation": {
+						"0.0": [55, 0, 0],
+						"0.12": [60, 0, 0],
+						"0.24": [55, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

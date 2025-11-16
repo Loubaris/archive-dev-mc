@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:fire_n_star",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "fire_n_star",
+   "minecraft:render_offsets": "fire_n_star"
+  }
+ }
+}

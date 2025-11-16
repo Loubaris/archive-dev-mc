@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:hovercar_1",
+			"spawn_egg": {
+				"texture": "hovercar_1",
+				"texture_index": 0
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"geometry": {
+				"default": "geometry.hovercar_1"
+			},
+			"animations": {
+				"run": "animation.hovercar_1.run",
+				"root": "controller.animation.nitric.utils"
+			},
+			"scripts": {
+				"animate": [
+					{ "run": "query.modified_move_speed" }
+				]
+			},
+			"sound_effects": {
+				"empty": "nitric.ambient.empty",
+				"radio": "nitric.radio"
+			},
+			"textures": {
+				"default": "textures/entity/hovercar_1"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+tellraw @p[x=375,y=104,z=471] {"rawtext":[{"text":"§a----[ Poison Sword ]----\n§7Give a fatal poison effect to all enemies within a radius of 5 blocks.\n§a-------------------"}]}

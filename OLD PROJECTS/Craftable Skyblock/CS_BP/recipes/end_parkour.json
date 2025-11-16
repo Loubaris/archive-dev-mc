@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:end_parkour_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "ZHZ",
+      "YYY"
+    ],
+    "key": {
+      "Y": {
+        "item": "minecraft:end_stone"
+      },
+      "H": {
+        "item": "cs:end_ship_spawn_egg"
+      },
+      "Z": {
+        "item": "minecraft:purpur_block"
+      }
+    },
+    "result": {
+      "item": "cs:end_parkour_spawn_egg"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.ffp": {
+			"initial_state": "first_person",
+			"states": {
+				"first_person": {
+					"animations": ["first_person"],
+					"transitions": [
+						{"using_item": "query.is_using_item"},
+						{"third_person": "!c.is_first_person"}
+					]
+				},
+				"using_item": {
+					"animations": ["using_item"],
+					"transitions": [
+						{"first_person": "query.any_animation_finished && c.is_first_person"}
+					]
+				},
+				"third_person": {
+					"animations": ["third_person"],
+					"transitions": [
+						{"first_person": "c.is_first_person"}
+					]
+				}
+			}
+		}
+	}
+}

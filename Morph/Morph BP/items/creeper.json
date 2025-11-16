@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ms:creeper"
+		},
+		"components": {
+			"minecraft:food": {
+				"can_always_eat": true
+			}
+		}
+	}
+}

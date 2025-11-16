@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:chicken_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "HZZ",
+      "ZUZ",
+      "#ZH"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Z": {
+        "item": "minecraft:feather"
+      },
+      "U": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "result": {
+      "item": "ninja:chicken_sword"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+     "controller.animation.unicorn_adult.move": {
+        "initial_state": "idle",
+        "states": {
+          "idle": {
+            "transitions": [
+              {
+                "walk": "q.modified_move_speed > 0.05"
+              },
+              {
+                "fly": "(query.is_on_ground < 1)"
+              }
+            ],
+            "blend_transition": 0.1
+          },
+          "walk": {
+            "animations": [
+              "walk"
+            ],
+            "transitions": [
+              {
+                "idle": "q.modified_move_speed <= 0.05"
+              },
+              {
+                "fly": "(query.is_on_ground < 1)"
+              }
+            ],
+            "blend_transition": 0.1
+          },
+          "fly": {
+            "animations": [
+              "fly"
+            ],
+            "transitions": [
+              {
+                "idle": "!(query.is_on_ground < 1) && q.modified_move_speed <= 0.05"
+              },
+              {
+                "walk": "!(query.is_on_ground < 1) && q.modified_move_speed > 0.05"
+              }
+            ],
+            "blend_transition": 0.1
+          }
+        }
+     }
+  }
+}

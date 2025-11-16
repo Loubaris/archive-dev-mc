@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:tnt_launcher",
+      "materials": {
+        "default": "tiny_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/tnt_launcher"
+      },
+      "geometry": {
+        "default": "geometry.tnt_launcher"
+      },
+      "render_controllers": [ "controller.render.tiny_tnt" ],
+      "spawn_egg": {
+        "texture": "tnt_launcher",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:canon_tnt",
+      "materials": {
+        "default": "freeze_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/tnt_canon"
+      },
+      "geometry": {
+        "default": "geometry.tnt_canon"
+      },
+      "render_controllers": [ "controller.render.freeze_tnt" ],
+      "spawn_egg": {
+        "texture": "tnt_canon",
+        "texture_index": 0
+      }
+    }
+  }
+}

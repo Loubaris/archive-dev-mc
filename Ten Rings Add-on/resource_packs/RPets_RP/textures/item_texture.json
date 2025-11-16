@@ -1,0 +1,39 @@
+{
+  "resource_pack_name": "Ten Rings",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "4ks_ring_guidebook": {
+			"textures": "textures/4ks/ring/items/guidebook.png"
+		},
+     "4ks_ring_fire_ring": {
+			"textures": "textures/4ks/ring/items/fire_ring.png"
+		},
+     "4ks_ring_water_ring": {
+			"textures": "textures/4ks/ring/items/water_ring.png"
+		},
+     "4ks_ring_ice_ring": {
+			"textures": "textures/4ks/ring/items/ice_ring.png"
+		},
+     "4ks_ring_lightning_ring": {
+			"textures": "textures/4ks/ring/items/lightning_ring.png"
+		},
+     "4ks_ring_light_ring": {
+			"textures": "textures/4ks/ring/items/light_ring.png"
+		},
+     "4ks_ring_ender_ring": {
+			"textures": "textures/4ks/ring/items/ender_ring.png"
+		},
+     "4ks_ring_metal_ring": {
+			"textures": "textures/4ks/ring/items/metal_ring.png"
+		},
+     "4ks_ring_nature_ring": {
+			"textures": "textures/4ks/ring/items/nature_ring.png"
+		},
+     "4ks_ring_rock_ring": {
+			"textures": "textures/4ks/ring/items/rock_ring.png"
+		},
+     "4ks_ring_tnt_ring": {
+			"textures": "textures/4ks/ring/items/tnt_ring.png"
+		}
+  }
+}

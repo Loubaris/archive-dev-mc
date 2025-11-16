@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:swift_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "swift_sword",
+   "minecraft:render_offsets": "swift_sword"
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "camper": {
+			"textures": "textures/items/camper"
+    },
+    "car": {
+			"textures": "textures/items/car"
+    },
+    "flag": {
+			"textures": "textures/items/flag"
+    },
+    "gondola": {
+			"textures": "textures/items/gondola"
+    },
+    "helicopter": {
+			"textures": "textures/items/helicopter"
+    },
+    "jeep": {
+			"textures": "textures/items/jeep"
+    },
+    "pickup": {
+			"textures": "textures/items/pickup"
+    },
+    "sign": {
+			"textures": "textures/items/sign"
+    },
+    "ski": {
+			"textures": "textures/items/ski"
+    },
+    "skianchor": {
+			"textures": "textures/items/skianchor"
+    },
+    "skiholder": {
+			"textures": "textures/items/skiholder"
+    },
+    "skilift": {
+			"textures": "textures/items/skilift"
+    },
+    "snowboard": {
+			"textures": "textures/items/snowboard"
+    },
+    "snowcannon": {
+			"textures": "textures/items/snowcannon"
+    },
+    "snowcleaner": {
+			"textures": "textures/items/snowcleaner"
+    },
+    "snowman": {
+			"textures": "textures/items/snowman"
+    },
+    "snowmobile1": {
+			"textures": "textures/items/snowmobile1"
+    },
+    "snowmobile2": {
+			"textures": "textures/items/snowmobile2"
+    }
+  }
+}

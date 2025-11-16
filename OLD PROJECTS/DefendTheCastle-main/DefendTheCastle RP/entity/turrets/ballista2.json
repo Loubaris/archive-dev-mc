@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+      "description": {
+          "identifier": "cypress:ballista2",
+          "materials": {
+              "default": "skeleton"
+          },
+          "textures": {
+              "default": "textures/entity/turret/ballista/2"
+          },
+          "geometry": {
+              "default": "geometry.ballista2"
+          },
+          "animations": {
+            "attack": "animation.balista.attack",
+            "attack_controller": "controller.animation.mage.attack"
+          },
+          "scripts": {
+            "animate": [
+              "attack_controller"
+            ]
+          },
+          "render_controllers": ["controller.render.basic"],
+          "spawn_egg": {
+              "base_color": "#52443b",
+              "overlay_color": "#b3927d"
+          }
+      }
+  }
+}

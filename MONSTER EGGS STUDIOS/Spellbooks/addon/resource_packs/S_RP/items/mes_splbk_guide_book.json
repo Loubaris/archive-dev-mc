@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"mes_splbk:guide_book",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "mes_splbk_guide_book"
+    }
+    
+  }
+}

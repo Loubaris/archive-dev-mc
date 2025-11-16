@@ -1,0 +1,1 @@
+execute @e[type=zedafox:coin,tag=!nm,r=8] ~ ~ ~ tp @s ^ ^ ^0.4 facing @p

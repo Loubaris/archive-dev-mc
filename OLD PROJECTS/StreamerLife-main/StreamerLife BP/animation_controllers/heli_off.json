@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.heli_off": {
+            "states": {
+                "default": {
+                    "transitions": [{
+                        "fighter": "(1.0)"
+                    }],
+                    "on_entry": [
+                        "/tag @s remove rider"
+                    ]
+                },
+                "fighter": {
+                    "transitions": [{
+                        "default": "!query.has_rider"
+                    }],
+                    "on_entry": [
+                        "/tag @s remove rider"
+                    ]
+                }
+            }
+        }
+    }
+}

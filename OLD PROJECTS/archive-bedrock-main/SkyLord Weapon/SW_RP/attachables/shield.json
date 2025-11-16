@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "sw:sw_shield",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/shield"
+			},
+			"geometry": {
+				"default": "geometry.sw_shield"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"sw:sw_shield": "(1.0)"
+			}
+		}
+	}
+}

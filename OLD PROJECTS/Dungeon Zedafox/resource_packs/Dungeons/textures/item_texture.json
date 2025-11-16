@@ -1,0 +1,90 @@
+{
+  "resource_pack_name": "Swords",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "hammer": {
+      "textures": "textures/items/hammer"
+     },
+    "icesword": {
+      "textures": "textures/items/ice_sword"
+     },
+    "firesword": {
+      "textures": "textures/items/fire_sword"
+     },
+    "soulsword": {
+      "textures": "textures/items/soul_sword"
+     },
+    "blacksword": {
+      "textures": "textures/items/black_sword"
+     },
+    "electricitysword": {
+      "textures": "textures/items/electricity_sword"
+     },
+    "poisonsword": {
+      "textures": "textures/items/poison_sword"
+     },
+    "zombie_mask": {
+      "textures": "textures/items/zombie_mask"
+     },
+    "talkywalky": {
+      "textures": "textures/items/talkywalky"
+     },
+    "laser": {
+      "textures": "textures/items/laser"
+     },
+    "magnet": {
+      "textures": "textures/items/magnet"
+     },
+    "crystal1": {
+      "textures": "textures/items/crystal1"
+     },
+    "crystal2": {
+      "textures": "textures/items/crystal2"
+     },
+    "crystal3": {
+      "textures": "textures/items/crystal3"
+     },
+    "crystal4": {
+      "textures": "textures/items/crystal4"
+     },
+    "purplebomb": {
+      "textures": "textures/items/purplebomb"
+     },
+    "potion1": {
+      "textures": "textures/items/potion1"
+     },
+    "potion2": {
+      "textures": "textures/items/potion2"
+     },
+    "potion3": {
+      "textures": "textures/items/potion3"
+     },
+    "potion1_empty1": {
+      "textures": "textures/items/potion1_empty1"
+     },
+    "potion1_empty2": {
+      "textures": "textures/items/potion1_empty2"
+     },
+    "potion1_empty3": {
+      "textures": "textures/items/potion1_empty3"
+     },
+    "potion2_empty1": {
+      "textures": "textures/items/potion2_empty1"
+     },
+    "potion2_empty2": {
+      "textures": "textures/items/potion2_empty2"
+     },
+    "potion2_empty3": {
+      "textures": "textures/items/potion2_empty3"
+     },
+    "potion3_empty1": {
+      "textures": "textures/items/potion3_empty1"
+     },
+    "potion3_empty2": {
+      "textures": "textures/items/potion3_empty2"
+     },
+    "potion3_empty3": {
+      "textures": "textures/items/potion3_empty3"
+     }
+  }
+}

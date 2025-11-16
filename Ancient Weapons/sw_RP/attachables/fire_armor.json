@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+	  "description": {
+		"identifier": "sw:fire_armor",
+		"materials": { 
+            "default": "entity_alphatest" 
+            },
+		"textures": {
+		  "default": "textures/fire_armor"
+		},
+		"geometry": {
+		  "default": "geometry.fire_armor"
+		},
+		"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.fffp",
+				"first_person": "animation.fire_armor.first_person",
+				"third_person": "animation.fire_armor.third_person"
+			},
+		"render_controllers": [ "controller.render.wave" ]
+	  
+	}
+	}
+  }
+  

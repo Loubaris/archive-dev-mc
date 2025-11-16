@@ -1,0 +1,28 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [ 1, 21, 0 ],
+		"uuid": "d76368c7-7381-4e35-960e-3052a3b12c0e",
+		"pack_name": "Durability_Viewer",
+		"pack_type": "behavior",
+		"associated_pack": "None",
+		"version": [ 1, 0, 6 ]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "02277c35-fb8f-4d6f-8fb6-3652ee8889ac",
+			"entry": "scripts/entry.js",
+			"version": [1, 0, 6]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		}
+	]
+}

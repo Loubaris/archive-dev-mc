@@ -1,0 +1,22 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "0390f031-ca03-4a71-b0b4-054b3dfe1a2e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 13, 0]
+	},
+	"modules": [{
+		"type": "data",
+		"uuid": "51d939a4-089f-4d85-ba5a-7f876ce35761",
+		"version": [1, 0, 0]
+	}],
+	"dependencies": [{
+		"uuid": "c2c06521-6fe6-49e9-a4be-77ff8ccb7cd4",
+		"version": [1, 0, 0]
+	}],
+	"metadata": {
+		"authors": ["Maukat"]
+	}
+}

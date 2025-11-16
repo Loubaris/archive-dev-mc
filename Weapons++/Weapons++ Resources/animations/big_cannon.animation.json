@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.big_cannon.third_person": {
+			"loop": true,
+			"animation_length": 0.29167,
+			"bones": {
+				"base": {
+					"rotation": [0, 0, 0],
+					"position": [3, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.big_cannon.first_person": {
+			"loop": true,
+			"animation_length": 0.25,
+			"bones": {
+				"base": {
+					"rotation": [90, -50, -90],
+					"position": [0, -15, 5]
+				}
+			}
+		},
+		"animation.big_cannon.using_item": {
+			"animation_length": 1.08333,
+			"bones": {
+				"base": {
+					"rotation": {
+						"0.0": [90, -50, -90],
+						"0.2083": [90, -62.5, -90],
+						"0.3333": [90, -62.5, -90],
+						"0.5417": [90, -62.5, -90],
+						"0.7917": [90, -62.5, -90],
+						"1.0833": [90, -50, -90]
+					},
+					"position": {
+						"0.0": [0, -15, 5],
+						"0.3333": [0, -15, 5],
+						"0.4167": [0, -18, 7],
+						"0.5417": [0, -15, 5],
+						"0.7917": [0, -15, 5],
+						"1.0833": [0, -15, 5]
+					}
+				}
+			}
+		}
+	}
+}

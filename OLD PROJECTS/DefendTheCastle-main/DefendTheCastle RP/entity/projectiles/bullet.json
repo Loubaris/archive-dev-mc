@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cypress:bullet",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/projectile/bullet"
+      },
+      "geometry": {
+        "default": "geometry.bullet"
+      },
+      "render_controllers": ["controller.render.basic"]
+    }
+  }
+}

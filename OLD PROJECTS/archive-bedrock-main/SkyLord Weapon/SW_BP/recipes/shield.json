@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:sw_shield"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "ZUZ",
+      "ZZZ"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:shield"
+      },
+      "Z": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "sw:sw_shield"
+    }
+  }
+}

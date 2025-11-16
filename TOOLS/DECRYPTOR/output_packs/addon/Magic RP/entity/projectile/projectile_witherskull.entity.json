@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cyd_mgspl:projectile_witherskull",
+	  "materials": {"default": "zombie"},
+	  "textures":  {"default": "textures/cyd/mgspl/entity/wither"},
+      "geometry":  {"default": "geometry.cyd_mgspl.witherskull_mesh"},
+      "render_controllers": [ "controller.render.zombie" ],
+	  
+      "particle_effects": {
+        "particle_1": "cyd_mgspl:witherskull_trail_local",
+		"particle_2": "cyd_mgspl:witherskull_tiny_embers",
+		"particle_3": "cyd_mgspl:witherskull_trail"
+      },
+	  "animations": {
+		"fly": "animation.cyd_mgspl.projectile.move_2",
+		"particle": "animation.cyd_mgspl.triple_trail"
+      },
+      "scripts": {
+        "animate": 
+		[	
+			"fly",
+			"particle"
+		]
+      },
+	  
+	  "spawn_egg": {
+        "base_color": "#c7c2b5",
+        "overlay_color": "#524f49"
+      }
+    }
+  }
+}

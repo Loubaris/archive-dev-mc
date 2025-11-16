@@ -1,0 +1,143 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "tnt:poisontnt",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier" : "minecraft:shulker"
+    },
+    "component_groups": {
+      "minecraft:exploding": {
+        "minecraft:transformation" : {
+          "into" : "tnt:poisontntlit"
+        }
+      }
+    },
+    "components": {
+      "minecraft:damage_sensor" : [
+        {
+          "on_damage" : {
+            "filters" : {
+              "any_of" : [
+                {
+                  "subject" : "self",
+                  "value" : "attack",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "fatal",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "magic",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "suffocation",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "anvil",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "drowning",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "falling_block",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "piston",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "fire",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "fire_tick",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "lava",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "block_explosion",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "entity_explosion",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "self",
+                  "value" : "projectile",
+                  "test" : "has_damage"
+                }
+              ]
+            },
+            "event" : "minecraft:event_explode"
+          }
+        }
+      ],
+      "minecraft:interact" : [
+        {
+          "on_interact" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "subject" : "other",
+                  "value" : "player",
+                  "test" : "is_family"
+                },
+                {
+                  "test" : "has_equipment",
+                  "subject" : "other",
+                  "value" : "flint_and_steel",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "minecraft:event_explode"
+          },
+          "swing" : true,
+          "play_sounds" : "ignite",
+          "hurt_item" : 1,
+          "interact_text" : "action.interact.creeper"
+        }
+      ],
+      "minecraft:health": {
+        "value": 999,
+        "max": 999
+      },
+      "minecraft:physics": {
+      }
+    },
+    "events": {
+      "minecraft:event_explode": {
+        "add": {
+          "component_groups": [
+            "minecraft:exploding"
+          ]
+        }
+      }
+    }
+  }
+}

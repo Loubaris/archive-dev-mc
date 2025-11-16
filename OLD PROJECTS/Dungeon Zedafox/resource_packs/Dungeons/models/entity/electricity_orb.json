@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"geometry.electricity_orb": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 3, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-3, 0, -3], "size": [6, 6, 6], "uv": [14, 15], "mirror": false},
+					{"origin": [0, -2, -5], "size": [0, 11, 10], "uv": [0, 0], "mirror": false},
+					{"origin": [-5, -2, 0], "size": [10, 11, 0], "uv": [20, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

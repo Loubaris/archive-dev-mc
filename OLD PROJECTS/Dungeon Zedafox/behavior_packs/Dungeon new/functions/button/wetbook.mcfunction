@@ -1,0 +1,1 @@
+tellraw @p {"rawtext":[{"text":"§7The book is wet, you can barely read the title: §6§oHow to lo.."}]}

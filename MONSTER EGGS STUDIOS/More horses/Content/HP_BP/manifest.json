@@ -1,0 +1,62 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "f3d81409-07df-43f2-906c-c9a77e5ba226",
+        "pack_scope": "world",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            60
+        ]
+    },
+    "modules": [
+        {
+            "version": [
+                1,
+                0,
+                8
+            ],
+            "uuid": "cc61a4bf-d5c7-48c9-aa16-b395f726c86c",
+            "type": "data"
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "921b293b-735c-43c6-9181-906ad40ea615",
+            "version": [
+                1,
+                0,
+                6
+            ],
+            "entry": "scripts/mes_mrhrs_main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "53c4b85a-6ced-4e10-bf93-9a7ed14c5b2d",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.8.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.1.0"
+        }
+    ],
+    "metadata": {
+        "product_type": "addon"
+    }
+}

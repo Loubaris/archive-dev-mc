@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.safe_staff_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"safe_staff_detection": "query.get_equipped_item_name == 'safe_staff' && query.is_using_item == true"
+						}
+					]
+				},
+				"safe_staff_detection": {
+					"on_entry": [
+						"/scoreboard players set @p safe 0",
+						"/tag @p[r=1] add safe",
+						"/clear @p sw:safe_staff 0 1"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

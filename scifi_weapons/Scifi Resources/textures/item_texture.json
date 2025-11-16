@@ -1,0 +1,42 @@
+{
+	"resource_pack_name": "ScifiBlasters",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"automatic_laser_rifle": {
+			"textures": "textures/items/automatic_laser_rifle"
+		},
+		"big_pistol": {
+			"textures": "textures/items/big_pistol"
+		},
+		"dimensional_transporter": {
+			"textures": "textures/items/dimensional_transporter"
+		},
+		"executive_pistol": {
+			"textures": "textures/items/executive_pistol"
+		},
+		"flame_thrower": {
+			"textures": "textures/items/flame_thrower"
+		},
+		"flash_rifle": {
+			"textures": "textures/items/flash_rifle"
+		},
+		"freeze_rifle": {
+			"textures": "textures/items/freeze_rifle"
+		},
+		"heat_sinking_rifle": {
+			"textures": "textures/items/heat_sinking_rifle"
+		},
+		"mega_blaster": {
+			"textures": "textures/items/mega_blaster"
+		},
+		"pistol": {
+			"textures": "textures/items/pistol"
+		},
+		"sniper": {
+			"textures": "textures/items/sniper"
+		},
+		"laser": {
+			"textures": "textures/items/laser"
+		}
+	}
+}

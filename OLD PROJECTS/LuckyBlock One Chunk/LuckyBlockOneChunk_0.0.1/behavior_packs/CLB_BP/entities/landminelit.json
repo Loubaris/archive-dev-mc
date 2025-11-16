@@ -1,0 +1,27 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "tnt:landminelit",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts":{"animate":["fuse"]},
+      "animations":{"fuse":"controller.animation.fuse"}
+    },
+    "components": {
+      "minecraft:explode": {
+        "fuse_length": 0.5,
+        "fuse_lit": true,
+        "power": 4,
+        "causes_fire": false
+      },
+      "minecraft:health": {
+        "value": 999,
+        "max": 999
+      },
+      "minecraft:physics": {
+      }
+    }
+  }
+}

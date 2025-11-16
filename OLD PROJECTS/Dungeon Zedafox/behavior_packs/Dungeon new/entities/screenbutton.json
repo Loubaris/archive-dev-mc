@@ -1,0 +1,209 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:screenbutton",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"screen"
+				]
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"screen0": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"screen1": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"screen2": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"screen3": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"screen4": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			}
+		},
+		"events": {
+			"skin0": {
+				"add": {
+					"component_groups": [
+						"screen0"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen4"
+					]
+				}
+			},
+			"skin1": {
+				"add": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen0"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen4"
+					]
+				}
+			},
+			"skin2": {
+				"add": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen0"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen4"
+					]
+				}
+			},
+			"skin3": {
+				"add": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen0"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen4"
+					]
+				}
+			},
+			"skin4": {
+				"add": {
+					"component_groups": [
+						"screen4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen0"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mes_cnm:focus_point",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "mes_cnm:despawn": {
+                "minecraft:instant_despawn": {
+                }
+            },
+            "mes_cnm:is_selected": {
+                "minecraft:scale": {
+                    "value": 1.5
+                }
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [ "mes", "focus_point" ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:collision_box": {
+                "height": 0.3,
+                "width": 0.3
+            },
+            "minecraft:physics": {
+                "has_gravity": false,
+                "has_collision": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:conditional_bandwidth_optimization": {
+            }
+        },
+        "events": {
+            "mes_cnm:select": {
+                "add": {
+                    "component_groups": [
+                        "mes_cnm:is_selected"
+                    ]
+                }
+            },
+            "mes_cnm:deselect": {
+                "remove": {
+                    "component_groups": [
+                        "mes_cnm:is_selected"
+                    ]
+                }
+            },
+            "mes_cnm:remove": {
+                "add": {
+                    "component_groups": [
+                        "mes_cnm:despawn"
+                    ]
+                }
+            }
+        }
+    }
+}

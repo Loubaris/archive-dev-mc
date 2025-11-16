@@ -1,0 +1,48 @@
+{
+  "entity_sounds": {
+    "entities": {
+         "cyd_mgspl:projectile_fireball" : {
+            "events" : {
+               "ambient" : "cyd_mgspl.fireball_cast",
+               "death" : "cyd_mgspl.fireball_impact"
+            },
+            "pitch" : [ 1.0, 1.1 ],
+            "volume" : 1.0
+         },
+		 "cyd_mgspl:projectile_polymorph" : {
+            "events" : {
+               "ambient" : "cyd_mgspl.polymorph_cast",
+               "death" : "cyd_mgspl.polymorph_impact"
+            },
+            "pitch" : [ 1.0, 1.1 ],
+            "volume" : 1.0
+         },
+         "cyd_mgspl:spell_summon_minion" : {
+            "events" : {
+               "ambient" : "cyd_mgspl.minion_ambient",
+               "death" : "mob.irongolem.death",
+               "hurt" : "mob.irongolem.hit",
+			   "attack" : "cyd_mgspl.minion_attack",
+               "irongolem.crack" : "mob.irongolem.crack",
+               "irongolem.repair" : "mob.irongolem.repair",
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.irongolem.walk",
+                  "volume" : 1.0
+               }
+            },
+            "pitch" : [ 0.80, 1.0 ],
+            "volume" : 1.0
+         },
+		 "cyd_mgspl:whisp" : {
+            "events" : {
+               "ambient" : "cyd_mgspl.whisp_ambient",
+               "death" : "cyd_mgspl.whisp_hurt",
+               "hurt" : "cyd_mgspl.whisp_hurt"
+            },
+            "pitch" : [ 0.80, 1.0 ],
+            "volume" : 1.0
+         }
+    }
+  }
+}

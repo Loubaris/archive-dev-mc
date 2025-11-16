@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mes_heroes.move_attack": {
+      "states": {
+        "default": {
+          "blend_transition": 0.3,
+          "animations": [
+            "idle"
+          ],
+          "transitions": [
+            {
+              "walking": "q.ground_speed > 0 && q.is_on_ground"
+            },
+            {
+              "attacking": "q.is_delayed_attacking"
+            }
+          ]
+        },
+        "walking": {
+          "blend_transition": 0.3,
+          "animations": [
+            "walk"
+          ],
+          "transitions": [
+            {
+              "default": "q.ground_speed <= 0 || !q.is_on_ground"
+            },
+            {
+              "attacking": "q.is_delayed_attacking"
+            }
+          ]
+        },
+        "attacking": {
+          "blend_transition": 0.3,
+          "animations": [
+            "attack"
+          ],
+          "transitions": [
+            {
+              "default": "!q.is_delayed_attacking || q.all_animations_finished"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

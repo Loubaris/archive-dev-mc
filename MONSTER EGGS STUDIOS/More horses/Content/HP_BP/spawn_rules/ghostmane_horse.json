@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:spawn_rules": {
+        "description": {
+            "identifier": "mes_mrhrs:ghostmane_horse",
+            "population_control": "animal"
+        },
+        "conditions": [
+            {
+                "minecraft:spawns_on_surface": {},
+                "minecraft:brightness_filter": {
+                    "min": 0,
+                    "max": 7,
+                    "adjust_for_weather": false
+                },
+                "minecraft:difficulty_filter": {
+                    "min": "easy",
+                    "max": "hard"
+                },
+                "minecraft:weight": {
+                    "default": 10
+                }
+            }
+        ]
+    }
+}

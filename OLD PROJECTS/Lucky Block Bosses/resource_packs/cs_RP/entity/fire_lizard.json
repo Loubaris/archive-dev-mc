@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+      "description": {
+          "identifier": "cs:fire_lizard",
+          "materials": {
+              "default": "skeleton"
+          },
+          "textures": {
+              "default": "textures/entity/monsters/fire_lizard"
+          },
+          "geometry": {
+              "default": "geometry.fire_lizard"
+          },
+          "animations": {
+            "walk": "animation.fire_lizard.walk",
+            "idle": "animation.fire_lizard.idle",
+            "attack1": "animation.fire_lizard.attack1",
+            "attack2": "animation.fire_lizard.attack2",
+	    "attack_controller": "controller.animation.fire_lizard"
+          },
+          "scripts": {
+            "pre_animation": [
+              "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+            ],
+            "animate": [
+              "attack_controller"
+            ]
+          },
+          "render_controllers": ["controller.render.basic"],
+          "spawn_egg": {
+              "base_color": "#52443b",
+              "overlay_color": "#b3927d"
+          }
+      }
+  }
+}

@@ -1,0 +1,1 @@
+tellraw @p[x=375,y=104,z=471] {"rawtext":[{"text":"§c----[ Magnet ]----\n§7Attracts pieces within a radius of 8 blocks.\n§c-------------------"}]}

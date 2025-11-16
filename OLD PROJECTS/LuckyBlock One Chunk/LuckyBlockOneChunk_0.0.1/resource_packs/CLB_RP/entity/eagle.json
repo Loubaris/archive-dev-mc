@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animal:eagle",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/eagle"
+      },
+      "geometry": {
+        "default": "geometry.eagle"
+      },
+      "animations": {
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.eagle.flying"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          {"move": "query.modified_move_speed"}
+        ]
+      },
+      "render_controllers": [ "controller.render.cow" ],
+      "spawn_egg": {
+        "base_color": "#878787",
+        "overlay_color": "#1b1b1b"
+      }
+    }
+  }
+}

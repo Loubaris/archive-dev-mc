@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:neowheel",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/neowheel"
+			},
+			"geometry": {
+				"default": "geometry.neowheel"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"neowheel": "animation.wave.neowheel"
+			},
+			"animation_controllers": [
+				{
+					"neowheel": "controller.animation.neowheel"
+				}
+			]
+		}
+	}
+}

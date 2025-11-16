@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nitric:dagger_shoot",
+      "materials": { 
+         "default": "entity_alphatest" 
+      },
+      "textures": {
+        "default": "textures/entity/holdables/dagger"
+      },
+      "geometry": {
+        "default": "geometry.dagger_shoot"
+      },
+      "render_controllers": [ "controller.render.wave" ],
+      "spawn_egg": {
+        "base_color": "#a5adad",
+        "overlay_color": "#54545c"
+      }
+    }
+  }
+}

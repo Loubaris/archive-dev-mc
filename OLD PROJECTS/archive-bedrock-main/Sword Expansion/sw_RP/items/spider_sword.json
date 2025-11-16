@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:spider_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "spider_sword",
+   "minecraft:render_offsets": "spider_sword"
+  }
+ }
+}

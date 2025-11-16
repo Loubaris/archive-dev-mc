@@ -1,0 +1,37 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"cyd_mgspl:spell_polymorph_critter",
+         "materials":{
+            "default":"zombie"
+         },
+         "textures":{
+            "default":"textures/cyd/mgspl/entity/polymorph_duck",
+			"mouse":"textures/cyd/mgspl/entity/polymorph_mouse"
+         },
+         "geometry":{
+            "default":"geometry.cyd_mgspl.polymorph_duck",
+            "mouse":"geometry.cyd_mgspl.polymorph_mouse"
+         },
+         "animations":{
+            "walk":"animation.cyd_mgspl.polymorph_duck.walk",
+            "idle":"animation.cyd_mgspl.polymorph_duck.idle",
+
+            "control_move":"controller.animation.cyd_mgspl_move_ground"
+         },
+         "scripts":{
+            "animate":[
+			   "control_move"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.zombie"
+         ],
+         "spawn_egg":{
+            "base_color":"#c7c2b5",
+            "overlay_color":"#524f49"
+         }
+      }
+   }
+}

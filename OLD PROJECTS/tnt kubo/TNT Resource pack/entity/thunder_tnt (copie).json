@@ -1,0 +1,21 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:ignite_thunder_tnt",
+      "materials": {
+        "default": "thunder_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/thunder_tnt"
+      },
+      "geometry": {
+        "default": "geometry.thunder_tnt"
+      },
+      "render_controllers": [ "controller.render.thunder_tnt" ],
+      "spawn_egg": {
+        "base_color": "#919191"
+      }
+    }
+  }
+}

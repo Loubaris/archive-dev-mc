@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:shulker_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "shulker_sword",
+   "minecraft:render_offsets": "shulker_sword"
+  }
+ }
+}

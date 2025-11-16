@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:sky_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "sky_sword",
+   "minecraft:render_offsets": "sky_sword"
+  }
+ }
+}

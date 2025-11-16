@@ -1,0 +1,120 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nitric:anchor_up",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"bridge_execute_commands": "controller.animation.bridge_anchor_up.execute_commands"
+			}
+		},
+		"components": {
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "has_equipment",
+										"domain": "hand",
+										"subject": "other",
+										"value": "name_tag",
+										"operator": "!="
+									}
+								]
+							},
+							"interact_text": "Click to Teleport",
+							"event": "nitric:teleport"
+						}
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"mob"
+				]
+			},
+			"minecraft:health": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"on_damage": {
+						"filters": {}
+					},
+					"deals_damage": false
+				}
+			},
+			"minecraft:navigation.walk": {},
+			"minecraft:movement.basic": {},
+			"minecraft:movement": {
+				"value": 0,
+				"max": 0
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:scale": {
+				"value": 2
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1.5
+			}
+		},
+		"events": {
+			"nitric:teleport": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			}
+		}
+	}
+}

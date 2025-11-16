@@ -1,0 +1,142 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "kubo:mech1",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "mech3_1": {
+        "minecraft:variant": { "value": 0 }
+      },   
+      "mech3_2": {
+        "minecraft:variant": { "value": 1 }
+      },   
+      "mech3_3": {
+        "minecraft:variant": { "value": 2 }
+      }
+    },
+
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "mech", "mech3" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesWater": true
+      },
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:collision_box": {
+        "width": 2.1,
+        "height": 4.2
+      },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [
+          "player",
+          "villager",
+          "pillager",
+          "zombie"
+        ],
+        "interact_text": "action.interact.ride.horse",
+        "seats": {
+          "position": [ 0.0, 2.0, -0.2 ]
+        }
+      },
+      "minecraft:fall_damage": {
+        "value": 0.02
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.12
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:horse.jump_strength": {
+        "value": {
+          "range_min": 0.6,
+          "range_max": 1.0
+        }
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0,
+        "on_leash": {
+          "event": "minecraft:on_leash",
+          "target": "self"
+        },
+        "on_unleash": {
+          "event": "minecraft:on_unleash",
+          "target": "self"
+        }
+      },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [
+          "player",
+          "skeleton",
+          "zombie"
+        ],
+        "interact_text": "§f[§bRide mech§f]",
+        "seats": {
+          "position": [ 0.0, 1.5, -0.2 ]
+        }
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 2,
+        "speed_multiplier": 1.5,
+        "target_dist": 4.0,
+        "track_target": true
+      },
+      "minecraft:behavior.player_ride_tamed": {
+      },
+      "minecraft:input_ground_controlled": {
+      },
+      "minecraft:can_power_jump": {
+      },
+      "minecraft:balloonable": {
+      },
+      
+      "minecraft:is_tamed": {
+      },
+      "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 8,
+            "add": { "component_groups": [ "mech3_1" ] }
+          },
+          {
+            "weight": 8,
+            "add": { "component_groups": [ "mech3_2" ] }
+          },
+          {
+            "weight": 8,
+            "add": { "component_groups": [ "mech3_3" ] }
+          }
+        ]
+      }
+    }
+  }
+}

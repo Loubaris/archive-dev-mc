@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:recipe_wizard_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B B",
+      "B B",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      },
+      "B": {
+        "item": "minecraft:purple_wool"
+      }
+    },
+	"unlock": [
+		{
+			"item": "cyd_mgspl:manamote"
+		}
+    ],
+    "result": {
+      "item": "cyd_mgspl:wizard_leggings",
+      "count": 1
+    }
+  }
+}

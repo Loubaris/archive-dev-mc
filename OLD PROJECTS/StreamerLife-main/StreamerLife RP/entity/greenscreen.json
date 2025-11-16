@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:greenscreen",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/greenscreen/1",
+                "color2": "textures/furniture/greenscreen/1",
+                "color3": "textures/furniture/greenscreen/1"
+            },
+            "geometry": {
+                "default": "geometry.greenscreen"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "greenscreen",
+				"texture_index": 0
+            }
+        }
+    }
+}

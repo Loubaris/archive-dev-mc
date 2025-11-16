@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mes_mrhrs.horse.move": {
+      "states": {
+        "default": {
+          "animations": ["idle"],
+          "transitions": [
+            { "run": "q.ground_speed > 0 && q.is_on_ground" }
+          ],
+          "blend_transition": 0.25
+        },
+        "run": {
+          "animations": ["run"],
+          "transitions": [
+            { "default": "q.ground_speed <= 0 || !q.is_on_ground" }
+          ],
+          "blend_transition": 0.25
+        }
+      }
+    }
+  }
+}

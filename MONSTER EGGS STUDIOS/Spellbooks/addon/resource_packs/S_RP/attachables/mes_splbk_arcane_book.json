@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "mes_splbk:arcane_book",
+      "materials": {
+        "default": "entity_alphatest_change_color"
+      },
+      "textures": {
+        "default": "textures/mes/splbk/entity/attachable/arcane_book"
+      },
+      "geometry": {
+        "default": "geometry.mes_splbk.book"
+      },
+      "animations": {
+        "controller": "controller.animation.mes_splbk.ffp",
+        "third_person": "animation.mes_splbk.book.third_person",
+	"page_one": "animation.mes_splbk.book.page_one",
+        "charging": "animation.mes_splbk.book.charging",
+        "use": "animation.mes_splbk.book.use"
+      },
+      "scripts": {
+        "animate": [
+          "controller"
+        ]
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}

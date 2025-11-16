@@ -1,0 +1,24 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "cs:banner_igloo_island",
+         "spawn_egg": {
+            "texture": "spawn_egg",
+            "texture_index": 1
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/igloo_island"
+            }, 
+         "geometry": { 
+            "default": "geometry.bannerft" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ]
+         }
+      }
+}

@@ -1,0 +1,188 @@
+﻿pack.name=Zaubersprüche-Add-On	###
+pack.description=von Cyclone	###Cyclone is the name of the pack creator studio
+
+###ENTITY NAMES
+entity.cyd_mgspl:spell_summon_minion.name=Beschworener Lakai	###minion created from a spell, its a stone golem type
+entity.cyd_mgspl:whisp.name=Whisp	###non hostile magic whisp spirit with a faint blue ish shine to it
+
+###ITEM NAMES
+item.cyd_mgspl:guidebook=§d§lFoliant der Magie	###name of the guidebook
+item.cyd_mgspl:manamote=§bManamote§r	###name of the main crafting item, a blue-ish dust like substance that represents a tiny bit of magic potential
+item.cyd_mgspl:mana_potion=§bManatrank	###consumable potion to restore mana
+item.cyd_mgspl:mana_cookie=§bMana-Keks	###consumable food to restore mana
+item.cyd_mgspl:spell_potion=§aGedankentrank	###consumable potion to increase mana regeneration
+
+item.cyd_mgspl:enderblight=Zauber: Enderfäule	###magic spell item, conjures up a purple lingering damaging surface
+item.cyd_mgspl:fireball=Zauber: Feuerball	###magic spell item, hurls a damaging flaming projectile
+item.cyd_mgspl:gravity_vortex=Zauber: Schwerkraftswirbel	###magic spell item, conjures a black hole type effect that sucks in enemies and deals minor damage
+item.cyd_mgspl:ice_blast=Zauber: Eisstoß	###magic spell item, instantly blasts creatures in front of the caster with ice shards
+item.cyd_mgspl:illuminate=Zauber: Erleuchten	###magic spell item, spawns a glimmering light source at target location
+item.cyd_mgspl:levitation=Zauber: Schweben	###magic spell item, grants temporary flight
+item.cyd_mgspl:lightning_strike=Zauber: Blitzschlag	####magic spell item, call down lightning at location
+item.cyd_mgspl:mineblast=Zauber: Minenexplosion	###magic spell item, clears out blocks at target location
+item.cyd_mgspl:polymorph=Zauber: Verwandlung	###magic spell item, transforms a creature into a harmless critter
+item.cyd_mgspl:push=Zauber: Stoß	###magic spell item, push away creatures around you in a shockwave
+item.cyd_mgspl:return=Zauber: Rückkehr	###magic spell item, brings you back to your last spawnpoint / bed location
+item.cyd_mgspl:summon_minion=Zauber: Lakai beschwören	###magic spell item, summon a golem minion to help in battle
+item.cyd_mgspl:timewarp=Zauber: Zeitkrümmung	###magic spell item, speeds up time
+item.cyd_mgspl:whirlwind=Zauber: Wirbelwind	###magic spell item, summon a whirlwind that seeks out and launches enemies in the air
+item.cyd_mgspl:witherskulls=Zauber: Witherschädel	###magic spell item, summons a bunch of homing witherskull projectiles
+
+item.cyd_mgspl:wizard_hat=§bMagischer Hut	###Part of an Armor set
+item.cyd_mgspl:wizard_robe=§bMagische Robe	###Part of an Armor set
+item.cyd_mgspl:wizard_leggings=§bMagische Leggings	###Part of an Armor set
+item.cyd_mgspl:wizard_boots=§bMagische Stiefel	###Part of an Armor set
+
+###GAMEPLAY FEEDBACK
+cyd_mgspl.feedback_out_of_bounds=§cKann nicht außerhalb der Weltgrenzen gewirkt werden	###error message
+cyd_mgspl.feedback_not_enough_mana=§cNicht genug Mana	###error message
+cyd_mgspl.feedback_spell_on_cooldown=§cZauber klingt ab	###error message
+cyd_mgspl.feedback_mana=§bMana	###used in resources display, needs to be very short - mana is the resource used to cast spells
+cyd_mgspl.feedback_cooldown=§cAbklingzeit	###used in resources display, needs to be very short - cooldown of a magic spell after it has been cast
+cyd_mgspl.feedback_charge=§aLadung	###used in resources display, needs to be very short - some spells increase in power when charged up before being cast
+
+###GUIDEBOOK SECTION
+###Guidebook is made up of menus with a title, body and at least one button. I grouped them here per page of the guidebook for context.
+###Buttons lead deeper into sub menus except of course for the back button.
+
+###LANDING PAGE
+cyd_mgspl.menu_main_title=§lFoliant der Magie	###guidebook landing page title
+cyd_mgspl.menu_main_body=Im §d§lFoliant der Magie§r findest du alles an magischem Wissen, das du brauchst. Hier erfährst du mehr über Zaubersprüche, neue magische Gegenstände und kannst deine Einstellungen anpassen.	###guidebook landing menu text
+cyd_mgspl.menu_button_tutorial=Wie es funktioniert	###guidebook landing page button that leads to the tutorial page
+cyd_mgspl.menu_button_spells=Liste der Zauber	###guidebook landing page button that leads to the spell list
+cyd_mgspl.menu_button_items=Liste der Gegenstände	###guidebook landing page button that leads to the item list
+cyd_mgspl.menu_button_settings=Add-On-Einstellungen	###guidebook button that leads to the settings menu
+cyd_mgspl.menu_button_about=Info	###guidebook button that leads to the credits sections
+cyd_mgspl.menu_button_return=Zurück	###guidebook generic button to navigate backwards in a menu structure
+
+###GUIDEBOOK TUTORIAL
+cyd_mgspl.menu_tutorial_title=§lZaubersprüche-Tutorial	###guidebook tutorial page title
+cyd_mgspl.menu_tutorial_body=Um mit §dZaubersprüchen§r zu beginnen, musst du einen §bManamote§r finden. Feindliche Kreaturen wie Skelette oder Zombies haben eine kleine Chance, einen fallenzulassen.%1%1Halte in Waldgebieten Ausschau nach magischen §bWhisps§r, die garantiert mindestens einen §bManamote§r fallen lassen!%1%1Sobald du deinen ersten §bManamote§r eingesammelt hast, werden die Handwerksrezepte im Rezept-Menü jeder Werkbank freigeschaltet.%1%1Detaillierte Beschreibungen aller Gegenstände findest du in den §dZauber-§r und §eGegenstände§r-Abschnitt des Foliant der Magie.	###guidebook tutorial section menu text, use double line breaks to separate paragraphs
+
+cyd_mgspl.menu_button_howtospells=Wie wirke ich Zauber?	###guidebook tutorial section button that leads to the spellcasting explain page
+cyd_mgspl.menu_button_mana=Was ist Mana?	###guidebook button that leads to the mana explain page
+
+###GUIDEBOOK TUTORIAL CASTING
+cyd_mgspl.menu_howtospell_title=§lWie wirke ich Zauber?	###guidebook spellcasting explain page title
+cyd_mgspl.menu_howtospell_body=Sobald du einen §dZauberspruch§r hergestellt hast, kannst du interagieren, um ihn zu wirken.%1Jeder Zauber verwendet einen Teil deines §bMana§r, also stelle zunächst sicher, dass du genug davon hast.%1%1Einige §dZauber§r können §ckanalisiert§r oder §caufgeladen§r werden. Anstatt auf die Taste zu tippen, um sie zu wirken, musst du sie gedrückt halten, um den Effekt zu erzielen.%1%1Du kannst für jeden Zauber in der §dListe der Zauber§r im Foliant der Magie detaillierte Beschreibungen ansehen.	###guidebook spellcasting explainer section menu text, use double line breaks to separate paragraphs
+cyd_mgspl.menu_button_list=Zeige mir die Zauber!	###guidebook button that leads to the spell list
+
+###GUIDEBOOK TUTORIAL MANA
+cyd_mgspl.menu_mana_title=§lWas ist Mana?	###guidebook mana explain page title
+cyd_mgspl.menu_mana_body=Mana repräsentiert dein magisches Potenzial, um §dZaubersprüche§r zu wirken.%1%1Als Standard stehen dir §b100 Mana§r zur Verfügung. Nachdem du etwas davon genutzt hast, um einen Zauber zu wirken, regeneriert sich dein §bMana§r um §b2 Punktete§r pro Sekunde.%1%1Das Tragen besonderer §eZauberkleidung§r kann dein magisches Potenzial weiter erhöhen.%1%1Du kannst Teile deines §bMana§r schneller wiederherstellen, indem du magische §eTränke§r oder §eMana-Kekse§r konsumierst.	###guidebook mana explainer menu text, use double line breaks to separate paragraphs
+cyd_mgspl.menu_button_armor=Magische Kleidung?	###guidebook button that leads to the armor explain page
+cyd_mgspl.menu_button_potions=Magische Tränke?	###guidebook button that leads to the potion explain page
+
+###GUIDEBOOK ITEM LIST
+cyd_mgspl.menu_item_title=§lListe der magischen Gegenstände	###guidebook list of items title
+cyd_mgspl.menu_item_body=Hier findest du die besten §eGegenstände§r, um als §dZauberwirker§r zu glänzen.	###guidebook list of items menu text
+cyd_mgspl.menu_item_armor=Magische Kleidung	###guidebook button that leads to the armor explain page
+cyd_mgspl.menu_item_potions=Magische Tränke	###guidebook button that leads to the armor explain page
+
+###GUIDEBOOK ITEMS ARMOR
+cyd_mgspl.menu_armor_title=§lMagische Rüstung	###guidebook armor explain page title
+cyd_mgspl.menu_armor_body=Wenn du an der Werkbank gewöhnlichen Stoff mit §bManateilchen§r versetzt, erhältst du eine Rüstung, die sich wie keine andere zum §dZaubern§r eignet. %1Magische Rüstungen sind erstaunlich haltbar, können auf hohe Stufen verzaubert werden und bieten diese zusätzlichen Boni: %1%1§eMagischer Hut §b+1 Manaregeneration§r%1§eMagische Robe §b+10 Maximum-Mana§r%1§eMagische Leggings §b+10 Maximum-Mana§r%1§eMagische Stiefel §b+5 Maximum-Mana§r%1%1Magische Rüstungen können an einem Amboss mit Wolle oder einem §bManateilchen§r repariert werden.	###guidebook armor section menu text, use double line breaks to separate paragraphs
+
+###GUIDEBOOK ITEMS POTIONS
+cyd_mgspl.menu_potions_title=§lMagische Tränke	###guidebook potions and consumables page
+cyd_mgspl.menu_potions_body=§eMana-Kekse§r werden hergestellt, indem man gewöhnliche Kekse mit einem §bManamote§r an einem Braustand verbindet. Durch diesen Vorgang schmecken sie nicht nur besser, sie können auch §b25 Mana§r wiederherstellen.%1%1Wenn du einen §eManatrank§r trinkst, werden sofort unglaubliche §b75 Mana§r wiederhergestellt. Um diesen herzustellen, musst du einfach einen §bManamote§r in einer Wasserflasche an einem Braustand auflösen.%1%1Der §eGedankentrank§r erhöht deine Fähigkeit, §bMana§r zu generieren, erheblich für §b60 Sekunden§r.	###guidebook potion and consumables explainer menu text, use double line breaks to separate paragraphs
+
+###GUIDEBOOK SETTINGS
+cyd_mgspl.menu_settings_title=§lEinstellungen	###guidebook settings menu title
+cyd_mgspl.menu_settings_formatting=Wähle den Textformatierungsmodus für deine §bMana§r- und §dZauber§r-Anzeige	###drop down menu description
+cyd_mgspl.settings_format_option_1=Standard	###dropdown menu option
+cyd_mgspl.settings_format_option_2=Kompakt	###dropdown menu option
+cyd_mgspl.settings_format_option_3=Aus	###dropdown menu option
+cyd_mgspl.menu_settings_fail=Wähle eine Benachrichtigungsoptionen, falls ein §dZauber§r nicht gewirkt wurde	###drop down menu description
+cyd_mgspl.settings_fail_option_1=Text & Audio	###dropdown menu option
+cyd_mgspl.settings_fail_option_2=Audio	###dropdown menu option
+cyd_mgspl.settings_fail_option_3=Aus	###dropdown menu option
+cyd_mgspl.settings_updated=§aEinstellungen aktualisiert!	###conmfirm chat message on successful setting change	###
+
+###GUIDEBOOK SPELL LIST
+cyd_mgspl.menu_spells_title=§lListe der Zauber	###guidebook list of spells title
+cyd_mgspl.menu_spells_body=Wähle einen §dZauber§r, um eine detaillierte Beschreibung anzuzeigen.	###guidebook list of spells menu text
+
+cyd_mgspl.enderblight=Enderfäule	###magic spell, conjures up a purple lingering damaging surface
+cyd_mgspl.fireball=Feuerball	###magic spell, hurls a damaging flaming projectile
+cyd_mgspl.gravity_vortex=Schwerkraftswirbel	###magic spell, conjures a black hole type effect that sucks in enemies and deals minor damage
+cyd_mgspl.ice_blast=Eisstoß	###magic spell, instantly blasts creatures in front of the caster with ice shards
+cyd_mgspl.illuminate=Erleuchten	###magic spell, spawns a glimmering light source at target location
+cyd_mgspl.levitation=Schweben	###magic spell, grants temporary flight
+cyd_mgspl.lightning_strike=Blitzeinschlag	###magic spell, call down lightning at location
+cyd_mgspl.mineblast=Minenexplosion	###magic spell, clears out blocks at target location
+cyd_mgspl.polymorph=Verwandlung	###magic spell, transforms a creature into a harmless critter
+cyd_mgspl.push=Drücken	###magic spell, push away creatures around you in a shockwave
+cyd_mgspl.return=Zurück	###magic spell, brings you back to your last spawnpoint / bed location
+cyd_mgspl.summon_minion=Lakaien beschwören	###magic spell, summon a golem minion to help in battle
+cyd_mgspl.timewarp=Zeitkrümmung	###magic spell, speeds up time
+cyd_mgspl.whirlwind=Wirbelwind	###magic spell, summon a whirlwind that seeks out and launches enemies in the air
+cyd_mgspl.witherskulls=Witherschädel	###magic spell, summons a bunch of homing witherskull projectiles
+
+###GUIDEBOOK SPELL DETAIL MENU
+cyd_mgspl.menu_title.spell_detail=Details des Zaubers	###guidebook spell detail page title
+
+cyd_mgspl.spells_data_Manacost=Manakosten	###spell stat, a word followed by a number in the menu, example: "Manacost 10"
+cyd_mgspl.spells_data_Cooldown=Abklingzeit	###spell stat, a word followed by a number in the menu, example: "Cooldown 2 Seconds"
+cyd_mgspl.spells_data_damage=Schaden	###spell stat, a word followed by a number in the menu, example: "Damage 8"
+cyd_mgspl.spells_data_cast_range=Zauberreichweite	###spell stat, a word followed by a number in the menu, example: "Cast Range 32 Block"
+cyd_mgspl.spells_data_effect_radius=Effektradius	###spell stat, a word followed by a number in the menu, example: "Effect Radius 5 Block"
+cyd_mgspl.spells_data_pull_radius=Einzugsradius	###spell stat, a word followed by a number in the menu, example: "Pull in Radius 20 Block"
+cyd_mgspl.spells_data_effect_duration=Effektdauer	###spell stat, a word followed by a number in the menu, example: "Effect Duration 20 Seconds"
+
+cyd_mgspl.spells_unit_block=Blocken	###spell stat unit, follows a number example: "Effect Radius: 4 Block"
+cyd_mgspl.spells_unit_seconds=Sekunden	###spell stat unit, follows a number example: "Effect Duration: 4 Seconds"
+cyd_mgspl.spells_unit_per_second=pro Sekunde	###spell stat unit, follows a number example: "Manacost: 4 per Second"
+cyd_mgspl.spells_unit_per_charge=pro Ladung	###spell stat unit, follows a number example: "Damage: 4 per Charge"
+
+cyd_mgspl.spell_hint_none=%1	###placeholder hint for tech reasons, keep just the linebreak here - thanks
+cyd_mgspl.spell_hint_channelling=%1§cKanalisierung:§f Dieser Zauber wird wiederholt gewirkt, während "Interagieren" gedrückt gehalten wird, solange der Zaubernde genügend Mana hat und bevor die Abklingzeit beginnt.%1%1	###spell type description hint, spells can only have one type
+cyd_mgspl.spell_hint_charging=%1§cAufladung:§f Dieser Zauber kann Ladungen ansammeln, um seine Kraft zu erhöhen. Halte "Interagieren" gedrückt, um aufzuladen, und lasse dann los, um den Zauber zu wirken.%1%1	###spell type description hint, spells can only have one type
+
+cyd_mgspl.enderblight.desc=Beschwöre einen großen Fleck strahlende Enderfäule auf den Boden, die Kreaturen je Sekunde Schaden zufügt.	###spell description
+cyd_mgspl.fireball.desc=Schieße ein flammendes Projektil ab, das dem ersten getroffenen Ziel und einem kleinen Bereich um die Einschlagstelle Schaden zufügt.	###spell description
+cyd_mgspl.gravity_vortex.desc=Erschaffe einen Wirbel, der Kreaturen in der Nähe einsaugt. Kreaturen, die in der Mitte des Effekts gefangen sind, erleiden jede Sekunde Schaden.	###spell description
+cyd_mgspl.ice_blast.desc=Triff Kreaturen in einem Kegel vor dir mit einer beißenden Eiswelle.	###spell description
+cyd_mgspl.illuminate.desc=Beschwöre eine schimmernde Lichtquelle an den Zielort in Reichweite, die für eine begrenzte Zeit verweilt.	###spell description
+cyd_mgspl.levitation.desc=Erhalte für eine begrenzte Zeit die Fähigkeit, zu fliegen.	###spell description
+cyd_mgspl.lightning_strike.desc=Ruft Blitze auf den Zielort in Reichweite, um Kreaturen in seinem Wirkungsbereich Schaden zuzufügen. Dieser Zauber lädt außerdem Creeper auf.	###spell description
+cyd_mgspl.mineblast.desc=Säubert einen Bereich mit Blöcken am Zielort innerhalb der Reichweite, um einen schnellen Abbau zu ermöglichen. Fügt Kreaturen keinen Schaden zu.	###spell description
+cyd_mgspl.polymorph.desc=Verwandelt eine feindliche Kreatur vorübergehend in ein niedliches, harmloses Kriechtier.%1%1§cFunktioniert nicht bei Gegnern mit sehr hoher max. Gesundheit wie Bossen.§r	###spell description
+cyd_mgspl.push.desc=Stoße gewaltsam alle Kreaturen um dich herum weg.	###spell description
+cyd_mgspl.return.desc=Beschwöre einen magischen Kreis auf dem Boden. Nach 3 Sekunden werden Spieler und Kreaturen innerhalb des Kreises zu deinem Spawnpunkt teleportiert.	###spell description
+cyd_mgspl.summon_minion.desc=Beschwöre ein verbündetes Wesen, das dir im Kampf hilft.	###spell description
+cyd_mgspl.timewarp.desc=Beschleunige schnell die Tageszeit. Mache innerhalb von Sekunden den Tag zur Nacht und die Nacht zum Tag.	###spell description
+cyd_mgspl.whirlwind.desc=Beschwöre einen Wirbelwind mit erstaunlicher Geschwindigkeit, der Feinde findet und sie in die Luft schleudert. Funktioniert nur gegen Ziele am Boden.	###spell description
+cyd_mgspl.witherskulls.desc=Schieße bis zu 5 Witherschädel aus dem Nether hinauf, die Kreaturen in der Nähe finden und explodieren.	###spell description
+
+###GUIDEBOOK CREDITS
+cyd_mgspl.menu_about_title=§lÜber das Add-On	###guidebook credits page title
+cyd_mgspl.menu_about_body=§dZaubersprüche§r wurde von Cyclone erstellt.	###guidebook credits page contents, cyclone is the name of the creator studio
+cyd_mgspl.menu_about_version=Version	###guidebook datapoint to showcase current add-on version
+cyd_mgspl.menu_about_changelog=Änderungsprotokoll	###guidebook section to show a version changelog
+
+###COMPUTERS BY JIGARBOV INTEGRATION
+cyd_mgspl:jig_computer.addon_stats=Magiezauber-Statistiken	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+
+cyd_mgspl:stat_mana_spent=Verbrauchtes Mana	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_spells_cast=Zauber insgesamt gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_enderblight_cast=Enderfäule gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_fireball_cast=Feuerball gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_gravity_vortex_cast=Schwerkraftswirbel gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_ice_blast_cast=Eisstoß gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_illuminate_cast=Erleuchten gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_levitation_cast=Schweben gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_lightning_strike_cast=Blitzschlag gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_mineblast_cast=Minenexplosion gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_polymorph_cast=Verwandlung gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_push_cast=Stoß gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_return_cast=Rückkehr gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_summon_minion_cast=Lakai beschwören gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_timewarp_cast=Zeitkrümmung gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_whirlwind_cast=Wirbelwind gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_witherskulls_cast=Witherschädel gewirkt	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+
+cyd_mgspl:credits.for.computers=Zaubersprüche-Add-On von Cyclone	###
+
+
+

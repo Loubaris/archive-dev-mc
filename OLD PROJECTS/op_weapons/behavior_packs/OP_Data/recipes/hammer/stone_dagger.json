@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:stone_dagger"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "Y#Y",
+      "U#U",
+      "U#U"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "ninja:stone_dagger"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+﻿pack.name=魔法の呪文 アドオン	###
+pack.description=作者: Cyclone	###Cyclone is the name of the pack creator studio
+
+###ENTITY NAMES
+entity.cyd_mgspl:spell_summon_minion.name=召喚されたミニオン	###minion created from a spell, its a stone golem type
+entity.cyd_mgspl:whisp.name=ウィスプ	###non hostile magic whisp spirit with a faint blue ish shine to it
+
+###ITEM NAMES
+item.cyd_mgspl:guidebook=§d§l魔法の書	###name of the guidebook
+item.cyd_mgspl:manamote=§bマナモート§r	###name of the main crafting item, a blue-ish dust like substance that represents a tiny bit of magic potential
+item.cyd_mgspl:mana_potion=§bマナ ポーション	###consumable potion to restore mana
+item.cyd_mgspl:mana_cookie=§bマナ クッキー	###consumable food to restore mana
+item.cyd_mgspl:spell_potion=§aマインド ポーション	###consumable potion to increase mana regeneration
+
+item.cyd_mgspl:enderblight=呪文: エンダーブライト	###magic spell item, conjures up a purple lingering damaging surface
+item.cyd_mgspl:fireball=呪文: 火の玉	###magic spell item, hurls a damaging flaming projectile
+item.cyd_mgspl:gravity_vortex=呪文: 重力の渦	###magic spell item, conjures a black hole type effect that sucks in enemies and deals minor damage
+item.cyd_mgspl:ice_blast=呪文: 氷の爆発	###magic spell item, instantly blasts creatures in front of the caster with ice shards
+item.cyd_mgspl:illuminate=呪文: イルミネーション	###magic spell item, spawns a glimmering light source at target location
+item.cyd_mgspl:levitation=呪文: 浮遊	###magic spell item, grants temporary flight
+item.cyd_mgspl:lightning_strike=呪文: ライトニング ストライク	####magic spell item, call down lightning at location
+item.cyd_mgspl:mineblast=呪文: マインバースト	###magic spell item, clears out blocks at target location
+item.cyd_mgspl:polymorph=呪文: ポリモーフ	###magic spell item, transforms a creature into a harmless critter
+item.cyd_mgspl:push=呪文: プッシュ	###magic spell item, push away creatures around you in a shockwave
+item.cyd_mgspl:return=呪文:リターン	###magic spell item, brings you back to your last spawnpoint / bed location
+item.cyd_mgspl:summon_minion=呪文: ミニオン召喚	###magic spell item, summon a golem minion to help in battle
+item.cyd_mgspl:timewarp=呪文: タイムワープ	###magic spell item, speeds up time
+item.cyd_mgspl:whirlwind=呪文: ワールウィンド	###magic spell item, summon a whirlwind that seeks out and launches enemies in the air
+item.cyd_mgspl:witherskulls=呪文: ウィザースカル	###magic spell item, summons a bunch of homing witherskull projectiles
+
+item.cyd_mgspl:wizard_hat=§b魔法の帽子	###Part of an Armor set
+item.cyd_mgspl:wizard_robe=§b魔法のローブ	###Part of an Armor set
+item.cyd_mgspl:wizard_leggings=§b魔法のレギンス	###Part of an Armor set
+item.cyd_mgspl:wizard_boots=§b魔法のブーツ	###Part of an Armor set
+
+###GAMEPLAY FEEDBACK
+cyd_mgspl.feedback_out_of_bounds=§c世界のボーダーの外には詠唱できません	###error message
+cyd_mgspl.feedback_not_enough_mana=§cマナが足りません	###error message
+cyd_mgspl.feedback_spell_on_cooldown=§cクールダウン中の呪文	###error message
+cyd_mgspl.feedback_mana=§bマナ	###used in resources display, needs to be very short - mana is the resource used to cast spells
+cyd_mgspl.feedback_cooldown=§cクールダウン	###used in resources display, needs to be very short - cooldown of a magic spell after it has been cast
+cyd_mgspl.feedback_charge=§aチャージ	###used in resources display, needs to be very short - some spells increase in power when charged up before being cast
+
+###GUIDEBOOK SECTION
+###Guidebook is made up of menus with a title, body and at least one button. I grouped them here per page of the guidebook for context.
+###Buttons lead deeper into sub menus except of course for the back button.
+
+###LANDING PAGE
+cyd_mgspl.menu_main_title=§l魔法の書	###guidebook landing page title
+cyd_mgspl.menu_main_body=§d§l魔法の書§rには必要な魔法の知識がすべて書かれています。魔法の呪文や新しい魔法アイテムについて学び、ここで設定を調整しましょう。	###guidebook landing menu text
+cyd_mgspl.menu_button_tutorial=仕組み	###guidebook landing page button that leads to the tutorial page
+cyd_mgspl.menu_button_spells=呪文一覧	###guidebook landing page button that leads to the spell list
+cyd_mgspl.menu_button_items=アイテム一覧	###guidebook landing page button that leads to the item list
+cyd_mgspl.menu_button_settings=アドオン設定	###guidebook button that leads to the settings menu
+cyd_mgspl.menu_button_about=ゲームについて	###guidebook button that leads to the credits sections
+cyd_mgspl.menu_button_return=戻る	###guidebook generic button to navigate backwards in a menu structure
+
+###GUIDEBOOK TUTORIAL
+cyd_mgspl.menu_tutorial_title=§l魔法の呪文 チュートリアル	###guidebook tutorial page title
+cyd_mgspl.menu_tutorial_body=§d魔法の呪文§rを始めるには§bマナモート§rを見つける必要があります。マナモートは、スケルトンやゾンビのような敵モブたちが稀にドロップします。%1%1森林エリアでは、最低1§bマナモート§rを確実にドロップする魔法の§bウィスプ§rを見逃さないように! %1%1初めて§bマナモート§rを獲得すると、クラフト レシピがクラフト テーブルのレシピ メニューから利用可能になります。%1%1魔法の書の§d呪文§rおよび§eアイテム§rの覧には、すべてのアイテムの詳細な記述が含まれています。	###guidebook tutorial section menu text, use double line breaks to separate paragraphs
+
+cyd_mgspl.menu_button_howtospells=呪文を使うには?	###guidebook tutorial section button that leads to the spellcasting explain page
+cyd_mgspl.menu_button_mana=マナとは?	###guidebook button that leads to the mana explain page
+
+###GUIDEBOOK TUTORIAL CASTING
+cyd_mgspl.menu_howtospell_title=§l呪文の詠唱方法について	###guidebook spellcasting explain page title
+cyd_mgspl.menu_howtospell_body=§d魔法の呪文§rをクラフトしたら、インタラクトして魔法を使用できます。%1各呪文は§bマナ§rを消費するので、呪文をかける前にはマナを十分確保するようにしましょう。%1%1§d呪文§rには§cチャネリング§rや§cチャージ§rできるものがあります。呪文をかけるにはボタンをタップする代わりに長押ししてください。%1%1魔法の書の§d呪文一覧§rから全呪文の詳しい説明を確認することができます。	###guidebook spellcasting explainer section menu text, use double line breaks to separate paragraphs
+cyd_mgspl.menu_button_list=呪文を見せてください！	###guidebook button that leads to the spell list
+
+###GUIDEBOOK TUTORIAL MANA
+cyd_mgspl.menu_mana_title=§lマナとは？	###guidebook mana explain page title
+cyd_mgspl.menu_mana_body=マナは§d呪文§rを唱えるために必要なエネルギーを意味します。%1%1初期状態では、§b100 マナ§rを自在に操ることができます。呪文を使用すると、§bマナ§rは毎秒§b2ポイント§rの速度で自然回復します。%1%1特別な§e魔法の衣装§rを身に着けると、マナの最大量を上昇させることができます。%1%1魔法の§eポーション§rや§eマナ クッキー§rを利用すると、§bマナ§rの回復をさらに速めることができます。	###guidebook mana explainer menu text, use double line breaks to separate paragraphs
+cyd_mgspl.menu_button_armor=魔法の衣装とは?	###guidebook button that leads to the armor explain page
+cyd_mgspl.menu_button_potions=魔法のポーションとは?	###guidebook button that leads to the potion explain page
+
+###GUIDEBOOK ITEM LIST
+cyd_mgspl.menu_item_title=§l魔法のアイテム リスト	###guidebook list of items title
+cyd_mgspl.menu_item_body=ここには§d魔法使い§rとして腕を磨くための最高の§eアイテム§rが揃っています。	###guidebook list of items menu text
+cyd_mgspl.menu_item_armor=魔法の衣装	###guidebook button that leads to the armor explain page
+cyd_mgspl.menu_item_potions=魔法のポーション	###guidebook button that leads to the armor explain page
+
+###GUIDEBOOK ITEMS ARMOR
+cyd_mgspl.menu_armor_title=§l魔法の防具	###guidebook armor explain page title
+cyd_mgspl.menu_armor_body=作業台で普通の布に§bマナモート§rを注入すると、§d呪文詠唱§rに適した素晴らしい防具がクラフトできます。%1魔法の防具は驚くほど耐久性があり、高レベルまでエンチャントでき、次の追加ボーナスも得られます:%1%1§e魔法の帽子 §b+ 1 マナ生成§r%1§e魔法のローブ §b+ 10 最大マナ§r%1§e魔法のレギンス §b+ 10 最大マナ§r%1§e魔法のブーツ §b+ 5 最大マナ§r%1%1魔法の防具は、ウールまたは§bマナモート§rを使用して金床で修理できます。	###guidebook armor section menu text, use double line breaks to separate paragraphs
+
+###GUIDEBOOK ITEMS POTIONS
+cyd_mgspl.menu_potions_title=§l魔法のポーション	###guidebook potions and consumables page
+cyd_mgspl.menu_potions_body=§eマナ クッキー§rは、醸造所で普通のクッキーに§bマナモート§rを混ぜることで作ることができます。この手順を踏むことで、クッキーはより美味しくなるだけではなく、§b25 マナ§rの回復が可能になります。%1%1また、§eマナポーション§rを摂取すると、一瞬で§b75 マナ§rを回復することができます。醸造所で§bマナモート§rを水の入ったボトルに溶かし、マナ クッキーを作ってみましょう。%1%1§eマインド ポーション§rは、§b60 秒間§r§bマナ§rの生成能力を向上させる効果があります。	###guidebook potion and consumables explainer menu text, use double line breaks to separate paragraphs
+
+###GUIDEBOOK SETTINGS
+cyd_mgspl.menu_settings_title=§l設定	###guidebook settings menu title
+cyd_mgspl.menu_settings_formatting=§bマナ§rと§d呪文§rを表示するテキスト書式モードを選択	###drop down menu description
+cyd_mgspl.settings_format_option_1=スタンダード	###dropdown menu option
+cyd_mgspl.settings_format_option_2=コンパクト	###dropdown menu option
+cyd_mgspl.settings_format_option_3=オフ	###dropdown menu option
+cyd_mgspl.menu_settings_fail=§d呪文§rの詠唱に失敗した場合の通知方法を選択	###drop down menu description
+cyd_mgspl.settings_fail_option_1=テキストとサウンド	###dropdown menu option
+cyd_mgspl.settings_fail_option_2=効果音	###dropdown menu option
+cyd_mgspl.settings_fail_option_3=オフ	###dropdown menu option
+cyd_mgspl.settings_updated=§a設定更新!	###conmfirm chat message on successful setting change	###
+
+###GUIDEBOOK SPELL LIST
+cyd_mgspl.menu_spells_title=§l呪文一覧	###guidebook list of spells title
+cyd_mgspl.menu_spells_body=§d呪文§rを選択して詳細を確認しましょう。	###guidebook list of spells menu text
+
+cyd_mgspl.enderblight=エンダーブライト	###magic spell, conjures up a purple lingering damaging surface
+cyd_mgspl.fireball=火の玉	###magic spell, hurls a damaging flaming projectile
+cyd_mgspl.gravity_vortex=重力の渦	###magic spell, conjures a black hole type effect that sucks in enemies and deals minor damage
+cyd_mgspl.ice_blast=アイスブラスト	###magic spell, instantly blasts creatures in front of the caster with ice shards
+cyd_mgspl.illuminate=イルミネイト	###magic spell, spawns a glimmering light source at target location
+cyd_mgspl.levitation=浮遊	###magic spell, grants temporary flight
+cyd_mgspl.lightning_strike=落雷	###magic spell, call down lightning at location
+cyd_mgspl.mineblast=マインバースト	###magic spell, clears out blocks at target location
+cyd_mgspl.polymorph=ポリモーフ	###magic spell, transforms a creature into a harmless critter
+cyd_mgspl.push=押す	###magic spell, push away creatures around you in a shockwave
+cyd_mgspl.return=帰還	###magic spell, brings you back to your last spawnpoint / bed location
+cyd_mgspl.summon_minion=ミニオン召喚	###magic spell, summon a golem minion to help in battle
+cyd_mgspl.timewarp=タイムワープ	###magic spell, speeds up time
+cyd_mgspl.whirlwind=Whirlwind	###magic spell, summon a whirlwind that seeks out and launches enemies in the air
+cyd_mgspl.witherskulls=ウィザースカル	###magic spell, summons a bunch of homing witherskull projectiles
+
+###GUIDEBOOK SPELL DETAIL MENU
+cyd_mgspl.menu_title.spell_detail=呪文の詳細	###guidebook spell detail page title
+
+cyd_mgspl.spells_data_Manacost=マナコスト	###spell stat, a word followed by a number in the menu, example: "Manacost 10"
+cyd_mgspl.spells_data_Cooldown=クールダウン	###spell stat, a word followed by a number in the menu, example: "Cooldown 2 Seconds"
+cyd_mgspl.spells_data_damage=ダメージ	###spell stat, a word followed by a number in the menu, example: "Damage 8"
+cyd_mgspl.spells_data_cast_range=呪文有効範囲	###spell stat, a word followed by a number in the menu, example: "Cast Range 32 Block"
+cyd_mgspl.spells_data_effect_radius=効果範囲	###spell stat, a word followed by a number in the menu, example: "Effect Radius 5 Block"
+cyd_mgspl.spells_data_pull_radius=範囲内に引き込む	###spell stat, a word followed by a number in the menu, example: "Pull in Radius 20 Block"
+cyd_mgspl.spells_data_effect_duration=効果持続時間	###spell stat, a word followed by a number in the menu, example: "Effect Duration 20 Seconds"
+
+cyd_mgspl.spells_unit_block=ブロック	###spell stat unit, follows a number example: "Effect Radius: 4 Block"
+cyd_mgspl.spells_unit_seconds=秒数	###spell stat unit, follows a number example: "Effect Duration: 4 Seconds"
+cyd_mgspl.spells_unit_per_second=毎秒	###spell stat unit, follows a number example: "Manacost: 4 per Second"
+cyd_mgspl.spells_unit_per_charge=チャージごと	###spell stat unit, follows a number example: "Damage: 4 per Charge"
+
+cyd_mgspl.spell_hint_none=%1	###placeholder hint for tech reasons, keep just the linebreak here - thanks
+cyd_mgspl.spell_hint_channelling=%1§cチャネリング: §fこの呪文は、マナが十分にある限り、インタラクトしている間繰り返し詠唱できます (クールダウンになるまで)。%1%1	###spell type description hint, spells can only have one type
+cyd_mgspl.spell_hint_charging=%1§cチャージ: §fこの呪文は、力を溜めてパワーを上げることが可能。チャージするにはインタラクトを押し続け、放すと詠唱できます。%1%1	###spell type description hint, spells can only have one type
+
+cyd_mgspl.enderblight.desc=光を放つ大きなエンダーブライトを地表に発生させ、モブに毎秒ダメージを与えます。	###spell description
+cyd_mgspl.fireball.desc=火炎弾を発射し、最初に当たった標的と着弾地点周辺の狭い範囲にダメージを与えます。	###spell description
+cyd_mgspl.gravity_vortex.desc=付近のモブを引き込む渦が発生する。この効果の範囲内に捕らわれたモブは毎秒ダメージを受ける。	###spell description
+cyd_mgspl.ice_blast.desc=氷の波が前方に広がる円錐形の範囲内のモブを切り裂く。	###spell description
+cyd_mgspl.illuminate.desc=範囲内の標的地点に、一定時間持続するきらめく光源を発生させます。	###spell description
+cyd_mgspl.levitation.desc=一定の期間、空を飛ぶ力を手に入れる。	###spell description
+cyd_mgspl.lightning_strike.desc=範囲内の標的地点に雷を落とし、効果範囲内のモブにダメージを与えます。この呪文はクリーパーにも効果があります。	###spell description
+cyd_mgspl.mineblast.desc=範囲内にあるブロックを消し去り、採掘を容易にすることができる。ただし、モブはダメージを受けない。	###spell description
+cyd_mgspl.polymorph.desc=一時的に敵モブをかわいい無害な生き物に変身させる。%1%1§c ただし、ボスなどの最大 HP が非常に高い敵には効果がない。§r	###spell description
+cyd_mgspl.push.desc=周囲のモブを無理やり後退させる。	###spell description
+cyd_mgspl.return.desc=地面に魔法陣を召喚する。3 秒後に陣内のプレイヤーとモブがスポーン地点にテレポートする。	###spell description
+cyd_mgspl.summon_minion.desc=戦闘を助けてくれる味方クリーチャーを召喚します。	###spell description
+cyd_mgspl.timewarp.desc=1 日の時間の流れを劇的に加速させる。わずか数秒で夜が昼へと変わり、昼もまた夜に変わる。	###spell description
+cyd_mgspl.whirlwind.desc=敵を追尾する素早いつむじ風を召喚し、それを空中へと放つ。地上にいる標的に対してのみ有効。	###spell description
+cyd_mgspl.witherskulls.desc=ネザーから最大 5 体のウィザースカルを召喚し、近くのモブを見つけ出して爆発させる。	###spell description
+
+###GUIDEBOOK CREDITS
+cyd_mgspl.menu_about_title=§lアドオンについて	###guidebook credits page title
+cyd_mgspl.menu_about_body=§d魔法の呪文§rは Cyclone によって制作されました。	###guidebook credits page contents, cyclone is the name of the creator studio
+cyd_mgspl.menu_about_version=バージョン	###guidebook datapoint to showcase current add-on version
+cyd_mgspl.menu_about_changelog=変更ログ	###guidebook section to show a version changelog
+
+###COMPUTERS BY JIGARBOV INTEGRATION
+cyd_mgspl:jig_computer.addon_stats=魔法の呪文統計	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+
+cyd_mgspl:stat_mana_spent=消費マナ合計	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_spells_cast=呪文の総使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_enderblight_cast=エンダーブライトの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_fireball_cast=火の玉の使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_gravity_vortex_cast=重力の渦の使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_ice_blast_cast=アイスブラストの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_illuminate_cast=イルミネーションの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_levitation_cast=浮遊の使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_lightning_strike_cast=ライトニング ストライクの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_mineblast_cast=マインバーストの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_polymorph_cast=ポリモーフの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_push_cast=プッシュの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_return_cast=リターンの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_summon_minion_cast=ミニオン召喚の使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_timewarp_cast=タイムワープの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_whirlwind_cast=ワールウィンドの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_witherskulls_cast=ウィザースカルの使用回数	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+
+cyd_mgspl:credits.for.computers=魔法の呪文 アドオン 作者: Cyclon	###
+
+
+

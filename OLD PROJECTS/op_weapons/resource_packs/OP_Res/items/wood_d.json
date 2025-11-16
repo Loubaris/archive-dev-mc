@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:wood_dagger",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "wood_d",
+   "minecraft:render_offsets": "wood_d"
+  }
+ }
+}

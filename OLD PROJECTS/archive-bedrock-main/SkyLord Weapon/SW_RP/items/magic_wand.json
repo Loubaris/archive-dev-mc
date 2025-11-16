@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:magic_wand",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "magic_wand",
+   "minecraft:render_offsets": "magic_wand"
+  }
+ }
+}

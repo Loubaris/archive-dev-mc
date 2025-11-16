@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "nitric:hovercar_0_spawn_egg",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+                    

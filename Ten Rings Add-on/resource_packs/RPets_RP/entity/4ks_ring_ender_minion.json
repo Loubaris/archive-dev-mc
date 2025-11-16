@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "4ks_ring:ender_minion",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/4ks/ring/entity/ender_teddy_texture"
+            },
+            "geometry": {
+                "default": "geometry.4ks_ring.ender_teddy"
+            },
+            "scripts": {
+                "animate": [
+                    "controller"
+                ]
+            },
+            "animations": {
+                "idle": "animation.4ks_ring.ender_teddy.idle",
+                "fly": "animation.4ks_ring.ender_teddy.fly",
+                "attack": "animation.4ks_ring.ender_teddy.attack",
+                "controller": "controller.animation.4ks_ring.minionfly"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

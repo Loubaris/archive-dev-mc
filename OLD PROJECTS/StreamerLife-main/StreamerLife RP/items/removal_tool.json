@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cypress:removal_tool",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "removal_tool",
+			"minecraft:render_offsets": "tools",
+			"minecraft:hover_text_color": "minecoin_gold"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"sw:claw_armor",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "claw_armor"
+    }
+    
+  }
+}

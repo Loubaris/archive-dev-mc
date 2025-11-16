@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:sw_stone_axe",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "sw_stone_axe",
+   "minecraft:render_offsets": "sw_stone_axe"
+  }
+ }
+}

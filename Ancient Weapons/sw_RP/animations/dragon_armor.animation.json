@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dragon_armor.third_person": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"scale": 1
+				}
+			}
+		},
+		"animation.dragon_armor.first_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"head": {
+					"scale": 0
+				},
+				"chestplate": {
+					"scale": 0.5
+				}
+			}
+		}
+	}
+}

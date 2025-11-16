@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mob_mask_angry.third_person": {
+			"loop": true,
+			"animation_length": 0.08,
+			"bones": {
+				"bb_main": {
+					"rotation": [0, 0, 0],
+					"position": [0, 24, 0],
+					"scale": [0.6, 0.6, 1]
+				},
+				"head": {
+					"position": [0, 0, -2],
+					"scale": [1, 1, 0.7]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"geometry.walleffect": {
+		"texturewidth": 1024,
+		"textureheight": 1024,
+		"visible_bounds_width": 10,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 0.5, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, -1.25, 0.25],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-56, 0, 56], "size": [112, 8, 9], "uv": [292, 85], "mirror": false},
+					{"origin": [-56, 0, -65], "size": [112, 8, 9], "uv": [292, 68], "mirror": false},
+					{"origin": [-64, 0, -65], "size": [8, 8, 130], "uv": [146, 284], "mirror": false},
+					{"origin": [56, 0, -65], "size": [8, 8, 130], "uv": [0, 276], "mirror": false}
+				]
+			}
+		]
+	}
+}

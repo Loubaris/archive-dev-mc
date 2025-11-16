@@ -1,0 +1,19 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.shuffle.spin": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"bas": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"3.0": [0, 360, 0]
+					},
+					"position": [0, 0, 0],
+					"scale": [1, 1.9, 1.9]
+				}
+			}
+		}
+	}
+}

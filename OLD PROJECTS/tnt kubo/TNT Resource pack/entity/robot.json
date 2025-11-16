@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:robot_tnt",
+      "materials": {
+        "default": "smoke_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/robot_tnt"
+      },
+      "geometry": {
+        "default": "geometry.robot_tnt"
+      },
+      "render_controllers": [ "controller.render.smoke_tnt" ],
+      "spawn_egg": {
+        "texture": "robot",
+        "texture_index": 0
+      }
+    }
+  }
+}

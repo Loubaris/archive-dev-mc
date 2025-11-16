@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mes_heroes:beastmaster_campsite"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#G#",
+            "B/B",
+            "SIS"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:oak_log"
+            },
+            "G": {
+                "item": "minecraft:glass_bottle"
+            },
+            "B": {
+                "item": "minecraft:bone"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            },
+            "S": {
+                "item": "minecraft:bookshelf"
+            },
+            "I": {
+                "item": "minecraft:book"
+            }
+        },
+        "result": {
+            "item": "mes_heroes:beastmaster_campsite_spawn_egg",
+            "count": 1
+        }
+    }
+}

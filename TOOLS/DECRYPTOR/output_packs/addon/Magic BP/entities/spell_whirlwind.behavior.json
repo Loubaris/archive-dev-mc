@@ -1,0 +1,94 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cyd_mgspl:spell_whirlwind",
+      "is_summonable": true,
+      "is_spawnable": false,
+         "animations":{
+            "timeline":"animation.cyd_mgspl.whirlwind_timeline"
+         },
+         "scripts":{
+            "animate":["timeline"]
+         }
+    },
+    "component_groups": {
+      "cyd_mgspl:despawn": {
+        "minecraft:instant_despawn": {}
+      },
+      "cyd_mgspl:attack": {
+		  "minecraft:behavior.nearest_attackable_target": {
+			"priority": 2,
+			"entity_types": [
+			  {
+				"filters": {  
+					"any_of": [
+									{"test": "is_family","subject": "other", "value": "mob"},
+									{"test": "is_family","subject": "other", "value": "monster"}]
+				},
+				"max_dist": 24
+			  }
+			],
+			"within_radius": 25,
+			"reselect_targets": true,
+			"must_see": true,
+			"must_see_forget_duration": 17
+		  },
+		  "minecraft:attack": {
+			"damage": 0
+		  },
+		  "minecraft:behavior.melee_attack": {
+			"priority": 3,
+			"speed_multiplier": 1,
+			"track_target": true
+		  }
+      }
+    },
+    "components": {
+      "minecraft:physics": {},
+      "minecraft:damage_sensor": {"triggers": [{"deals_damage": false}]},
+	  "minecraft:type_family": {"family": [ "spell","prop" ]},
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 2.0
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": false,
+        "can_sink": false,
+        "can_path_from_air": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": false,
+        "avoid_sun": false
+	  },
+      "minecraft:movement.basic": {},
+      "minecraft:movement": {
+        "value": 0.4
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:timer": {
+        "time": 16,
+        "looping": false,
+        "time_down_event": {
+          "event": "evt:despawn"
+        }
+      },
+      "minecraft:can_climb": {},
+      "minecraft:jump.static": {},
+      "minecraft:behavior.random_stroll": {
+        "priority": 4,
+        "interval": 1,
+        "xz_dist": 12,
+        "y_dist": 3
+      },
+      "minecraft:scale": {
+        "value": 2.5
+      }
+    },
+    "events": {
+      "evt:despawn": {"add": {"component_groups": ["cyd_mgspl:despawn"]}},
+	  "evt:attack": {"add": {"component_groups": ["cyd_mgspl:attack"]}}
+    }
+  }
+}

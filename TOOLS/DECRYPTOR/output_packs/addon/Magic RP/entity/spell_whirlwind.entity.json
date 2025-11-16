@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cyd_mgspl:spell_whirlwind",
+	  "materials": {"default": "zombie"},
+	  "textures":  {"default": "textures/cyd/mgspl/entity/whirlwind"},
+      "geometry":  {"default": "geometry.cyd_mgspl.whirlwind"},
+      "render_controllers": [ "controller.render.cyd_mgspl.nolight" ],
+	  
+	  "particle_effects": {
+		"particle_1": "cyd_mgspl:whirlwind_local",
+		"particle_2": "cyd_mgspl:whirlwind_border"
+      },
+	  "animations": {
+		"idle": "animation.cyd_mgspl.whirlwind",
+		"particle": "animation.cyd_mgspl.entity_2"
+      },
+      "scripts": {
+        "animate": 
+		[
+			"idle",
+			"particle"
+		]
+      },
+	  
+	  "spawn_egg": {
+        "base_color": "#c7c2b5",
+        "overlay_color": "#524f49"
+      }
+    }
+  }
+}

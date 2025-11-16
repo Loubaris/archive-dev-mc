@@ -1,0 +1,19 @@
+{
+	"format_version": "1.10.0",
+	"geometry.bannerfq": {
+		"texturewidth": 80,
+		"textureheight": 64,
+		"visible_bounds_width": 11,
+		"visible_bounds_height": 6,
+		"visible_bounds_offset": [0, 3, 0],
+		"bones": [
+			{
+				"name": "unknown_bone",
+				"pivot": [16.05, 32, 7.9],
+				"cubes": [
+					{"origin": [-72, 0.1, 7.9], "size": [80, 64, 0], "uv": [0, 0], "inflate": 0.1}
+				]
+			}
+		]
+	}
+}

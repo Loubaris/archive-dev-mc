@@ -1,0 +1,24 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "ninja:creeper_sword2",
+         "spawn_egg": {
+            "texture": "spawn_egg",
+            "texture_index": 39
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/poses/creeper_sword2"
+            }, 
+         "geometry": { 
+            "default": "geometry.creeper_sword2" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ]
+         }
+      }
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "4f2c6a2f-d774-46af-a1f3-5a5d0b4ef23c",
+		"pack_name": "Change_Entities_Size",
+		"pack_type": "behavior",
+		"associated_pack": "6b511c5c-dfee-4303-b3b2-26fac4cf8b8c",
+		"version": [ 1, 0, 6 ],
+		"min_engine_version": [ 1, 21, 0 ]
+	},
+	"modules": [
+		{
+			"language": "javascript",
+			"type": "script",
+			"uuid": "3e1e5d38-4d48-4332-8386-4224e5ea0dc9",
+			"version": [1, 0, 6],
+			"entry": "scripts/entry.js"
+		},
+		{
+			"type": "data",
+			"uuid": "4463f31f-ba6f-4902-9b5d-4efb90c5ad39",
+			"version": [1, 0, 6]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "6b511c5c-dfee-4303-b3b2-26fac4cf8b8c",
+			"version": [1, 0, 6]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}

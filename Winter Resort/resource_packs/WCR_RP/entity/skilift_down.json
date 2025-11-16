@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:skilift_down",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/skiliftbench/color1"
+			},
+			"geometry": {
+				"default": "geometry.skiliftbench"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "skilift",
+				"texture_index": 0
+			}
+		}
+	}
+}

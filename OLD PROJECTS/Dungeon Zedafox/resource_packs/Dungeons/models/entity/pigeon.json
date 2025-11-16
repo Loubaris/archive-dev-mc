@@ -1,0 +1,74 @@
+{
+	"format_version": "1.10.0",
+	"geometry.pigeon": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 5,
+		"visible_bounds_height": 5,
+		"visible_bounds_offset": [0, 2.5, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 40, 8],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-2, 0, 1.6], "size": [1, 4, 1], "uv": [4, 0], "mirror": false},
+					{"origin": [-3, 0, 0.6], "size": [3, 1, 2], "uv": [25, 6], "mirror": false},
+					{"origin": [-3, 0, -0.4], "size": [1, 1, 1], "uv": [3, 10], "mirror": false},
+					{"origin": [-1, 0, -0.4], "size": [1, 1, 1], "uv": [0, 9], "mirror": false},
+					{"origin": [1, 0, 1.6], "size": [1, 4, 1], "uv": [0, 0], "mirror": false},
+					{"origin": [-2, 7.4, -4.4], "size": [4, 4, 4], "uv": [20, 16], "mirror": false},
+					{"origin": [-1, 8.4, -5.4], "size": [2, 1, 1], "uv": [0, 5], "mirror": false},
+					{"origin": [2, 0, -0.4], "size": [1, 1, 1], "uv": [0, 7], "mirror": false},
+					{"origin": [0, 0, 0.6], "size": [3, 1, 2], "uv": [20, 24], "mirror": false},
+					{"origin": [0, 0, -0.4], "size": [1, 1, 1], "uv": [3, 8], "mirror": false}
+				]
+			},
+			{
+				"name": "bone",
+				"parent": "body",
+				"pivot": [0, 6, -2],
+				"rotation": [17.5, 0, 0],
+				"cubes": [
+					{"origin": [-1.5, 4.44487, -2.39327], "size": [3, 5, 2], "uv": [17, 8]}
+				]
+			},
+			{
+				"name": "body2",
+				"pivot": [0, 4, 0.5],
+				"rotation": [-12.5, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-2.5, 3, -2], "size": [5, 5, 7], "uv": [0, 8], "mirror": false}
+				]
+			},
+			{
+				"name": "body3",
+				"pivot": [0, 4, 0.5],
+				"rotation": [-12.5, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [2.6, 3, -2], "size": [0, 5, 10], "uv": [0, 15], "mirror": false}
+				]
+			},
+			{
+				"name": "body4",
+				"pivot": [-5, 4, 0.5],
+				"rotation": [-12.5, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-2.5, 3, -2], "size": [0, 5, 10], "uv": [0, 10], "mirror": false}
+				]
+			},
+			{
+				"name": "body5",
+				"pivot": [0, 4.16348, 7.24178],
+				"rotation": [12.5, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-4.5, 4.16348, 3.24178], "size": [9, 0, 8], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

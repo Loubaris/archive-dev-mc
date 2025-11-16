@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:freeze_tnt",
+      "materials": {
+        "default": "freeze_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/freeze_tnt"
+      },
+      "geometry": {
+        "default": "geometry.freeze_tnt"
+      },
+      "render_controllers": [ "controller.render.freeze_tnt" ],
+      "spawn_egg": {
+        "texture": "freeze_tnt",
+        "texture_index": 0
+      }
+    }
+  }
+}

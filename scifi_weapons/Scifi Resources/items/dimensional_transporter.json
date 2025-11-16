@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"nitric:dimensional_transporter",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "dimensional_transporter"
+    }
+    
+  }
+}

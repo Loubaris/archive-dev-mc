@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "sw:tnt_wand",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/tnt_wand"
+			},
+			"geometry": {
+				"default": "geometry.tnt_wand"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.tnt_wand.first_person",
+				"third_person": "animation.tnt_wand.third_person"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"sw:tnt_wand": "(1.0)"
+			}
+		}
+	}
+}

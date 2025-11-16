@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "nitric:robot",
+        "materials": { 
+          "default": "spider" 
+        },
+        "textures": {
+          "default": "textures/entity/robot"
+        },
+        "geometry": {
+          "default": "geometry.robot"
+        },
+        "animations": {
+          "walk": "animation.robot.run"
+        },
+        "scripts": {
+          "animate": [
+            {"walk": "query.modified_move_speed" }
+          ]
+        },
+        "render_controllers": ["controller.render.default"],
+        "spawn_egg": {
+				"texture": "robot",
+				"texture_index": 0
+			}
+      }
+    }
+  }

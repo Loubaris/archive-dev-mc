@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:snowboard",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"color1": "textures/entity/snowboard/color1",
+				"color2": "textures/entity/snowboard/color2",
+				"color3": "textures/entity/snowboard/color3",
+				"color4": "textures/entity/snowboard/color4"
+			},
+			"geometry": {
+				"default": "geometry.snowboard"
+			},
+			"render_controllers": [
+				"controller.render.snowboard"
+			],
+			"spawn_egg": {
+				"texture": "snowboard",
+				"texture_index": 0
+			}
+		}
+	}
+}

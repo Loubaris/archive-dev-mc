@@ -1,0 +1,43 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "mes_chroma_green": {
+            "textures": [
+                "textures/mes/cnm/blocks/chroma_green"
+            ]
+        },
+        "mes_chroma_blue": {
+            "textures": [
+                "textures/mes/cnm/blocks/chroma_blue"
+            ]
+        },
+        "mes_chroma_red": {
+            "textures": [
+                "textures/mes/cnm/blocks/chroma_red"
+            ]
+        },
+        "mes_chroma_yellow": {
+            "textures": [
+                "textures/mes/cnm/blocks/chroma_yellow"
+            ]
+        },
+        "mes_chroma_magenta": {
+            "textures": [
+                "textures/mes/cnm/blocks/chroma_magenta"
+            ]
+        },
+        "mes_chroma_white": {
+            "textures": [
+                "textures/mes/cnm/blocks/chroma_white"
+            ]
+        },
+        "mes_chroma_black": {
+            "textures": [
+                "textures/mes/cnm/blocks/chroma_black"
+            ]
+        }
+    }
+}

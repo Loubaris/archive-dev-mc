@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cyd_mgspl.whisp.idle": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"scale": "1+Math.sin((query.anim_time) *90)*0.01"
+				},
+				"wisp_cube": {
+					"scale": ["1+Math.cos((query.anim_time) *60)*0.05", "1+Math.sin((query.anim_time) *60)*0.05", "1+Math.cos((query.anim_time) *60)*0.05"]
+				},
+				"wisp_face": {
+					"position": [0, "math.sin(q.anim_time*90+45)*0.3", 0]
+				},
+				"lower": {
+					"position": [0, "-0.5+math.sin(q.anim_time*90+45)*0.3", 0]
+				}
+			}
+		},
+		"animation.cyd_mgspl.whisp.particle": {
+			"loop": true,
+			"animation_length": 1,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "whisp_sparks",
+						"locator": "locator_particle"
+					},
+					{
+						"effect": "whisp_glow",
+						"locator": "locator_particle"
+					}
+				]
+			}
+		}
+	}
+}

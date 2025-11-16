@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"nitric:great_sword",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "great_sword"
+    }
+    
+  }
+}

@@ -1,0 +1,103 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.default.third_person": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.default",
+						"Texture.enderman",
+						"Texture.zombie",
+						"Texture.warden",
+						"Texture.skeleton",
+						"Texture.piglin",
+						"Texture.creeper",
+						"Texture.witch",
+						"Texture.drowned",
+						"Texture.spider",
+						"Texture.zoglin",
+						"Texture.husk",
+						"Texture.wither",
+						"Texture.wither_skeleton",
+						"Texture.zombie_villager"
+					]
+				},
+				"geometries": {
+					"Array.geometries": [
+						"Geometry.default",
+						"Geometry.enderman",
+						"Geometry.zombie",
+						"Geometry.warden",
+						"Geometry.skeleton",
+						"Geometry.piglin",
+						"Geometry.creeper",
+						"Geometry.witch",
+						"Geometry.drowned",
+						"Geometry.spider",
+						"Geometry.zoglin",
+						"Geometry.husk",
+						"Geometry.wither",
+						"Geometry.wither_skeleton",
+						"Geometry.zombie_villager"
+					]
+				},
+				"materials": {
+					"Array.materials": [
+						"Material.default",
+						"Material.enderman",
+						"Material.zombie",
+						"Material.warden",
+						"Material.skeleton",
+						"Material.piglin",
+						"Material.creeper",
+						"Material.witch",
+						"Material.drowned",
+						"Material.spider",
+						"Material.zoglin",
+						"Material.husk",
+						"Material.wither",
+						"Material.wither_skeleton",
+						"Material.zombie_villager"
+					]
+				}
+			},
+			"geometry": "array.geometries[query.variant]",
+			"textures": [
+				"array.skins[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "array.materials[query.variant]"
+				}
+			]
+		},
+		"controller.render.default.first_person": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.default"
+			],
+			"part_visibility": [
+				{
+					"*": false
+				},
+				{
+					"rightArm": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'"
+				},
+				{
+					"rightSleeve": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'filled_map'"
+				},
+				{
+					"leftArm": "(query.get_equipped_item_name(0, 1) == 'filled_map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))"
+				},
+				{
+					"leftSleeve": "(query.get_equipped_item_name(0, 1) == 'filled_map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'filled_map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))"
+				}
+			]
+		}
+	}
+}

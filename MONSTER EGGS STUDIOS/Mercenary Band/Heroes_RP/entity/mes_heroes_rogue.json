@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:rogue",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "farmer": "textures/mes/heroes/entity/rogue/default",
+                "librarian": "textures/mes/heroes/entity/rogue/midnight",
+                "priest": "textures/mes/heroes/entity/rogue/poison",
+                "smith": "textures/mes/heroes/entity/rogue/royal",
+                "butcher": "textures/mes/heroes/entity/rogue/default"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.rogue"
+            },
+            "scripts": {
+                "animate": [
+                    "move_custom"
+                ]
+            },
+            "animations": {
+                "idle": "animation.mes_heroes.rogue.idle",
+                "walk": "animation.mes_heroes.rogue.walk",
+                "run": "animation.mes_heroes.rogue.run",
+                "move_custom": "controller.animation.mes_heroes.move"
+            },
+            "spawn_egg": {
+                "texture": "mes_heroes_rogue_spawn_egg"
+            },
+            "render_controllers": [
+                "controller.render.villager"
+            ]
+        }
+    }
+}

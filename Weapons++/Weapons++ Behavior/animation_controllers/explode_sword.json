@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.explode_sword": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "stop": "query.is_on_ground"
+                        }
+                    ]
+                },
+                "stop": {
+                    "on_entry": [
+			"/function sword_blaster",
+                        "/kill @s"
+                    ]
+                }
+            }
+        }
+    }
+}

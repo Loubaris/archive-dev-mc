@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:gravity_vortex"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      " S ",
+      "AS "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:prismarine_shard"
+      },
+      "X": {
+        "item": "minecraft:echo_shard"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:gravity_vortex",
+      "count": 1
+    }
+  }
+}

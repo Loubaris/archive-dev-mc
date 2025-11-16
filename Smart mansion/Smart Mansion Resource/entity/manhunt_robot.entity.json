@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sw:manhunt_robot",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/manhunt_robot"
+			},
+			"animations": {
+				"default_pose": "animation.manhunt_robot.default_pose",
+				"no_pose": "animation.manhunt_robot.no_pose",
+				"solemn_pose": "animation.manhunt_robot.solemn_pose",
+				"athena_pose": "animation.manhunt_robot.athena_pose",
+				"brandish_pose": "animation.manhunt_robot.brandish_pose",
+				"honor_pose": "animation.manhunt_robot.honor_pose",
+				"entertain_pose": "animation.manhunt_robot.entertain_pose",
+				"salute_pose": "animation.manhunt_robot.salute_pose",
+				"riposte_pose": "animation.manhunt_robot.riposte_pose",
+				"zombie_pose": "animation.manhunt_robot.zombie_pose",
+				"cancan_a_pose": "animation.manhunt_robot.cancan_a_pose",
+				"cancan_b_pose": "animation.manhunt_robot.cancan_b_pose",
+				"hero_pose": "animation.manhunt_robot.hero_pose",
+				"wiggle": "animation.manhunt_robot.wiggle",
+				"controller.pose": "controller.animation.armor_stand.pose",
+				"controller.wiggling": "controller.animation.armor_stand.wiggle"
+			},
+			"scripts": {
+				"initialize": ["variable.armor_stand.pose_index = 0;", "variable.armor_stand.hurt_time = 0;"],
+				"animate": ["controller.pose", "controller.wiggling"]
+			},
+			"geometry": {
+				"default": "geometry.manhunt_robot"
+			},
+			"render_controllers": ["controller.render.armor_stand"],
+			"enable_attachables": true,
+			"spawn_egg": {
+				"base_color": "#b3a9b1",
+				"overlay_color": "#1a1a1a"
+			}
+		}
+	}
+}

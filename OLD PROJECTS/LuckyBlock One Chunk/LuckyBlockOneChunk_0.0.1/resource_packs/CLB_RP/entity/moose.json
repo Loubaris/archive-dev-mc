@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animal:moose",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/moose"
+      },
+      "geometry": {
+        "default": "geometry.moose"
+      },
+      "animations": {
+        "walk": "animation.quadruped.walk"
+      },
+      "scripts": {
+        "animate": [
+          {"walk": "query.modified_move_speed"}
+        ]
+      },
+      "render_controllers": [ "controller.render.cow" ],
+      "spawn_egg": {
+        "base_color": "#443327",
+        "overlay_color": "#957958"
+      }
+    }
+  }
+}

@@ -1,0 +1,464 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.morph_item": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"default_skin": "query.get_equipped_item_name('main_hand')=='default'&&query.is_using_item&&query.variant!=0"
+						},
+						{
+							"enderman": "query.get_equipped_item_name('main_hand')=='enderman'&&query.is_using_item&&query.variant!=1"
+						},
+						{
+							"zombie": "query.get_equipped_item_name('main_hand')=='zombie'&&query.is_using_item&&query.variant!=2"
+						},
+						{
+							"warden": "query.get_equipped_item_name('main_hand')=='warden'&&query.is_using_item&&query.variant!=3"
+						},
+						{
+							"skeleton": "query.get_equipped_item_name('main_hand')=='skeleton'&&query.is_using_item&&query.variant!=4"
+						},
+						{
+							"piglin": "query.get_equipped_item_name('main_hand')=='piglin'&&query.is_using_item&&query.variant!=5"
+						},
+						{
+							"creeper": "query.get_equipped_item_name('main_hand')=='creeper'&&query.is_using_item&&query.variant!=6"
+						},
+						{
+							"witch": "query.get_equipped_item_name('main_hand')=='witch'&&query.is_using_item&&query.variant!=7"
+						},
+						{
+							"drowned": "query.get_equipped_item_name('main_hand')=='drowned'&&query.is_using_item&&query.variant!=8"
+						},
+						{
+							"spider": "query.get_equipped_item_name('main_hand')=='spider'&&query.is_using_item&&query.variant!=9"
+						},
+						{
+							"zoglin": "query.get_equipped_item_name('main_hand')=='zoglin'&&query.is_using_item&&query.variant!=10"
+						},
+						{
+							"husk": "query.get_equipped_item_name('main_hand')=='husk'&&query.is_using_item&&query.variant!=11"
+						},
+						{
+							"wither": "query.get_equipped_item_name('main_hand')=='wither'&&query.is_using_item&&query.variant!=12"
+						},
+						{
+							"wither_skeleton": "query.get_equipped_item_name('main_hand')=='wither_skeleton'&&query.is_using_item&&query.variant!=13"
+						},
+						{
+							"zombie_villager": "query.get_equipped_item_name('main_hand')=='zombie_villager'&&query.is_using_item&&query.variant!=14"
+						}
+					]
+				},
+				"default_skin": {
+					"on_entry": [
+						"@s default",
+						"/tag @s add default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"enderman": {
+					"on_entry": [
+						"@s enderman",
+						"/tag @s remove default",
+						"/tag @s add enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"zombie": {
+					"on_entry": [
+						"@s zombie",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s add zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"warden": {
+					"on_entry": [
+						"@s warden",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s add warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"skeleton": {
+					"on_entry": [
+						"@s skeleton",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s add skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"piglin": {
+					"on_entry": [
+						"@s piglin",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s add piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"creeper": {
+					"on_entry": [
+						"@s creeper",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s add creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"witch": {
+					"on_entry": [
+						"@s witch",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s add witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"drowned": {
+					"on_entry": [
+						"@s drowned",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s add drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"spider": {
+					"on_entry": [
+						"@s spider",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s add spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"zoglin": {
+					"on_entry": [
+						"@s zoglin",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s add zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"husk": {
+					"on_entry": [
+						"@s husk",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s add husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"wither": {
+					"on_entry": [
+						"@s wither",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s add wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"wither_skeleton": {
+					"on_entry": [
+						"@s wither_skeleton",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s add wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s remove zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				},
+				"zombie_villager": {
+					"on_entry": [
+						"@s zombie_villager",
+						"/tag @s remove default",
+						"/tag @s remove enderman",
+						"/tag @s remove zombie",
+						"/tag @s remove warden",
+						"/tag @s remove default",
+						"/tag @s remove creeper",
+						"/tag @s remove drowned",
+						"/tag @s remove husk",
+						"/tag @s remove piglin",
+						"/tag @s remove skeleton",
+						"/tag @s remove spider",
+						"/tag @s remove witch",
+						"/tag @s remove wither",
+						"/tag @s remove wither_skeleton",
+						"/tag @s remove zoglin",
+						"/tag @s add zombie_villager",
+						"/particle ms:switch ~ ~ ~"
+					],
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				}
+			}
+		}
+	}
+}

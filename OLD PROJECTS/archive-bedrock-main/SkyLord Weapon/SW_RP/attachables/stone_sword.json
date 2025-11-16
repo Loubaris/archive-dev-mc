@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "sw:sw_stone_sword",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/stone_sword"
+			},
+			"geometry": {
+				"default": "geometry.sw_sword"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.sword.first_person",
+				"third_person": "animation.sword.third_person"
+			},
+			"item": {
+				"sw:sw_stone_sword": "(1.0)"
+			}
+		}
+	}
+}

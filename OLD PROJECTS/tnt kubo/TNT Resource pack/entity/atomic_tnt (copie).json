@@ -1,0 +1,21 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:ignite_atomic_tnt",
+      "materials": {
+        "default": "atomic_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/atomic_tnt"
+      },
+      "geometry": {
+        "default": "geometry.atomic_tnt"
+      },
+      "render_controllers": [ "controller.render.atomic_tnt" ],
+      "spawn_egg": {
+        "base_color": "#919191"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{ 
+   "format_version": "1.10.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "sw:axe_swing_a",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/abilities/axe_swing"
+            }, 
+         "geometry": { 
+            "default": "geometry.axe_swing_a" 
+            },
+            "scripts": {
+                "animate": [
+                    "axe_swing_a"
+                ]
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "axe_swing_a" : "animation.axe_swing_a.wave"
+              }
+         }
+      }
+}

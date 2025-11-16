@@ -1,0 +1,6 @@
+pack.name=Winter Mansion Dropper
+pack.description=Resource Pack for Winter Mansion Dropper
+item.cs:spawn.name=Back to spawn
+item.cs:restart.name=Restart Level
+item.cs:levitation.name=Levitation Effect
+item.cs:slow_falling.name=Slow Falling Effect

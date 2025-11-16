@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mobs Damage",
+		"description": "Mobs Damage Resource Pack",
+		"uuid": "7c875554-4a4d-a960-afa2-8204ff01ad9d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 19, 50]
+	},
+	"metadata": {
+		"authors": ["Maukat"]
+	},
+	"modules": [
+		{
+			"description": "Mobs Damage",
+			"type": "resources",
+			"uuid": "510c2137-7d6e-7130-c775-c710666c8d7f",
+			"version": [1, 0, 0]
+		}
+	]
+}

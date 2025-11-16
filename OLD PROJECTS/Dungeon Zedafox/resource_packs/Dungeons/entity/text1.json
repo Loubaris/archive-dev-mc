@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:text1",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/text/text1"
+			},
+			"geometry": {
+				"default": "geometry.text1"
+			},
+			"render_controllers": [
+				"controller.render.glow_squid"
+			],
+			"animations": {
+				"text": "animation.wave.text"
+			},
+			"animation_controllers": [
+				{
+					"text": "controller.animation.text"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,396 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+			"scripts": {
+				"animate": [
+					"walk",
+					{"pistol": "(1.0)"},
+					{"big_pistol": "(1.0)"},
+					{"sniper": "(1.0)"},
+					{"mega_blaster": "(1.0)"},
+					{"flame_thrower": "(1.0)"},
+					{"automatic_laser_rifle": "(1.0)"},
+					{"heat_sinking_rifle": "(1.0)"},
+					{"freeze_rifle": "(1.0)"},
+					{"dimensional_transporter": "(1.0)"},
+					{"flash_rifle": "(1.0)"},
+					{"laser": "(1.0)"},
+					{"executive_pistol": "(1.0)"}
+
+				]
+			},
+			"animations": {
+				"walk": "controller.animation.walk",
+				"big_pistol": "controller.animation.big_pistol_controller",
+				"pistol": "controller.animation.pistol_controller",
+				"sniper": "controller.animation.sniper",
+				"mega_blaster": "controller.animation.mega_blaster_controller",
+				"flame_thrower": "controller.animation.flame_thrower_controller",
+				"automatic_laser_rifle": "controller.animation.automatic_laser_rifle_controller",
+				"heat_sinking_rifle": "controller.animation.heat_sinking_rifle_controller",
+				"freeze_rifle": "controller.animation.freeze_rifle_controller",
+				"dimensional_transporter": "controller.animation.dimensional_transporter_controller",
+				"flash_rifle": "controller.animation.flash_rifle_controller",
+				"laser": "controller.animation.laser_controller",
+				"executive_pistol": "controller.animation.executive_pistol_controller"
+			}
+		},
+
+    "component_groups": {
+      "minecraft:add_bad_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "bad_omen",
+              "duration": 6000,
+              "visible": false,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [ 0.0, 0.0 ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_bad_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect": {
+        "minecraft:spell_effects": {
+        }
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "bad_omen"
+        }
+      },
+"sp:n_executive_pistol_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:executive_pistol_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+"sp:n_sniper_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:sniper_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+"sp:n_pistol_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:pistol_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+"sp:n_heat_sinking_rifle": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:heat_sinking_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+"sp:n_freeze_rifle_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:freeze_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+"sp:n_automatic_laser_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:automatic_laser_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+"sp:n_big_pistol_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:big_pistol_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+"sp:n_sniper_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:sniper_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+"sp:n_mega_blaster_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:mega_blaster_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+"sp:n_fireball_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "nitric:fireball",
+					"num_to_spawn": 1
+				}]
+			}
+},
+
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "Math.Min(query.player_level * 7, 100)"
+      },
+      "minecraft:type_family": {
+        "family": [ "player" ]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:attack": {
+        "damage": 3
+      },
+      "minecraft:exhaustion_values": {
+        "heal": 6,
+        "jump": 0.05,
+        "sprint_jump": 0.2,
+        "mine": 0.005,
+        "attack": 0.1,
+        "damage": 0.1,
+        "walk": 0.0,
+        "sprint": 0.1,
+        "swim": 0.01
+      },
+      "minecraft:player.saturation": {
+        "value": 5,
+         "max": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 20
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:physics": {
+        "push_towards_closest_space": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [ 0.4, -0.2, -0.1 ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [ -0.4, -0.2, -0.1 ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:block_climber": {},
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "all_of": [
+              {
+                "test": "has_mob_effect",
+                "subject": "self",
+                "value": "bad_omen"
+              },
+              {
+                "test": "is_in_village",
+                "subject": "self",
+                "value": true
+              }
+            ]
+          },
+          "event": "minecraft:trigger_raid"
+        }
+      }
+    },
+
+    "events": {
+      "minecraft:gain_bad_omen": {
+        "add": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        }
+      },
+"sp:n_fireball_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_fireball_shoot"
+					]
+				}
+			},
+"sp:n_automatic_laser_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_automatic_laser_shoot"
+					]
+				}
+			},
+"sp:n_big_pistol_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_big_pistol_shoot"
+					]
+				}
+			},
+"sp:n_executive_pistol_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_executive_pistol_shoot"
+					]
+				}
+			},
+"sp:n_freeze_rifle_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_freeze_rifle_shoot"
+					]
+				}
+			},
+"sp:n_heat_sinking_rifle": {
+				"add": {
+					"component_groups": [
+						"sp:n_heat_sinking_rifle"
+					]
+				}
+			},
+"sp:n_mega_blaster_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_mega_blaster_shoot"
+					]
+				}
+			},
+"sp:n_pistol_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_pistol_shoot"
+					]
+				}
+			},
+"sp:n_sniper_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_sniper_shoot"
+					]
+				}
+			},
+      "minecraft:clear_add_bad_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      }
+    }
+  }
+}
+
+
+
+

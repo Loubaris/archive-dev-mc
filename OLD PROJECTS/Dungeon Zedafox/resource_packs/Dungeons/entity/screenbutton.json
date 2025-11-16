@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:screenbutton",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/screen/screenbutton0",
+				"screen1": "textures/entity/screen/screenbutton1",
+				"screen2": "textures/entity/screen/screenbutton2",
+				"screen3": "textures/entity/screen/screenbutton3",
+				"screen4": "textures/entity/screen/screenbutton4"
+			},
+			"geometry": {
+				"default": "geometry.screenbutton"
+			},
+			"render_controllers": [
+				"controller.render.screen"
+			]
+		}
+	}
+}

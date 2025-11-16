@@ -1,0 +1,89 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mes_splbk:knockback",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "despawn": {
+                "minecraft:despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:behavior.knockback_roar": {
+                "attack_time": 0.1,
+                "cooldown_time": 0,
+                "duration": 0.1,
+                "knockback_damage": 11,
+                "knockback_strength": 12,
+                "knockback_range": 7,
+                "damage_filters": {
+                    "all_of": [
+                        {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "operator": "!=",
+                            "domain": "hand",
+                            "value": "mes_splbk:light_book"
+                        }
+                    ]
+                },
+                "knockback_filters": {
+                    "any_of": [
+                        {
+                            "test": "has_equipment",
+                            "subject": "other",
+                            "operator": "!=",
+                            "domain": "hand",
+                            "value": "mes_splbk:light_book"
+                        }
+                    ]
+                },
+                "on_roar_end": {
+                    "event": "mes_splbk:event_despawn"
+                }
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "on_damage": {},
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "knockback_roar"
+                ]
+            },
+            "minecraft:health": {
+                "value": 1,
+                "max": 1,
+                "min": 1
+            },
+            "minecraft:collision_box": {
+                "width": 0,
+                "height": 0
+            },
+            "minecraft:physics": {
+                "has_gravity": false,
+                "has_collision": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false
+            }
+        },
+        "events": {
+            "mes_splbk:event_despawn": {
+                "add": {
+                    "component_groups": [
+                        "despawn"
+                    ]
+                }
+            }
+        }
+    }
+}

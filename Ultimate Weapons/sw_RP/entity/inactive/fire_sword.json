@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "sw:i_fire_sword",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/items/fire_sword"
+            },
+            "geometry": {
+                "default": "geometry.item_posed"
+            },
+
+      "animations": {
+        "controller": "controller.animation.inactive",
+        "idle": "animation.weapon.spin"
+      },
+            "render_controllers": [
+                "controller.render.wave"
+            ]
+	}
+    }
+}

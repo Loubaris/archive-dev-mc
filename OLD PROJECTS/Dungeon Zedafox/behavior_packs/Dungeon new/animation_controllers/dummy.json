@@ -1,0 +1,1314 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.dummy": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"99": "query.health == 99"
+						},
+						{
+							"0": "query.health == 0"
+						},
+						{
+							"1": "query.health == 1"
+						},
+						{
+							"2": "query.health == 2"
+						},
+						{
+							"3": "query.health == 3"
+						},
+						{
+							"4": "query.health == 4"
+						},
+						{
+							"5": "query.health == 5"
+						},
+						{
+							"6": "query.health == 6"
+						},
+						{
+							"7": "query.health == 7"
+						},
+						{
+							"8": "query.health == 8"
+						},
+						{
+							"9": "query.health == 9"
+						},
+						{
+							"10": "query.health == 10"
+						},
+						{
+							"11": "query.health == 11"
+						},
+						{
+							"12": "query.health == 12"
+						},
+						{
+							"13": "query.health == 13"
+						},
+						{
+							"14": "query.health == 14"
+						},
+						{
+							"15": "query.health == 15"
+						},
+						{
+							"16": "query.health == 16"
+						},
+						{
+							"17": "query.health == 17"
+						},
+						{
+							"18": "query.health == 18"
+						},
+						{
+							"19": "query.health == 19"
+						},
+						{
+							"20": "query.health == 20"
+						},
+						{
+							"21": "query.health == 21"
+						},
+						{
+							"22": "query.health == 22"
+						},
+						{
+							"23": "query.health == 23"
+						},
+						{
+							"24": "query.health == 24"
+						},
+						{
+							"25": "query.health == 25"
+						},
+						{
+							"26": "query.health == 26"
+						},
+						{
+							"27": "query.health == 27"
+						},
+						{
+							"28": "query.health == 28"
+						},
+						{
+							"29": "query.health == 29"
+						},
+						{
+							"30": "query.health == 30"
+						},
+						{
+							"31": "query.health == 31"
+						},
+						{
+							"32": "query.health == 32"
+						},
+						{
+							"33": "query.health == 33"
+						},
+						{
+							"34": "query.health == 34"
+						},
+						{
+							"35": "query.health == 35"
+						},
+						{
+							"36": "query.health == 36"
+						},
+						{
+							"37": "query.health == 37"
+						},
+						{
+							"38": "query.health == 38"
+						},
+						{
+							"39": "query.health == 39"
+						},
+						{
+							"40": "query.health == 40"
+						},
+						{
+							"41": "query.health == 41"
+						},
+						{
+							"42": "query.health == 42"
+						},
+						{
+							"43": "query.health == 43"
+						},
+						{
+							"44": "query.health == 44"
+						},
+						{
+							"45": "query.health == 45"
+						},
+						{
+							"46": "query.health == 46"
+						},
+						{
+							"47": "query.health == 47"
+						},
+						{
+							"48": "query.health == 48"
+						},
+						{
+							"49": "query.health == 49"
+						},
+						{
+							"50": "query.health == 50"
+						},
+						{
+							"51": "query.health == 51"
+						},
+						{
+							"52": "query.health == 52"
+						},
+						{
+							"53": "query.health == 53"
+						},
+						{
+							"54": "query.health == 54"
+						},
+						{
+							"55": "query.health == 55"
+						},
+						{
+							"56": "query.health == 56"
+						},
+						{
+							"57": "query.health == 57"
+						},
+						{
+							"58": "query.health == 58"
+						},
+						{
+							"59": "query.health == 59"
+						},
+						{
+							"60": "query.health == 60"
+						},
+						{
+							"61": "query.health == 61"
+						},
+						{
+							"62": "query.health == 62"
+						},
+						{
+							"63": "query.health == 63"
+						},
+						{
+							"64": "query.health == 64"
+						},
+						{
+							"65": "query.health == 65"
+						},
+						{
+							"66": "query.health == 66"
+						},
+						{
+							"67": "query.health == 67"
+						},
+						{
+							"68": "query.health == 68"
+						},
+						{
+							"69": "query.health == 69"
+						},
+						{
+							"70": "query.health == 70"
+						},
+						{
+							"71": "query.health == 71"
+						},
+						{
+							"72": "query.health == 72"
+						},
+						{
+							"73": "query.health == 73"
+						},
+						{
+							"74": "query.health == 74"
+						},
+						{
+							"75": "query.health == 75"
+						},
+						{
+							"76": "query.health == 76"
+						},
+						{
+							"77": "query.health == 77"
+						},
+						{
+							"78": "query.health == 78"
+						},
+						{
+							"79": "query.health == 79"
+						},
+						{
+							"80": "query.health == 80"
+						},
+						{
+							"81": "query.health == 81"
+						},
+						{
+							"82": "query.health == 82"
+						},
+						{
+							"83": "query.health == 83"
+						},
+						{
+							"84": "query.health == 84"
+						},
+						{
+							"85": "query.health == 85"
+						},
+						{
+							"86": "query.health == 86"
+						},
+						{
+							"87": "query.health == 87"
+						},
+						{
+							"88": "query.health == 88"
+						},
+						{
+							"89": "query.health == 89"
+						},
+						{
+							"90": "query.health == 90"
+						},
+						{
+							"91": "query.health == 91"
+						},
+						{
+							"92": "query.health == 92"
+						},
+						{
+							"93": "query.health == 93"
+						},
+						{
+							"94": "query.health == 94"
+						},
+						{
+							"95": "query.health == 95"
+						},
+						{
+							"96": "query.health == 96"
+						},
+						{
+							"97": "query.health == 97"
+						},
+						{
+							"98": "query.health == 98"
+						}
+					]
+				},
+				"99": {
+					"on_entry": [
+						"/function entity/dummy/d1"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 99"
+						}
+					]
+				},
+				"0": {
+					"on_entry": [
+						"/function entity/dummy/d100"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 0"
+						}
+					]
+				},
+				"1": {
+					"on_entry": [
+						"/function entity/dummy/d99"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 1"
+						}
+					]
+				},
+				"2": {
+					"on_entry": [
+						"/function entity/dummy/d98"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 2"
+						}
+					]
+				},
+				"3": {
+					"on_entry": [
+						"/function entity/dummy/d97"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 3"
+						}
+					]
+				},
+				"4": {
+					"on_entry": [
+						"/function entity/dummy/d96"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 4"
+						}
+					]
+				},
+				"5": {
+					"on_entry": [
+						"/function entity/dummy/d95"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 5"
+						}
+					]
+				},
+				"6": {
+					"on_entry": [
+						"/function entity/dummy/d94"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 6"
+						}
+					]
+				},
+				"7": {
+					"on_entry": [
+						"/function entity/dummy/d93"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 7"
+						}
+					]
+				},
+				"8": {
+					"on_entry": [
+						"/function entity/dummy/d92"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 8"
+						}
+					]
+				},
+				"9": {
+					"on_entry": [
+						"/function entity/dummy/d91"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 9"
+						}
+					]
+				},
+				"10": {
+					"on_entry": [
+						"/function entity/dummy/d90"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 10"
+						}
+					]
+				},
+				"11": {
+					"on_entry": [
+						"/function entity/dummy/d89"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 11"
+						}
+					]
+				},
+				"12": {
+					"on_entry": [
+						"/function entity/dummy/d88"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 12"
+						}
+					]
+				},
+				"13": {
+					"on_entry": [
+						"/function entity/dummy/d87"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 13"
+						}
+					]
+				},
+				"14": {
+					"on_entry": [
+						"/function entity/dummy/d86"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 14"
+						}
+					]
+				},
+				"15": {
+					"on_entry": [
+						"/function entity/dummy/d85"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 15"
+						}
+					]
+				},
+				"16": {
+					"on_entry": [
+						"/function entity/dummy/d84"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 16"
+						}
+					]
+				},
+				"17": {
+					"on_entry": [
+						"/function entity/dummy/d83"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 17"
+						}
+					]
+				},
+				"18": {
+					"on_entry": [
+						"/function entity/dummy/d82"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 18"
+						}
+					]
+				},
+				"19": {
+					"on_entry": [
+						"/function entity/dummy/d81"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 19"
+						}
+					]
+				},
+				"20": {
+					"on_entry": [
+						"/function entity/dummy/d80"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 20"
+						}
+					]
+				},
+				"21": {
+					"on_entry": [
+						"/function entity/dummy/d79"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 21"
+						}
+					]
+				},
+				"22": {
+					"on_entry": [
+						"/function entity/dummy/d78"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 22"
+						}
+					]
+				},
+				"23": {
+					"on_entry": [
+						"/function entity/dummy/d77"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 23"
+						}
+					]
+				},
+				"24": {
+					"on_entry": [
+						"/function entity/dummy/d76"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 24"
+						}
+					]
+				},
+				"25": {
+					"on_entry": [
+						"/function entity/dummy/d75"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 25"
+						}
+					]
+				},
+				"26": {
+					"on_entry": [
+						"/function entity/dummy/d74"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 26"
+						}
+					]
+				},
+				"27": {
+					"on_entry": [
+						"/function entity/dummy/d73"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 27"
+						}
+					]
+				},
+				"28": {
+					"on_entry": [
+						"/function entity/dummy/d72"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 28"
+						}
+					]
+				},
+				"29": {
+					"on_entry": [
+						"/function entity/dummy/d71"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 29"
+						}
+					]
+				},
+				"30": {
+					"on_entry": [
+						"/function entity/dummy/d70"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 30"
+						}
+					]
+				},
+				"31": {
+					"on_entry": [
+						"/function entity/dummy/d69"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 31"
+						}
+					]
+				},
+				"32": {
+					"on_entry": [
+						"/function entity/dummy/d68"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 32"
+						}
+					]
+				},
+				"33": {
+					"on_entry": [
+						"/function entity/dummy/d67"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 33"
+						}
+					]
+				},
+				"34": {
+					"on_entry": [
+						"/function entity/dummy/d66"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 34"
+						}
+					]
+				},
+				"35": {
+					"on_entry": [
+						"/function entity/dummy/d65"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 35"
+						}
+					]
+				},
+				"36": {
+					"on_entry": [
+						"/function entity/dummy/d64"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 36"
+						}
+					]
+				},
+				"37": {
+					"on_entry": [
+						"/function entity/dummy/d63"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 37"
+						}
+					]
+				},
+				"38": {
+					"on_entry": [
+						"/function entity/dummy/d62"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 38"
+						}
+					]
+				},
+				"39": {
+					"on_entry": [
+						"/function entity/dummy/d61"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 39"
+						}
+					]
+				},
+				"40": {
+					"on_entry": [
+						"/function entity/dummy/d60"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 40"
+						}
+					]
+				},
+				"41": {
+					"on_entry": [
+						"/function entity/dummy/d59"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 41"
+						}
+					]
+				},
+				"42": {
+					"on_entry": [
+						"/function entity/dummy/d58"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 42"
+						}
+					]
+				},
+				"43": {
+					"on_entry": [
+						"/function entity/dummy/d57"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 43"
+						}
+					]
+				},
+				"44": {
+					"on_entry": [
+						"/function entity/dummy/d56"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 44"
+						}
+					]
+				},
+				"45": {
+					"on_entry": [
+						"/function entity/dummy/d55"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 45"
+						}
+					]
+				},
+				"46": {
+					"on_entry": [
+						"/function entity/dummy/d54"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 46"
+						}
+					]
+				},
+				"47": {
+					"on_entry": [
+						"/function entity/dummy/d53"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 47"
+						}
+					]
+				},
+				"48": {
+					"on_entry": [
+						"/function entity/dummy/d52"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 48"
+						}
+					]
+				},
+				"49": {
+					"on_entry": [
+						"/function entity/dummy/d51"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 49"
+						}
+					]
+				},
+				"50": {
+					"on_entry": [
+						"/function entity/dummy/d50"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 50"
+						}
+					]
+				},
+				"51": {
+					"on_entry": [
+						"/function entity/dummy/d49"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 51"
+						}
+					]
+				},
+				"52": {
+					"on_entry": [
+						"/function entity/dummy/d48"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 52"
+						}
+					]
+				},
+				"53": {
+					"on_entry": [
+						"/function entity/dummy/d47"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 53"
+						}
+					]
+				},
+				"54": {
+					"on_entry": [
+						"/function entity/dummy/d46"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 54"
+						}
+					]
+				},
+				"55": {
+					"on_entry": [
+						"/function entity/dummy/d45"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 55"
+						}
+					]
+				},
+				"56": {
+					"on_entry": [
+						"/function entity/dummy/d44"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 56"
+						}
+					]
+				},
+				"57": {
+					"on_entry": [
+						"/function entity/dummy/d43"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 57"
+						}
+					]
+				},
+				"58": {
+					"on_entry": [
+						"/function entity/dummy/d42"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 58"
+						}
+					]
+				},
+				"59": {
+					"on_entry": [
+						"/function entity/dummy/d41"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 59"
+						}
+					]
+				},
+				"60": {
+					"on_entry": [
+						"/function entity/dummy/d40"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 60"
+						}
+					]
+				},
+				"61": {
+					"on_entry": [
+						"/function entity/dummy/d39"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 61"
+						}
+					]
+				},
+				"62": {
+					"on_entry": [
+						"/function entity/dummy/d38"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 62"
+						}
+					]
+				},
+				"63": {
+					"on_entry": [
+						"/function entity/dummy/d37"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 63"
+						}
+					]
+				},
+				"64": {
+					"on_entry": [
+						"/function entity/dummy/d36"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 64"
+						}
+					]
+				},
+				"65": {
+					"on_entry": [
+						"/function entity/dummy/d35"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 65"
+						}
+					]
+				},
+				"66": {
+					"on_entry": [
+						"/function entity/dummy/d34"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 66"
+						}
+					]
+				},
+				"67": {
+					"on_entry": [
+						"/function entity/dummy/d33"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 67"
+						}
+					]
+				},
+				"68": {
+					"on_entry": [
+						"/function entity/dummy/d32"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 68"
+						}
+					]
+				},
+				"69": {
+					"on_entry": [
+						"/function entity/dummy/d31"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 69"
+						}
+					]
+				},
+				"70": {
+					"on_entry": [
+						"/function entity/dummy/d30"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 70"
+						}
+					]
+				},
+				"71": {
+					"on_entry": [
+						"/function entity/dummy/d29"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 71"
+						}
+					]
+				},
+				"72": {
+					"on_entry": [
+						"/function entity/dummy/d28"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 72"
+						}
+					]
+				},
+				"73": {
+					"on_entry": [
+						"/function entity/dummy/d27"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 73"
+						}
+					]
+				},
+				"74": {
+					"on_entry": [
+						"/function entity/dummy/d26"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 74"
+						}
+					]
+				},
+				"75": {
+					"on_entry": [
+						"/function entity/dummy/d25"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 75"
+						}
+					]
+				},
+				"76": {
+					"on_entry": [
+						"/function entity/dummy/d24"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 76"
+						}
+					]
+				},
+				"77": {
+					"on_entry": [
+						"/function entity/dummy/d23"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 77"
+						}
+					]
+				},
+				"78": {
+					"on_entry": [
+						"/function entity/dummy/d22"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 78"
+						}
+					]
+				},
+				"79": {
+					"on_entry": [
+						"/function entity/dummy/d21"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 79"
+						}
+					]
+				},
+				"80": {
+					"on_entry": [
+						"/function entity/dummy/d20"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 80"
+						}
+					]
+				},
+				"81": {
+					"on_entry": [
+						"/function entity/dummy/d19"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 81"
+						}
+					]
+				},
+				"82": {
+					"on_entry": [
+						"/function entity/dummy/d18"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 82"
+						}
+					]
+				},
+				"83": {
+					"on_entry": [
+						"/function entity/dummy/d17"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 83"
+						}
+					]
+				},
+				"84": {
+					"on_entry": [
+						"/function entity/dummy/d16"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 84"
+						}
+					]
+				},
+				"85": {
+					"on_entry": [
+						"/function entity/dummy/d15"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 85"
+						}
+					]
+				},
+				"86": {
+					"on_entry": [
+						"/function entity/dummy/d14"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 86"
+						}
+					]
+				},
+				"87": {
+					"on_entry": [
+						"/function entity/dummy/d13"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 87"
+						}
+					]
+				},
+				"88": {
+					"on_entry": [
+						"/function entity/dummy/d12"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 88"
+						}
+					]
+				},
+				"89": {
+					"on_entry": [
+						"/function entity/dummy/d11"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 89"
+						}
+					]
+				},
+				"90": {
+					"on_entry": [
+						"/function entity/dummy/d10"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 90"
+						}
+					]
+				},
+				"91": {
+					"on_entry": [
+						"/function entity/dummy/d9"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 91"
+						}
+					]
+				},
+				"92": {
+					"on_entry": [
+						"/function entity/dummy/d8"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 92"
+						}
+					]
+				},
+				"93": {
+					"on_entry": [
+						"/function entity/dummy/d7"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 93"
+						}
+					]
+				},
+				"94": {
+					"on_entry": [
+						"/function entity/dummy/d6"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 94"
+						}
+					]
+				},
+				"95": {
+					"on_entry": [
+						"/function entity/dummy/d5"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 95"
+						}
+					]
+				},
+				"96": {
+					"on_entry": [
+						"/function entity/dummy/d4"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 96"
+						}
+					]
+				},
+				"97": {
+					"on_entry": [
+						"/function entity/dummy/d3"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 97"
+						}
+					]
+				},
+				"98": {
+					"on_entry": [
+						"/function entity/dummy/d2"
+					],
+					"transitions": [
+						{
+							"default": "query.health != 98"
+						}
+					]
+				}
+			}
+		}
+	}
+}

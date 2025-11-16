@@ -1,0 +1,56 @@
+{
+    "format_version" : "1.8.0",
+   "minecraft:entity" : {
+      "description": {
+         "identifier": "kubo:tnt_launcher",
+         "is_spawnable" : true,
+         "is_experimental" : false,
+         "is_summonable" : true
+      },
+      "components" : {
+            "minecraft:type_family": {
+                "family": [ "npc" ]
+                },
+            "minecraft:damage_sensor": [
+                {
+                "cause": "all",
+                "deals_damage": false
+                }
+              ],
+            "minecraft:health": {
+                "value": 20,
+                "max": 20
+                },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 1.975
+                },
+            "minecraft:nameable" : {
+                "alwaysShow" : true,
+                "allowNameTagRenaming" : true
+                },
+            "minecraft:push_through": {
+                "value": 1
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            }
+        },
+        "component_groups": {
+            "kill": {
+                "minecraft:health": {
+                    "value": -1
+                }
+            }
+        },
+        "events": {
+            "kill": {
+                "add": {
+                    "component_groups": [
+                        "kill"
+                    ]
+                }
+            }
+        }
+    }
+}

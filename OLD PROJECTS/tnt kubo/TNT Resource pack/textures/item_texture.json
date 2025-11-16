@@ -1,0 +1,66 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "flaming": {
+      "textures": "textures/items/flaming"
+    },
+    "atomic_tnt": {
+      "textures": "textures/items/atomictnt"
+    },
+    "camo_tnt": {
+      "textures": "textures/items/camotnt"
+    },
+    "canon_tnt": {
+      "textures": "textures/items/canontnt"
+    },
+    "creeper_tnt": {
+      "textures": "textures/items/creepertnt"
+    },
+    "diamond_tnt": {
+      "textures": "textures/items/diamondtnt"
+    },
+    "extreme_tnt": {
+      "textures": "textures/items/extremetnt
+    },
+    "firework_tnt": {
+      "textures": "textures/items/fireworktnt"
+    },
+    "freeze_tnt": {
+      "textures": "textures/items/freezetnt"
+    },
+    "jetpack": {
+      "textures": "textures/items/jetpack"
+    },
+    "lucky_tnt": {
+      "textures": "textures/items/luckytnt"
+    },
+    "mech": {
+      "textures": "textures/items/mech"
+    },
+    "robot": {
+      "textures": "textures/items/robot"
+    },
+    "smoke_tnt": {
+      "textures": "textures/items/smoketnt"
+    },
+    "thunder_tnt": {
+      "textures": "textures/items/thundertnt"
+    },
+    "timer_tnt": {
+      "textures": "textures/items/timertnt"
+    },
+    "tiny_tnt": {
+      "textures": "textures/items/tinytnt"
+    },
+    "tnt_launcher": {
+      "textures": "textures/items/tntlauncher"
+    },
+    "toxic_tnt": {
+      "textures": "textures/items/toxictnt"
+    },
+    "tripleshot_tnt": {
+      "textures": "textures/items/tripleshottnt"
+    }
+  }
+}

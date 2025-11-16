@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "sw:banished",
+      "materials": { 
+         "default": "entity_alphatest" 
+      },
+      "textures": {
+        "default": "textures/entity/banished"
+      },
+      "geometry": {
+        "default": "geometry.banished"
+      },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "animations": {
+        "controller": "controller.animation.banished",
+        "idle": "animation.banished.spin"
+      },
+      "render_controllers": [ "controller.render.wave" ],
+      "spawn_egg": {
+        "base_color": "#a5adad",
+        "overlay_color": "#54545c"
+      }
+    }
+  }
+}

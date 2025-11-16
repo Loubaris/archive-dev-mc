@@ -1,0 +1,20 @@
+{
+  "namespace": "hud",
+  "hud_actionbar_text": {
+          "type": "panel",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+		  "offset": [ "0%", "5%+8px" ],
+		  "size": [ 20, 31.25 ],
+          "uv_size": [ 16, 25 ],
+          "alpha": 1,
+          "uv": "@auto_save_animation",
+          "disable_anim_fast_forward": true,
+		  "bindings": [
+      {
+        "binding_name": "#hud_actionbar_text_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  }
+}

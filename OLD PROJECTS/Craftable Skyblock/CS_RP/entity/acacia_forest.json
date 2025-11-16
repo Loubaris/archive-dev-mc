@@ -1,0 +1,12 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "cs:acacia_forest",
+         "spawn_egg": {
+            "texture": "acacia_forest",
+            "texture_index": 0
+	 }
+      }
+   }
+}

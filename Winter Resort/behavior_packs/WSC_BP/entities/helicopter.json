@@ -1,0 +1,96 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nitric:helicopter",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "fly"
+        ]
+      },
+      "animations": {
+        "fly": "controller.animation.helicopter"
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "helicopter",
+          "mob"
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/nitric/helicopter.json"
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesWater": true
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:scale": {
+        "value": 2
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:movement": {
+        "value": 0.6
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.1
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:nameable": {},
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "crouching_skip_interact": true,
+        "interact_text": "Click to ride and fly",
+        "family_types": [
+          "player"
+        ],
+        "pull_in_entities": false,
+        "seats": [
+          {
+            "position": [0, 0.7, 0.55]
+          },
+          {
+            "position": [0, 0.7, -0.25]
+          }
+        ]
+      },
+      "minecraft:behavior.player_ride_tamed": {},
+      "minecraft:input_ground_controlled": {},
+      "minecraft:balloonable": {},
+      "minecraft:collision_box": {
+        "width": 1.2,
+        "height": 1.2
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": false
+        }
+      },
+      "minecraft:is_tamed": {},
+      "minecraft:fire_immune": true,
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:physics": {}
+    }
+  }
+}

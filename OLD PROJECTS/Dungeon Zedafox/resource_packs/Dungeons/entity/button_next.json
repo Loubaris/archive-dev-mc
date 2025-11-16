@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:button_next",
+			"spawn_egg": {
+				"base_color": "#FBFF00",
+				"overlay_color": "#FBFF00"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/button_next"
+			},
+			"geometry": {
+				"default": "geometry.button_page"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"button_up": "animation.wave.button_up"
+			},
+			"animation_controllers": [
+				{
+					"button_up": "controller.animation.button_up"
+				}
+			]
+		}
+	}
+}

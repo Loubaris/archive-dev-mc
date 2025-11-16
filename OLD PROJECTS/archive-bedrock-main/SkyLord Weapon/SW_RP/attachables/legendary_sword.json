@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "sw:legendary_sword",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/legendary/legendary_sword"
+			},
+			"geometry": {
+				"default": "geometry.legendary_sword"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.legendary_sword.first_person",
+				"third_person": "animation.legendary_sword.third_person"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"sw:legendary_sword": "(1.0)"
+			}
+		}
+	}
+}

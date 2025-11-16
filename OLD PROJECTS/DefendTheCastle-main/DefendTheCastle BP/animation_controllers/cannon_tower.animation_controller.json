@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cannon_tower_upgrade": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "max": "query.skin_id == 3"
+            },
+            {
+              "up1": "query.skin_id == 1"
+            },
+            {
+              "up2": "query.skin_id == 2"
+            }
+          ]
+        },
+        "max": {
+          "transitions": [
+            {
+              "default": "query.skin_id != 3"
+            }
+          ],
+          "on_entry": ["/function cannon_tower", "@s cypress:remove_command"]
+        },
+        "up1": {
+          "transitions": [
+            {
+              "default": "query.skin_id != 1"
+            }
+          ],
+          "on_entry": ["/function cannon_tower_up1"]
+        },
+        "up2": {
+          "transitions": [
+            {
+              "default": "query.skin_id != 2"
+            }
+          ],
+          "on_entry": ["/function cannon_tower_up2"]
+        }
+      }
+    }
+  }
+}

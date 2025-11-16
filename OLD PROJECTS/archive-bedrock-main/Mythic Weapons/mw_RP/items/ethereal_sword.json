@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mw:ethereal_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "ethereal_sword",
+   "minecraft:render_offsets": "ethereal_sword"
+  }
+ }
+}

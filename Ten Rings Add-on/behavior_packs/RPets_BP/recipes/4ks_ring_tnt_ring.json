@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "4ks_ring:tnt_ring"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:tnt",
+		"count": 2
+            }
+        ],
+        "result": {
+            "item": "4ks_ring:tnt_ring",
+            "count": 1
+        }
+    }
+}

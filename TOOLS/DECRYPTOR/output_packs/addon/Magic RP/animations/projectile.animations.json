@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cyd_mgspl.projectile.move": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": ["query.body_x_rotation", "-query.body_y_rotation", 0],
+					"scale": [0.7, 0.7, 0.9]
+				}
+			}
+		},
+		"animation.cyd_mgspl.projectile.move_2": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": ["-query.body_x_rotation", "-query.body_y_rotation", 0],
+					"scale": [0.7, 0.7, 0.9]
+				}
+			}
+		},
+		"animation.cyd_mgspl.projectile.scale": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.24,
+			"bones": {
+				"root": {
+					"scale": {
+						"0.16": [0, 0, 0],
+						"0.24": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

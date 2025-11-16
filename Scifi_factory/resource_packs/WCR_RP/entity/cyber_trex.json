@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "nitric:cyber_trex",
+        "materials": { 
+          "default": "spider" 
+        },
+        "textures": {
+          "default": "textures/entity/cyber_trex"
+        },
+        "geometry": {
+          "default": "geometry.cyber_trex"
+        },
+        "animations": {
+          "walk": "animation.cyber_trex.walk"
+        },
+        "scripts": {
+          "animate": [
+            {"walk": "query.modified_move_speed" }
+          ]
+        },
+        "render_controllers": ["controller.render.default"],
+        "spawn_egg": {
+				"texture": "trex",
+				"texture_index": 0
+			}
+      }
+    }
+  }

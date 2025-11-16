@@ -1,0 +1,68 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "mes_heroes:archer_vision",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/blocks/wool_colored_white"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": "Math.random(10, 30)",
+				"max_particles": 90
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 3
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 2
+			},
+			"minecraft:particle_motion_parametric": {
+				"relative_position": [
+					"Math.cos((variable.particle_age * 360) + (variable.particle_random_1 * 360))",
+					"variable.particle_age*13",
+					"Math.sin((variable.particle_age * 360) + (variable.particle_random_1 * 360))"
+				]
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": [
+					"variable.particle_age * 0.5",
+					"variable.particle_age*0.3"
+				],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 128,
+					"texture_height": 128,
+					"flipbook": {
+						"base_UV": [
+							0,
+							80
+						],
+						"size_UV": [
+							8,
+							8
+						],
+						"step_UV": [
+							0,
+							0
+						],
+						"max_frame": 16,
+						"stretch_to_lifetime": true
+					}
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#FF025511",
+						"1.0": "#FF00FF32"
+					}
+				}
+			}
+		}
+	}
+}

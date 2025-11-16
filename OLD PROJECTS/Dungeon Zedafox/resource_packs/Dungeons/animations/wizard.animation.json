@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wave.wizard": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [5, 0, 0]
+				},
+				"head": {
+					"rotation": [-5, 0, 0]
+				},
+				"leftArm": {
+					"rotation": [-50, -20, 0]
+				},
+				"rightArm": {
+					"rotation": [-55, 20, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1750 @@
+{
+	"format_version": "1.11.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"walk", "n_star", "lit", "littnt", "litop", "slime_explosion", "vortex_explosion", "swift_explosion", "shulker_explosion", "asteroid_explosion", "fire_explosion", "chicken_explosion", "mountain_explosion", "creeper_explosion", "explosion_n_star", "explosion_n_startwo", "explosion_n_starthree", "lightning_n_star", "fire_n_star"
+				]
+			},
+			"animations": {
+				"n_star": "controller.animation.n_star",
+				"fire_n_star": "controller.animation.fire_n_star",
+				"explosion_n_star": "controller.animation.explosion_n_star",
+				"explosion_n_startwo": "controller.animation.explosion_n_startwo",
+				"explosion_n_starthree": "controller.animation.explosion_n_starthree",
+				"pin_n_star": "controller.animation.pin_n_star",
+				"lightning_n_star": "controller.animation.lightning_n_star",
+				"lit": "controller.animation.lit",
+				"littnt": "controller.animation.littnt",
+				"litop": "controller.animation.litop",
+				"creeper_explosion": "controller.animation.creeper_explosion",
+				"chicken_explosion": "controller.animation.chicken_explosion",
+				"fire_explosion": "controller.animation.fire_explosion",
+				"asteroid_explosion": "controller.animation.asteroid_explosion",
+				"mountain_explosion": "controller.animation.mountain_explosion",
+				"slime_explosion": "controller.animation.slime_explosion",
+				"vortex_explosion": "controller.animation.vortex_explosion",
+				"swift_explosion": "controller.animation.swift_explosion",
+				"shulker_explosion": "controller.animation.shulker_explosion",
+				"walk": "controller.animation.walk"
+			}
+		},
+		"component_groups": {
+			"minecraft:normal_player": {
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:movement": {
+					"value": 0.12
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:scale": {
+					"value": 1
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"]
+				}
+			},
+			"minecraft:swift_sword": {
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.65
+				},
+				"minecraft:attack": {
+					"damage": 25
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 6,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "invisibility",
+							"duration": 2,
+							"amplifier": 5,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "resistance",
+							"duration": 2,
+							"amplifier": 40,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				}
+			},
+			"minecraft:slime_sword": {
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.2
+				},
+				"minecraft:attack": {
+					"damage": 4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+						"effect": "jump_boost",
+						"duration": 2,
+						"amplifier": 5,
+						"visible": false,
+						"ambient": false
+					}]
+				}
+			},
+			"minecraft:grappling_hook": {
+				"minecraft:movement": {
+					"value": 0.2
+				},
+				"minecraft:attack": {
+					"damage": 4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				}
+			},
+			"minecraft:portal_sword": {
+				"minecraft:movement": {
+					"value": 0.2
+				},
+				"minecraft:attack": {
+					"damage": 4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				}
+			},
+			"minecraft:invincible": {
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "all",
+                	            	"deals_damage": false
+                			}
+              			]
+			},
+			"minecraft:vortex_sword": {
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.2
+				},
+				"minecraft:attack": {
+					"damage": 4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+						"effect": "resistance",
+						"duration": 2,
+						"amplifier": 2,
+						"visible": false,
+						"ambient": false
+					}]
+				}
+			},
+			"minecraft:ninja_sword": {
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fatal",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 1
+				},
+				"minecraft:attack": {
+					"damage": 1000
+				},
+				"minecraft:health": {
+					"value": 40,
+					"max": 40
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 20,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "fire_resistance",
+							"duration": 2,
+							"amplifier": 15,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "resistance",
+							"duration": 2,
+							"amplifier": 15,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				}
+			},
+			"minecraft:wood_weapon": {
+				"minecraft:attack": {
+					"damage": 2
+				}
+			},
+			"minecraft:stone_weapon": {
+				"minecraft:attack": {
+					"damage": 4
+				}
+			},
+			"minecraft:iron_weapon": {
+				"minecraft:attack": {
+					"damage": 5
+				}
+			},
+			"minecraft:gold_weapon": {
+				"minecraft:attack": {
+					"damage": 5
+				}
+			},
+			"minecraft:diamond_weapon": {
+				"minecraft:attack": {
+					"damage": 6
+				}
+			},
+			"minecraft:netherite_weapon": {
+				"minecraft:attack": {
+					"damage": 8
+				}
+			},
+			"minecraft:n_star": {
+				"minecraft:attack": {
+					"damage": 10
+				},
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fatal",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.4
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 6,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "slow_falling",
+							"duration": 2,
+							"amplifier": 1,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "resistance",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "fire_resistance",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				}
+			},
+			"minecraft:tank_hammer": {
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "resistance",
+							"duration": 2,
+							"amplifier": 100,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				},
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:attack": {
+					"damage": 12
+				}
+			},
+			"minecraft:explosion_sword": {
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "resistance",
+							"duration": 2,
+							"amplifier": 250,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				},
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fatal",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.35
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:attack": {
+					"damage": 12
+				}
+			},
+			"minecraft:fire_sword": {
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "fire_resistance",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "speed",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "resistance",
+							"duration": 15,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				},
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 1
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:attack": {
+					"damage": 15
+				}
+			},
+			"minecraft:shulker_sword": {
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "resistance",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				},
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:attack": {
+					"damage": 6
+				}
+			},
+			"minecraft:asteroid_sword": {
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "resistance",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				},
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:attack": {
+					"damage": 12
+				}
+			},
+			"minecraft:chicken_sword": {
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+						"effect": "jump_boost",
+						"duration": 2,
+						"amplifier": 4,
+						"visible": false,
+						"ambient": false
+					}]
+				},
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:attack": {
+					"damage": 1
+				}
+			},
+			"minecraft:mountain_sword": {
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "jump_boost",
+							"duration": 2,
+							"amplifier": 4,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "resistance",
+							"duration": 2,
+							"amplifier": 50,
+							"visible": false,
+							"ambient": false
+						},
+						{
+							"effect": "haste",
+							"duration": 2,
+							"amplifier": 1,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				},
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:attack": {
+					"damage": 3
+				}
+			},
+			"minecraft:creeper_sword": {
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+						"effect": "jump_boost",
+						"duration": 2,
+						"amplifier": 4,
+						"visible": false,
+						"ambient": false
+					}]
+				},
+				"minecraft:damage_sensor": [
+                		    	{
+                		    	"cause": "fall",
+                	            	"deals_damage": false
+                			}
+              			],
+				"minecraft:movement": {
+					"value": 0.4
+				},
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:attack": {
+					"damage": 15
+				}
+			},
+			"sp:n_star_fire": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:n_star",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:op_star_fire": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:op_star",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:slimeball": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:slimeball",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:vortexball": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:vortexball",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:explosion_n_star_fire": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:explosion_n_star",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:explosion_n_star_firetwo": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:explosion_n_startwo",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:explosion_n_star_firethree": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:explosion_n_starthree",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:pin_n_star_fire": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:pin_n_star",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:ln_star": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:ln_star",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:lightning_n_star_fire": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:lightning_n_star",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:fire_n_star_fire": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:fire_n_star",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_lit_fire": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "minecraft:lightning_bolt",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:creeper_explosion": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:creeper",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:shulker_bullet": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:shulker_bullet",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:portal_star": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:portal_star",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_littnt": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:instanttnt",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_litop": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:instanttntmedium",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:chicken_bullet": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:chicken_bullet",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:grappling_star": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "ninja:grappling_star",
+					"num_to_spawn": 1
+				}]
+			},
+			"minecraft:add_bad_omen": {
+				"minecraft:spell_effects": {
+					"add_effects": [{
+						"effect": "bad_omen",
+						"duration": 6000,
+						"display_on_screen_animation": true
+					}]
+				},
+				"minecraft:timer": {
+					"time": [
+						0,
+						0
+					],
+					"looping": false,
+					"time_down_event": {
+						"event": "minecraft:clear_add_bad_omen",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:clear_bad_omen_spell_effect": {
+				"minecraft:spell_effects": {}
+			},
+			"minecraft:raid_trigger": {
+				"minecraft:raid_trigger": {
+					"triggered_event": {
+						"event": "minecraft:remove_raid_trigger",
+						"target": "self"
+					}
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": "bad_omen"
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:can_climb": {},
+			"minecraft:player.saturation": {
+				"value": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 4
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": -1,
+				"inhaleTime": 3.75,
+				"generatesBubbles": false
+			},
+			"minecraft:nameable": {
+				"alwaysShow": true,
+				"allowNameTagRenaming": false
+			},
+			"minecraft:physics": {},
+			"minecraft:insomnia": {
+				"days_until_insomnia": 3
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"family_types": [
+					"parrot_tame"
+				],
+				"pull_in_entities": true,
+				"seats": [{
+						"position": [
+							0.4,
+							-0.15,
+							0.04
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 0,
+						"lock_rider_rotation": 0
+					},
+					{
+						"position": [
+							-0.4,
+							-0.15,
+							0.04
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 0
+					}
+				]
+			},
+			"minecraft:scaffolding_climber": {},
+			"minecraft:environment_sensor": [{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+									"test": "has_mob_effect",
+									"subject": "self",
+									"value": "bad_omen"
+								},
+								{
+									"test": "is_in_village",
+									"subject": "self",
+									"value": true
+								}
+							]
+						},
+						"event": "minecraft:trigger_raid"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "is_family",
+								"subject": "self",
+								"value": "player"
+							}]
+						},
+						"event": "minecraft:reset_player"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:ninja_sword"
+							}]
+						},
+						"event": "minecraft:ninja_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:grappling_hook"
+							}]
+						},
+						"event": "minecraft:grappling_hook"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:portal_sword"
+							}]
+						},
+						"event": "minecraft:portal_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:slime_sword"
+							}]
+						},
+						"event": "minecraft:slime_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:chicken_sword"
+							}]
+						},
+						"event": "minecraft:chicken_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:mountain_sword"
+							}]
+						},
+						"event": "minecraft:mountain_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:fire_sword"
+							}]
+						},
+						"event": "minecraft:explosion_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:asteroid_sword"
+							}]
+						},
+						"event": "minecraft:asteroid_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:wood_knife"
+							}]
+						},
+						"event": "minecraft:wood_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "head",
+								"value": "minecraft:glass"
+							}]
+						},
+						"event": "minecraft:invincible"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:vortex_sword"
+							}]
+						},
+						"event": "minecraft:vortex_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:stone_knife"
+							}]
+						},
+						"event": "minecraft:stone_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:iron_knife"
+							}]
+						},
+						"event": "minecraft:iron_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:gold_knife"
+							}]
+						},
+						"event": "minecraft:gold_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:diamond_knife"
+							}]
+						},
+						"event": "minecraft:diamond_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:netherite_knife"
+							}]
+						},
+						"event": "minecraft:netherite_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:wood_axe"
+							}]
+						},
+						"event": "minecraft:wood_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:stone_axe"
+							}]
+						},
+						"event": "minecraft:stone_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:iron_axe"
+							}]
+						},
+						"event": "minecraft:iron_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:gold_axe"
+							}]
+						},
+						"event": "minecraft:gold_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:diamond_axe"
+							}]
+						},
+						"event": "minecraft:diamond_axe"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:netherite_axe"
+							}]
+						},
+						"event": "minecraft:netherite_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:wood_dagger"
+							}]
+						},
+						"event": "minecraft:wood_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:stone_dagger"
+							}]
+						},
+						"event": "minecraft:stone_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:iron_dagger"
+							}]
+						},
+						"event": "minecraft:iron_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:gold_dagger"
+							}]
+						},
+						"event": "minecraft:gold_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:diamond_dagger"
+							}]
+						},
+						"event": "minecraft:diamond_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:netherite_dagger"
+							}]
+						},
+						"event": "minecraft:netherite_weapon"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:sd_sword"
+							}]
+						},
+						"event": "minecraft:sd_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:creeper_sword"
+							}]
+						},
+						"event": "minecraft:creeper_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:swift_sword"
+							}]
+						},
+						"event": "minecraft:swift_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:tank_hammer"
+							}]
+						},
+						"event": "minecraft:tank_hammer"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:explosion_sword"
+							}]
+						},
+						"event": "minecraft:explosion_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:shulker_sword"
+							}]
+						},
+						"event": "minecraft:shulker_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:n_star"
+							}]
+						},
+						"event": "minecraft:n_star"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:fire_n_star"
+							}]
+						},
+						"event": "minecraft:n_star"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:explosion_n_star"
+							}]
+						},
+						"event": "minecraft:n_star"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:explosion_n_startwo"
+							}]
+						},
+						"event": "minecraft:n_star"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:explosion_n_starthree"
+							}]
+						},
+						"event": "minecraft:n_star"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "ninja:lightning_n_star"
+							}]
+						},
+						"event": "minecraft:n_star"
+					}
+				}
+			]
+		},
+		"events": {
+			"minecraft:reset_player": {
+				"add": {
+					"component_groups": [
+						"minecraft:normal_player"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:ninja_sword",
+						"minecraft:tank_hammer",
+						"minecraft:starter_sword",
+						"minecraft:swift_sword",
+						"minecraft:explosion_sword",
+						"minecraft:mountain_sword",
+						"minecraft:shulker_sword",
+						"minecraft:creeper_sword",
+						"minecraft:sd_sword",
+						"minecraft:fire_sword",
+						"minecraft:invincible",
+						"minecraft:wood_weapon",
+						"minecraft:iron_weapon",
+						"minecraft:gold_weapon",
+						"minecraft:diamond_weapon",
+						"minecraft:netherite_weapon",
+						"minecraft:n_star",
+						"minecraft:slime_sword",
+						"minecraft:portal_sword",
+						"minecraft:grappling_hook",
+						"minecraft:vortex_sword"
+					]
+				}
+			},
+			"minecraft:ninja_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:ninja_sword"
+					]
+				}
+			},
+			"minecraft:portal_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:portal_sword"
+					]
+				}
+			},
+			"minecraft:iron_weapon": {
+				"add": {
+					"component_groups": [
+						"minecraft:iron_weapon"
+					]
+				}
+			},
+			"minecraft:gold_weapon": {
+				"add": {
+					"component_groups": [
+						"minecraft:gold_weapon"
+					]
+				}
+			},
+			"minecraft:diamond_weapon": {
+				"add": {
+					"component_groups": [
+						"minecraft:diamond_weapon"
+					]
+				}
+			},
+			"minecraft:netherite_weapon": {
+				"add": {
+					"component_groups": [
+						"minecraft:netherite_weapon"
+					]
+				}
+			},
+			"minecraft:wood_weapon": {
+				"add": {
+					"component_groups": [
+						"minecraft:wood_weapon"
+					]
+				}
+			},
+			"minecraft:invincible": {
+				"add": {
+					"component_groups": [
+						"minecraft:invincible"
+					]
+				}
+			},
+			"minecraft:vortex_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:vortex_sword"
+					]
+				}
+			},
+			"minecraft:sd_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:sd_sword"
+					]
+				}
+			},
+			"minecraft:starter_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:starter_sword"
+					]
+				}
+			},
+			"minecraft:swift_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:swift_sword"
+					]
+				}
+			},
+			"minecraft:tank_hammer": {
+				"add": {
+					"component_groups": [
+						"minecraft:tank_hammer"
+					]
+				}
+			},
+			"minecraft:explosion_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:explosion_sword"
+					]
+				}
+			},
+			"minecraft:chicken_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:chicken_sword"
+					]
+				}
+			},
+			"minecraft:slime_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:slime_sword"
+					]
+				}
+			},
+			"minecraft:shulker_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:shulker_sword"
+					]
+				}
+			},
+			"minecraft:mountain_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:mountain_sword"
+					]
+				}
+			},
+			"minecraft:asteroid_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:asteroid_sword"
+					]
+				}
+			},
+			"minecraft:creeper_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:creeper_sword"
+					]
+				}
+			},
+			"minecraft:n_star": {
+				"add": {
+					"component_groups": [
+						"minecraft:n_star"
+					]
+				}
+			},
+			"sp:n_star_fire": {
+				"add": {
+					"component_groups": [
+						"sp:n_star_fire"
+					]
+				}
+			},
+			"sp:slimeball": {
+				"add": {
+					"component_groups": [
+						"sp:slimeball"
+					]
+				}
+			},
+			"sp:ln_star": {
+				"add": {
+					"component_groups": [
+						"sp:ln_star"
+					]
+				}
+			},
+			"sp:vortexball": {
+				"add": {
+					"component_groups": [
+						"sp:vortexball"
+					]
+				}
+			},
+			"sp:lightning_n_star_fire": {
+				"add": {
+					"component_groups": [
+						"sp:lightning_n_star_fire"
+					]
+				}
+			},
+			"sp:fire_n_star_fire": {
+				"add": {
+					"component_groups": [
+						"sp:fire_n_star_fire"
+					]
+				}
+			},
+			"sp:explosion_n_star_fire": {
+				"add": {
+					"component_groups": [
+						"sp:explosion_n_star_fire"
+					]
+				}
+			},
+			"sp:explosion_n_star_firetwo": {
+				"add": {
+					"component_groups": [
+						"sp:explosion_n_star_firetwo"
+					]
+				}
+			},
+			"sp:explosion_n_star_firethree": {
+				"add": {
+					"component_groups": [
+						"sp:explosion_n_star_firethree"
+					]
+				}
+			},
+			"sp:creeper_explosion": {
+				"add": {
+					"component_groups": [
+						"sp:creeper_explosion"
+					]
+				}
+			},
+			"sp:pin_n_star_fire": {
+				"add": {
+					"component_groups": [
+						"sp:pin_n_star_fire"
+					]
+				}
+			},
+			"sp:op_star_fire": {
+				"add": {
+					"component_groups": [
+						"sp:op_star_fire"
+					]
+				}
+			},
+			"sp:portal_star": {
+				"add": {
+					"component_groups": [
+						"sp:portal_star"
+					]
+				}
+			},
+			"sp:shulker_bullet": {
+				"add": {
+					"component_groups": [
+						"sp:shulker_bullet"
+					]
+				}
+			},
+			"sp:chicken_bullet": {
+				"add": {
+					"component_groups": [
+						"sp:chicken_bullet"
+					]
+				}
+			},
+			"minecraft:gain_bad_omen": {
+				"add": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				}
+			},
+			"minecraft:clear_add_bad_omen": {
+				"remove": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:clear_bad_omen_spell_effect"
+					]
+				}
+			},
+			"minecraft:trigger_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:remove_raid_trigger": {
+				"remove": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			}
+		}
+	}
+}

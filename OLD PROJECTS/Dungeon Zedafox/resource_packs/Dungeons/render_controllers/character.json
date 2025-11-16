@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+    "controller.render.character": {
+               "arrays": {
+
+        
+				"textures": {
+					"Array.skins": [
+						"Texture.default",
+						"Texture.character2",
+						"Texture.character3",
+						"Texture.character4",
+						"Texture.character5",
+						"Texture.character6",
+						"Texture.character7",
+						"Texture.character8",
+						"Texture.character9",
+						"Texture.character10",
+						"Texture.character11",
+						"Texture.character12",
+						"Texture.character13"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [ { "*": "Material.default" } ],
+			"textures": ["Array.skins[query.variant]"]
+		}
+	}
+}

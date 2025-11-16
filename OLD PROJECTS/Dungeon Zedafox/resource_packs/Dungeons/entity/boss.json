@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:boss",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/boss/boss",
+				"boss2": "textures/entity/boss/boss2",
+				"boss3": "textures/entity/boss/boss3",
+				"boss4": "textures/entity/boss/boss4",
+				"boss5": "textures/entity/boss/boss5"
+			},
+			"geometry": {
+				"default": "geometry.boss"
+			},
+			"render_controllers": [
+				"controller.render.boss"
+			],
+			"animations": {
+				"boss": "animation.wave.boss"
+			},
+			"animation_controllers": [
+				{
+					"boss": "controller.animation.boss"
+				}
+			]
+		}
+	}
+}

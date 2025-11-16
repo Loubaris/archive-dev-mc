@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:crystal_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "crystal_sword",
+   "minecraft:render_offsets": "crystal_sword"
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.zombie_custom.move": {
+      "states": {
+        "default": {
+          "blend_transition": 0.3,
+          "transitions": [
+            {
+              "walking": "q.ground_speed > 0 && q.is_on_ground"
+            },
+            {
+              "attacking": "q.is_delayed_attacking"
+            }
+          ]
+        },
+        "walking": {
+          "blend_transition": 0.3,
+          "animations": [
+            "walk"
+          ],
+          "transitions": [
+            {
+              "default": "q.ground_speed <= 0 || !q.is_on_ground"
+            },
+            {
+              "attacking": "q.is_delayed_attacking"
+            }
+          ]
+        },
+        "attacking": {
+          "blend_transition": 0.3,
+          "animations": [
+            "attack"
+          ],
+          "transitions": [
+            {
+              "default": "!q.is_delayed_attacking || q.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.zombie_custom.look_at_target": {
+      "states": {
+        "default": {
+            "animations": [
+              "look_at_target_default"
+            ]
+        }
+      }
+    }
+  }
+}

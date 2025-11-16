@@ -1,0 +1,62 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "838e0c41-f1e6-4895-a994-84d5a779454e",
+        "pack_scope": "world",
+        "version": [
+            1,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            60
+        ]
+    },
+    "modules": [
+        {
+            "version": [
+                1,
+                0,
+                8
+            ],
+            "uuid": "10f98c6b-3f84-46d7-8f97-d03af82fcbd9",
+            "type": "data"
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "44323ecc-e117-419a-9e9d-2fb1d4d67a02",
+            "version": [
+                1,
+                0,
+                6
+            ],
+            "entry": "scripts/mes_heroes_main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "ca778cc7-69f0-4ee9-9bc3-7cff19b9f2dd",
+            "version": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.8.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.1.0"
+        }
+    ],
+    "metadata": {
+        "product_type": "addon"
+    }
+}

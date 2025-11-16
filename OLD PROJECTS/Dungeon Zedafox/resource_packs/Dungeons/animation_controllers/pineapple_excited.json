@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animation_controllers": {
+		"controller.animation.pineapple_excited": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"pineapple_excited": []
+						}
+					]
+				}
+			}
+		}
+	}
+}

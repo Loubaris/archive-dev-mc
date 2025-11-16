@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "sw:sw_sword",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/sword"
+			},
+			"geometry": {
+				"default": "geometry.sword"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.sword.first_person",
+				"third_person": "animation.sword.third_person"
+			},
+			"item": {
+				"sw:sw_sword": "(1.0)"
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.snowboard.ride": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [0, 87.5, 0]
+				},
+				"Head": {
+					"rotation": [0, 17.5, 0]
+				},
+				"RightArm": {
+					"rotation": [0, 7.5, 7.5]
+				},
+				"LeftArm": {
+					"rotation": [0, -27.5, -10]
+				},
+				"RightLeg": {
+					"rotation": [0, 0, 7.5]
+				},
+				"LeftLeg": {
+					"rotation": [0, -5, -10]
+				},
+				"Body": {
+					"rotation": [0, -20, 0]
+				}
+			}
+		},
+		"animation.ski.ride": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"rotation": [0, -7.5, 0]
+				},
+				"Head": {
+					"rotation": [2.5, 0, 2.5]
+				},
+				"RightArm": {
+					"rotation": [30, -17.5, -2.5]
+				},
+				"LeftArm": {
+					"rotation": [-7.5, -22.5, -7.5]
+				},
+				"RightLeg": {
+					"rotation": [0, 0, 13]
+				},
+				"LeftLeg": {
+					"rotation": [0, 0, -13]
+				}
+			}
+		}
+	}
+}

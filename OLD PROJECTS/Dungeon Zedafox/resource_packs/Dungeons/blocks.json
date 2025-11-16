@@ -1,0 +1,239 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"zedafox:persona1": {
+		"textures": "persona1",
+		"sound": "stone"
+	},
+	"zedafox:persona2": {
+		"textures": "persona2",
+		"sound": "stone"
+	},
+	"zedafox:persona3": {
+		"textures": "persona3",
+		"sound": "stone"
+	},
+	"zedafox:persona4": {
+		"textures": "persona4",
+		"sound": "stone"
+	},
+	"zedafox:persona5": {
+		"textures": "persona5",
+		"sound": "stone"
+	},
+	"zedafox:persona6": {
+		"textures": "persona6",
+		"sound": "stone"
+	},
+	"zedafox:persona7": {
+		"textures": "persona7",
+		"sound": "stone"
+	},
+	"zedafox:persona8": {
+		"textures": "persona8",
+		"sound": "stone"
+	},
+	"zedafox:persona9": {
+		"textures": "persona9",
+		"sound": "stone"
+	},
+	"zedafox:persona10": {
+		"textures": "persona10",
+		"sound": "stone"
+	},
+	"zedafox:persona11": {
+		"textures": "persona11",
+		"sound": "stone"
+	},
+	"zedafox:persona12": {
+		"textures": "persona12",
+		"sound": "stone"
+	},
+	"zedafox:persona13": {
+		"textures": "persona13",
+		"sound": "stone"
+	},
+	"zedafox:persona14": {
+		"textures": "persona14",
+		"sound": "stone"
+	},
+	"zedafox:persona15": {
+		"textures": "persona15",
+		"sound": "stone"
+	},
+	"zedafox:persona16": {
+		"textures": {
+			"down": "persona27",
+			"side": "persona16",
+			"up": "persona27"
+		},
+		"sound": "stone"
+	},
+	"zedafox:persona17": {
+		"textures": "persona17",
+		"sound": "stone"
+	},
+	"zedafox:persona18": {
+		"textures": "persona18",
+		"sound": "stone"
+	},
+	"zedafox:persona19": {
+		"textures": "persona19",
+		"sound": "stone"
+	},
+	"zedafox:persona20": {
+		"textures": "persona20",
+		"sound": "stone"
+	},
+	"zedafox:persona21": {
+		"textures": "persona21",
+		"sound": "stone"
+	},
+	"zedafox:persona22": {
+		"textures": "persona22",
+		"sound": "stone"
+	},
+	"zedafox:persona23": {
+		"textures": {
+			"down": "persona22",
+			"side": "persona23",
+			"up": "persona22"
+		},
+		"sound": "stone"
+	},
+	"zedafox:persona24": {
+		"textures": "persona24",
+		"sound": "stone"
+	},
+	"zedafox:persona25": {
+		"textures": "persona25",
+		"sound": "stone"
+	},
+	"zedafox:persona26": {
+		"textures": "persona26",
+		"sound": "stone"
+	},
+	"zedafox:persona27": {
+		"textures": "persona27",
+		"sound": "stone"
+	},
+	"zedafox:persona28": {
+		"textures": "persona28",
+		"sound": "stone"
+	},
+	"zedafox:persona29": {
+		"textures": "persona29",
+		"sound": "stone"
+	},
+	"zedafox:persona30": {
+		"textures": "persona30",
+		"sound": "stone"
+	},
+	"zedafox:persona31": {
+		"textures": "persona31",
+		"sound": "stone"
+	},
+	"zedafox:persona32": {
+		"textures": "persona32",
+		"sound": "stone"
+	},
+	"zedafox:persona33": {
+		"textures": "persona33",
+		"sound": "stone"
+	},
+	"zedafox:persona34": {
+		"textures": "persona34",
+		"sound": "stone"
+	},
+	"zedafox:ppersona1": {
+		"textures": "ppersona1",
+		"sound": "stone"
+	},
+	"zedafox:ppersona2": {
+		"textures": "ppersona2",
+		"sound": "stone"
+	},
+	"zedafox:ppersona3": {
+		"textures": "ppersona3",
+		"sound": "stone"
+	},
+	"zedafox:ppersona4": {
+		"textures": "ppersona4",
+		"sound": "stone"
+	},
+	"zedafox:ppersona5": {
+		"textures": "ppersona5",
+		"sound": "stone"
+	},
+	"zedafox:ppersona6": {
+		"textures": "ppersona6",
+		"sound": "stone"
+	},
+	"zedafox:ppersona7": {
+		"textures": "ppersona7",
+		"sound": "stone"
+	},
+	"zedafox:ppersona8": {
+		"textures": "ppersona8",
+		"sound": "stone"
+	},
+	"zedafox:ppersona9": {
+		"textures": "ppersona9",
+		"sound": "stone"
+	},
+	"zedafox:purplebrick1": {
+		"textures": "purplebrick1",
+		"sound": "stone"
+	},
+	"zedafox:purplebrick2": {
+		"textures": "purplebrick2",
+		"sound": "stone"
+	},
+	"zedafox:purplebrick3": {
+		"textures": "purplebrick3",
+		"sound": "stone"
+	},
+	"zedafox:purplebrick4": {
+		"textures": "purplebrick4",
+		"sound": "stone"
+	},
+	"zedafox:darkpurple1": {
+		"textures": "darkpurple1",
+		"sound": "stone"
+	},
+	"zedafox:darkpurple2": {
+		"textures": "darkpurple2",
+		"sound": "stone"
+	},
+	"zedafox:darkpurple3": {
+		"textures": "darkpurple3",
+		"sound": "stone"
+	},
+	"zedafox:darkpurple4": {
+		"textures": "darkpurple4",
+		"sound": "stone"
+	},
+	"zedafox:box2": {
+		"textures": "box2",
+		"sound": "stone"
+	},
+	"zedafox:white_planks": {
+		"textures": "white_planks",
+		"sound": "stone"
+	},
+	"zedafox:dungeon_bricks": {
+		"textures": "dungeon_bricks",
+		"sound": "stone"
+	},
+	"zedafox:dungeon_bricks2": {
+		"textures": "dungeon_bricks2",
+		"sound": "stone"
+	},
+	"zedafox:deepslate_elevator": {
+		"textures": "deepslate_elevator",
+		"sound": "stone"
+	}
+}

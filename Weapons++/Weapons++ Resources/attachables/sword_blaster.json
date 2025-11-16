@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "nitric:sword_blaster",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/sword_blaster"
+			},
+			"geometry": {
+				"default": "geometry.sword_blaster"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.sword_blaster.first_person",
+				"third_person": "animation.sword_blaster.third_person",
+				"using_item": "animation.sword_blaster.using_item"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"nitric:sword_blaster": "(1.0)"
+			}
+		}
+	}
+}

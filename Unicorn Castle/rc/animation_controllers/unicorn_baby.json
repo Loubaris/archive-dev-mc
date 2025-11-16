@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.unicorn_baby.move": {
+      "states": {
+        "default": {
+          "blend_transition": 0.3,
+          "animations": [
+            "walk"
+          ],
+          "transitions": [
+            {
+              "default": "q.ground_speed <= 0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "cyd_mgspl.spell_fail": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/spell_fail"
+    }]
+  },
+  "cyd_mgspl.spell_charge": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/spell_charge"
+    }]
+  },
+  "cyd_mgspl.out_of_mana": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/out_of_mana"
+    }]
+  },
+  "cyd_mgspl.mana_restore": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.8,
+      "name": "sounds/cyd/mgspl/mana_restore"
+    }]
+  },
+  "cyd_mgspl.fireball_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/fireball_cast"
+    }]
+  },
+  "cyd_mgspl.fireball_impact": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/fireball_impact"
+    }]
+  },
+  "cyd_mgspl.ice_blast_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/ice_blast_cast"
+    }]
+  },
+  "cyd_mgspl.ice_blast_impact": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/ice_blast_impact"
+    }]
+  },
+  "cyd_mgspl.illuminate_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.8,
+      "name": "sounds/cyd/mgspl/illuminate_cast"
+    }]
+  },
+  "cyd_mgspl.illuminate_idle": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/illuminate_idle"
+    }]
+  },
+  "cyd_mgspl.illuminate_loop": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.8,
+      "name": "sounds/cyd/mgspl/illuminate_loop"
+    }]
+  },
+  "cyd_mgspl.return_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/return_cast_ex"
+    }]
+  },
+  "cyd_mgspl.push_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/push_cast"
+    }]
+  },
+  "cyd_mgspl.healing_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/illuminate_loop"
+    }]
+  },
+  "cyd_mgspl.mineblast_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/mineblast_cast"
+    }]
+  },
+  "cyd_mgspl.mineblast_impact": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/mineblast_impact"
+    }]
+  },
+  "cyd_mgspl.levitation_loop": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/levitation_loop"
+    }]
+  },
+  "cyd_mgspl.timewarp_loop": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/timewarp_loop"
+    }]
+  },
+  "cyd_mgspl.lightning_impact": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/lightning_impact"
+    }]
+  },
+  "cyd_mgspl.whirlwind_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/whirlwind_cast"
+    }]
+  },
+  "cyd_mgspl.whirlwind_loop": {
+    "category": "menu",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/whirlwind_loop"
+    }]
+  },
+  "cyd_mgspl.gravity_vortex_cast": {
+    "category": "menu",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/gravity_vortex_cast"
+    }]
+  },
+  "cyd_mgspl.gravity_vortex_loop": {
+    "category": "menu",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/gravity_vortex_loop"
+    }]
+  },
+  "cyd_mgspl.polymorph_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/polymorph_cast"
+    }]
+  },
+  "cyd_mgspl.polymorph_impact": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/polymorph_impact"
+    }]
+  },
+  "cyd_mgspl.whitherskull_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/whitherskull_cast"
+    }]
+  },
+  "cyd_mgspl.whitherskull_impact": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/whitherskull_impact"
+    }]
+  },
+  "cyd_mgspl.minion_cast": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/minion_cast"
+    }]
+  },
+  "cyd_mgspl.minion_attack": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/minion_attack"
+    }]
+  },
+  "cyd_mgspl.minion_ambient": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/minion_ambient"
+    }]
+  },
+  "cyd_mgspl.glimmer_loop": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/glimmer_loop"
+    }]
+  },
+  "cyd_mgspl.whisp_hurt": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.4,
+      "name": "sounds/cyd/mgspl/whisp_hurt"
+    }]
+  },
+  "cyd_mgspl.whisp_ambient": {
+    "category": "neutral",
+    "sounds": [{
+      "volume": 0.2,
+      "name": "sounds/cyd/mgspl/whisp_ambient"
+    }]
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mes_cnm.focus_point",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 6.5, -2.5], "size": [3, 3, 3], "uv": [32, 32]}
+					]
+				},
+				{
+					"name": "bone",
+					"pivot": [0, 8, -1],
+					"cubes": [
+						{"origin": [-7.5, 8, -8.5], "size": [15, 0, 15], "uv": [-14, 33]},
+						{"origin": [-7, 8.5, -8.5], "size": [15, 0, 15], "pivot": [0, 8.5, 0.5], "rotation": [0, 0, 90], "uv": [-14, 33]},
+						{"origin": [-7.5, 8, -8.5], "size": [15, 0, 15], "pivot": [0, 8, -1], "rotation": [-90, 0, 0], "uv": [-14, 33]}
+					]
+				}
+			]
+		}
+	]
+}

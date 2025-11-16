@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:super",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/super/color1"
+			},
+			"geometry": {
+				"default": "geometry.super"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "super",
+				"texture_index": 0
+			}
+		}
+	}
+}

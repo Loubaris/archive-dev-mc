@@ -1,0 +1,10 @@
+﻿pack.name=Zombie outpost RP
+pack.description=By Nitric Concepts
+
+entity.nitric:zombie_big.name=Business Zombie
+entity.nitric:zombie_gardener.name=Gardener Zombie
+entity.nitric:zombie_scientist.name=Scientist Zombie
+
+item.spawn_egg.entity.nitric:zombie_big.name=Spawn Business Zombie
+item.spawn_egg.entity.nitric:zombie_gardener.name=Spawn Gardener Zombie
+item.spawn_egg.entity.nitric:zombie_scientist.name=Spawn Scientist Zombie

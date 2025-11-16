@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:mountain_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "mountain_sword",
+   "minecraft:render_offsets": "mountain_sword"
+  }
+ }
+}

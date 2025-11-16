@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mw:wind_wand",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "wind_wand",
+   "minecraft:render_offsets": "wind_wand"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{ 
+   "format_version": "1.10.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "pk:shuffle",
+         "spawn_egg": {
+            "texture": "spawn_egg",
+            "texture_index": 39
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/shuffle"
+            }, 
+         "geometry": { 
+            "default": "geometry.shuffle" 
+            },
+	    "scripts": {
+                "animate": [
+                    "spin"
+                ]
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+	 "animations" : {
+              "spin" : "animation.shuffle.spin"
+              }
+         }
+      }
+}

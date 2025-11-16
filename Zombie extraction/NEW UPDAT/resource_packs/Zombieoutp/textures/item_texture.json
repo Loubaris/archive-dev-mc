@@ -1,0 +1,37 @@
+{
+  "resource_pack_name": "Zombie Extraction",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "fireball": {
+        "textures": "textures/items/fireball"
+       },
+     "rocket": {
+        "textures": "textures/items/rocket"
+       },
+"clock": {
+        "textures": "textures/items/clock_item"
+       },
+"key": {
+        "textures": "textures/items/air"
+       },
+"invisibility": {
+        "textures": "textures/items/potion_bottle_splash_invisibility"
+       },
+"hopper": {
+        "textures": "textures/items/hopper"
+       },
+"campfire": {
+        "textures": "textures/items/campfire"
+       },
+"soul_campfire": {
+        "textures": "textures/items/soul_campfire"
+       },
+"netherite_sword": {
+        "textures": "textures/items/netherite_sword"
+       },
+"minecart_tnt": {
+        "textures": "textures/items/minecart_tnt"
+       }
+
+  }
+}

@@ -1,0 +1,163 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "nitric:ski",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+			"nitric:color1": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"nitric:color2": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"nitric:color3": {
+				"minecraft:variant": {
+					"value": 2
+				}
+            },
+            "nitric:color4": {
+				"minecraft:variant": {
+					"value": 3
+				}
+            },
+            "nitric:color5": {
+				"minecraft:variant": {
+					"value": 4
+				}
+            },
+            "nitric:color6": {
+				"minecraft:variant": {
+					"value": 5
+				}
+            },
+            "nitric:color7": {
+				"minecraft:variant": {
+					"value": 6
+				}
+			}
+		},
+        "components": {
+            "minecraft:type_family": {
+                "family": [ "mob" ]
+            },
+            "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:knockback_resistance": {
+                "value": 100,
+                "max": 100
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 0.2
+            },
+            "minecraft:health": {
+                "value": 8
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/nitric/ski.json"
+            },
+            "minecraft:movement": {
+                "value": 0.30
+            },
+"minecraft:horse.jump_strength": {
+        "value": {
+          "range_min": 0.7,
+          "range_max": 0.8
+        }
+      },
+            "minecraft:conditional_bandwidth_optimization": {},
+"minecraft:input_ground_controlled": {},
+      "minecraft:can_power_jump": {},
+            "minecraft:physics": {},
+            "minecraft:rideable": {
+                "seat_count": 1,
+                "crouching_skip_interact": true,
+                "interact_text": "Click to ride",
+                "family_types": [
+                    "player"
+                ],
+                "pull_in_entities": false,
+                "seats": [
+                    {
+                        "position": [0, 0.5, -0.2]
+                    }
+                ]
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": true
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color1"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color2"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color3"
+							]
+						}
+                    },
+                    {
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color4"
+							]
+						}
+                    },
+                    {
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color5"
+							]
+						}
+                    },
+                    {
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color6"
+							]
+						}
+                    },
+                    {
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color7"
+							]
+						}
+					}
+				]
+			}
+        }
+    }
+}

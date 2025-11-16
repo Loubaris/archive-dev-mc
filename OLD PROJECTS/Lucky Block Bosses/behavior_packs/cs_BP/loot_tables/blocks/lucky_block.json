@@ -1,0 +1,339 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/0.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/1.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/2.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/3.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/4.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/5.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/6.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/7.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/8.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/9.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/10.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/11.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/12.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/13.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/14.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/15.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/16.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/17.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/18.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/19.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/20.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/21.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/22.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/23.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/24.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/25.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/26.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/27.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/28.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/29.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/30.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/31.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/32.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/33.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/34.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/35.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/36.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/37.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/38.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/39.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/40.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/41.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/42.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/43.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/44.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/45.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/46.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/47.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/48.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/49.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/50.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/51.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/52.json"
+                },
+		{
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/54.json"
+                },
+		{
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/56.json"
+                },
+		{
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/57.json"
+                },
+		{
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/58.json"
+                },
+		{
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/59.json"
+                },
+		{
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/60.json"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "loot_tables/custom/53.json"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dirt",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": "particle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dirt",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": "play_sound"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

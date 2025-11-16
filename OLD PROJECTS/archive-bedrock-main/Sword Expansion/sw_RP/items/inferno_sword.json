@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:inferno_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "inferno_sword",
+   "minecraft:render_offsets": "inferno_sword"
+  }
+ }
+}

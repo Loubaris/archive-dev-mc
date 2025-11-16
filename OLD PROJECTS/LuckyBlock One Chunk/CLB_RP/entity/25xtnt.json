@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tnt:25xtnt",
+      "materials": {
+         "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/25xtnt"
+      },
+      "geometry": {
+        "default": "geometry.25xtnt"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "texture": "25xtnt",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "zedafox:skeleton1",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/skeleton/skeleton"
+            }, 
+         "geometry": { 
+            "default": "geometry.skeleton1" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "skeleton1" : "animation.wave.skeleton1"
+              },
+         "animation_controllers" : [
+              {
+              "tylerHand" : "controller.animation.skeleton1"
+              } 
+         ] 
+       
+       
+       
+       
+         }
+      }
+}

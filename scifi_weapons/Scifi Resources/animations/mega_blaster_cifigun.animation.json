@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mega_blaster.third_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"position": [0, 3, -6]
+				}
+			}
+		},
+		"animation.mega_blaster.first_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"rotation": [0, 52.5, -95],
+					"position": [13, 0, 32],
+					"scale": 2
+				}
+			}
+		}
+	}
+}

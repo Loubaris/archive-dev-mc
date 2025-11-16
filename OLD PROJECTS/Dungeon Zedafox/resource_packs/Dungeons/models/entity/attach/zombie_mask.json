@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"geometry.zombie_mask": {
+		"texturewidth": 16,
+		"textureheight": 16,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "head",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4, 24, -5], "size": [8, 8, 0], "uv": [0, 0]},
+					{"origin": [-4.6, 27, 4], "size": [9, 1, 0], "uv": [0, 10]},
+					{"origin": [4.2, 27, -5], "size": [0, 1, 9], "uv": [0, 1]},
+					{"origin": [-4.2, 27, -5], "size": [0, 1, 9], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

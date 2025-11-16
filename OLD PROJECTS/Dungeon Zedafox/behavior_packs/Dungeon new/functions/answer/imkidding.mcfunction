@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§8[ §cYou§8 ]: §fAhaha, I'm kidding of course. I didn't help him."}]}

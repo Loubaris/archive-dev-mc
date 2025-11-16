@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"4ks_ring:lightning_ring",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "4ks_ring_lightning_ring"
+    }
+    
+  }
+}

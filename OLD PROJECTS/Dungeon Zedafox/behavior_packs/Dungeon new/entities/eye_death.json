@@ -1,0 +1,92 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:eye_death",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"eye"
+				]
+			},
+			"minecraft:timer": {
+				"looping": false,
+				"time": [
+					0.0,
+					0.0
+				],
+				"time_down_event": {
+					"event": "giveeffect"
+				}
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:scale": {
+				"value": 1.2
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"giveeffect": {
+				"minecraft:timer": {
+					"looping": false,
+					"time": [
+						0.56,
+						0.56
+					],
+					"time_down_event": {
+						"event": "to_death"
+					}
+				}
+			},
+			"death": {
+				"minecraft:despawn": {
+				}
+			}
+		},
+		"events": {
+			"giveeffect": {
+				"add": {
+					"component_groups": [
+						"giveeffect"
+					]
+				}
+			},
+			"to_death": {
+				"add": {
+					"component_groups": [
+						"death"
+					]
+				}
+			}
+		}
+	}
+}

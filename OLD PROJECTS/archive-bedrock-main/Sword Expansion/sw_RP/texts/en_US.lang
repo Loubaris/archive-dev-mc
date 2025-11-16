@@ -1,0 +1,17 @@
+pack.name=Sword Expansion Resource Pack
+pack.description=Resource Pack for Sword Expansion
+
+item.sw:ultra_sword.name=Ultra Sword
+item.sw:tnt_sword.name=TNT Sword
+item.sw:supersonic_sword.name=Supersonic Sword
+item.sw:spider_sword.name=Spider Sword
+item.sw:shulker_sword.name=Shulker Sword
+item.sw:plasma_sword.name=Plasma Sword
+item.sw:inferno_sword.name=Inferno Sword
+item.sw:ice_sword.name=Ice Sword
+item.sw:fire_sword.name=Fire Sword
+item.sw:ethereal_sword.name=Ethereal Sword
+item.sw:dragon_sword.name=Dragon Sword
+item.sw:demon_sword.name=Demon Sword
+item.sw:crystal_sword.name=Crystal Sword
+item.sw:boulder_sword.name=Boulder Sword

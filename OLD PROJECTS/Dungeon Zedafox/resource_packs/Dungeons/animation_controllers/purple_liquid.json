@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animation_controllers": {
+		"controller.animation.purple_liquid": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"purple_liquid": []
+						}
+					]
+				}
+			}
+		}
+	}
+}

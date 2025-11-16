@@ -1,0 +1,126 @@
+{
+  "resource_pack_name": "Ninja",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "ninja_sword": {
+        "textures": "textures/items/ninja_sword"
+       },
+     "tank_hammer": {
+        "textures": "textures/items/tank_hammer"
+       },
+     "wood_knife": {
+        "textures": "textures/items/wood_knife"
+       },
+     "stone_knife": {
+        "textures": "textures/items/stone_knife"
+       },
+     "iron_knife": {
+        "textures": "textures/items/iron_knife"
+       },
+     "gold_knife": {
+        "textures": "textures/items/gold_knife"
+       },
+     "diamond_knife": {
+        "textures": "textures/items/diamond_knife"
+       },
+     "netherite_knife": {
+        "textures": "textures/items/netherite_knife"
+       },
+     "wood_a": {
+        "textures": "textures/items/wood_a"
+       },
+     "stone_a": {
+        "textures": "textures/items/stone_a"
+       },
+     "iron_a": {
+        "textures": "textures/items/iron_a"
+       },
+     "gold_a": {
+        "textures": "textures/items/gold_a"
+       },
+     "diamond_a": {
+        "textures": "textures/items/diamond_a"
+       },
+     "netherite_a": {
+        "textures": "textures/items/netherite_a"
+       },
+     "wood_d": {
+        "textures": "textures/items/wood_d"
+       },
+     "stone_d": {
+        "textures": "textures/items/stone_d"
+       },
+     "iron_d": {
+        "textures": "textures/items/iron_d"
+       },
+     "gold_d": {
+        "textures": "textures/items/gold_d"
+       },
+     "diamond_d": {
+        "textures": "textures/items/diamond_d"
+       },
+     "netherite_d": {
+        "textures": "textures/items/netherite_d"
+       },
+     "n_star": {
+        "textures": "textures/items/n_star"
+       },
+     "pin_n_star": {
+        "textures": "textures/items/pin_n_star"
+       },
+     "lightning_n_star": {
+        "textures": "textures/items/lightning_n_star"
+       },
+     "fire_n_star": {
+        "textures": "textures/items/fire_n_star"
+       },
+     "explosion_n_star": {
+        "textures": "textures/items/explosion_n_star"
+       },
+     "explosion_n_startwo": {
+        "textures": "textures/items/explosion_n_startwo"
+       },
+     "explosion_n_starthree": {
+        "textures": "textures/items/explosion_n_starthree"
+       },
+     "sd_sword": {
+        "textures": "textures/items/sd_sword"
+       },
+     "vortex_sword": {
+        "textures": "textures/items/vortex_sword"
+       },
+     "explosion_sword": {
+        "textures": "textures/items/explosion_sword"
+       },
+     "creeper_sword": {
+        "textures": "textures/items/creeper_sword"
+       },
+     "mountain_sword": {
+        "textures": "textures/items/mountain_sword"
+       },
+     "fire_sword": {
+        "textures": "textures/items/fire_sword"
+       },
+     "asteroid_sword": {
+        "textures": "textures/items/asteroid_sword"
+       },
+     "chicken_sword": {
+        "textures": "textures/items/chicken_sword"
+       },
+     "shulker_sword": {
+        "textures": "textures/items/shulker_sword"
+       },
+     "slime_sword": {
+        "textures": "textures/items/slime_sword"
+       },
+     "portal_sword": {
+        "textures": "textures/items/portal_sword"
+       },
+     "grappling_hook": {
+        "textures": "textures/items/grappling_hook"
+       },
+     "swift_sword": {
+        "textures": "textures/items/swift_sword"
+       }
+  }
+}

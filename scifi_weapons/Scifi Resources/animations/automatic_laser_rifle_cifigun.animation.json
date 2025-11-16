@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.automatic_laser_rifle.third_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"rotation": [90, 0, 0],
+					"position": [0, -1, -5]
+				}
+			}
+		},
+		"animation.automatic_laser_rifle.first_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"rotation": [0, 60, -120],
+					"position": [-5, 0, 0],
+					"scale": 1.4
+				}
+			}
+		}
+	}
+}

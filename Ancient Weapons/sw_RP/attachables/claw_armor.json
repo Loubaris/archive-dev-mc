@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+	  "description": {
+		"identifier": "sw:claw_armor",
+		"materials": { 
+            "default": "entity_alphatest" 
+            },
+		"textures": {
+		  "default": "textures/claw_armor"
+		},
+		"geometry": {
+		  "default": "geometry.claw_armor"
+		},
+		"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.fffp",
+				"first_person": "animation.claw_armor.first_person",
+				"third_person": "animation.claw_armor.third_person"
+			},
+		"render_controllers": [ "controller.render.wave" ]
+	  
+	}
+	}
+  }
+  

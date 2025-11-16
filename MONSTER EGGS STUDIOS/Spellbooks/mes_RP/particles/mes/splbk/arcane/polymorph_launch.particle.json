@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "mes_splbk:polymorph_launch",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/mes/splbk/particle/SpellCast"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 25
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 15
+			},
+			"minecraft:emitter_shape_disc": {
+				"offset": [0, 0.1, 0],
+				"direction": "outwards"
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "2*variable.particle_random_1"
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.random(0,360)"
+			},
+			"minecraft:particle_initial_speed": 1,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [1.3, 1.3],
+				"facing_camera_mode": "emitter_transform_xz",
+				"uv": {
+					"texture_width": 1280,
+					"texture_height": 256,
+					"flipbook": {
+						"base_UV": [0, 0],
+						"size_UV": [256, 256],
+						"step_UV": [256, 0],
+						"frames_splbk_per_second": 32,
+						"max_frame": 4,
+						"stretch_to_lifetime": true
+					}
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": [1, 0, "Math.clamp(8*math.pow((variable.particle_age/variable.particle_lifetime)-0.5,2), 0, 1)", "Math.clamp(-4*math.pow((variable.particle_age/variable.particle_lifetime)-0.5,2)+1, 0, 1)"]
+			}
+		}
+	}
+}

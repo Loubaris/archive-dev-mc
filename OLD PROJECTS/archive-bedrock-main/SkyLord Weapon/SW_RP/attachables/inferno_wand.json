@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "sw:inferno_wand",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/inferno_wand"
+			},
+			"geometry": {
+				"default": "geometry.inferno_wand"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.inferno_wand.first_person",
+				"third_person": "animation.inferno_wand.third_person"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"sw:inferno_wand": "(1.0)"
+			}
+		}
+	}
+}

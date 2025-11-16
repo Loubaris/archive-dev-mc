@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nitric:hoverbike_3"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "UUU",
+      "XZX"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:gold_ingot"
+      },
+      "Z": {
+        "item": "minecraft:gold_block"
+      }
+    },
+    "result": {
+      "item": "nitric:hoverbike_3_spawn_egg"
+    }
+  }
+}

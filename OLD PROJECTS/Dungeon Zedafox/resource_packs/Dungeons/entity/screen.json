@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:screen",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/screen/screen0",
+				"screen1": "textures/entity/screen/screen1",
+				"screen2": "textures/entity/screen/screen2",
+				"screen3": "textures/entity/screen/screen3",
+				"screen4": "textures/entity/screen/screen4",
+				"screen5": "textures/entity/screen/screen_warning",
+				"screen6": "textures/entity/screen/screen_warning2",
+				"screen7": "textures/entity/screen/screenquiz1",
+				"screen8": "textures/entity/screen/screenquiz2",
+				"screen9": "textures/entity/screen/screenquiz3",
+				"screen10": "textures/entity/screen/screenquiz4",
+				"screen11": "textures/entity/screen/screenquiz5",
+				"screen12": "textures/entity/screen/screen_tutorial1",
+				"screen13": "textures/entity/screen/screen_tutorial2",
+				"screen14": "textures/entity/screen/screentime1",
+				"screen15": "textures/entity/screen/screentime2",
+				"screen16": "textures/entity/screen/screentime3",
+				"screen17": "textures/entity/screen/screenquiz6",
+				"screen18": "textures/entity/screen/screenquiz7",
+				"screen19": "textures/entity/screen/screenquiz8"
+			},
+			"geometry": {
+				"default": "geometry.screen"
+			},
+			"render_controllers": [
+				"controller.render.screen"
+			]
+		}
+	}
+}

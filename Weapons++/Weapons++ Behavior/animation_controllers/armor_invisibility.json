@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.armor_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"armor_detection": "query.is_item_name_any('slot.armor.head', 0, 'nitric:futuristic_armor')"
+						}
+					]
+				},
+				"armor_detection": {
+					"on_entry": [
+						"/effect @s invisibility 1 255 true",
+						"/effect @s jump_boost 1 1 true",
+						"/effect @s resistance 1 4 true"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

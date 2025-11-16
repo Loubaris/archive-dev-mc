@@ -1,0 +1,17 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.wither_boss.move": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"wither_scale",
+						"wither_move",
+						"wither_look_at_target"
+					]
+				}
+			}
+		}
+	}
+}

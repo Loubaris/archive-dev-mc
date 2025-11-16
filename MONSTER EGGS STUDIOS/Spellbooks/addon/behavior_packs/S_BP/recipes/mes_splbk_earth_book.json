@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mes_splbk:earth_book"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "/M/",
+            "BBM",
+            "BB/"
+        ],
+        "key": {
+            "/": {
+                "item": "minecraft:raw_iron"
+            },
+            "M": {
+                "item": "minecraft:mud"
+            },
+            "B": {
+                "item": "minecraft:book"
+            }
+        },
+        "result": {
+            "item": "mes_splbk:earth_book",
+            "count": 1
+        }
+    }
+}

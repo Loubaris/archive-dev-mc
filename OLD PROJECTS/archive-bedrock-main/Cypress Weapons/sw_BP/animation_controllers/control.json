@@ -1,0 +1,294 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.boom_stick": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'boom_stick' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:n_tnt_shoot"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'boom_stick' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:n_tnt_shoot"
+          ]
+        }
+      }
+    }, 
+    "controller.animation.duskblade_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'duskblade_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add duskbladesword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'duskblade_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add duskbladesword"
+          ]
+        }
+      }
+    }, 
+    "controller.animation.lightning_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'lightning_sword' && query.is_using_item" } ],
+          "on_entry": [
+             "/tag @p[r=1] add lightningsword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'lightning_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add lightningsword"
+          ]
+        }
+      }
+    }, 
+    "controller.animation.dark_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'dark_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add darksword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'dark_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add darksword"
+          ]
+        }
+      }
+    }, 
+    "controller.animation.wither_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'wither_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add withersword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'wither_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add withersword"
+          ]
+        }
+      }
+    }, 
+    "controller.animation.dragon_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'dragon_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add dragonsword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'dragon_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add dragonsword"
+          ]
+        }
+      }
+    }, 
+    "controller.animation.banished_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'banished_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add banishedsword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'banished_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add banishedsword"			
+          ]
+        }
+      }
+    },
+    "controller.animation.divine_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'divine_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add divinesword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'divine_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add divinesword"			
+          ]
+        }
+      }
+    },
+    "controller.animation.love_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'love_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add lovesword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'love_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add lovesword"			
+          ]
+        }
+      }
+    },
+    "controller.animation.maelstrom_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'maelstrom_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add maelstrom"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'maelstrom_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add maelstrom"			
+          ]
+        }
+      }
+    },
+    "controller.animation.sand_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'sand_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add sandsword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'sand_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "/tag @p[r=1] add sandsword"			
+          ]
+        }
+      }
+    },
+    "controller.animation.fire_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'fire_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add firesword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'fire_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add firesword"
+          ]
+        }
+      }
+    },
+    "controller.animation.laser_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'laser_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add lasersword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'laser_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add lasersword"
+          ]
+        }
+      }
+    },
+    "controller.animation.ultra_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'ultra_sword' && query.is_using_item" } ],
+	  "on_entry": [
+            "/tag @p[r=1] add ultrasword"
+	  ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'ultra_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add ultrasword"
+          ]
+        }
+      }
+    },
+    "controller.animation.fire_sword": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'fire_sword' && query.is_using_item" } ],
+	  "on_entry": [
+            "/tag @p[r=1] add firesword"
+	  ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'fire_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @p[r=1] add firesword"
+          ]
+        }
+      }
+    },
+    "controller.animation.poison_attacking": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'poison_sword' && variable.attack_time" } ],
+	  "on_entry": [
+            "/execute @e[type=!player,type=!item,r=6] ~ ~ ~ effect @s poison 10 3 true",
+	    "/execute @e[type=!player,type=!item,r=6,type=ender_dragon] ~ ~ ~ kill @s"
+	  ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'poison_sword' && !variable.attack_time" } ],
+          "on_entry": [
+            "/execute @e[type=!player,type=!item,r=6] ~ ~ ~ effect @s poison 10 3 true"
+          ]
+        }
+      }
+    },
+    "controller.animation.fire_attacking": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'fire_sword' && variable.attack_time" } ],
+	  "on_entry": [
+            "/execute @e[type=!player,type=!item,r=5] ~ ~ ~ setblock ~ ~ ~ fire 0"
+	  ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'fire_sword' && !variable.attack_time" } ],
+          "on_entry": [
+            "/execute @e[type=!player,type=!item,r=5] ~ ~ ~ fill ~-1 ~ ~-1 ~1 ~ ~1 air 0 replace fire"
+          ]
+        }
+      }
+    },
+    "controller.animation.walk": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [
+            "/function commands"
+          ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [
+            "/function commands"
+          ]
+        }
+      }
+    }
+  }
+}

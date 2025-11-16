@@ -1,0 +1,65 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "sw:catapult",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "npc" ]
+      },
+      "minecraft:collision_box": {
+        "width": 2,
+        "height": 2
+      },
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+            "minecraft:damage_sensor": [
+                {
+                "cause": "all",
+                "deals_damage": false
+                }
+              ],
+            "minecraft:interact": [
+                {
+                    "on_interact": {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                },
+                                {
+                                    "test": "has_equipment",
+                                    "domain": "hand",
+                                    "subject": "other",
+                                    "value": "tnt"
+                                }
+                            ]
+                        },
+                        "event": "set"
+                    },
+                    "interact_text": "§cPlace TNT",
+		    "swing": false,
+		    "spawn_entities": "sw:catatnt",
+		    "play_sounds": "block.bamboo.place"
+                }
+            ],
+        "minecraft:scale": {
+          "value":1.2
+        }
+    },
+
+    "events": {
+    }
+  }
+}

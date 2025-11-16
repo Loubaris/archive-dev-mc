@@ -1,0 +1,57 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "cyd_mgspl:ice_blast_wave_scr",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/cyd/mgspl/particle/rock_shield"
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"creation_expression": "variable.size = 1;variable.lifetime = 0.4;variable.size_variant = 0.2;variable.age_growth = 5.0;variable.angle = 90;variable.offset = 2;"
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 25
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 0.5
+			},
+			"minecraft:emitter_shape_point": {
+				"offset": ["math.sin(variable.particle_random_2*variable.angle-variable.angle/2+variable.direction)*variable.offset", "math.sin(variable.particle_random_3*variable.angle-variable.angle/2)*variable.offset", "math.cos(variable.particle_random_2*variable.angle-variable.angle/2+variable.direction)*variable.offset"],
+				"direction": ["math.sin(variable.particle_random_2*variable.angle-variable.angle/2+variable.direction)", "math.sin(variable.particle_random_3*variable.angle-variable.angle/2)", "math.cos(variable.particle_random_2*variable.angle-variable.angle/2+variable.direction)"]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "(variable.particle_random_1*variable.lifetime)+0.1"
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.random(0,180)"
+			},
+			"minecraft:particle_initial_speed": "(variable.particle_random_1*6)+12",
+			"minecraft:particle_motion_dynamic": {
+				"linear_drag_coefficient": 3
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["1*variable.size+variable.particle_age*variable.age_growth", "1*variable.size+variable.particle_age*variable.age_growth"],
+				"facing_camera_mode": "direction_z",
+				"uv": {
+					"texture_width": 32,
+					"texture_height": 32,
+					"uv": [0, 0],
+					"uv_size": [32, 32]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "variable.particle_age",
+					"gradient": {
+						"0.0": "#9E71FCFF",
+						"0.13": "#2B40A6C8",
+						"0.4": "#0898CFE8"
+					}
+				}
+			}
+		}
+	}
+}

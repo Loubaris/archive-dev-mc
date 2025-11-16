@@ -1,0 +1,120 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mes_heroes.sellsword",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Sellsword",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Sellsword",
+					"pivot": [0, 13.1, 0],
+					"cubes": [
+						{"origin": [-5, 17, -3], "size": [10, 7, 6], "uv": [0, 48]},
+						{"origin": [-5, 11, -3], "size": [10, 13, 6], "inflate": 0.25, "uv": [40, 0]},
+						{"origin": [-4, 12, -3], "size": [8, 5, 6], "uv": [64, 19]}
+					]
+				},
+				{
+					"name": "Coat",
+					"parent": "Body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-5, 5, -3], "size": [10, 19, 6], "inflate": 0.5, "uv": [32, 22]}
+					]
+				},
+				{
+					"name": "Cloak",
+					"parent": "Body",
+					"pivot": [5.5, 21.5, 0],
+					"cubes": [
+						{"origin": [6, 3, -3], "size": [3, 21, 6], "inflate": 0.5, "uv": [0, 61]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "Body",
+					"pivot": [5, 24, 0],
+					"cubes": [
+						{"origin": [5, 12, -2], "size": [4, 12, 4], "uv": [58, 66]},
+						{"origin": [5, 12, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [72, 0]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"parent": "Body",
+					"pivot": [-5, 24, 0],
+					"cubes": [
+						{"origin": [-9, 12, -2], "size": [4, 12, 4], "uv": [74, 66]},
+						{"origin": [-9, 12, -2], "size": [4, 12, 4], "inflate": 0.25, "uv": [58, 82]}
+					]
+				},
+				{
+					"name": "Sword",
+					"parent": "RightArm",
+					"pivot": [-8, 15, 0],
+					"cubes": [
+						{"origin": [-8, 13, -4], "size": [1, 2, 8], "uv": [74, 82]},
+						{"origin": [-8, 13, 3], "size": [1, 2, 2], "inflate": 0.1, "pivot": [-7.5, 14, 4], "rotation": [-45, 0, 0], "uv": [18, 61]},
+						{"origin": [-8.5, 11, -5], "size": [2, 6, 1], "uv": [36, 83]},
+						{"origin": [-7.5, 9, -7], "size": [0, 10, 5], "uv": [18, 83]},
+						{"origin": [-8, 12.5, -24], "size": [1, 3, 19], "uv": [0, 0]},
+						{"origin": [-8, 13.5, -25], "size": [1, 3, 1], "uv": [24, 61]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 10, 8], "uv": [32, 47]}
+					]
+				},
+				{
+					"name": "Hair",
+					"parent": "Head",
+					"pivot": [0, 34, 0],
+					"cubes": [
+						{"origin": [-4, 16, -4], "size": [8, 18, 8], "inflate": 0.5, "uv": [0, 22]}
+					]
+				},
+				{
+					"name": "Nose",
+					"parent": "Head",
+					"pivot": [0, 26, -4],
+					"cubes": [
+						{"origin": [-1, 23, -6], "size": [2, 4, 2], "uv": [28, 83]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "Sellsword",
+					"pivot": [-2, 11, 0],
+					"cubes": [
+						{"origin": [-4, 0, -3], "size": [4, 12, 6], "uv": [64, 30]},
+						{"origin": [-4, 0, -3], "size": [4, 12, 6], "inflate": 0.25, "uv": [64, 48]}
+					]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "Sellsword",
+					"pivot": [2, 11, 0],
+					"cubes": [
+						{"origin": [0, 0, -3], "size": [4, 12, 6], "uv": [18, 65]},
+						{"origin": [0, 0, -3], "size": [4, 12, 6], "inflate": 0.25, "uv": [38, 65]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:swamp_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "YYY",
+      "UUU"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:dirt"
+      },
+      "Z": {
+        "item": "minecraft:waterlily"
+      },
+      "Y": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "result": {
+      "item": "cs:swamp_spawn_egg"
+    }
+  }
+}

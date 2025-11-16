@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mw:sand_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "sand_sword",
+   "minecraft:render_offsets": "sand_sword"
+  }
+ }
+}

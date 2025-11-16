@@ -1,0 +1,125 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cypress:flying",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": true
+    },
+    "component_groups": {
+      "minecraft:level_1": {
+        "minecraft:variant": {
+          "value": 0
+        },
+        "minecraft:shooter": {
+          "def": "cypress:mage_ball"
+        },
+        "minecraft:behavior.ranged_attack": {
+          "attack_radius": 15,
+          "attack_interval_min": 1,
+          "attack_interval_max": 1,
+          "charge_charged_trigger": 0.0,
+          "charge_shoot_trigger": 1.4,
+          "burst_shots": 1,
+          "burst_interval": 1.4
+        },
+        "minecraft:health": {
+          "value": 70,
+          "max": 70
+        }
+      }
+    },
+    "components": {
+      "minecraft:behavior.random_stroll": {},
+      "minecraft:physics": {},
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:collision_box": {
+        "width": 1.2,
+        "height": 1.5
+      },
+      "minecraft:behavior.look_at_target": {
+        "probability": 0.5,
+        "priority": 1,
+        "look_distance": 10
+      },
+      "minecraft:type_family": {
+        "family": ["monster"]
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:navigation.generic": {
+        "can_float": true,
+        "can_swim": false,
+        "can_walk": true,
+        "can_breach": true,
+        "can_sink": true,
+        "avoid_damage_blocks": true,
+        "can_path_over_water": false
+      },
+      "minecraft:movement.generic": {},
+      "minecraft:jump.static": {},
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "target_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:nameable": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:despawn": {
+        "filters": {
+          "all_of": [
+            { "test": "is_family", "subject": "self", "value": "despawn" }
+          ]
+        }
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "on_damage": {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "lightning"
+            }
+          },
+          "deals_damage": true
+        }
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            }
+          }
+        ],
+        "within_radius": 25
+      },
+      "minecraft:is_stackable": {}
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["minecraft:level_1"]
+        }
+      },
+      "cypress:mode": {
+        "add": {
+          "component_groups": ["minecraft:level_1"]
+        }
+      }
+    }
+  }
+}

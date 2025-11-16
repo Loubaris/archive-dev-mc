@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.executive_pistol_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"executive_pistol_detection": "query.get_equipped_item_name == 'executive_pistol' && query.is_using_item == true"
+						}
+					]
+				},
+				"executive_pistol_detection": {
+					"on_entry": [
+						"/tag @p[r=1] add executive_pistol"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

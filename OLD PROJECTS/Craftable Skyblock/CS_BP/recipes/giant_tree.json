@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:giant_tree_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZHZ",
+      "YEY",
+      "YYY"
+    ],
+    "key": {
+      "E": {
+        "item": "cs:flower_forest_spawn_egg"
+      },
+      "Z": {
+        "item": "minecraft:leaves"
+      },
+      "Y": {
+        "item": "minecraft:log"
+      }
+    },
+    "result": {
+      "item": "cs:giant_tree_spawn_egg"
+    }
+  }
+}

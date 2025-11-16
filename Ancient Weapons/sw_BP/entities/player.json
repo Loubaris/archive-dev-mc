@@ -1,0 +1,659 @@
+{
+	"format_version": "1.11.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"walk", "armor_controller", "attacking", "lightning_sword", "dark_sword", "banished_sword", "boom_stick", "duskblade_sword", "poison_attacking", "electricity_attacking", "love_sword", "maelstrom_sword", "sand_sword", "fire_attacking", "golem_armor", "dragon_armor", "fire_armor", "claw_armor", "hydroblast_armor"
+				]
+			},
+			"animations": {
+				"dark_sword": "controller.animation.dark_sword",
+				"banished_sword": "controller.animation.banished_sword",
+				"boom_stick": "controller.animation.boom_stick",
+				"duskblade_sword": "controller.animation.duskblade_sword",
+				"poison_attacking": "controller.animation.poison_attacking",
+				"electricity_attacking": "controller.animation.electricity_attacking",
+				"love_sword": "controller.animation.love_sword",
+				"maelstrom_sword": "controller.animation.maelstrom_sword",
+				"sand_sword": "controller.animation.sand_sword",
+				"lightning_sword": "controller.animation.lightning_sword",
+				"fire_attacking": "controller.animation.fire_attacking",
+				"armor_controller": "controller.animation.armor_controller",
+				"golem_armor": "controller.animation.golem_armor",
+				"fire_armor": "controller.animation.fire_armor",
+				"hydroblast_armor": "controller.animation.hydroblast_armor",
+				"claw_armor": "controller.animation.claw_armor",
+				"dragon_armor": "controller.animation.dragon_armor",
+				"attacking": "controller.animation.attacking",
+				"walk": "controller.animation.walk"
+			}
+		},
+		"component_groups": {
+			"minecraft:normal_player": {
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:scale": {
+					"value": 1
+				}
+			},
+			"minecraft:banished_sword": {
+				"minecraft:attack": {
+					"damage": 10
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:fire_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:sand_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:maelstrom_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:boom_stick": {
+				"minecraft:attack": {
+					"damage": 5
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:poison_sword": {
+				"minecraft:attack": {
+					"damage": 10
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:wither_sword": {
+				"minecraft:attack": {
+					"damage": 15
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"minecraft:divine_sword": {
+				"minecraft:attack": {
+					"damage": 20
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+				
+			},
+			"sp:n_tnt_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:tnt_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_dark_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:dark_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_banished_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:banished",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_fireball_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:fireball",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_boulder_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:boulder_toss",
+					"num_to_spawn": 1
+				}]
+			},
+			"sp:n_love_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:love_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+			"minecraft:love_sword": {
+				"minecraft:attack": {
+					"damage": 7
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "regeneration", "strength", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "regeneration",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						}
+					]
+				}
+			},
+			"minecraft:duskblade_sword": {
+				"minecraft:attack": {
+					"damage": 10
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": ["jump_boost", "regeneration", "strength", "slow_falling", "fire_resistance", "haste", "water_breathing", "speed", "invisibility", "resistance"],
+					"add_effects": [{
+							"effect": "invisibility",
+							"duration": 2,
+							"amplifier": 2,
+							"visible": false,
+							"ambient": false
+						}
+						
+					]
+				}
+			},
+			"sp:n_lightning_shoot": {
+				"minecraft:spawn_entity": [{
+					"min_wait_time": 0,
+					"max_wait_time": 0,
+					"single_use": true,
+					"spawn_entity": "sw:lightning_shoot",
+					"num_to_spawn": 1
+				}]
+			},
+			"minecraft:lightning_sword": {
+				"minecraft:attack": {
+					"damage": 10
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				}
+			},
+			"minecraft:add_bad_omen": {
+				"minecraft:spell_effects": {
+					"add_effects": [{
+						"effect": "bad_omen",
+						"duration": 6000,
+						"display_on_screen_animation": true
+					}]
+				},
+				"minecraft:timer": {
+					"time": [
+						0,
+						0
+					],
+					"looping": false,
+					"time_down_event": {
+						"event": "minecraft:clear_add_bad_omen",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:clear_bad_omen_spell_effect": {
+				"minecraft:spell_effects": {}
+			},
+			"minecraft:raid_trigger": {
+				"minecraft:raid_trigger": {
+					"triggered_event": {
+						"event": "minecraft:remove_raid_trigger",
+						"target": "self"
+					}
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": "bad_omen"
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:can_climb": {},
+			"minecraft:player.saturation": {
+				"value": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 4
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": -1,
+				"inhaleTime": 3.75,
+				"generatesBubbles": false
+			},
+			"minecraft:nameable": {
+				"alwaysShow": true,
+				"allowNameTagRenaming": false
+			},
+			"minecraft:physics": {},
+			"minecraft:insomnia": {
+				"days_until_insomnia": 3
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"family_types": [
+					"parrot_tame"
+				],
+				"pull_in_entities": true,
+				"seats": [{
+						"position": [
+							0.4,
+							-0.15,
+							0.04
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 0,
+						"lock_rider_rotation": 0
+					},
+					{
+						"position": [
+							-0.4,
+							-0.15,
+							0.04
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 0
+					}
+				]
+			},
+			"minecraft:scaffolding_climber": {},
+			"minecraft:environment_sensor": [{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+									"test": "has_mob_effect",
+									"subject": "self",
+									"value": "bad_omen"
+								},
+								{
+									"test": "is_in_village",
+									"subject": "self",
+									"value": true
+								}
+							]
+						},
+						"event": "minecraft:trigger_raid"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "is_family",
+								"subject": "self",
+								"value": "player"
+							}]
+						},
+						"event": "minecraft:reset_player"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:banished_sword"
+							}]
+						},
+						"event": "minecraft:banished_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:boom_stick"
+							}]
+						},
+						"event": "minecraft:boom_stick"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:dark_sword"
+							}]
+						},
+						"event": "minecraft:dark_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:fire_sword"
+							}]
+						},
+						"event": "minecraft:fire_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:duskblade_sword"
+							}]
+						},
+						"event": "minecraft:duskblade_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:lightning_sword"
+							}]
+						},
+						"event": "minecraft:lightning_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:love_sword"
+							}]
+						},
+						"event": "minecraft:love_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:maelstrom_sword"
+							}]
+						},
+						"event": "minecraft:maelstrom_sword"
+					}
+				},
+				{
+					"on_environment": {
+						"filters": {
+							"all_of": [{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "sw:sand_sword"
+							}]
+						},
+						"event": "minecraft:sand_sword"
+					}
+				}
+			]
+		},
+		"events": {
+			"minecraft:reset_player": {
+				"add": {
+					"component_groups": [
+						"minecraft:normal_player"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:banished_sword",
+						"minecraft:boom_stick",
+						"minecraft:dark_sword",
+						"minecraft:fire_sword",
+						"minecraft:duskblade_sword",
+						"minecraft:lightning_sword",
+						"minecraft:love_sword",
+						"minecraft:maelstrom_sword",
+						"minecraft:sand_sword"
+					]
+				}
+			},
+			"sp:n_lightning_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_lightning_shoot"
+					]
+				}
+			},
+			"sp:n_tnt_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_tnt_shoot"
+					]
+				}
+			},
+			"sp:n_dark_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_dark_shoot"
+					]
+				}
+			},
+			"sp:n_boulder_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_boulder_shoot"
+					]
+				}
+			},
+			"sp:n_love_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_love_shoot"
+					]
+				}
+			},
+			"sp:n_banished_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_banished_shoot"
+					]
+				}
+			},
+			"sp:n_fireball_shoot": {
+				"add": {
+					"component_groups": [
+						"sp:n_fireball_shoot"
+					]
+				}
+			},
+			"minecraft:banished_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:banished_sword"
+					]
+				}
+			},
+			"minecraft:boom_stick": {
+				"add": {
+					"component_groups": [
+						"minecraft:boom_stick"
+					]
+				}
+			},
+			"minecraft:dark_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:dark_sword"
+					]
+				}
+			},
+			"minecraft:duskblade_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:duskblade_sword"
+					]
+				}
+			},
+			"minecraft:fire_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:fire_sword"
+					]
+				}
+			},
+			"minecraft:lightning_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:ligtning_sword"
+					]
+				}
+			},
+			"minecraft:love_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:love_sword"
+					]
+				}
+			},
+			"minecraft:maelstrom_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:maelstrom_sword"
+					]
+				}
+			},
+			"minecraft:sand_sword": {
+				"add": {
+					"component_groups": [
+						"minecraft:sand_sword"
+					]
+				}
+			},
+			"minecraft:gain_bad_omen": {
+				"add": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				}
+			},
+			"minecraft:clear_add_bad_omen": {
+				"remove": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:clear_bad_omen_spell_effect"
+					]
+				}
+			},
+			"minecraft:trigger_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:remove_raid_trigger": {
+				"remove": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"geometry.gravestone": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 5, 8],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-7, 0, -5], "size": [14, 4, 10], "uv": [0, 0], "mirror": false},
+					{"origin": [-6, 4, -2], "size": [12, 13, 4], "uv": [0, 14], "mirror": false},
+					{"origin": [-4, 17, -2], "size": [8, 3, 4], "uv": [28, 27], "mirror": false}
+				]
+			}
+		]
+	}
+}

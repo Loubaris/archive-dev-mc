@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cyd_mgspl:spell_illuminate",
+	  "materials": {"default": "zombie"},
+	  "textures":  {"default": "textures/none"},
+      "geometry":  {"default": "geometry.cyd_mgspl.fireball_mesh"},
+      "render_controllers": [ "controller.render.zombie" ],
+	  
+      "particle_effects": {
+        "particle_1": "cyd_mgspl:illuminate_glow",
+		"particle_2": "cyd_mgspl:illuminate_sparks"
+      },
+	  "animations": {
+		"particle": "animation.cyd_mgspl.double_particle"
+      },
+      "scripts": {
+        "animate": 
+		[	
+			"particle"
+		]
+      },
+	  
+	  "spawn_egg": {
+        "base_color": "#c7c2b5",
+        "overlay_color": "#524f49"
+      }
+    }
+  }
+}

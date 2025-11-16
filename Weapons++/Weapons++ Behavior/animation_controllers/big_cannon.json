@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.big_cannon_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"big_cannon_detection": "query.get_equipped_item_name == 'big_cannon' && query.is_using_item == true"
+						}
+					]
+				},
+				"big_cannon_detection": {
+					"on_entry": [
+						"/tag @p[r=1] add big_cannon"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

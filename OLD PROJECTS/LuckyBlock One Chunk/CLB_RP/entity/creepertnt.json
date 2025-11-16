@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tnt:creepertnt",
+      "materials": {
+         "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/creepertnt"
+      },
+      "geometry": {
+        "default": "geometry.creepertnt"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "texture": "creepertnt",
+        "texture_index": 0
+      }
+    }
+  }
+}

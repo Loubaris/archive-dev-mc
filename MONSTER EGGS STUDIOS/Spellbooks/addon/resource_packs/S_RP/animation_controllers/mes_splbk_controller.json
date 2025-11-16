@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mes_splbk.ffp": {
+			"initial_state": "first_person_one",
+			"states": {
+				"first_person_one": {
+					"animations": ["page_one"],
+					"blend_transition": 0.15,
+					"transitions": [
+						{"use": "c.is_first_person && query.is_using_item"},
+						{"third_person": "!c.is_first_person"}
+					]
+				},
+				"charging": {
+					"animations": ["charging"],
+					"blend_transition": 0.1,
+					"transitions": [
+						{"first_person_one": "!query.is_using_item && c.is_first_person"}
+					]
+				},
+				"use": {
+					"animations": ["use"],
+					"blend_transition": 0.1,
+					"transitions": [
+						{"charging": "c.is_first_person && query.all_animations_finished && query.is_using_item"},
+						{"first_person_one": "query.any_animation_finished && !query.is_using_item && c.is_first_person"}
+					]
+				},
+				"third_person": {
+					"animations": ["third_person"],
+					"transitions": [
+						{"first_person_one": "c.is_first_person"}
+					]
+				}
+			}
+		}
+	}
+}

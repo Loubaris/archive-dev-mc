@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.puppy_coin": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "variable.attack_time" } ],
+	  "on_entry": [
+            "/execute @p[r=1] ~ ~ ~ execute @e[type=pc:puppy_coin,r=3,tag=!get] ~ ~ ~ playanimation @s animation.puppy_coin.collected",
+	    "/execute @p[r=1] ~ ~ ~ execute @e[type=pc:puppy_coin,r=3,tag=!get] ~ ~ ~ tag @s add get"
+	  ]
+        },
+        "click1": {
+          "transitions": [ { "default": "!variable.attack_time" } ]
+        }
+      }
+    }
+  }
+}

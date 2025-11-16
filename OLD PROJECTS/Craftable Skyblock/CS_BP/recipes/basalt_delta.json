@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:basalt_delta_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZXZ",
+      "ZYZ",
+      "ZZZ"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:magma"
+      },
+      "Z": {
+        "item": "minecraft:basalt"
+      }
+    },
+    "result": {
+      "item": "cs:basalt_delta_spawn_egg"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:garden_table",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/garden_table/1",
+                "color2": "textures/furniture/garden_table/1",
+                "color3": "textures/furniture/garden_table/1"
+            },
+            "geometry": {
+                "default": "geometry.garden_table"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "garden_table",
+				"texture_index": 0
+            }
+        }
+    }
+}

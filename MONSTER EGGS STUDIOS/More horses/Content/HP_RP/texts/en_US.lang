@@ -1,0 +1,60 @@
+pack.name=Horses+ Add-On
+pack.description=Resource Pack for Horses+
+item.spawn_egg.entity.mes_mrhrs:arcane_horse.name=Arcane Horse
+entity.mes_mrhrs:arcane_horse.name=Arcane Horse
+action.hint.exit.mes_mrhrs:arcane_horse= Arcane Horse
+
+item.spawn_egg.entity.mes_mrhrs:emberman_horse.name=Emberman Horse
+entity.mes_mrhrs:emberman_horse.name=Emberman Horse
+action.hint.exit.mes_mrhrs:emberman_horse=Emberman Horse
+
+item.spawn_egg.entity.mes_mrhrs:ghostmane_horse.name=Ghostmane Horse
+entity.mes_mrhrs:ghostmane_horse.name=Ghostmane Horse
+action.hint.exit.mes_mrhrs:ghostmane_horse=Ghostmane Horse
+
+item.spawn_egg.entity.mes_mrhrs:glacian_horse.name=Glacian Horse
+entity.mes_mrhrs:glacian_horse.name=Glacian Horse
+action.hint.exit.mes_mrhrs:glacian_horse=Glacian Horse
+
+item.spawn_egg.entity.mes_mrhrs:gravitas_horse.name=Gravitas Horse
+entity.mes_mrhrs:gravitas_horse.name=Gravitas Horse
+action.hint.exit.mes_mrhrs:gravitas_horse=Gravitas Horse
+
+item.spawn_egg.entity.mes_mrhrs:hippocampus_horse.name=Hippocampus Horse
+entity.mes_mrhrs:hippocampus_horse.name=Hippocampus Horse
+action.hint.exit.mes_mrhrs:hippocampus_horse=Hippocampus Horse
+
+item.spawn_egg.entity.mes_mrhrs:hippogriff_horse.name=Hippogriff Horse
+entity.mes_mrhrs:hippogriff_horse.name=Hippogriff Horse
+action.hint.exit.mes_mrhrs:hippogriff_horse=Hippogriff Horse
+
+item.spawn_egg.entity.mes_mrhrs:kirin_horse.name=Kirin Horse
+entity.mes_mrhrs:kirin_horse.name=Kirin Horse
+action.hint.exit.mes_mrhrs:kirin_horse=Kirin Horse
+
+item.spawn_egg.entity.mes_mrhrs:lushu_horse.name=Lushu Horse
+entity.mes_mrhrs:lushu_horse.name=Lushu Horse
+action.hint.exit.mes_mrhrs:lushu_horse=Lushu Horse
+
+item.spawn_egg.entity.mes_mrhrs:pegasus_horse.name=Pegasus Horse
+entity.mes_mrhrs:pegasus_horse.name=Pegasus Horse
+action.hint.exit.mes_mrhrs:pegasus_horse=Pegasus Horse
+
+item.spawn_egg.entity.mes_mrhrs:shadow_horse.name=Shadow Horse
+entity.mes_mrhrs:shadow_horse.name=Shadow Horse
+action.hint.exit.mes_mrhrs:shadow_horse=Shadow Horse
+
+item.spawn_egg.entity.mes_mrhrs:unicorn_horse.name=Unicorn Horse
+entity.mes_mrhrs:unicorn_horse.name=Unicorn Horse
+action.hint.exit.mes_mrhrs:unicorn_horse=Unicorn Horse
+
+item.mes_mrhrs:guide_book.name=Guide Book
+item.mes_mrhrs:claw.name=Horseshoe §7[§bUse me!§7]
+
+mes_mrhrs.page1_body=Welcome to the §lHorses+§r Add-On! %1This guidebook will provide you with everything you need to know about the unique horses included in this Add-On, their abilities, and how to use them effectively in your Minecraft adventures. Whether you’re traversing the Nether, exploring underwater ruins, or soaring through the skies, there’s a horse for every adventure.
+
+mes_mrhrs.compendium.text=§lEmbermane§r%1§oDescription:§r "A fiery steed with a mane that burns like molten lava. Its presence alone is enough to scorch the ground beneath its hooves."%1§oSpeed:§r 8.5/10%1§oHealth:§r 20 hearts%1§oInventory:§r 12 Slots%1§oUses:§r Ideal for navigating the Nether and defending against hostile mobs with its fire-based abilities.%1§oLocation:§r Found in the Nether, typically near lava pools or fiery terrains.%1§oTemperament:§r Aggressive – Will attack when approached, must be tamed with Blaze Powder or Magma Cream.%1%1%1§lHippocampus§r%1§oDescription:§r "Graceful and swift, this aquatic horse glides through water with ease, its scales shimmering like the sea itself."%1§oSpeed:§r 4/10 (on land), 9/10 (in water)%1§oHealth:§r 15 hearts%1§oInventory:§r 10 Slots%1§oUses:§r Best for underwater exploration, shipwreck diving, and aquatic combat.%1§oLocation:§r Found near coral reefs or underwater ruins in warm ocean biomes.%1§oTemperament:§r Passive – Friendly and curious, easily tamed with Kelp or Seagrass.%1%1%1§lPegasus§r%1§oDescription:§r "A winged beauty with feathers of pure white, capable of soaring to the heavens and offering a vantage like no other."%1§oSpeed:§r 9/10 (on land), 8/10 (in air)%1§oHealth:§r 18 hearts%1§oInventory:§r 6 Slots%1§oUses:§r Excellent for travel over mountains, forests, and open landscapes.%1§oLocation:§r Found in high-altitude areas such as mountain peaks or hilltop meadows.%1§oTemperament:§r Neutral – Cautious but not aggressive, taming requires Golden Apples.%1%1%1§lUnicorn§r%1§oDescription:§r "This mystical creature radiates purity, its horn gleaming with the power to heal and cleanse."%1§oSpeed:§r 8/10%1§oHealth:§r 20 hearts%1§oInventory:§r 10 Slots%1§oUses:§r Perfect for support in combat, healing players, and resisting harmful effects.%1§oLocation:§r Found in flower forests or lush meadows.%1§oTemperament:§r Passive – Gentle and welcoming, easily tamed with Enchanted Golden Apples or Glow Berries.%1%1%1§lGhostmane§r%1§oDescription:§r "A spectral horse that drifts silently through the night, its transparent body glowing faintly under the moonlight."%1§oSpeed:§r 7/10%1§oHealth:§r 16 hearts%1§oInventory:§r 8 Slots%1§oUses:§r Great for stealth missions and navigating dark areas.%1§oLocation:§r Found at night, very rare to see.%1§oTemperament:§r Neutral – Wary and will flee when approached, taming requires Soul Sand or Ghast Tears.%1%1%1§lHippogriff§r%1§oDescription:§r "Half eagle, half horse, this proud and fierce creature is the master of mountains and skies."%1§oSpeed:§r 9/10 (on land), 9/10 (in air)%1§oHealth:§r 18 hearts%1§oInventory:§r 8 Slots%1§oUses:§r Ideal for traversing rugged terrains and engaging in aerial combat.%1§oLocation:§r Found in mountainous regions or near high cliffs.%1§oTemperament:§r Aggressive – Will attack if approached without caution, taming requires Rabbit’s Foot.%1%1%1Shadowstepper§r%1§oDescription:§r "A mysterious and elusive horse that seems to vanish and reappear in an instant, leaving only shadows behind."%1§oSpeed:§r 8/10%1§oHealth:§r 16 hearts%1§oInventory:§r 7 Slots%1§oUses:§r Best for sneaking past enemies and avoiding combat.%1§oLocation:§r Found in dark forests or caves.%1§oTemperament:§r Neutral – Skittish and will teleport away if startled, taming requires Ender Pearls.%1%1%1§lGlacian§r%1§oDescription:§r "A steed born of frost and snow, its icy breath freezes the air and leaves a trail of ice in its wake."%1§oSpeed:§r 7.5/10%1§oHealth:§r 20 hearts%1§oInventory:§r 14 Slots%1§oUses:§r Excellent for snowy terrains and crossing frozen lakes.%1§oLocation:§r Found in the snowy tundra or ice plains.%1§oTemperament:§r Neutral – Observant and patient, requires Packed Ice or Blue Ice to tame.%1%1%1§lLu Shu§r%1§oDescription:§r "A mythical horse said to bring prosperity and heal the land it walks on, with a mane that glows with natural energy."%1§oSpeed:§r 8.5/10%1§oHealth:§r 22 hearts%1§oInventory:§r 12 Slots%1§oUses:§r Great for exploration in lush biomes and regenerating player health.%1§oLocation:§r Found in jungles or bamboo forests.%1§oTemperament:§r Passive – Benevolent and wise, easily tamed with Sweet Berries.%1%1%1§lKirin§r%1§oDescription:§r "This draconic steed glides over water with an unmatched grace, its energy radiating like ripples on a pond."%1§oSpeed:§r 7.5/10 (on land), 8/10 (on water)%1§oHealth:§r 18 hearts%1§oInventory:§r 10 Slots%1§oUses:§r Perfect for crossing large water bodies and dealing area damage to mobs.%1§oLocation:§r Found in river biomes or lakes.%1§oTemperament:§r Neutral – Calm but will defend itself if attacked, taming requires Prismarine Shards or Nautilus Shells.%1%1%1§lArcane Charger§r%1§oDescription:§r "A steed brimming with magical energy, its every step echoes with arcane power and mysticism."%1§oSpeed:§r 8/10%1§oHealth:§r 22 hearts%1§oInventory:§r 9 Slots%1§oUses:§r Excellent for magical combat and protecting players in dangerous situations.%1§oLocation:§r Found near ruined portals.%1§oTemperament:§r Aggressive – Will attack if provoked, taming requires Enchanted Books or Amethyst Shards.%1
+mes_mrhrs.general_info.text=§lBasic Usage§r%1This Add-On introduces new horses with unique abilities to enhance your Minecraft experience. Each horse is tailored to a specific environment or playstyle, ensuring a versatile and immersive gameplay experience.%1§lHorse Types and Categories§r%1§lElemental Horses§r%1• §6Embermane§r – Resistant to fire and lava, capable of leaving fiery trails.%1• §bGlacian§r – Can freeze water and snow, immune to icy effects.%1§lMythical Horses§r%1• §fPegasus§r – Grants the ability to fly, lightweight and fast.%1• §dUnicorn§r – Passive healing aura and speed boost.%1• §7Ghostmane§r – Has a increased stealth ability.%1§lExploration Horses§r%1• §3Hippocampus§r – Can swim and breathe underwater, ideal for ocean travel.%1• §eHippogriff§r – Can glide and dive attack from heights.%1• §8Shadowstepper§r – Has teleportation abilities and increased stealth.%1§lMagical Horses§r%1• §2Kirin§r – Provides nature healing and enhances nearby crops.%1• §9Lu Shu§r – Walks on water and has energy burst abilities.%1• §5Arcane Charger§r – Has magical projectile attacks and defensive wards.%1
+mes_mrhrs.help.text=§lHelp and Support§r%1If you have any questions, encounter issues, or would like to share feedback about the Horses+ Add-On, we’re here to assist you! Here’s how you can reach us:%1§lEmail:§r Support@Monsteregg.co.uk – Send us a detailed message, and our team will respond as quickly as possible.%1§lDiscord:§r Join Our Community at https://discord.gg/VvPqFF4FTP – Get live support, connect with other players, and stay updated on all our projects.%1§lSocial Media:§r Follow us on Twitter at https://twitter.com/MonsterEggMC – Stay in the loop with news, updates, and sneak peeks of upcoming content.%1We appreciate your support and look forward to helping you enjoy the best Minecraft experience possible!
+mes_mrhrs.about.text=§lAbout§r%1§lDevelopment and Design Philosophy§r%1The Horses+ Add-On was created to seamlessly integrate with Minecraft’s mechanics while providing players with new and exciting gameplay options. Every horse is carefully designed to balance utility, fun, and originality.%1§lFuture Plans and Updates§r%1Additional Horses – More unique breeds with specialized abilities.%1Expanded Crafting – More customization options for horse gear.%1Player Feedback Integration – Updates based on community suggestions.
+mes_mrhrs.tips.text=§lGeneral Strategies§r%1Utilize Environmental Strengths – Each horse excels in different biomes and terrains.%1Experiment with Gear – Custom gear combinations can enhance abilities.%1Manage Resources – Crafting the right gear requires gathering specific materials.%1§lBest Horses for Combat, Exploration, and Utility§r%1Combat – Arcane Charger, Pegasus, Ghostmane.%1Exploration – Hippocampus, Hippogriff, Shadowstepper.%1Utility – Kirin, Lu Shu, Unicorn.%1§lSynergies and Advanced Usage§r%1Pair §bGlacian§r with Frost Walker boots to create solid paths over water.%1§8Shadowstepper§r combined with Invisibility Potions makes for stealthy escapes.%1Use §eHippogriff§r’s dive attack to engage enemies from above.

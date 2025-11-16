@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:banished_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "banished_sword",
+   "minecraft:render_offsets": "banished_sword"
+  }
+ }
+}

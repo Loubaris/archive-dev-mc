@@ -1,0 +1,2 @@
+tp @s[tag=!verified] ^ ^ ^0.4 facing @e[type=zedafox:connector,c=1]
+execute @e[type=zedafox:connector] ~ ~ ~ execute @e[type=zedafox:electricity_orb,r=0.5,tag=!verified] ~ ~ ~ function entity/orb_impact 

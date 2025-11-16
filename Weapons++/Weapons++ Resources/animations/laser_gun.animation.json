@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.laser_gun.third_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0],
+					"scale": [1, 1, 1]
+				},
+				"base": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0],
+					"scale": [1, 1, 1]
+				}
+			}
+		},
+		"animation.laser_gun.first_person": {
+			"loop": true,
+			"bones": {
+				"Main": {
+					"rotation": [42.5, 0, 0],
+					"position": [-3, -5, 2]
+				},
+				"base": {
+					"position": [0, 10, 9],
+					"scale": [0.7, 0.6, 0.7]
+				}
+			}
+		},
+		"animation.laser_gun.using_item": {
+			"animation_length": 0.20833,
+			"bones": {
+				"base": {
+					"position": {
+						"0.0": [0, 10, 9],
+						"0.0833": [0, 10, 11],
+						"0.1667": [0, 10, 9]
+					},
+					"scale": {
+						"0.0": [0.7, 0.6, 0.7],
+						"0.1667": [0.7, 0.6, 0.7]
+					}
+				}
+			}
+		}
+	}
+}

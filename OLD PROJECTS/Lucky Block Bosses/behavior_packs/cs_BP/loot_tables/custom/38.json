@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "red_flower",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": {
+                                "min": 0,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "yellow_flower",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": {
+                                "min": 0,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

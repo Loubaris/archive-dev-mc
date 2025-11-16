@@ -1,0 +1,24 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "cs:banner_water_ruin",
+         "spawn_egg": {
+            "texture": "spawn_egg",
+            "texture_index": 1
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/water_ruin"
+            }, 
+         "geometry": { 
+            "default": "geometry.bannerft" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ]
+         }
+      }
+}

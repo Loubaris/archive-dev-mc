@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:mesa_village_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "YEY",
+      "UUU"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:hardened_clay"
+      },
+      "Z": {
+        "item": "minecraft:planks"
+      },
+      "E": {
+        "item": "cs:mesa_forest_spawn_egg"
+      },
+      "Y": {
+        "item": "minecraft:log"
+      }
+    },
+    "result": {
+      "item": "cs:mesa_village_spawn_egg"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "cs:lucky_block",
+            "is_experimental": false,
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/lucky_block.json",
+            "minecraft:destroy_time": 0.3,
+            "minecraft:explosion_resistance": 5,
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:map_color": "#4ef442",
+            "minecraft:block_light_absorption": 0,
+            "minecraft:block_light_emission": 0
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+  "resource_pack_name": "Craftable Skyblock",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "beach_island": {
+        "textures": "textures/items/beach_island"
+       },
+     "lcicles": {
+        "textures": "textures/items/lcicles"
+       },
+     "acacia_forest": {
+        "textures": "textures/items/acacia_forest"
+       },
+     "bamboo_forest": {
+        "textures": "textures/items/bamboo_forest"
+       },
+     "bastion_remnant": {
+        "textures": "textures/items/bastion_remnant"
+       },
+     "basalt_delta": {
+        "textures": "textures/items/basalt_delta"
+       },
+     "birch_forest": {
+        "textures": "textures/items/birch_forest"
+       },
+     "cactus_island": {
+        "textures": "textures/items/cactus_island"
+       },
+     "crimson_forest": {
+        "textures": "textures/items/crimson_forest"
+       },
+     "dark_oak_forest": {
+        "textures": "textures/items/dark_oak_forest"
+       },
+     "end_city": {
+        "textures": "textures/items/end_city"
+       },
+     "end_parkour": {
+        "textures": "textures/items/end_parkour"
+       },
+     "end_island_one": {
+        "textures": "textures/items/end_island_one"
+       },
+     "end_island_two": {
+        "textures": "textures/items/end_island_two"
+       },
+     "end_ship": {
+        "textures": "textures/items/end_ship"
+       },
+     "floating_ship": {
+        "textures": "textures/items/floating_ship"
+       },
+     "flower_forest": {
+        "textures": "textures/items/flower_forest"
+       },
+     "frozen_lake": {
+        "textures": "textures/items/frozen_lake"
+       },
+     "giant_tree": {
+        "textures": "textures/items/giant_tree"
+       },
+     "igloo_island": {
+        "textures": "textures/items/igloo_island"
+       },
+     "jungle_forest": {
+        "textures": "textures/items/jungle_forest"
+       },
+     "castle": {
+        "textures": "textures/items/castle"
+       },
+     "mesa_forest": {
+        "textures": "textures/items/mesa_forest"
+       },
+     "mesa_village": {
+        "textures": "textures/items/mesa_village"
+       },
+     "mooshroom_island": {
+        "textures": "textures/items/mooshroom_island"
+       },
+     "nether": {
+        "textures": "textures/items/nether"
+       },
+     "nether_fortress": {
+        "textures": "textures/items/nether_fortress"
+       },
+     "oak_forest": {
+        "textures": "textures/items/oak_forest"
+       },
+     "nether_parkour": {
+        "textures": "textures/items/nether_parkour"
+       },
+     "pillager_outpost": {
+        "textures": "textures/items/pillager_outpost"
+       },
+     "cloud_city": {
+        "textures": "textures/items/cloud_city"
+       },
+     "cloud_parkour": {
+        "textures": "textures/items/cloud_parkour"
+       },
+     "soul_sand_valley": {
+        "textures": "textures/items/soul_sand_valley"
+       },
+     "spruce_forest": {
+        "textures": "textures/items/spruce_forest"
+       },
+     "swamp": {
+        "textures": "textures/items/swamp"
+       },
+     "village_one": {
+        "textures": "textures/items/village_one"
+       },
+     "village_two": {
+        "textures": "textures/items/village_two"
+       },
+     "volcano": {
+        "textures": "textures/items/volcano"
+       },
+     "warped_forest": {
+        "textures": "textures/items/warped_forest"
+       },
+     "water_oasis": {
+        "textures": "textures/items/water_oasis"
+       },
+     "ocean": {
+        "textures": "textures/items/ocean"
+       },
+     "water_ruin": {
+        "textures": "textures/items/cove"
+       }
+
+  }
+}

@@ -1,0 +1,1 @@
+summon zedafox:coin ~ ~0.5 ~

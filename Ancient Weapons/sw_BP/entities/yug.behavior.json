@@ -1,0 +1,102 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sw:yug",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "start_component": {
+                "minecraft:is_sheared": {}
+            },
+            "finish_component": {
+                "minecraft:is_stunned": {}
+            },
+            "trigger_component": {
+                "minecraft:is_ignited": {}
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["init", "yug"]
+            },
+            "minecraft:collision_box": {
+                "height": 1.8,
+                "width": 0.6
+            },
+	    "minecraft:npc": {
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 0,
+                "look_distance": 32,
+                "probability": 1
+            },
+            "minecraft:fire_immune": {},
+            "minecraft:persistent": {},
+            "minecraft:damage_sensor": {
+                "triggers": [{
+                        "on_damage": {
+                            "filters": [{
+                                "all_of": [{
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "has_ability",
+                                        "subject": "other",
+                                        "value": "instabuild"
+                                    },
+                                    {
+                                        "test": "is_mark_variant",
+                                        "subject": "self",
+                                        "value": 0
+                                    }
+                                ]
+                            }]
+                        },
+                        "damage_multiplier": 20
+                    },
+                    {
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:entity_sensor": {
+                "sensor_range": 10,
+                "event_filters": [{
+                    "all_of": [{
+                        "test": "is_family",
+                        "subject": "other",
+                        "value": "player"
+                    }]
+                }],
+                "event": "on_start"
+            }
+        },
+        "events": {
+            "on_start": {
+                "add": {
+                    "component_groups": ["start_component"]
+                }
+            },
+            "on_finish": {
+                "add": {
+                    "component_groups": ["finish_component"]
+                }
+            },
+            "on_trigger": {
+                "add": {
+                    "component_groups": ["trigger_component"]
+                }
+            },
+            "on_trigger_remove": {
+                "remove": {
+                    "component_groups": ["trigger_component"]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"nitric"
+		]
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			16,
+			0
+		],
+		"uuid": "bdb26ee6-0557-451d-a04c-5bb5b344f974",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "1d43cb5b-1268-48c0-9a3b-1f9448d25a80",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "5e166fa0-41c8-41a5-b674-b3cf621e369d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

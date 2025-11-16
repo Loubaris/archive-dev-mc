@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:point_disparition",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/point"
+			},
+			"geometry": {
+				"default": "geometry.point"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"disparition": "animation.wave.disparition"
+			},
+			"animation_controllers": [
+				{
+					"disparition": "controller.animation.disparition"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.magetower.attack": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"bone": {
+					"rotation": ["query.anim_time*180", "query.anim_time*180", 0],
+					"position": [0, "math.cos(q.anim_time*180)*3", 0]
+				}
+			}
+		}
+	}
+}

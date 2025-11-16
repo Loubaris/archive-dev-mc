@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:crimson_forest_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "YYY",
+      "YYY"
+    ],
+    "key": {
+      "Z": {
+        "item": "minecraft:crimson_fungus"
+      },
+      "Y": {
+        "item": "minecraft:nether_wart_block"
+      }
+    },
+    "result": {
+      "item": "cs:crimson_forest_spawn_egg"
+    }
+  }
+}

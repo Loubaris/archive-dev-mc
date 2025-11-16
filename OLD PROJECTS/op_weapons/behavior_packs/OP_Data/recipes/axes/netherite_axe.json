@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:netherite_axe"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "U#Y",
+      "U#Y",
+      "U#U"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "result": {
+      "item": "ninja:netherite_axe"
+    }
+  }
+}

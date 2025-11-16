@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animal:salamander",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/salamander"
+      },
+      "geometry": {
+        "default": "geometry.salamander"
+      },
+      "animations": {
+        "look_at_target": "animation.common.look_at_target",
+        "walk": "animation.salamander.walk"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          {"walk": "query.modified_move_speed"}
+        ]
+      },
+      "render_controllers": [ "controller.render.cow" ],
+      "spawn_egg": {
+        "base_color": "#e23425",
+        "overlay_color": "#413413"
+      }
+    }
+  }
+}

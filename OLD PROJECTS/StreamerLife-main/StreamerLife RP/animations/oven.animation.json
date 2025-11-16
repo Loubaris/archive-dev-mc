@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.oven.open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 10000,
+			"bones": {
+				"bone2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [90, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.oven.close": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 10000,
+			"bones": {
+				"bone2": {
+					"rotation": {
+						"0.0": [90, 0, 0],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

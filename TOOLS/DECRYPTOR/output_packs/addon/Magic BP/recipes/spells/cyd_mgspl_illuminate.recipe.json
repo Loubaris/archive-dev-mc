@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:illuminate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " # ",
+      " X ",
+      "AX "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:torch"
+      },
+      "X": {
+        "item": "minecraft:gold_ingot"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:illuminate",
+      "count": 1
+    }
+  }
+}

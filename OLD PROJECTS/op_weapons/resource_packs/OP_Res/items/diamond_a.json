@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:diamond_axe",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "diamond_a",
+   "minecraft:render_offsets": "diamond_a"
+  }
+ }
+}

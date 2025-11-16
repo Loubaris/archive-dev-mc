@@ -1,0 +1,88 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "sound.tutorial": {
+      "category": "natural",
+      "min_distance": 500.0,
+      "sounds": ["sounds/tutorial"]
+    },
+    "nitric.music.big_cannon": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Boulder_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.laser": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Laser_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.sword_explosion": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Sword_Explosion",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.great_sword": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Great_Sword",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.mini_gun_cannon": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Minigun_Ability",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.sword_blaster": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Sword_blaster",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.dagger_shoot": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Dagg_shoot_Normal",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:frozen_lake_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZGZ",
+      "YEY",
+      "UUU"
+    ],
+    "key": {
+      "Y": {
+        "item": "minecraft:snow"
+      },
+      "E": {
+        "item": "minecraft:ice"
+      },
+      "Z": {
+        "item": "minecraft:sapling",
+	"data": 1
+      },
+      "G": {
+        "item": "cs:spruce_forest_spawn_egg"
+      },
+      "U": {
+        "item": "minecraft:dirt"
+      }
+    },
+    "result": {
+      "item": "cs:frozen_lake_spawn_egg"
+    }
+  }
+}

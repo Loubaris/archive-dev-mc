@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:archer_campsite",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/mes/heroes/entity/archer/campsite"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.archer_campsite"
+            },
+            "spawn_egg": {
+                "texture": "mes_heroes_archer_campsite_spawn_egg"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

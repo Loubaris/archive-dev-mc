@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Weapons++",
+		"description": "Weapons++ Resource Pack",
+		"uuid": "0c5311ec-7502-7686-fc13-b57d5994ba57",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Nitric"]
+	},
+	"modules": [
+		{
+			"description": "Weapons++",
+			"type": "resources",
+			"uuid": "cce194df-0764-b18a-a8db-1f401b7984a6",
+			"version": [1, 0, 0]
+		}
+	]
+}

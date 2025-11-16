@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:guardian_campsite",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/mes/heroes/entity/guardian/campsite"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.guardian_campsite"
+            },
+            "spawn_egg": {
+                "texture": "mes_heroes_guardian_campsite_spawn_egg"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

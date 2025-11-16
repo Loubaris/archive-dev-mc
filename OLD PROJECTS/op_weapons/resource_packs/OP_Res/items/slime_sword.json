@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:slime_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "slime_sword",
+   "minecraft:render_offsets": "slime_sword"
+  }
+ }
+}

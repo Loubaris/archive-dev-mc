@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animal:badger",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/badger"
+      },
+      "geometry": {
+        "default": "geometry.badger"
+      },
+      "animations": {
+        "look_at_target": "animation.common.look_at_target",
+        "walk": "animation.badger.walk"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          {"walk": "query.modified_move_speed"}
+        ]
+      },
+      "render_controllers": [ "controller.render.cow" ],
+      "spawn_egg": {
+        "base_color": "#28140c",
+        "overlay_color": "#6c7d8f"
+      }
+    }
+  }
+}

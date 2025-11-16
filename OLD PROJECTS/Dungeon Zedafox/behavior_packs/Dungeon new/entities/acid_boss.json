@@ -1,0 +1,148 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:acid_boss",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:boss": {
+				"should_darken_sky": false,
+				"hud_range": 12,
+				"name": "Acid Boss"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"boss"
+				]
+			},
+			"minecraft:health": {
+				"value": 200,
+				"max": 200
+			},
+			"minecraft:collision_box": {
+				"width": 3.0,
+				"height": 3.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"down": {
+				"minecraft:damage_sensor": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"acid_boss1": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"acid_boss2": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"acid_boss3": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"acid_boss4": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			}
+		},
+		"events": {
+			"is_down": {
+				"add": {
+					"component_groups": [
+						"down"
+					]
+				}
+			},
+			"is_up": {
+				"remove": {
+					"component_groups": [
+						"down"
+					]
+				}
+			},
+			"skin1": {
+				"add": {
+					"component_groups": [
+						"acid_boss1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"acid_boss2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"acid_boss3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"acid_boss4"
+					]
+				}
+			},
+			"skin2": {
+				"add": {
+					"component_groups": [
+						"acid_boss2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"acid_boss1"
+					]
+				}
+			},
+			"skin3": {
+				"add": {
+					"component_groups": [
+						"acid_boss3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"acid_boss1"
+					]
+				}
+			},
+			"skin4": {
+				"add": {
+					"component_groups": [
+						"acid_boss4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"acid_boss1"
+					]
+				}
+			}
+		}
+	}
+}

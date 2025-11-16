@@ -1,0 +1,36 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "zedafox:skeleton_despawn",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/skeleton/skeleton"
+            }, 
+         "geometry": { 
+            "default": "geometry.skeleton_despawn" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "despawnskeleton" : "animation.wave.despawnskeleton"
+              },
+         "animation_controllers" : [
+              {
+              "despawnskeleton" : "controller.animation.despawnskeleton"
+              } 
+         ] 
+       
+       
+       
+       
+         }
+      }
+}

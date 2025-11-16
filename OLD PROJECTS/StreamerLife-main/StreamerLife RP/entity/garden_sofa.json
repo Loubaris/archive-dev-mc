@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:garden_sofa",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/garden_sofa/1",
+                "color2": "textures/furniture/garden_sofa/2",
+                "color3": "textures/furniture/garden_sofa/3"
+            },
+            "geometry": {
+                "default": "geometry.garden_sofa"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "garden_sofa",
+				"texture_index": 0
+            }
+        }
+    }
+}

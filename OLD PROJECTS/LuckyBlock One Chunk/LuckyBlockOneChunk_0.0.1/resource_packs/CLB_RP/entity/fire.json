@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tnt:firetnt",
+      "materials": {
+         "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/fire"
+      },
+      "geometry": {
+        "default": "geometry.fire"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "texture": "fire",
+        "texture_index": 0
+      }
+    }
+  }
+}

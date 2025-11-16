@@ -1,0 +1,55 @@
+{
+	"format_version": "1.10.0",
+	"geometry.mushman_king": {
+		"texturewidth": 256,
+		"textureheight": 256,
+		"visible_bounds_width": 5,
+		"visible_bounds_height": 5,
+		"visible_bounds_offset": [0, 2.5, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 40, 8],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-16, 14, -15], "size": [30, 22, 30], "uv": [0, 78], "mirror": false},
+					{"origin": [-27, 36, -27], "size": [52, 22, 56], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "leftArm",
+				"parent": "body",
+				"pivot": [18, 28.5, -0.5],
+				"cubes": [
+					{"origin": [14, 0, -6], "size": [8, 29, 11], "uv": [109, 119]}
+				]
+			},
+			{
+				"name": "rightArm",
+				"parent": "body",
+				"pivot": [-20, 28.5, -0.5],
+				"cubes": [
+					{"origin": [-24, 0, -6], "size": [8, 29, 11], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "rightLeg",
+				"parent": "body",
+				"pivot": [-7.5, 14, -1],
+				"cubes": [
+					{"origin": [-13, 0, -8], "size": [11, 14, 14], "uv": [0, 130]},
+					{"origin": [-13, 0, -8], "size": [11, 6, 14], "uv": [50, 130], "inflate": 1.1}
+				]
+			},
+			{
+				"name": "leftLeg",
+				"parent": "body",
+				"pivot": [5.5, 14, -1],
+				"cubes": [
+					{"origin": [0, 0, -8], "size": [11, 6, 14], "uv": [126, 92], "inflate": 1.1},
+					{"origin": [0, 0, -8], "size": [11, 14, 14], "uv": [90, 78]}
+				]
+			}
+		]
+	}
+}

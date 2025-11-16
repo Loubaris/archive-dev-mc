@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:summon_minion"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " N ",
+      " S ",
+      "AE "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:obsidian"
+      },
+      "N": {
+        "item": "minecraft:netherrack"
+      },
+      "E": {
+        "item": "minecraft:end_stone"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:summon_minion",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pistol.third_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"rotation": [85, 0, 0],
+					"position": [0, 3, -4]
+				}
+			}
+		},
+		"animation.pistol.first_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"rotation": [10.92044, 46.91401, -80.99481],
+					"position": [1, 0, -2]
+				}
+			}
+		}
+	}
+}

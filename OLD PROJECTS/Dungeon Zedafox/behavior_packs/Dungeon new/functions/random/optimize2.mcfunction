@@ -1,0 +1,1 @@
+execute @e[type=zedafox:elevator] ~ ~ ~ function elevator

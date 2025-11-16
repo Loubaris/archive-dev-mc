@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:electricity_orb",
+			"spawn_egg": {
+				"base_color": "#45D4ED",
+				"overlay_color": "#45D4ED"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/orb/orb1",
+				"orb2": "textures/entity/orb/orb2",
+				"orb3": "textures/entity/orb/orb3",
+				"orb4": "textures/entity/orb/orb4"
+			},
+			"geometry": {
+				"default": "geometry.electricity_orb"
+			},
+			"render_controllers": [
+				"controller.render.wave",
+				"controller.render.orb"
+			],
+			"animations": {
+				"orb": "animation.wave.orb"
+			},
+			"animation_controllers": [
+				{
+					"tylerHand": "controller.animation.orb"
+				}
+			]
+		}
+	}
+}

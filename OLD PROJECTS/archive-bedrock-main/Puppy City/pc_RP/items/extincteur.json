@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "pc:extincteur",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "extincteur",
+   "minecraft:render_offsets": "extincteur"
+  }
+ }
+}

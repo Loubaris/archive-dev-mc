@@ -1,0 +1,40 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"cyd_mgspl:spell_summon_minion",
+         "materials":{
+            "default":"zombie"
+         },
+         "textures":{
+            "default":"textures/cyd/mgspl/entity/emerald_golem",
+            "nether":"textures/cyd/mgspl/entity/nether_brick_golem",
+            "end":"textures/cyd/mgspl/entity/purpur_golem"
+         },
+         "geometry":{
+            "default":"geometry.cyd_mgspl.magic_minion"
+         },
+         "animations":{
+            "walk":"animation.cyd_mgspl.magic_minion.walk",
+            "attack":"animation.cyd_mgspl.magic_minion.attack",
+            "idle":"animation.cyd_mgspl.magic_minion.idle",
+
+            "control_move":"controller.animation.cyd_mgspl_move_ground",
+			"control_attack":"controller.animation.cyd_mgspl_attack"
+         },
+         "scripts":{
+            "animate":[
+			   "control_move",
+			   "control_attack"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.zombie"
+         ],
+         "spawn_egg":{
+            "base_color":"#c7c2b5",
+            "overlay_color":"#524f49"
+         }
+      }
+   }
+}

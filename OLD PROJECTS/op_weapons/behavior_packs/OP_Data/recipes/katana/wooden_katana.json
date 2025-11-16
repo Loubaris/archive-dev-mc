@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:wood_knife"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "UUY",
+      "UYU",
+      "#UU"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "ninja:wood_knife"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mini_gun_cannon.first_person": {
+			"loop": true,
+			"bones": {
+				"base": {
+					"rotation": [0, -35, 90],
+					"position": [-4, 0, 6]
+				}
+			}
+		},
+		"animation.mini_gun_cannon.third_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"base": {
+					"rotation": [0, 0, 0],
+					"position": [2, 0, 0],
+					"scale": [1, 1, 1]
+				}
+			}
+		},
+		"animation.mini_gun.using_item": {
+			"animation_length": 0.20833,
+			"bones": {
+				"base": {
+					"rotation": {
+						"0.0": [0, -35, 90],
+						"0.1667": [0, -35, 90]
+					},
+					"position": {
+						"0.0": [-4, 0, 6],
+						"0.0833": [-4, 1, 8],
+						"0.1667": [-4, 0, 6]
+					}
+				}
+			}
+		}
+	}
+}

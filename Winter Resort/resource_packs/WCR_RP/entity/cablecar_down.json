@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:cablecar_down",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"color1": "textures/entity/cablecar/color1",
+				"color2": "textures/entity/cablecar/color2",
+				"color3": "textures/entity/cablecar/color3",
+				"color4": "textures/entity/cablecar/color4"
+			},
+			"geometry": {
+				"default": "geometry.cablecar"
+			},
+			"render_controllers": [
+				"controller.render.cablecar"
+			],
+			"spawn_egg": {
+				"texture": "gondola",
+				"texture_index": 0
+			}
+		}
+	}
+}

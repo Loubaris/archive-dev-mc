@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:recipe_spell_potion"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      " B ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      },
+      "B": {
+        "item": "cyd_mgspl:mana_potion"
+      }
+    },
+	"unlock": [
+		{
+			"item": "cyd_mgspl:mana_potion"
+		}
+    ],
+    "result": {
+      "item": "cyd_mgspl:spell_potion",
+      "count": 1
+    }
+  }
+}

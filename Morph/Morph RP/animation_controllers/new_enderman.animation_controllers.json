@@ -1,0 +1,60 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.enderman.base_pose.new": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"base_pose",
+						"arms_legs"
+					]
+				}
+			}
+		},
+		"controller.animation.enderman.carrying.new": {
+			"initial_state": "default",
+			"states": {
+				"carry": {
+					"animations": [
+						"carrying"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_carrying_block"
+						}
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"carry": "query.is_carrying_block"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.enderman.scary_face.new": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"scary": "query.is_angry"
+						}
+					]
+				},
+				"scary": {
+					"animations": [
+						"scary_face"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_angry"
+						}
+					]
+				}
+			}
+		}
+	}
+}

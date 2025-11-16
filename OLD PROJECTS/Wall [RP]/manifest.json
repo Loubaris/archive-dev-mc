@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Wall [RP]",
+    "description": "MaukatYT",
+    "uuid": "b59a2b8a-d76b-11ec-9d64-0242ac120002",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      13,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "MaukatYT",
+      "type": "resources",
+      "uuid": "b59a2d38-d76b-11ec-9d64-0242ac120002",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "MaukatYT"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "mes_cnm:chroma_blue",
+            "menu_category": {
+                "category": "construction",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:map_color": "#0000ff",
+            "minecraft:light_dampening": 0,
+            "minecraft:light_emission": 4
+        }
+    }
+}

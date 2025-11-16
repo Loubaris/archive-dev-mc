@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nitric:red_car_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "YYY",
+      "UUU",
+      "ZZZ"
+    ],
+    "key": {
+      "Z": {
+        "item": "minecraft:redstone_block"
+      },
+      "Y": {
+        "item": "minecraft:iron_ingot"
+      },
+      "U": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "nitric:red_car_spawn_egg"
+    }
+  }
+}

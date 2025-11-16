@@ -1,0 +1,64 @@
+{
+    "format_version" : "1.8.0",
+   "minecraft:entity" : {
+      "description": {
+         "identifier": "nitric:game",
+         "is_spawnable" : true,
+         "is_experimental" : false,
+         "is_summonable" : true
+      },
+      "components" : {
+            "minecraft:type_family": {
+                "family": [ "npc" ]
+                },
+	    "minecraft:damage_sensor": [
+                {
+                "cause": "all",
+                "deals_damage": false
+                }
+              ],
+            "minecraft:health": {
+                "value": 1,
+                "max": 1
+                },
+		    "minecraft:npc": {
+            },
+            "minecraft:collision_box": {
+                "width": 3,
+                "height": 3
+                },
+	    "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:nameable" : {
+                "alwaysShow" : true,
+                "allowNameTagRenaming" : true
+                },
+            "minecraft:physics" : {
+                "has_gravity" : true
+                },
+            "minecraft:push_through": {
+                "value": 1
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            }
+        },
+        "component_groups": {
+            "kill": {
+                "minecraft:health": {
+                    "value": -1
+                }
+            }
+        },
+        "events": {
+            "kill": {
+                "add": {
+                    "component_groups": [
+                        "kill"
+                    ]
+                }
+            }
+        }
+    }
+}

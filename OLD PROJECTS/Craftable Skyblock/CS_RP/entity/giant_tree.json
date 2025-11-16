@@ -1,0 +1,12 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "cs:giant_tree",
+         "spawn_egg": {
+            "texture": "giant_tree",
+            "texture_index": 0
+	 }
+      }
+   }
+}

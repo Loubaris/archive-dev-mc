@@ -1,0 +1,37 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "sound.tutorial": {
+      "category": "natural",
+      "min_distance": 500.0,
+      "sounds": ["sounds/tutorial"]
+    },
+    "4ks.music.tutorial": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/tutorial",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "4ks.music.intro": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/4ks_music/intro",
+				"volume": 0.35,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "sound.intro": {
+      "category": "natural",
+      "min_distance": 500.0,
+      "sounds": ["sounds/intro"]
+    }
+  }
+}

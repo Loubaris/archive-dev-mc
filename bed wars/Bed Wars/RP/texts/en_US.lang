@@ -1,0 +1,6 @@
+entity.dwellix:irongoldgen.name=Iron and Gold Generator
+item.spawn_egg.entity.dwellix:irongoldgen.name=Place Iron and Gold Generator
+entity.dwellix:diamondgen.name=Diamond Generator
+item.spawn_egg.entity.dwellix:diamondgen.name=Place Diamond Generator
+entity.dwellix:emeraldgen.name=Emerald Generator
+item.spawn_egg.entity.dwellix:emeraldgen.name=Place Emerald Generator

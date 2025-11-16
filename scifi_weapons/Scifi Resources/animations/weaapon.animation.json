@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.weapon.spin": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"Main": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, 360, 0]
+					},
+					"position": {
+						"0.0": [0, -14, 0],
+						"1.0": [0, -11, 0],
+						"2.0": [0, -14, 0]
+					}
+				}
+			}
+		}
+	}
+}

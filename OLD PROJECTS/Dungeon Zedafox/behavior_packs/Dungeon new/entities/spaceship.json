@@ -1,0 +1,71 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:spaceship",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"spaceship"
+				]
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"interact_text": "Ride",
+				"seats": {
+					"position": [
+						0,
+						0.2,
+						0.0
+					]
+				}
+			},
+			"minecraft:collision_box": {
+				"width": 1.5,
+				"height": 0.8
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+						"death": {
+				"minecraft:despawn": {
+				}
+			}
+		},
+		"events": {
+			"to_death": {
+				"add": {
+					"component_groups": [
+						"death"
+					]
+				}
+			}
+		}
+	}
+}

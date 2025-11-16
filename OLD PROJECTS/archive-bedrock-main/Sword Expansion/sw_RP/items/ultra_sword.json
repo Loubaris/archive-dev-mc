@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:ultra_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "ultra_sword",
+   "minecraft:render_offsets": "ultra_sword"
+  }
+ }
+}

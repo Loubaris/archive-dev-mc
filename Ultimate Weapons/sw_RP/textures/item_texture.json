@@ -1,0 +1,45 @@
+{
+  "resource_pack_name": "Ancient Weapons",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "banished_sword": {
+        "textures": "textures/items/banished_sword"
+       },
+     "boom_stick": {
+        "textures": "textures/items/boom_stick"
+       }, 
+     "dark_sword": {
+        "textures": "textures/items/dark_sword"
+       },
+     "duskblade_sword": {
+        "textures": "textures/items/duskblade_sword"
+       },
+     "lightning_sword": {
+        "textures": "textures/items/lightning_sword"
+       },
+     "divine_sword": {
+        "textures": "textures/items/divine_sword"
+       },
+     "love_sword": {
+        "textures": "textures/items/love_sword"
+       },
+     "maelstrom_sword": {
+        "textures": "textures/items/maelstrom_sword"
+       },
+     "sky_sword": {
+        "textures": "textures/items/sky_sword"
+       },
+     "fire_sword": {
+        "textures": "textures/items/fire_sword"
+       },
+     "poof_sword": {
+        "textures": "textures/items/poof_sword"
+       },
+     "pain_sword": {
+        "textures": "textures/items/pain_sword"
+       },
+     "sand_sword": {
+        "textures": "textures/items/sand_sword"
+       }
+  }
+}

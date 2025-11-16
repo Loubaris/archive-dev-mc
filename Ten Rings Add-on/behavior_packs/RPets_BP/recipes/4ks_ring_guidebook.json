@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "4ks_ring:guidebook"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:book"
+            },
+			{
+                "item": "minecraft:book"
+            }
+        ],
+        "result": {
+            "item": "4ks_ring:guidebook",
+            "count": 1
+        }
+    }
+}

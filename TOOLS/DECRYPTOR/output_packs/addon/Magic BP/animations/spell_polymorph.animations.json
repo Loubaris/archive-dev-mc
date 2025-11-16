@@ -1,0 +1,19 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+	"animation.cyd_mgspl.polymorph_expire": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/scriptevent cyd_mgspl:polymorph expire"]
+      },
+      "animation_length": 1
+    },
+	"animation.cyd_mgspl.polymorph_death": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/scriptevent cyd_mgspl:polymorph onDeath"]
+      },
+      "animation_length": 1
+    }
+  }
+}

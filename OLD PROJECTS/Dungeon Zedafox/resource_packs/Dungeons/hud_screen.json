@@ -1,0 +1,20 @@
+{
+  "namespace": "hud",
+  "hud_actionbar_text": {
+          "type": "image",
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "texture": "textures/ui/intext",
+		  "offset": [ "0", "3.5%+7px" ],
+		  "size": [ 140, 140 ],
+          "uv_size": [ 128, 25 ],
+          "alpha": 1,
+          "disable_anim_fast_forward": true,
+		  "bindings": [
+      {
+        "binding_name": "#hud_actionbar_text_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  }
+}

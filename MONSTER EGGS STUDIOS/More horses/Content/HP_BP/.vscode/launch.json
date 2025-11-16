@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.3.0",
+    "configurations": [
+        {
+            "type": "minecraft-js",
+            "request": "attach",
+            "name": "Attach to Minecraft",
+            "mode": "listen",
+            "localRoot": "${workspaceFolder}/scripts",
+            // "targetModuleUuid":"f3d81409-07df-43f2-906c-c9a77e5ba226",
+            "host": "localhost",
+            "port": 19144
+        }
+    ]
+}

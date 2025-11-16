@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mw:smoke_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "smoke_sword",
+   "minecraft:render_offsets": "smoke_sword"
+  }
+ }
+}

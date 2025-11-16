@@ -1,0 +1,63 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ninja:vortex",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "crown" ]
+      },
+      "minecraft:collision_box": {
+        "width": -0.1,
+        "height": 0.1
+      },
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+            "minecraft:damage_sensor": [
+                {
+                "cause": "all",
+                "deals_damage": false
+                }
+              ],
+            "minecraft:interact": [
+                {
+                    "on_interact": {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                },
+                                {
+                                    "test": "has_equipment",
+                                    "domain": "hand",
+                                    "subject": "other",
+                                    "value": "barrier"
+                                }
+                            ]
+                        },
+                        "event": "kill"
+                    },
+                    "interact_text": "Remove vortex"
+                }
+            ],
+        "minecraft:scale": {
+          "value":0.01
+        },
+      "minecraft:nameable": {
+      },
+      "minecraft:physics": {
+      }
+    },
+
+    "events": {
+    }
+  }
+}

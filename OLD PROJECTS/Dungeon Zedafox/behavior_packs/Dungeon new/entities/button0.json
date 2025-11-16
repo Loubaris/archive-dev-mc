@@ -1,0 +1,214 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:button0",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"button"
+				]
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 0.6
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:nameable": {
+				"alwaysShow": true,
+				"allowNameTagRenaming": true
+			},
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"to_click0": {
+				"minecraft:interact": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"event": "press0"
+						},
+						"interact_text": "Press"
+					}
+				]
+			},
+			"to_click1": {
+				"minecraft:interact": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"event": "press1"
+						},
+						"interact_text": "Press"
+					}
+				]
+			},
+			"to_click2": {
+				"minecraft:interact": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"event": "press2"
+						},
+						"interact_text": "Press"
+					}
+				]
+			},
+			"to_click3": {
+				"minecraft:interact": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"event": "press3"
+						},
+						"interact_text": "Press"
+					}
+				]
+			},
+			"to_click4": {
+				"minecraft:interact": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"event": "press4"
+						},
+						"interact_text": "Press"
+					}
+				]
+			}
+		},
+		"events": {
+			"click0": {
+				"add": {
+					"component_groups": [
+						"to_click0"
+					]
+				}
+			},
+			"click1": {
+				"add": {
+					"component_groups": [
+						"to_click1"
+					]
+				}
+			},
+			"click2": {
+				"add": {
+					"component_groups": [
+						"to_click2"
+					]
+				}
+			},
+			"click3": {
+				"add": {
+					"component_groups": [
+						"to_click3"
+					]
+				}
+			},
+			"click4": {
+				"add": {
+					"component_groups": [
+						"to_click4"
+					]
+				}
+			},
+			"press0": {
+				"run_command": {
+					"command": [
+						"function button/screen0"
+					]
+				}
+			},
+			"press1": {
+				"run_command": {
+					"command": [
+						"function button/screen1"
+					]
+				}
+			},
+			"press2": {
+				"run_command": {
+					"command": [
+						"function button/screen2"
+					]
+				}
+			},
+			"press3": {
+				"run_command": {
+					"command": [
+						"function button/screen3"
+					]
+				}
+			},
+			"press4": {
+				"run_command": {
+					"command": [
+						"function button/screen4"
+					]
+				}
+			}
+		}
+	}
+}

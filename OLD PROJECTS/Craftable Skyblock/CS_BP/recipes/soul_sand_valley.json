@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:soul_sand_valley_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "YGY",
+      "DDD",
+      "DDD"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:soul_sand"
+      },
+      "Y": {
+        "item": "minecraft:bone_block"
+      }
+    },
+    "result": {
+      "item": "cs:soul_sand_valley_spawn_egg"
+    }
+  }
+}

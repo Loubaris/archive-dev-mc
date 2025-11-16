@@ -1,0 +1,32 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "block": {
+      "textures": "textures/blocks/block"
+    },
+    "commonblock": {
+      "textures": "textures/blocks/commonblock"
+    },
+    "rareblock": {
+      "textures": "textures/blocks/rareblock"
+    },
+    "legendaryblock": {
+      "textures": "textures/blocks/legendaryblock"
+    },
+    "luckyore": {
+      "textures": "textures/blocks/luckyore"
+    },
+    "commonore": {
+      "textures": "textures/blocks/commonore"
+    },
+    "rareore": {
+      "textures": "textures/blocks/rareore"
+    },
+    "legendaryore": {
+      "textures": "textures/blocks/legendaryore"
+    }
+  }
+}

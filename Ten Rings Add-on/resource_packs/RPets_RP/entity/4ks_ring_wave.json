@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "4ks_ring:wave",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/4ks/ring/entity/wave"
+            },
+            "geometry": {
+                "default": "geometry.4ks_ring.wave"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+	}
+    }
+}

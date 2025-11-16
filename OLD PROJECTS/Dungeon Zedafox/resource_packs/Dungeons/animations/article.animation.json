@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wave.article": {
+			"animation_length": 1.12,
+			"bones": {
+				"body": {
+					"scale": {
+						"0.0": [0.6, 0, 1],
+						"0.88": [0.6, 0, 1],
+						"1.0": [0.3, 1, 1],
+						"1.12": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

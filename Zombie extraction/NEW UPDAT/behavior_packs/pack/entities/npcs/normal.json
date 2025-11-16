@@ -1,0 +1,265 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sw:normal",
+            "runtime_identifier": "minecraft:wandering_trader",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "farmer": {
+                "minecraft:variant": {
+                    "value": 0
+                }
+            },
+            "librarian": {
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "priest": {
+                "minecraft:variant": {
+                    "value": 2
+                }
+            },
+            "smith": {
+                "minecraft:variant": {
+                    "value": 3
+                }
+            },
+            "butcher": {
+                "minecraft:variant": {
+                    "value": 4
+                }
+            },
+	    "armorer": {
+                "minecraft:variant": {
+                    "value": 5
+                }
+            },
+		"fisherman": {
+                "minecraft:variant": {
+                    "value": 6
+                }
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "villager"
+                ]
+            },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0
+            },
+            "minecraft:health": {
+                "value": 20,
+                "max": 20
+            },
+            "minecraft:npc": {
+                "npc_data": {
+                    "portrait_offsets": {
+                        "translate": [
+                            -7,
+                            50,
+                            0
+                        ],
+                        "scale": [
+                            1.75,
+                            1.75,
+                            1.75
+                        ]
+                    },
+                    "picker_offsets": {
+                        "translate": [
+                            0,
+                            20,
+                            0
+                        ],
+                        "scale": [
+                            1.7,
+                            1.7,
+                            1.7
+                        ]
+                    },
+                    "skin_list": [
+                        {
+                            "variant": 0
+                        },
+                        {
+                            "variant": 1
+                        },
+                        {
+                            "variant": 2
+                        },
+                        {
+                            "variant": 3
+                        },
+                        {
+                            "variant": 4
+                        },
+			{
+                            "variant": 5
+                        }
+                    ]
+                }
+            },
+            "minecraft:collision_box": {
+                "width": 0.6,
+                "height": 1.9
+            },
+            "minecraft:movement": {
+                "value": 0.5
+            },
+            "minecraft:physics": {},
+            "minecraft:behavior.random_stroll": {
+                "priority": 11,
+                "speed_multiplier": 0.6
+            },
+            "minecraft:navigation.walk": {
+                "is_amphibious": true,
+                "can_path_over_water": true,
+                "can_pass_doors": true,
+                "can_open_doors": true,
+                "avoid_water": true
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:persistent": {},
+            "minecraft:can_climb": {},
+            "minecraft:behavior.float": {
+                "priority": 0
+            },
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:behavior.look_at_player": {
+                "priority": 8,
+                "look_distance": 8,
+                "probability": 0.02
+            },
+            "minecraft:behavior.random_look_around": {
+                "priority": 9
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:nameable": {
+                "alwaysShow": true,
+                "allowNameTagRenaming": true
+            },
+            "minecraft:fire_immune": true,
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "on_interact": {
+                            "filters": {
+                                "any_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "domain": "hand",
+                                        "subject": "other",
+                                        "value": "barrier"
+                                    }
+                                ]
+                            },
+                            "event": "despawn",
+                            "target": "self"
+                        },
+                        "use_item": false,
+                        "interact_text": "Remove NPC"
+                    }
+                ]
+            }
+        },
+        "events": {
+            "farmer": {
+                "add": {
+                    "component_groups": [
+                        "farmer"
+                    ]
+                }
+            },
+            "librarian": {
+                "add": {
+                    "component_groups": [
+                        "librarian"
+                    ]
+                }
+            },
+            "butcher": {
+                "add": {
+                    "component_groups": [
+                        "butcher"
+                    ]
+                }
+            },
+            "smith": {
+                "add": {
+                    "component_groups": [
+                        "smith"
+                    ]
+                }
+            },
+            "priest": {
+                "add": {
+                    "component_groups": [
+                        "priest"
+                    ]
+                }
+            },
+			"armorer": {
+                "add": {
+                    "component_groups": [
+                        "armorer"
+                    ]
+                }
+            },
+			"fisherman": {
+                "add": {
+                    "component_groups": [
+                        "fisherman"
+                    ]
+                }
+            },
+            "despawn": {
+                "add": {
+                    "component_groups": [
+                        "despawn"
+                    ]
+                }
+            },
+            "move": {
+                "add": {
+                    "component_groups": [
+                        "move"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "stop"
+                    ]
+                }
+            },
+            "stop": {
+                "remove": {
+                    "component_groups": [
+                        "move"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "stop"
+                    ]
+                }
+            }
+        }
+    }
+}

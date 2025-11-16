@@ -1,0 +1,513 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"zedafox:myzombie": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1.0,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:myzombie_frozen": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "frozenzombie_death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1.0,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:dummy": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "dummy",
+					"hurt": "dummy"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:myskeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1.0,
+						"sound": "mob.skeleton.step",
+						"volume": 1.0
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:myskeleton_frozen": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "frozenskeleton_death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1.0,
+						"sound": "mob.skeleton.step",
+						"volume": 1.0
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:mushman": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mushman.idle",
+					"death": "mushman.death",
+					"hurt": "mushman.hit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:mushman_frozen": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mushman.idle",
+					"death": "frozenmushman_death",
+					"hurt": "mushman.hit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"armor_stand": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "nothing"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:robot": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "robot.idle",
+					"death": "robot.hit",
+					"hurt": "robot.hit",
+					"step": {
+						"pitch": 1.0,
+						"sound": "robot.step",
+						"volume": 1.0
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:acid_boss": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "acid_boss",
+					"hurt": "acid_boss"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:neowheel": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "neowheel.hit",
+					"hurt": "neowheel.hit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:direction": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:direction2": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:character1": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:character2": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:character_inanimate": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:character_inanimate2": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text1": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text2": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text3": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text4": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text5": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text6": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text7": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text8": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text9": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text10": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:text11": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:camera": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			},
+			"zedafox:cutscene": {
+				"volume": 1.0,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"death": "silence",
+					"hurt": "silence"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.0
+			}
+		}
+	}
+}

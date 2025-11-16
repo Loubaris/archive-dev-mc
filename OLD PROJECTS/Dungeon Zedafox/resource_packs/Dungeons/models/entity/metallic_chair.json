@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"geometry.metallic_chair": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 5, 8],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-7, 7, -7], "size": [14, 4, 14], "uv": [0, 0], "mirror": false},
+					{"origin": [3, 0, -5], "size": [3, 7, 3], "uv": [0, 39], "mirror": false},
+					{"origin": [3, 0, 2], "size": [3, 7, 3], "uv": [32, 18], "mirror": false},
+					{"origin": [-6, 0, -5], "size": [3, 7, 3], "uv": [32, 32], "mirror": false},
+					{"origin": [-6, 0, 2], "size": [3, 7, 3], "uv": [0, 0], "mirror": false},
+					{"origin": [-7, 11, 5], "size": [14, 19, 2], "uv": [0, 18], "mirror": false}
+				]
+			}
+		]
+	}
+}

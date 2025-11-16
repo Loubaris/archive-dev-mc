@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:cactus_island_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZHZ",
+      "YHY",
+      "XHX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:sandstone"
+      },
+      "Z": {
+        "item": "minecraft:cactus"
+      },
+      "Y": {
+        "item": "minecraft:sand"
+      }
+    },
+    "result": {
+      "item": "cs:cactus_island_spawn_egg"
+    }
+  }
+}

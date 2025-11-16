@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:spear",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "spear",
+   "minecraft:render_offsets": "spear"
+  }
+ }
+}

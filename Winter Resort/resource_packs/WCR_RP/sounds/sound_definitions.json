@@ -1,0 +1,31 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "car": {
+            "__use_legacy_max_distance" : "true",
+            "category": "ui",
+            "max_distance" : 20.0,
+            "sounds": [
+                {
+                    "name": "sounds/car",
+                    "load_on_low_memory": true,
+                    "volume": 1,
+                    "pitch": 1
+                }
+            ]
+        },
+        "helicopter": {
+            "__use_legacy_max_distance" : "true",
+            "category": "ui",
+            "max_distance" : 20.0,
+            "sounds": [
+                {
+                    "name": "sounds/helicopter",
+                    "load_on_low_memory": true,
+                    "volume": 1,
+                    "pitch": 1
+                }
+            ]
+        }
+    }
+}

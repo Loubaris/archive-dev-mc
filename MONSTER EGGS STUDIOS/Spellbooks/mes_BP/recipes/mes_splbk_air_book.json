@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mes_splbk:air_book"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "/M/",
+            "BBM",
+            "BB/"
+        ],
+        "key": {
+            "/": {
+                "item": "minecraft:feather"
+            },
+            "M": {
+                "item": "minecraft:breeze_rod"
+            },
+            "B": {
+                "item": "minecraft:book"
+            }
+        },
+        "result": {
+            "item": "mes_splbk:air_book",
+            "count": 1
+        }
+    }
+}

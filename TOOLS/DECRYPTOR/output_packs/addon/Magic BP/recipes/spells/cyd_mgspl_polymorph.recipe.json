@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:polymorph"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " # ",
+      " S ",
+      "AS "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "S": {
+        "item": "minecraft:gold_ingot"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:polymorph",
+      "count": 1
+    }
+  }
+}

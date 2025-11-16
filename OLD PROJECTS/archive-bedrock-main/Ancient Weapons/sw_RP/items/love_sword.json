@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:love_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "love_sword",
+   "minecraft:render_offsets": "love_sword"
+  }
+ }
+}

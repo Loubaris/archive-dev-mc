@@ -1,0 +1,107 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:wizard2",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"character",
+					"wizard"
+				]
+			},
+			"minecraft:health": {
+				"value": 10,
+				"max": 10
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:scale": {
+				"value": 1.2
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"wizard1": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"wizard2": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"allowname": {
+				"minecraft:nameable": {
+					"always_show": true,
+					"allow_name_tag_renaming": true
+				}
+			},
+			"removename": {
+				"minecraft:nameable": {
+					"always_show": false,
+					"allow_name_tag_renaming": true
+				}
+			}
+		},
+		"events": {
+			"skin1": {
+				"add": {
+					"component_groups": [
+						"wizard1"
+					]
+				}
+			},
+			"skin2": {
+				"add": {
+					"component_groups": [
+						"wizard2"
+					]
+				}
+			},
+			"allowname": {
+				"add": {
+					"component_groups": [
+						"allowname"
+					]
+				}
+			},
+			"removename": {
+				"add": {
+					"component_groups": [
+						"removename"
+					]
+				}
+			}
+		}
+	}
+}

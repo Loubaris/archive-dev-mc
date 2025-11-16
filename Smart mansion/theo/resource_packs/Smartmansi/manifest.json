@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Smart mansion",
+		"description": "Smart Mansion Resource Pack",
+		"uuid": "726d55bb-da99-49ac-8e49-e10e204622e0",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 19, 50]
+	},
+	"metadata": {
+		"authors": ["Maukat"]
+	},
+	"modules": [
+		{
+			"description": "Smart mansion",
+			"type": "resources",
+			"uuid": "ea60742b-4b8a-4015-b2ea-0a09b504b0f5",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tnt:heftyboy",
+      "materials": {
+         "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/heftyboy"
+      },
+      "geometry": {
+        "default": "geometry.heftyboy"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "texture": "heftyboy",
+        "texture_index": 0
+      }
+    }
+  }
+}

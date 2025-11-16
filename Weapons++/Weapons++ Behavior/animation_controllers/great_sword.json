@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.great_sword_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"great_sword_detection": "query.get_equipped_item_name == 'great_sword' && query.is_using_item == true"
+						}
+					]
+				},
+				"great_sword_detection": {
+					"on_entry": [
+						"/tag @p[r=1] add great_sword"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

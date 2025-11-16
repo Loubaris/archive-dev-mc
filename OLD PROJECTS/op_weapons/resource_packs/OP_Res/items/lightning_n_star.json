@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:lightning_n_star",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "lightning_n_star",
+   "minecraft:render_offsets": "lightning_n_star"
+  }
+ }
+}

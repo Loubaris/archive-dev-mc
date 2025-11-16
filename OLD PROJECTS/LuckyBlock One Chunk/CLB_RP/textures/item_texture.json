@@ -1,0 +1,105 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+   "luckyshard": {
+     "textures": "textures/items/luckyshard"
+   },
+   "commongem": {
+     "textures": "textures/items/commongem"
+   },
+   "raregem": {
+     "textures": "textures/items/raregem"
+   },
+   "legendarygem": {
+     "textures": "textures/items/legendarygem"
+   },
+   "loot": {
+     "textures": "textures/items/loot"
+   },
+    "laurri": {
+			"textures": "textures/items/laurri"
+    },
+    "rival": {
+			"textures": "textures/items/rival"
+    },
+    "murran": {
+			"textures": "textures/items/murran"
+    },
+    "lavetti": {
+			"textures": "textures/items/lavetti"
+    },
+    "sige": {
+			"textures": "textures/items/sige"
+    },
+    "cyclone": {
+			"textures": "textures/items/cyclone"
+    },
+    "mclauren": {
+			"textures": "textures/items/mclauren"
+    },
+    "steed": {
+			"textures": "textures/items/steed"
+    },
+    "roys_ice": {
+			"textures": "textures/items/roys_ice"
+    },
+    "super": {
+			"textures": "textures/items/super"
+    },
+    "fairy": {
+			"textures": "textures/items/fairy"
+    },
+    "cute_fairy": {
+      "textures": "textures/items/cute_fairy"
+    },
+    "insect_fairy": {
+			"textures": "textures/items/insect"
+    },
+    "monster_fairy": {
+			"textures": "textures/items/monster"
+    },
+  "10xtnt": {
+     "textures": "textures/items/10xtnt"
+  },
+  "25xtnt": {
+     "textures": "textures/items/25xtnt"
+  },
+  "airstrike": {
+     "textures": "textures/items/airstrike"
+  },
+  "creepertnt": {
+     "textures": "textures/items/creepertnt"
+  },
+  "fire": {
+     "textures": "textures/items/fire"
+  },
+  "fireworkstnt": {
+     "textures": "textures/items/fireworkstnt"
+  },
+  "healthtnt": {
+     "textures": "textures/items/healthtnt"
+  },
+  "heftyboy": {
+     "textures": "textures/items/heftyboy"
+  },
+  "landmine": {
+     "textures": "textures/items/landmine"
+  },
+  "lavatnt": {
+     "textures": "textures/items/lavatnt"
+  },
+  "missile": {
+     "textures": "textures/items/missile"
+  },
+  "mobtnt": {
+     "textures": "textures/items/mobtnt"
+  },
+  "particletnt": {
+     "textures": "textures/items/particletnt"
+  },
+  "poisontnt": {
+     "textures": "textures/items/poisontnt"
+  }
+ }
+}

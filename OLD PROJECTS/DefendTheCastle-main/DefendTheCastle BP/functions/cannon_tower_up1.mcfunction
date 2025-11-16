@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"§2The Cannon Tower is upgraded one time. You can upgrade it again"}]}

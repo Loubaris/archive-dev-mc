@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+      "description": {
+          "identifier": "cs:gargouille_monster",
+          "materials": {
+              "default": "skeleton"
+          },
+          "textures": {
+              "default": "textures/entity/monsters/gargouille_monster"
+          },
+          "geometry": {
+              "default": "geometry.gargouille_monster"
+          },
+          "animations": {
+            "walk": "animation.gargouille_monster.walk",
+            "idle": "animation.gargouille_monster.idle",
+            "attack1": "animation.gargouille_monster.attack1",
+            "attack2": "animation.gargouille_monster.attack2",
+	    "attack_controller": "controller.animation.gargouille_monster"
+          },
+          "scripts": {
+            "pre_animation": [
+              "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+            ],
+            "animate": [
+              "attack_controller"
+            ]
+          },
+          "render_controllers": ["controller.render.basic"],
+          "spawn_egg": {
+              "base_color": "#52443b",
+              "overlay_color": "#b3927d"
+          }
+      }
+  }
+}

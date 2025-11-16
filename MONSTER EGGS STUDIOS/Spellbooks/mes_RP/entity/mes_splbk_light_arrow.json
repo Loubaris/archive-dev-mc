@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mes_splbk:light_arrow",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/mes/splbk/entity/light_arrow"
+      },
+      "geometry": {
+        "default": "geometry.mes_splbk.light_arrow"
+      },
+      "animations": {
+        "move": "animation.mes_splbk.arrow.target_rotation"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.arrow" ]
+    }
+  }
+}

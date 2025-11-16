@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"sw:fire_armor",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "fire_armor"
+    }
+    
+  }
+}

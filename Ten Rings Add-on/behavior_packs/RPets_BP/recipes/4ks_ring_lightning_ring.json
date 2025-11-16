@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "4ks_ring:lightning_ring"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:lightning_rod"
+            },
+	    {
+                "item": "minecraft:iron_ingot"
+            }
+        ],
+        "result": {
+            "item": "4ks_ring:lightning_ring",
+            "count": 1
+        }
+    }
+}

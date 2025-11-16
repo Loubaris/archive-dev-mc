@@ -1,0 +1,17 @@
+pack.name=Defend The Castle RP
+pack.description=Resources Pack for Defend The Castle
+
+item.cypress:coin.name=Gold Coin
+
+
+entity.unknown.name=§r
+item.spawn_egg.entity.cypress:ballista.name=Place Ballista
+entity.cypress:ballista.name=Ballista
+item.spawn_egg.entity.cypress:ballista2.name=Place Ballista
+entity.cypress:ballista2.name=Ballista
+item.spawn_egg.entity.cypress:ballista3.name=Place Ballista
+entity.cypress:ballista3.name=Ballista
+
+
+item.spawn_egg.entity.cypress:mage.name=Spawn Mage
+entity.cypress:mage.name=Mage

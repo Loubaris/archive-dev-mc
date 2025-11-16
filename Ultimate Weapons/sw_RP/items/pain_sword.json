@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:pain_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "pain_sword",
+   "minecraft:render_offsets": "pain_sword"
+  }
+ }
+}

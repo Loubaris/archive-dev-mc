@@ -1,0 +1,93 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.4ks_ring.wminion.attack": {
+      "loop": true,
+      "animation_length": 1,
+      "timeline": {
+        "0.4": [
+          "/execute as @e[r=5,family=mob,family=!minion] at @s run particle 4ks_ring:bubble ~ ~ ~"
+        ]
+      }
+    },
+    "animation.4ks_ring.iminion.attack": {
+      "loop": true,
+      "animation_length": 1,
+      "timeline": {
+        "0.75": [
+          "/execute as @e[r=5,family=mob,family=!minion] at @s run particle 4ks_ring:ice_aoe ~ ~ ~",
+          "/effect @e[r=5,family=mob,family=!minion] fatal_poison 2 255 true",
+	  "/effect @e[r=5,family=mob,family=!minion] slowness 2 255 true"
+        ]
+      }
+    },
+    "animation.4ks_ring.eminion.attack": {
+      "loop": true,
+      "animation_length": 1,
+      "timeline": {
+        "0.4": [
+          "/execute as @e[r=6.2,family=mob,family=!minion,family=!inac] at @s run particle 4ks_ring:tp_poof ~ ~ ~",
+          "/execute as @e[r=6.2,family=mob,family=!minion,family=!inac] at @s run effect @s instant_damage 1 1 true",
+          "/execute as @e[r=6.2,family=mob,family=!minion,family=!inac] at @s run tp @s ~ ~10 ~"
+        ]
+      }
+    },
+    "animation.4ks_ring.liminion.attack": {
+      "loop": true,
+      "animation_length": 1,
+      "timeline": {
+        "0.18": [
+          "/execute as @e[r=5,type=!player,type=!item,family=!minion] at @s run particle 4ks_ring:electricity ~ ~2 ~",
+          "/execute as @e[r=5,type=!player,type=!item,family=!minion] at @s run effect @s fatal_poison 2 255 true"
+        ],
+	"0.3": [
+          "/execute as @e[r=5,type=!player,type=!item,family=!minion] at @s run particle 4ks_ring:electricity ~ ~2 ~"
+        ],
+	"0.55": [
+          "/execute as @e[r=5,type=!player,type=!item,family=!minion] at @s run particle 4ks_ring:electricity ~ ~2 ~"
+        ]
+      }
+    },
+    "animation.4ks_ring.lminion.attack": {
+      "loop": true,
+      "animation_length": 1,
+      "timeline": {
+        "0.55": [
+          "/execute as @e[r=5,type=!player,type=!item,family=!minion] at @s run particle 4ks_ring:rgb_explosion ~ ~2 ~",
+          "/execute as @e[r=5,type=!player,type=!item,family=!minion] at @s run damage @s 3 override"
+        ]
+      }
+    },
+    "animation.4ks_ring.nminion.attack": {
+      "loop": true,
+      "animation_length": 1,
+      "timeline": {
+        "0.45": [
+          "/execute as @e[r=5,type=!player,type=!item,family=!minion] at @s run particle 4ks_ring:spark_poison ~ ~2 ~"
+        ]
+      }
+    },
+    "animation.4ks_ring.tminion.attack": {
+      "loop": true,
+      "animation_length": 1,
+      "timeline": {
+        "0.9": [
+          "/execute as @e[r=8,type=!player,type=!item,family=!minion] at @s run particle minecraft:large_explosion ~ ~2 ~",
+          "/execute as @e[r=8,type=!player,type=!item,family=!minion] at @s run particle minecraft:large_explosion ~ ~2 ~0.3",
+          "/execute as @e[r=8,type=!player,type=!item,family=!minion] at @s run particle minecraft:large_explosion ~0.3 ~2 ~",
+	  "/execute as @e[r=8,type=!player,type=!item,family=!minion] at @s run playsound cauldron.explode @a[r=10]",
+	  "/execute as @e[r=8,type=!player,type=!item,family=!minion] at @s run effect @s instant_damage 1 1 true"
+        ]
+      }
+    },
+    "animation.4ks_ring.rminion.attack": {
+      "loop": true,
+      "animation_length": 1,
+      "timeline": {
+        "0.78": [
+          "/function 4ks/ring/rock"
+        ]
+      }
+    }
+  }
+}

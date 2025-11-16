@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:beastmaster",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "farmer": "textures/mes/heroes/entity/beastmaster/default",
+                "librarian": "textures/mes/heroes/entity/beastmaster/arctic",
+                "priest": "textures/mes/heroes/entity/beastmaster/dark",
+                "smith": "textures/mes/heroes/entity/beastmaster/nature",
+                "butcher": "textures/mes/heroes/entity/beastmaster/default"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.beastmaster"
+            },
+            "scripts": {
+                "animate": [
+                    "move_custom"
+                ]
+            },
+            "animations": {
+                "idle": "animation.mes_heroes.beastmaster.idle",
+                "walk": "animation.mes_heroes.beastmaster.walk",
+                "run": "animation.mes_heroes.beastmaster.run",
+                "move_custom": "controller.animation.mes_heroes.move"
+            },
+            "spawn_egg": {
+                "texture": "mes_heroes_beastmaster_spawn_egg"
+            },
+            "render_controllers": [
+                "controller.render.villager"
+            ]
+        }
+    }
+}

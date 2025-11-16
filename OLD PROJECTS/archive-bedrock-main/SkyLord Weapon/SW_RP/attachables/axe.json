@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "sw:sw_axe",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/axe"
+			},
+			"geometry": {
+				"default": "geometry.axe"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.axe.first_person",
+				"third_person": "animation.axe.third_person"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"sw:sw_axe": "(1.0)"
+			}
+		}
+	}
+}

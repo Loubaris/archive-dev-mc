@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.axe.third_person": {
+			"loop": true,
+			"animation_length": 0.08,
+			"bones": {
+				"stick": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.axe.first_person": {
+			"loop": true,
+			"animation_length": 0.08,
+			"bones": {
+				"stick": {
+					"rotation": [1.59176, 32.46527, -87.03654],
+					"position": [0, -10, 0],
+					"scale": 0.8
+				}
+			}
+		}
+	}
+}

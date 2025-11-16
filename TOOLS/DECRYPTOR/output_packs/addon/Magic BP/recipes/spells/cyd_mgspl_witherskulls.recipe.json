@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:witherskulls"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " # ",
+      " S ",
+      "AS "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:nether_star"
+      },
+      "S": {
+        "item": "minecraft:bone"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:witherskulls",
+      "count": 1
+    }
+  }
+}

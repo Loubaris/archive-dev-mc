@@ -1,0 +1,12 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "cs:end_island_two",
+         "spawn_egg": {
+            "texture": "end_island_two",
+            "texture_index": 0
+	 }
+      }
+   }
+}

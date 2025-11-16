@@ -1,0 +1,88 @@
+pack.name=Winter City Resort
+pack.description=A behavior pack for the Winter City Resort survival spawn!
+
+
+item.spawn_egg.entity.nitric:snowmobile2.name=Snow Mobile 2
+entity.nitric:snowmobile2.name=Snow Mobile 2
+action.hint.exit.nitric:snowmobile2=Tip: §7Press LShift or Space to get off
+
+item.spawn_egg.entity.nitric:snowmobile1.name=Snow Mobile 1
+entity.nitric:snowmobile1.name=Snow Mobile 1
+action.hint.exit.nitric:snowmobile1=Tip: §7Press LShift or Space to get off
+
+item.spawn_egg.entity.nitric:snowcleaner.name=Snow Cleaner
+entity.nitric:snowcleaner.name=Snow Cleaner
+action.hint.exit.nitric:snowcleaner=Tip: §7Press LShift or Space to get off
+
+item.spawn_egg.entity.nitric:camper.name=Camper
+entity.nitric:camper.name=Camper
+action.hint.exit.nitric:camper=Tip: §7Press LShift or Space to get off
+
+item.spawn_egg.entity.nitric:car.name=Car
+entity.nitric:car.name=Car
+action.hint.exit.nitric:car=Tip: §7Press LShift or Space to get off
+
+item.spawn_egg.entity.nitric:jeep.name=Jeep
+entity.nitric:jeep.name=Jeep
+action.hint.exit.nitric:jeep=Tip: §7Press LShift or Space to get off
+
+item.spawn_egg.entity.nitric:pickup.name=Pickup
+entity.nitric:pickup.name=Pickup
+action.hint.exit.nitric:pickup=Tip: §7Press LShift or Space to get off
+
+item.spawn_egg.entity.nitric:helicopter.name=Helicopter
+entity.nitric:helicopter.name=Helicopter
+action.hint.exit.nitric:helicopter=Tip: §7Press LShift or Space to get off
+
+item.spawn_egg.entity.nitric:ski.name=Ski
+entity.nitric:ski.name=Ski
+action.hint.exit.nitric:ski=Tip: §7Press LShift to get off
+
+item.spawn_egg.entity.nitric:snowboard.name=Snowboard
+entity.nitric:snowboard.name=Snowboard
+action.hint.exit.nitric:snowboard=Tip: §7Press LShift to get off
+
+item.spawn_egg.entity.nitric:snowman.name=Snowman
+entity.nitric:snowman.name=Snowman
+
+item.spawn_egg.entity.nitric:skiholder.name=Ski Holder
+entity.nitric:skiholder.name=Ski Holder
+
+item.spawn_egg.entity.nitric:snowcannon.name=Snow Cannon
+entity.nitric:snowcannon.name=Snow Cannon
+
+item.spawn_egg.entity.nitric:cablecar_down.name=Cablecar Down
+entity.nitric:cablecar_down.name=Cablecar
+
+item.spawn_egg.entity.nitric:cablecar_up.name=Cablecar Up
+entity.nitric:cablecar_up.name=Cablecar
+
+item.spawn_egg.entity.nitric:skilift_up.name=Skilift Up
+entity.nitric:skilift_up.name=Skilift
+
+item.spawn_egg.entity.nitric:skilift_down.name=Skilift Down
+entity.nitric:skilift_down.name=Skilift
+
+item.spawn_egg.entity.nitric:anchor_down.name=Anchor Down
+entity.nitric:anchor_down.name=Anchor
+
+item.spawn_egg.entity.nitric:anchor_up.name=Anchor Up
+entity.nitric:anchor_up.name=Anchor
+
+item.spawn_egg.entity.nitric:flag.name=Flag
+entity.nitric:flag.name=Flag
+
+item.spawn_egg.entity.nitric:sign.name=Sign
+entity.nitric:sign.name=Sign
+
+item.spawn_egg.entity.nitric:emperor_adult.name=Adult Emperor Penguin
+entity.nitric:emperor_adult.name=Adult Emperor Penguin
+
+item.spawn_egg.entity.nitric:emperor_baby.name=Baby Emperor Penguin
+entity.nitric:emperor_baby.name=Baby Emperor Penguin
+
+item.spawn_egg.entity.nitric:macaroni_adult.name=Adult Macaroni Penguin
+entity.nitric:macaroni_adult.name=Adult Macaroni Penguin
+
+item.spawn_egg.entity.nitric:macaroni_baby.name=Baby Macaroni Penguin
+entity.nitric:macaroni_baby.name=Baby Macaroni Penguin

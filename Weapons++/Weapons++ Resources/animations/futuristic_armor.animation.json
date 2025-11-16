@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.futuristic_armor.third_person": {
+			"loop": true,
+			"animation_length": 0.04167
+		},
+		"animation.futuristic_armor.first_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"head": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0],
+					"scale": [1, 0, 0.6]
+				}
+			}
+		}
+	}
+}

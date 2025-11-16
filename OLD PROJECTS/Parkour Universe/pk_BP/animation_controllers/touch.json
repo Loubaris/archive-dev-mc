@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.punch": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"used": "v.attack_time > 0.0"
+						}
+					]
+				},
+				"used": {
+					"on_entry": [
+						"/execute @e[type=pk:changerail,r=4.5] ~ ~ ~ function ingame/railchange",
+						"/execute @e[type=pk:cannon,r=4] ~ ~ ~ function ingame/cannon"
+					],
+					"transitions": [ { "default": "v.attack_time <= 0.0" } ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:mountain_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "DYH",
+      "YUY",
+      "#YD"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:dirt"
+      },
+      "U": {
+        "item": "minecraft:enchanting_table"
+      },
+      "H": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "ninja:mountain_sword"
+    }
+  }
+}

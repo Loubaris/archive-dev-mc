@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "4ks_ring:fire_minion",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/4ks/ring/entity/little_devil_texture"
+            },
+            "geometry": {
+                "default": "geometry.4ks_ring.little"
+            },
+            "scripts": {
+                "animate": [
+                    "controller"
+                ]
+            },
+            "animations": {
+                "idle": "animation.4ks_ring.little_devil.idle",
+                "walk": "animation.4ks_ring.little_devil.walk",
+                "attack": "animation.4ks_ring.little_devil.attack",
+                "attack2": "animation.4ks_ring.little_devil.attack2",
+                "controller": "controller.animation.4ks_ring.minion2"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

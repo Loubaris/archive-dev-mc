@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cs:restart",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "restart",
+			"minecraft:render_offsets": "tools"
+		}
+	}
+}

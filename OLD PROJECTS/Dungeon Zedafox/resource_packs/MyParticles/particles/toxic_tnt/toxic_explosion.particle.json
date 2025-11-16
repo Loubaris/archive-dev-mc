@@ -1,0 +1,54 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "tsu_tnt:toxic_explosion",
+			"basic_render_parameters": {
+				"texture": "textures/tsu_tnt/0/particle/big_glow_pixel",
+				"material": "particles_alpha"
+			}
+		},
+		"events": {
+			"core": {
+				"particle_effect": {
+					"effect": "tsu_tnt:toxic_explosion_core",
+					"type": "emitter"
+				}
+			},
+			"spill": {
+				"particle_effect": {
+					"effect": "tsu_tnt:toxic_explosion_spill",
+					"type": "emitter"
+				}
+			},
+			"dust": {
+				"particle_effect": {
+					"effect": "tsu_tnt:toxic_explosion_dust",
+					"type": "emitter"
+				}
+			},
+			"debris":{
+				"particle_effect": {
+					"effect": "tsu_tnt:toxic_explosion_debris",
+					"type": "emitter"
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 0
+			},
+			"minecraft:emitter_lifetime_events": {
+				"creation_event":[
+					"core", 
+					"dust",
+					"debris",
+					"spill"
+				]	
+			}
+		}
+	}
+}

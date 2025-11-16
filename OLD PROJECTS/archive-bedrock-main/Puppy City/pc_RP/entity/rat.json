@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pc:rat",
+      "materials": { 
+         "default": "entity_alphatest" 
+      },
+      "textures": {
+        "default": "textures/entity/rat"
+      },
+      "geometry": {
+        "default": "geometry.rat"
+      },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "animations": {
+        "controller": "controller.animation.rat",
+        "walk": "animation.rat.walk"
+      },
+      "render_controllers": [ "controller.render.wave" ],
+      "spawn_egg": {
+        "base_color": "#a5adad",
+        "overlay_color": "#54545c"
+      }
+    }
+  }
+}

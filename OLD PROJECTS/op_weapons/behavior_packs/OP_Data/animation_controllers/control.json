@@ -1,0 +1,369 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.n_star": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'n_star' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:n_star_fire",
+            "/clear @s ninja:n_star 0 1"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'n_star' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:n_star_fire",
+            "/clear @s ninja:n_star 0 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.fire_n_star": {
+      "states": {
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'fire_n_star' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:fire_n_star_fire",
+            "/clear @s ninja:fire_n_star 0 1"
+          ]
+        },
+	"default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'fire_n_star' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:fire_n_star_fire",
+            "/clear @s ninja:fire_n_star 0 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.explosion_n_star": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'explosion_n_star' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:explosion_n_star_fire",
+            "/clear @s ninja:explosion_n_star 0 1"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'explosion_n_star' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:explosion_n_star_fire",
+            "/clear @s ninja:explosion_n_star 0 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.explosion_n_startwo": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'explosion_n_startwo' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:explosion_n_star_firetwo",
+            "/clear @s ninja:explosion_n_startwo 0 1"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'explosion_n_startwo' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:explosion_n_star_firetwo",
+            "/clear @s ninja:explosion_n_startwo 0 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.explosion_n_starthree": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'explosion_n_starthree' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:explosion_n_star_firethree",
+            "/clear @s ninja:explosion_n_starthree 0 1"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'explosion_n_starthree' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:explosion_n_star_firethree",
+            "/clear @s ninja:explosion_n_starthree 0 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.lightning_n_star": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'lightning_n_star' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:lightning_n_star_fire",
+            "/clear @s ninja:lightning_n_star 0 1"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'lightning_n_star' && query.is_using_item" } ],
+          "on_entry": [
+	    "@s sp:lightning_n_star_fire",
+            "/clear @s ninja:lightning_n_star 0 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.lit": {
+      "states": {
+        "default": {
+          "transitions": [ { "click2": "query.get_equipped_item_name == 'tank_hammer' && query.is_using_item" } ],
+          "on_entry": [
+	    "@s sp:ln_star",
+            "/tag @s[tag=join] add thor"
+          ]
+        },
+        "click2": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'tank_hammer' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:ln_star",
+            "/tag @s[tag=join] add thor"
+          ]
+        }
+      }
+    },
+    "controller.animation.littnt": {
+      "states": {
+        "default": {
+          "transitions": [ { "click2": "query.get_equipped_item_name == 'explosion_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add tnt"
+          ]
+        },
+        "click2": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'explosion_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add tnt"
+          ]
+        }
+      }
+    },
+    "controller.animation.litop": {
+      "states": {
+        "default": {
+          "transitions": [ { "click2": "query.get_equipped_item_name == 'ninja_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:op_star_fire",
+            "/tag @s[tag=join] add opsword"
+          ]
+        },
+        "click2": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'ninja_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:op_star_fire",
+            "/tag @s[tag=join] add opsword"
+          ]
+        }
+      }
+    },
+    "controller.animation.portal_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click2": "query.get_equipped_item_name == 'portal_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:portal_star",
+            "/tag @s[tag=join] add portalsword",
+            "/execute @e[type=ninja:portal_star,tag=!portal1,tag=!portal2] ~ ~ ~ execute @e[type=ninja:portal_star,tag=portal1] ~ ~ ~ execute @e[type=ninja:portal_star,tag=portal2] ~ ~ ~ kill @e[type=ninja:portal_star]"
+          ]
+        },
+        "click2": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'portal_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:portal_star",
+            "/tag @s[tag=join] add portalsword",
+	    "/execute @e[type=ninja:portal_star,tag=!portal1,tag=!portal2] ~ ~ ~ execute @e[type=ninja:portal_star,tag=portal1] ~ ~ ~ execute @e[type=ninja:portal_star,tag=portal2] ~ ~ ~ kill @e[type=ninja:portal_star]"
+          ]
+        }
+      }
+    },
+    "controller.animation.creeper_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'creeper_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add creepersword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'creeper_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add creepersword"
+          ]
+        }
+      }
+    },
+    "controller.animation.chicken_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'chicken_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add chickensword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'chicken_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add chickensword"
+          ]
+        }
+      }
+    },
+    "controller.animation.mountain_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'mountain_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add mountainsword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'mountain_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add mountainsword"
+          ]
+        }
+      }
+    },
+    "controller.animation.swift_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'swift_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add swiftsword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'swift_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add swiftsword"
+          ]
+        }
+      }
+    },
+    "controller.animation.fire_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'fire_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add firesword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'fire_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add firesword"
+          ]
+        }
+      }
+    },
+    "controller.animation.shulker_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'shulker_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "@s sp:shulker_bullet",
+            "/tag @s[tag=join] add shulkersword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'shulker_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:shulker_bullet",
+            "/tag @s[tag=join] add shulkersword"
+          ]
+        }
+      }
+    },
+    "controller.animation.slime_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'slime_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "@s sp:slimeball",
+            "/tag @s[tag=join] add slimesword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'slime_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:slimeball",
+            "/tag @s[tag=join] add slimesword"
+          ]
+        }
+      }
+    },
+    "controller.animation.grappling_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'grappling_hook' && query.is_using_item" } ],
+          "on_entry": [
+	    "@s sp:grappling_star",
+            "/tag @s[tag=join] add grapplinghook"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'grappling_hook' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:grappling_star",
+            "/tag @s[tag=join] add grapplinghook"
+          ]
+        }
+      }
+    },
+    "controller.animation.vortex_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'vortex_sword' && query.is_using_item" } ],
+          "on_entry": [
+	    "@s sp:vortexball",
+            "/tag @s[tag=join] add vortexsword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'vortex_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "@s sp:vortexball",
+            "/tag @s[tag=join] add vortexsword"
+          ]
+        }
+      }
+    },
+    "controller.animation.asteroid_explosion": {
+      "states": {
+        "default": {
+          "transitions": [ { "click1": "query.get_equipped_item_name == 'asteroid_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add asteroidsword"
+          ]
+        },
+        "click1": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'asteroid_sword' && query.is_using_item" } ],
+          "on_entry": [
+            "/tag @s[tag=join] add asteroidsword"
+          ]
+        }
+      }
+    },
+    "controller.animation.walk": {
+      "states": {
+        "default": {
+          "transitions": [ { "walking": "(1.0)" } ],
+          "on_entry": [
+            "/function commands"
+          ]
+        },
+        "walking": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [
+            "/function commands"
+          ]
+        }
+      }
+    }
+  }
+}

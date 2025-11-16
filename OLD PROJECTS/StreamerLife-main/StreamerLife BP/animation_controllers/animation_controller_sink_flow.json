@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.sink.flow": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "flow": "1.0"
+            }
+          ]
+        },
+        "flow": {
+            "transitions": [
+              {
+                "default": "query.skin_id != 7"
+              }
+            ],
+            "on_entry": [
+              "/playanimation @s animation.sink.flow"
+            ]
+          }
+      }
+    }
+  }
+}

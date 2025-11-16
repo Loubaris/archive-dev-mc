@@ -1,0 +1,484 @@
+{
+    "format_version": "1.17.20",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "backrooms:backrooms_monster",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false,
+        "scripts": {
+          "animate": [
+              "backrooms:backrooms_monster"
+          ]
+      },
+      "animations": {
+          "backrooms:backrooms_monster": "controller.animation.backrooms_monster"
+        }
+      },
+      "component_groups": {
+        "backrooms:despawn":{
+          "minecraft:instant_despawn": {}
+        },
+        "execute_no_commands": {
+            "minecraft:skin_id": {
+                "value": 0
+            }
+          }, 
+          "backrooms:attack":{
+            "minecraft:skin_id": {
+              "value": 4
+            }
+          },
+          "backrooms:target_expire":{
+            "minecraft:skin_id": {
+              "value": 5
+            }
+          },
+          "backrooms:normal_speed":{
+            "minecraft:movement": {
+                "value": 0.25
+              }
+          },
+          "backrooms:chase_speed":{
+            "minecraft:movement": {
+                "value": 0.4
+              }
+          },
+          "backrooms:searching":{
+            "minecraft:behavior.nearest_prioritized_attackable_target": {
+                "priority": 0,
+                "reselect_targets": true,
+                "target_search_height": -1.0,
+                "within_radius": 30,
+                "persist_time": 5,
+                "must_see": true,
+                "entity_types": [
+                      {
+                        "filters": {
+                                "test": "is_family",
+                                "subject": "other",
+                                "value": "player"
+                            },           
+                          "max_dist": 30,
+                          "must_see": true,
+                          "priority": 0
+                      },
+                      {
+                      "filters": {
+                        "all_of": [
+                            {
+                              "test":"is_family",
+                              "subject": "other",
+                              "value": "target"
+                            }
+                        ]
+                    },
+                        "max_dist": 1000,
+                        "must_see": false,
+                        "priority": 1
+                    }
+                ]
+              },
+              "minecraft:on_target_acquired": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "target",
+                      "value": "player"
+                    }
+                  ]
+                },
+                "event": "backrooms:chase",
+                "target": "self"
+              },
+              "minecraft:on_target_escape":{
+                "filters": {
+                    "all_of": [
+                      {
+                        "test": "is_family",
+                        "subject": "target",
+                        "value": "player"
+                      }
+                    ]
+                  },
+                "event": "backrooms:lost_target"
+              }
+          },
+          "backrooms:new_target":{
+            "minecraft:skin_id": {
+                "value": 1
+              },
+              "minecraft:target_nearby_sensor": {
+                "inside_range": 3.0,
+                "must_see": false,
+                "on_inside_range": {
+                    "event": "backrooms:reach_target",
+                    "target": "self"
+                }
+              },
+              "minecraft:timer": {
+                "time": 20,
+                "time_down_event": {
+                  "event": "backrooms:new_target",
+                  "target": "self"
+                }
+              }
+          },
+          "backrooms:reach_target":{
+            "minecraft:skin_id": {
+                "value": 2
+              },
+            "minecraft:timer": {
+                "time": 7,
+                "time_down_event": {
+                  "event": "backrooms:new_target",
+                  "target": "self"
+                }
+              }
+          },
+          "backrooms:chase":{
+            "minecraft:skin_id": {
+                "value": 3
+              },
+              "minecraft:angry": {
+                "angry_sound": ""
+              },
+              "minecraft:behavior.look_at_player": {
+                "angle_of_view_vertical": 360,
+                "angle_of_view_horizontal": 360,
+                "look_distance": 50,
+                "probability": 1.00,
+                "target_distance": 50,
+                "priority": 0
+              }
+          },
+          "backrooms:lost_target":{
+            "minecraft:skin_id": {
+                "value": 6
+              },
+            "minecraft:timer": {
+                "time": 7,
+                "time_down_event": {
+                  "event": "backrooms:new_target",
+                  "target": "self"
+                }
+              }
+          },
+          "backrooms:active":{
+            "minecraft:collision_box": {
+              "height": 3,
+              "width": 1
+            },
+            "minecraft:scale": {
+              "value": 1
+            },
+            // Monster AI
+              "minecraft:movement.basic": {
+            },
+            "minecraft:navigation.walk": {
+                "can_walk": true
+            },
+            "minecraft:attack": {
+                "damage": 0
+            },
+            "minecraft:behavior.melee_attack": {
+                "priority": 0,
+                "on_attack": {
+                  "event": "backrooms:attack",
+                  "target": "self"
+                }
+            },
+            "minecraft:follow_range": {
+                "value": 1000,
+                "max": 1000
+            },
+            "minecraft:physics": {
+              "has_collision": true,
+              "has_gravity": true
+            }
+          },
+          "backrooms:inactive":{
+            "minecraft:scale": {
+              "value": 0.001
+            },
+            "minecraft:physics": {
+              "has_collision": false,
+              "has_gravity": false
+            }
+          }
+      },
+      "components": {
+        "minecraft:type_family": {
+            "family": [  "backrooms_monster", "mob", "b_game" ]
+          },
+          "minecraft:custom_hit_test": {
+            "hitboxes": [
+                {
+                    "width": 2.6,
+                    "height": 4,
+                    "pivot": [0, 2, 0]
+                }
+            ]
+        },
+        "minecraft:health": {
+          "value": 1000,
+          "max": 1000
+        }, 
+        "minecraft:persistent": {
+        },
+          "minecraft:conditional_bandwidth_optimization": {
+        }
+      },
+      "events": {
+        "minecraft:entity_spawned": {
+            "sequence": [
+                {
+                    "add": {
+                        "component_groups": [
+                            "backrooms:normal_speed"
+                        ]
+                    }
+                },
+                {
+                    "add": {
+                        "component_groups": [
+                            "backrooms:searching"
+                        ]
+                    }
+                },
+                {
+                    "add": {
+                        "component_groups": [
+                            "backrooms:new_target"
+                        ]
+                    }
+                },
+                {
+                  "add": {
+                    "component_groups": [
+                      "backrooms:active"
+                    ]
+                  }
+                }
+            ]
+        },
+        "execute_no_commands": {              // Creates an event to reset the players skin ID
+            "add": {
+                "component_groups": [
+                    "execute_no_commands"
+                ]
+            }
+        },
+        "backrooms:despawn":{
+          "add": {
+            "component_groups": [
+              "backrooms:despawn"
+            ]
+          }
+        },
+        "backrooms:chase":{
+            "sequence": [
+                {
+                    "remove": {
+                        "component_groups": [
+                            "backrooms:new_target"
+                        ]
+                    }
+                },
+                {
+                    "remove": {
+                        "component_groups": [
+                            "backrooms:reach_target"
+                        ]
+                    }
+                },
+                {
+                    "remove": {
+                        "component_groups": [
+                            "backrooms:lost_target"
+                        ]
+                    }
+                },
+                {
+                    "add": {
+                        "component_groups": [
+                            "backrooms:chase"
+                        ]
+                    }
+                }
+            ]
+        },
+        "backrooms:lost_target":{
+            "sequence": [
+                {
+                    "remove": {
+                        "component_groups": [
+                            "backrooms:chase"
+                        ]
+                    }
+                },
+                {
+                    "add": {
+                        "component_groups": [
+                            "backrooms:lost_target"
+                        ]
+                    }
+                }
+            ]
+        },
+        "backrooms:new_target":{
+            "sequence": [
+                {
+                    "remove": {
+                        "component_groups": [
+                            "backrooms:reach_target"
+                        ]
+                    }
+                },
+                {
+                    "remove": {
+                        "component_groups": [
+                            "backrooms:new_target"
+                        ]
+                    }
+                },
+                {
+                    "add": {
+                        "component_groups": [
+                            "backrooms:new_target"
+                        ]
+                    }
+                }
+            ]
+        },
+        "backrooms:reach_target":{
+            "sequence": [
+                {
+                    "remove": {
+                        "component_groups": [
+                            "backrooms:new_target"
+                        ]
+                    }
+                },
+                {
+                    "add": {
+                        "component_groups": [
+                            "backrooms:reach_target"
+                        ]
+                    }
+                }
+            ]
+        },
+        "backrooms:target_expire":{
+            "sequence": [
+              {
+                "filters": {"test": "is_moving", "value": false},
+                "add": {
+                  "component_groups": [ "backrooms:target_expire" ]
+                }
+              }
+            ]
+          },
+          "backrooms:attack":{
+            "add": {
+              "component_groups": [
+                "backrooms:attack"
+              ]
+            }
+          },
+          "backrooms:normal_speed":{
+            "sequence": [
+                {
+                    "remove": {
+                        "component_groups": [
+                            "backrooms:chase_speed"
+                        ]
+                    }
+                },
+                {
+                    "add": {
+                        "component_groups": [
+                            "backrooms:normal_speed"
+                        ]
+                    }
+                }
+            ]
+        },
+        "backrooms:chase_speed":{
+            "sequence": [
+                {
+                    "remove": {
+                        "component_groups": [
+                            "backrooms:normal_speed"
+                        ]
+                    }
+                },
+                {
+                    "add": {
+                        "component_groups": [
+                            "backrooms:chase_speed"
+                        ]
+                    }
+                }
+            ]
+        },
+        "backrooms:become_inactive":{
+          "add": {
+            "component_groups": [
+              "backrooms:inactive"
+            ]
+          },
+          "remove": {
+            "component_groups": [
+              "backrooms:searching",
+              "backrooms:new_target",
+              "backrooms:reach_target",
+              "backrooms:chase",
+              "backrooms:lost_target"
+              
+            ]
+          }
+        },
+        "backrooms:become_active":{
+          "sequence": [
+            {
+              "remove": {
+                "component_groups": [
+                  "backrooms:inactive"
+                ]
+              }
+            },
+            {
+                "add": {
+                    "component_groups": [
+                        "backrooms:normal_speed"
+                    ]
+                }
+            },
+            {
+                "add": {
+                    "component_groups": [
+                        "backrooms:searching"
+                    ]
+                }
+            },
+            {
+                "add": {
+                    "component_groups": [
+                        "backrooms:new_target"
+                    ]
+                }
+            },
+            {
+              "add": {
+                "component_groups": [
+                  "backrooms:active"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+}

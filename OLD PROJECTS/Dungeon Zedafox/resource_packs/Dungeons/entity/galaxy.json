@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:galaxy",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/galaxy"
+			},
+			"geometry": {
+				"default": "geometry.galaxy"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"galaxy": "animation.wave.galaxy"
+			},
+			"animation_controllers": [
+				{
+					"galaxy": "controller.animation.galaxy"
+				}
+			]
+		}
+	}
+}

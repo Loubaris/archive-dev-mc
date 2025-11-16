@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cyd_mgspl.whirlwind": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 16,
+			"bones": {
+				"all": {
+					"rotation": [0, "(query.life_time+0)*(-100)", 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.4667": ["math.cos((query.life_time+1)*200)*0.03+1", "math.sin((query.life_time+1)*400)*0.1+1", "math.cos((query.life_time+1)*200)*0.03+1"],
+						"15.6": [1, 1, 1],
+						"15.9667": [0, 0, 0]
+					}
+				},
+				"tornado1": {
+					"rotation": [0, "(query.life_time+0)*(-1000)", 0]
+				},
+				"bone": {
+					"rotation": [0, "(query.life_time+2)*(-50)", 0]
+				},
+				"bone2": {
+					"rotation": [0, "(query.life_time+4)*(-30)", 0]
+				},
+				"bone3": {
+					"rotation": [0, "(query.life_time+6)*(-20)", 0]
+				},
+				"bone4": {
+					"rotation": [0, "(query.life_time+8)*(-18)", 0]
+				},
+				"bone5": {
+					"rotation": [0, "(query.life_time+10)*(-15)", 0]
+				}
+			}
+		}
+	}
+}

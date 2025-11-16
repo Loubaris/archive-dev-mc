@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:mclauren",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/mclauren/color1"
+			},
+			"geometry": {
+				"default": "geometry.mclauren"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "mclauren",
+				"texture_index": 0
+			}
+		}
+	}
+}

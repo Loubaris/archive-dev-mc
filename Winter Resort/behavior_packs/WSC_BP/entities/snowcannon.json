@@ -1,0 +1,110 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nitric:snowcannon",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:on_target_acquired": {
+				"event": "minecraft:become_angry",
+				"target": "self"
+			},
+			"minecraft:shooter": {
+				"type": "smallfireball",
+				"def": "minecraft:snowball"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"mob"
+				]
+			},
+			"minecraft:breathable": {
+				"totalSupply": 25,
+				"suffocateTime": 0
+			},
+			"minecraft:loot": {
+                "table": "loot_tables/nitric/snowcannon.json"
+            },
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 4.3
+			},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:scale": {
+				"value": 0.5
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:jump.static": {},
+			"minecraft:attack": {
+				"damage": 3
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.ranged_attack": {
+				"priority": 1,
+				"charge_charged_trigger": 0.0,
+				"charge_shoot_trigger": 0.6,
+				"attack_radius": 24,
+				"burst_shots": 50,
+				"ranged_fov": 15,
+				"burst_interval": 0.03
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"max_dist": 18
+					}
+				],
+				"must_see": true
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 3,
+				"entity_types": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"operator": "!=",
+									"value": "player"
+								}
+							]
+						},
+						"max_dist": 48
+					}
+				]
+			},
+			"minecraft:knockback_resistance": {
+				"value": 2
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            }
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "Defend The Castle Resources",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "coin": { 
+        "textures": "textures/items/coin" 
+    }
+  }
+}

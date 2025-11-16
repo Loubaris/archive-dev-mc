@@ -1,0 +1,197 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cypress:cannon_tower3",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": ["cannon_tower_upgrade"]
+      },
+      "animations": {
+        "cannon_tower_upgrade": "controller.animation.cannon_tower_upgrade"
+      }
+    },
+    "component_groups": {
+      "cypress:execute_no_command": {
+        "minecraft:skin_id": {
+          "value": 0
+        }
+      },
+      "cypress:upgrade": {
+        "minecraft:skin_id": {
+          "value": 3
+        }
+      },
+      "minecraft:level_1": {
+        "minecraft:variant": {
+          "value": 0
+        },
+        "minecraft:shooter": {
+          "def": "cypress:bullet"
+        },
+        "minecraft:behavior.ranged_attack": {
+          "attack_radius": 15,
+          "attack_interval_min": 1,
+          "attack_interval_max": 1,
+          "charge_charged_trigger": 0.0,
+          "charge_shoot_trigger": 0.3,
+          "burst_shots": 1,
+          "burst_interval": 0.1
+        },
+        "minecraft:health": {
+          "value": 70,
+          "max": 70
+        }
+      }
+    },
+    "components": {
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "on_interact": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "has_equipment",
+                    "domain": "hand",
+                    "subject": "other",
+                    "value": "cypress:coin"
+                  }
+                ]
+              },
+              "event": "cypress:upgrade"
+            },
+            "use_item": false,
+            "interact_text": "Upgrade"
+          }
+        ]
+      },
+      "minecraft:type_family": {
+        "family": ["turret", "player"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.6
+      },
+      "minecraft:despawn": {
+        "filters": {
+          "all_of": [
+            { "test": "is_family", "subject": "self", "value": "despawn" }
+          ]
+        }
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "on_damage": {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "lightning"
+            }
+          },
+          "deals_damage": false
+        }
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "within_radius": 50,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "monster"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "illager"
+                }
+              ]
+            },
+            "max_dist": 50
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:is_stackable": {},
+      "minecraft:navigation.walk": {
+        "avoid_water": false,
+        "is_amphibious": false,
+        "avoid_damage_blocks": false
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:follow_range": {
+        "value": 150,
+        "max": 150
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 2,
+        "entity_types": {
+          "filters": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "turret"
+              },
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "snowgolem"
+              }
+            ]
+          },
+          "max_dist": 150
+        }
+      },
+      "minecraft:physics": {}
+    },
+
+    "events": {
+      "cypress:remove_command": {
+        "add": {
+          "component_groups": ["cypress:execute_no_command"]
+        },
+        "remove": {
+          "component_groups": ["cypress:upgrade"]
+        }
+      },
+      "cypress:upgrade": {
+        "add": {
+          "component_groups": ["cypress:upgrade"]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["minecraft:level_1"]
+        }
+      },
+      "cypress:mode": {
+        "add": {
+          "component_groups": ["minecraft:level_1"]
+        }
+      }
+    }
+  }
+}

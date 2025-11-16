@@ -1,0 +1,39 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "douarmc:size_changer_recipe"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "BEB",
+            "ERE",
+            "BEB"
+        ],
+        "key": {
+            "B": {
+                "item": "minecraft:quartz_block"
+            },
+            "E": {
+                "item": "minecraft:emerald"
+            },
+            "R": {
+                "item": "minecraft:redstone"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:quartz_block"
+            },
+            {
+                "item": "minecraft:emerald"
+            },
+            {
+                "item": "minecraft:redstone"
+            }
+        ],
+        "result": {
+            "item": "douarmc:size_changer"
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.4ks_ring.fminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_fminion",
+          "/particle 4ks_ring:fire_die ~ ~ ~",
+          "/tag @a remove 4ks_fminionr"
+        ]
+      }
+    },
+    "animation.4ks_ring.wminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_wminion"
+        ]
+      }
+    },
+    "animation.4ks_ring.iminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_iminion"
+        ]
+      }
+    },
+    "animation.4ks_ring.eminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_eminion"
+        ]
+      }
+    },
+    "animation.4ks_ring.lminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_lminion"
+        ]
+      }
+    },
+    "animation.4ks_ring.liminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_liminion"
+        ]
+      }
+    },
+    "animation.4ks_ring.mminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_mminion"
+        ]
+      }
+    },
+    "animation.4ks_ring.nminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_nminion"
+        ]
+      }
+    },
+    "animation.4ks_ring.tminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_tminion"
+        ]
+      }
+    },
+    "animation.4ks_ring.rminion.dead": {
+      "loop": false,
+      "animation_length": 1,
+      "timeline": {
+        "0.1": [
+          "/tag @a remove 4ks_rminion"
+        ]
+      }
+    }
+  }
+}

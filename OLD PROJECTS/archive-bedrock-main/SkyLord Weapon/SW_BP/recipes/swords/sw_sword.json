@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:sw_sword"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "GZZ",
+      "GYZ",
+      "UGG"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:stick"
+      },
+      "Z": {
+        "item": "minecraft:iron_ingot"
+      },
+      "Y": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "result": {
+      "item": "sw:sw_sword"
+    }
+  }
+}

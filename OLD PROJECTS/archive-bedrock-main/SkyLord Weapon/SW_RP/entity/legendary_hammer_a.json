@@ -1,0 +1,32 @@
+{ 
+   "format_version": "1.10.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "sw:legendary_hammer_a",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/abilities/legendary_hammer"
+            }, 
+         "geometry": { 
+            "default": "geometry.legendary_hammer_a" 
+            },
+            "scripts": {
+                "animate": [
+                    "legendary_hammer_a"
+                ]
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "legendary_hammer_a" : "animation.legendary_hammer_a.wave"
+              }
+         }
+      }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "zedafox:marketroof3",
+      "properties": {
+        "mbms:slab_type": [ "down", "up", "double" ]
+      }
+    },
+    "components": {
+      "minecraft:destroy_time": 1,
+      "minecraft:material_instances" : {
+        "*" : {
+          "texture": "marketroof3",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:block_light_absorption": 0,
+      "minecraft:on_player_placing": {
+        "condition": "query.target_x_rotation <= 0",
+        "event": "up"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('mbms:slab_type') == 'down'",
+        "components": {
+          "minecraft:geometry": "geometry.marketroof",
+          "minecraft:entity_collision": {
+            "origin": [-8,0,-8],
+            "size": [16,10,16]
+          },
+          "minecraft:pick_collision": {
+            "origin": [-8,0,-8],
+            "size": [16,10,16]
+          }
+        }
+      }
+    ],
+    "events": {
+    }
+  }
+}

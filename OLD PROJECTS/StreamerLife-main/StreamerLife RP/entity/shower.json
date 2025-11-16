@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:shower",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/shower/1",
+                "color2": "textures/furniture/shower/1",
+                "color3": "textures/furniture/shower/1"
+            },
+            "geometry": {
+                "default": "geometry.shower"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "shower",
+				"texture_index": 0
+            }
+        }
+    }
+}

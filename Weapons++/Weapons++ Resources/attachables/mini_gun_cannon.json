@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "nitric:mini_gun_cannon",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/mini_gun_cannon"
+			},
+			"geometry": {
+				"default": "geometry.mini_gun_cannon"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.mini_gun_cannon.first_person",
+				"third_person": "animation.mini_gun_cannon.third_person",
+				"using_item": "animation.mini_gun.using_item"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"nitric:mini_gun_cannon": "(1.0)"
+			}
+		}
+	}
+}

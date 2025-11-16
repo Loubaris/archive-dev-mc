@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.piece.spin": {
+			"loop": true,
+			"animation_length": 4.1667,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"4.1667": [0, -360, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"piece": {
+					"position": [0, 2, 0]
+				}
+			}
+		}
+	}
+}

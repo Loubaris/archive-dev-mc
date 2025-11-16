@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mes_heroes:cleric_campsite"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#S#",
+            "CEC",
+            "BHB"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:decorated_pot"
+            },
+            "S": {
+                "item": "minecraft:soul_torch"
+            },
+            "C": {
+                "item": "minecraft:cauldron"
+            },
+            "E": {
+                "item": "minecraft:paper"
+            },
+            "B": {
+                "item": "minecraft:bookshelf"
+            },
+            "H": {
+                "item": "minecraft:book"
+            }
+        },
+        "result": {
+            "item": "mes_heroes:cleric_campsite_spawn_egg",
+            "count": 1
+        }
+    }
+}

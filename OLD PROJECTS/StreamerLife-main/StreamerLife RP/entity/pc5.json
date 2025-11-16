@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:pc5",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/pc5/1",
+                "color2": "textures/furniture/pc5/2",
+                "color3": "textures/furniture/pc5/3"
+            },
+            "geometry": {
+                "default": "geometry.pc5"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "pc5",
+				"texture_index": 0
+            }
+        }
+    }
+}

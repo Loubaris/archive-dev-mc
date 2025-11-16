@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animal:duck",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/duck"
+      },
+      "geometry": {
+        "default": "geometry.duck"
+      },
+      "animations": {
+        "look_at_target": "animation.common.look_at_target",
+        "walk": "animation.quadruped.walk",
+        "float": "animation.duck.float"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          {"float": "!query.is_on_ground"},
+          {"walk": "query.modified_move_speed"}
+        ]
+      },
+      "render_controllers": [ "controller.render.cow" ],
+      "spawn_egg": {
+        "base_color": "#846a43",
+        "overlay_color": "#364e2c"
+      }
+    }
+  }
+}

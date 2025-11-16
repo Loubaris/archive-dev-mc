@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.sword_blaster_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"sword_blaster_detection": "query.get_equipped_item_name == 'sword_blaster' && query.is_using_item == true"
+						}
+					]
+				},
+				"sword_blaster_detection": {
+					"on_entry": [
+						"/tag @p[r=1] add sword_blaster"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"geometry.cart": {
+		"texturewidth": 128,
+		"textureheight": 128,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "bone",
+				"pivot": [15, 0, 0],
+				"cubes": [
+					{"origin": [7, 0, -4], "size": [2, 9, 9], "uv": [24, 0]},
+					{"origin": [-5, 2, -15], "size": [2, 2, 6], "uv": [48, 20]},
+					{"origin": [3, 2, -15], "size": [2, 2, 6], "uv": [0, 42]},
+					{"origin": [-9, 0, -4], "size": [2, 9, 9], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "body",
+				"pivot": [0, 0, -10],
+				"rotation": [10, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-7, 0, -10], "size": [1, 9, 22], "uv": [24, 24], "mirror": false},
+					{"origin": [-6, 0, -10], "size": [12, 9, 1], "uv": [46, 0], "mirror": false},
+					{"origin": [-6, 0, 10], "size": [12, 9, 2], "uv": [0, 31], "mirror": false},
+					{"origin": [-6, -0.04663, -9.03907], "size": [12, 1, 19], "uv": [0, 56], "mirror": false},
+					{"origin": [6, 0, -10], "size": [1, 9, 22], "uv": [0, 0], "mirror": false},
+					{"origin": [3, 2.82452, -21.17038], "size": [2, 2, 7], "uv": [39, 11], "mirror": false},
+					{"origin": [-5, 2.82452, -21.17038], "size": [2, 2, 7], "uv": [28, 31], "mirror": false}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "sw:tnt_shoot",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/tnt_shoot"
+            }, 
+         "geometry": { 
+            "default": "geometry.tnt_shoot" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ]
+       
+         }
+      }
+}

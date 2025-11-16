@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:whirlwind"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " # ",
+      " S ",
+      "AS "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:feather"
+      },
+      "S": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:whirlwind",
+      "count": 1
+    }
+  }
+}

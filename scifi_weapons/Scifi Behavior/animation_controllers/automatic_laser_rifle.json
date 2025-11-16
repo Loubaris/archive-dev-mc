@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.automatic_laser_rifle_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"automatic_laser_rifle_detection": "query.get_equipped_item_name == 'automatic_laser_rifle' && query.is_using_item == true"
+						}
+					]
+				},
+				"automatic_laser_rifle_detection": {
+					"on_entry": [
+						"/tag @p[r=1] add automatic_laser_rifle"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

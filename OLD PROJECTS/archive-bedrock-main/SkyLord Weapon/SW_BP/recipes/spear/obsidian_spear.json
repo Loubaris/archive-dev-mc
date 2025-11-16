@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:obsidian_spear"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZGZ",
+      "ZGZ",
+      "ZGZ"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:stick"
+      },
+      "Z": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "sw:obsidian_spear"
+    }
+  }
+}

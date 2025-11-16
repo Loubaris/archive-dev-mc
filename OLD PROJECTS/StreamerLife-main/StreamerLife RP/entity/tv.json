@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:tv",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/tv/1",
+                "color2": "textures/furniture/tv/1",
+                "color3": "textures/furniture/tv/1"
+            },
+            "geometry": {
+                "default": "geometry.tv"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "tv",
+				"texture_index": 0
+            }
+        }
+    }
+}

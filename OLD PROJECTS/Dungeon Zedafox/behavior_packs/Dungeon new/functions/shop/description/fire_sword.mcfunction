@@ -1,0 +1,1 @@
+tellraw @p[x=375,y=104,z=471] {"rawtext":[{"text":"§e----[ Fire Sword ]----\n§7Turns enemies on fire within a radius of 3 blocks.\n§e-------------------"}]}

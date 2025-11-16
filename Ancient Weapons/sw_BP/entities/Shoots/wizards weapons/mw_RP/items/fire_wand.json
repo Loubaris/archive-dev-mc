@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mw:fire_wand",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "fire_wand",
+   "minecraft:render_offsets": "fire_wand"
+  }
+ }
+}

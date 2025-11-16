@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mes_heroes:guardian_campsite"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#S#",
+            "BMB",
+            "CGC"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:gunpowder"
+            },
+            "S": {
+                "item": "minecraft:stone_sword"
+            },
+            "B": {
+                "item": "minecraft:book"
+            },
+            "M": {
+                "item": "minecraft:shield"
+            },
+            "C": {
+                "item": "minecraft:campfire"
+            },
+            "G": {
+                "item": "minecraft:chest"
+            }
+        },
+        "result": {
+            "item": "mes_heroes:guardian_campsite_spawn_egg",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,249 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"nitric:unicorn1": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"step": {
+						"sound": "nitric.unicorn_run",
+						"volume": 0.09,
+						"pitch": 1.1
+					},
+					"fly" : "nitric.unicorn_fly",
+					"hurt": {
+						"sound": "nitric.unicorn_nay",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"jump" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.horse.jump",
+                  "volume" : 0.40
+               },
+					"ambient": {
+						"sound": "nitric.unicorn_idle",
+						"volume": 0.11,
+						"pitch": 0.9
+					}
+				}
+			},
+			"nitric:unicorn2": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"step": {
+						"sound": "nitric.unicorn_run",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"fly" : "nitric.unicorn_fly",
+					"hurt": {
+						"sound": "nitric.unicorn_nay",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"jump" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.horse.jump",
+                  "volume" : 0.40
+               },
+					"ambient": {
+						"sound": "nitric.unicorn_idle",
+						"volume": 0.11,
+						"pitch": 0.9
+					}
+				}
+			},
+			"nitric:unicorn3": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"step": {
+						"sound": "nitric.unicorn_run",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"fly" : "nitric.unicorn_fly",
+					"hurt": {
+						"sound": "nitric.unicorn_nay",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"jump" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.horse.jump",
+                  "volume" : 0.40
+               },
+					"ambient": {
+						"sound": "nitric.unicorn_idle",
+						"volume": 0.11,
+						"pitch": 0.9
+					}
+				}
+			},
+			"nitric:unicorn1_wings": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"step": {
+						"sound": "nitric.unicorn_run",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"fly" : "nitric.unicorn_fly",
+					"hurt": {
+						"sound": "nitric.unicorn_nay",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"jump" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.horse.jump",
+                  "volume" : 0.40
+               },
+					"ambient": {
+						"sound": "nitric.unicorn_idle",
+						"volume": 0.11,
+						"pitch": 0.9
+					}
+				}
+			},
+			"nitric:unicorn2_wings": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"step": {
+						"sound": "nitric.unicorn_run",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"fly" : "nitric.unicorn_fly",
+					"hurt": {
+						"sound": "nitric.unicorn_nay",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"jump" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.horse.jump",
+                  "volume" : 0.40
+               },
+					"ambient": {
+						"sound": "nitric.unicorn_idle",
+						"volume": 0.11,
+						"pitch": 0.9
+					}
+				}
+			},
+			"nitric:unicorn3_wings": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"step": {
+						"sound": "nitric.unicorn_run",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"fly" : "nitric.unicorn_fly",
+					"hurt": {
+						"sound": "nitric.unicorn_nay",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"jump" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.horse.jump",
+                  "volume" : 0.40
+               },
+					"ambient": {
+						"sound": "nitric.unicorn_idle",
+						"volume": 0.11,
+						"pitch": 0.9
+					}
+				}
+			},
+			"nitric:unicorn_baby1": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"step": {
+						"sound": "nitric.unicorn_run",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"fly" : "nitric.unicorn_fly",
+					"hurt": {
+						"sound": "nitric.unicorn_nay",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"jump" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.horse.jump",
+                  "volume" : 0.40
+               },
+					"ambient": {
+						"sound": "nitric.unicorn_idle",
+						"volume": 0.11,
+						"pitch": 0.9
+					}
+				}
+			},
+			"nitric:unicorn_baby2": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"step": {
+						"sound": "nitric.unicorn_run",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"fly" : "nitric.unicorn_fly",
+					"hurt": {
+						"sound": "nitric.unicorn_nay",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"jump" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.horse.jump",
+                  "volume" : 0.40
+               },
+					"ambient": {
+						"sound": "nitric.unicorn_idle",
+						"volume": 0.11,
+						"pitch": 0.9
+					}
+				}
+			},
+			"nitric:unicorn_baby3": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"step": {
+						"sound": "nitric.unicorn_run",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"fly" : "nitric.unicorn_fly",
+					"hurt": {
+						"sound": "nitric.unicorn_nay",
+						"volume": 0.18,
+						"pitch": 1.1
+					},
+					"jump" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.horse.jump",
+                  "volume" : 0.40
+               },
+					"ambient": {
+						"sound": "nitric.unicorn_idle",
+						"volume": 0.11,
+						"pitch": 0.9
+					}
+				}
+			}
+		}
+	}
+}

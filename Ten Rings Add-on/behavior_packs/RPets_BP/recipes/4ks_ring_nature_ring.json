@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "4ks_ring:nature_ring"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:wheat_seeds",
+				"count": 3
+            },
+			{
+                "item": "minecraft:gold_ingot"
+            }
+        ],
+        "result": {
+            "item": "4ks_ring:nature_ring",
+            "count": 1
+        }
+    }
+}

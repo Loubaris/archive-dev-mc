@@ -1,0 +1,114 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.magic_wand",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "cape",
+					"parent": "body",
+					"pivot": [0, 24, 3]
+				},
+				{
+					"name": "leftArm",
+					"parent": "body",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "leftSleeve",
+					"parent": "leftArm",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "leftItem",
+					"parent": "leftArm",
+					"pivot": [6, 15, 1]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "rightSleeve",
+					"parent": "rightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "stick",
+					"parent": "rightArm",
+					"pivot": [-6, 15, -17],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{"origin": [-7, -15, -18], "size": [2, 22, 2], "uv": [16, 12]},
+						{"origin": [-7.5, -16, -18], "size": [3, 3, 3], "pivot": [-6, -15, -17], "rotation": [45, 0, 0], "uv": [0, 22]},
+						{"origin": [-6, -28.02028, -8.52028], "size": [0, 9, 9], "pivot": [-6, -10.5, -17], "rotation": [0, 90, -135], "uv": [28, 25]},
+						{"origin": [-6, -32.02028, -4.52028], "size": [0, 9, 9], "pivot": [-6, -10.5, -17], "rotation": [0, 90, -135], "uv": [28, 25]},
+						{"origin": [-6, -28.02028, -8.52028], "size": [0, 9, 9], "pivot": [-6, -10.5, -17], "rotation": [135, 0, 0], "uv": [28, 25]},
+						{"origin": [-6, -32.02028, -4.52028], "size": [0, 9, 9], "pivot": [-6, -10.5, -17], "rotation": [135, 0, 0], "uv": [28, 25]},
+						{"origin": [-6, -28.02028, -8.52028], "size": [0, 9, 9], "pivot": [-6, -10.5, -17], "rotation": [135, 0, 0], "uv": [28, 25]},
+						{"origin": [-7.5, 6, -18.5], "size": [3, 2, 3], "uv": [0, 28]},
+						{"origin": [-7.5, -12, -18.5], "size": [3, 2, 3], "uv": [27, 0]}
+					]
+				},
+				{
+					"name": "cube",
+					"parent": "stick",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7.25, 11, -18.25], "size": [2.5, 4, 2.5], "uv": [53, 31]}
+					]
+				},
+				{
+					"name": "eye",
+					"parent": "stick",
+					"pivot": [-6, 20.1, -16.9]
+				},
+				{
+					"name": "ring",
+					"parent": "stick",
+					"pivot": [-6, 20.6, -16.9]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [0, 15, 0],
+					"locators": {
+						"lead_hold": [-6, 15, 1]
+					}
+				},
+				{
+					"name": "jacket",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				}
+			]
+		}
+	]
+}

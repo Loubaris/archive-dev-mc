@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:sw_gold_axe"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "GZZ",
+      "GYZ",
+      "UGG"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:stick"
+      },
+      "Z": {
+        "item": "minecraft:gold_ingot"
+      },
+      "Y": {
+        "item": "minecraft:gold_axe"
+      }
+    },
+    "result": {
+      "item": "sw:sw_gold_axe"
+    }
+  }
+}

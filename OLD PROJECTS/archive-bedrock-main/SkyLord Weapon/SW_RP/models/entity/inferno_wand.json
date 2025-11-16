@@ -1,0 +1,109 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.inferno_wand",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "cape",
+					"parent": "body",
+					"pivot": [0, 24, 3]
+				},
+				{
+					"name": "leftArm",
+					"parent": "body",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "leftSleeve",
+					"parent": "leftArm",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "leftItem",
+					"parent": "leftArm",
+					"pivot": [6, 15, 1]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "rightSleeve",
+					"parent": "rightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "stick",
+					"parent": "rightArm",
+					"pivot": [-6, 15, -17],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{"origin": [-7, -15, -18], "size": [2, 22, 2], "uv": [0, 13]},
+						{"origin": [-7.5, -16, -18], "size": [3, 3, 3], "pivot": [-6, -15, -17], "rotation": [45, 0, 0], "uv": [8, 13]},
+						{"origin": [-7.5, 6, -18.5], "size": [3, 2, 3], "uv": [18, 0]},
+						{"origin": [-7.5, -12, -18.5], "size": [3, 2, 3], "uv": [17, 16]}
+					]
+				},
+				{
+					"name": "cube",
+					"parent": "stick",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-9.25, 10, -20.25], "size": [6.5, 7, 6.5], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "eye",
+					"parent": "stick",
+					"pivot": [-6, 20.1, -16.9]
+				},
+				{
+					"name": "ring",
+					"parent": "stick",
+					"pivot": [-6, 20.6, -16.9]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [0, 15, 0],
+					"locators": {
+						"lead_hold": [-6, 15, 1]
+					}
+				},
+				{
+					"name": "jacket",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				}
+			]
+		}
+	]
+}

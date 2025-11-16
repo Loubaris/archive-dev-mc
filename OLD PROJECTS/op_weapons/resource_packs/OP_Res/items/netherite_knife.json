@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "ninja:netherite_knife",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "netherite_knife",
+   "minecraft:render_offsets": "netherite_knife"
+  }
+ }
+}

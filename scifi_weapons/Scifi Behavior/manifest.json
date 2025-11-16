@@ -1,0 +1,27 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Sci-fi",
+		"description": "Sci-fi Behavior Pack",
+		"uuid": "f105680a-1efb-4e9f-828f-d8a82eb32d97",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Nitric"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "54d95684-d4c8-4154-932e-adb89074519c",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "067038b1-0aed-4dd5-9e71-fd2fab30ccad",
+			"version": [1, 0, 0]
+		}
+	]
+}

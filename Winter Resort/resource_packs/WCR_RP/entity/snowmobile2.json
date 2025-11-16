@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:snowmobile2",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/snowmobile2/color1"
+			},
+			"geometry": {
+				"default": "geometry.snowmobile2"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "snowmobile2",
+				"texture_index": 0
+			}
+		}
+	}
+}

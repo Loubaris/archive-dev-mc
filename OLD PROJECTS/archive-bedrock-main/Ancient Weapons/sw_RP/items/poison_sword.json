@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:poison_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "poison_sword",
+   "minecraft:render_offsets": "poison_sword"
+  }
+ }
+}

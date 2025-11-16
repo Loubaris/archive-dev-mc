@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "§cTNT",
+    "description": "§cTNT §a/ §bKubo Studios",
+    "uuid": "0f25cee5-bcca-496e-8097-afd636bf5d4f",
+    "version": [3, 5, 16]    
+  },
+  "modules": [
+    {
+      "description": "§cTNT §a/ §bKubo Studios",
+      "type": "data",
+      "uuid": "017abec0-2d2f-43f7-ac7f-f24612dc086d",
+      "version": [3, 5, 16]
+    }
+  ]
+}

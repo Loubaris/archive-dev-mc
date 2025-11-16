@@ -1,0 +1,32 @@
+{ 
+   "format_version": "1.10.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "ninja:masterportal",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/masterportal"
+            }, 
+         "geometry": { 
+            "default": "geometry.masterportal" 
+            },
+            "scripts": {
+                "animate": [
+                    "masterportalidle"
+                ]
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "masterportalidle" : "animation.masterportalidle.wave"
+              }
+         }
+      }
+}

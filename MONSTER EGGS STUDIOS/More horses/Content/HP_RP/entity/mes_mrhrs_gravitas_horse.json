@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_mrhrs:kirin_horse",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/mes/mrhrs/entity/gravitas_horse"
+            },
+            "geometry": {
+                "default": "geometry.mes_mrhrs.gravitas_horse"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+	}
+    }
+}

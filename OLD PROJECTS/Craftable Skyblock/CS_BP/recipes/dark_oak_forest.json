@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:dark_oak_forest_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "YYY",
+      "UUU"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:cobblestone"
+      },
+      "Z": {
+        "item": "minecraft:sapling",
+	"data": 5
+      },
+      "Y": {
+        "item": "minecraft:dirt"
+      }
+    },
+    "result": {
+      "item": "cs:dark_oak_forest_spawn_egg"
+    }
+  }
+}

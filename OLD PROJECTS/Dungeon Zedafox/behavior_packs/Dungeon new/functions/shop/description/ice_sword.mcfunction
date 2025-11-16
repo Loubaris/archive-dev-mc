@@ -1,0 +1,1 @@
+tellraw @p[x=375,y=104,z=471] {"rawtext":[{"text":"§b----[ Ice Sword ]----\n§7Turns enemies into ice.\n§b-------------------"}]}

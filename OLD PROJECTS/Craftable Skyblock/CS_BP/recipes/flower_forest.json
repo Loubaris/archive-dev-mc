@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:flower_forest_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZGH",
+      "YYY",
+      "UUU"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:cobblestone"
+      },
+      "Z": {
+        "item": "minecraft:red_flower",
+	"data": 4
+      },
+      "G": {
+        "item": "minecraft:yellow_flower",
+	"data": 0
+      },
+      "H": {
+        "item": "minecraft:red_flower",
+	"data": 3
+      },
+      "Y": {
+        "item": "minecraft:dirt"
+      }
+    },
+    "result": {
+      "item": "cs:flower_forest_spawn_egg"
+    }
+  }
+}

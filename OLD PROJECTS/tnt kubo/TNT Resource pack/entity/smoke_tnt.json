@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:smoke_tnt",
+      "materials": {
+        "default": "smoke_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/smoke_tnt"
+      },
+      "geometry": {
+        "default": "geometry.smoke_tnt"
+      },
+      "render_controllers": [ "controller.render.smoke_tnt" ],
+      "spawn_egg": {
+        "texture": "smoke_tnt",
+        "texture_index": 0
+      }
+    }
+  }
+}

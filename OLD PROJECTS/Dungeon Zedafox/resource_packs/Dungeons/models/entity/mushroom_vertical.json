@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"geometry.mushroom_vertical": {
+		"texturewidth": 512,
+		"textureheight": 512,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 13,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-4, 0, -4], "size": [8, 191, 8], "uv": [0, 64], "mirror": false},
+					{"origin": [-24, 191, -24], "size": [48, 16, 48], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

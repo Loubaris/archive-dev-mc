@@ -1,0 +1,75 @@
+{
+    "format_version": "1.10.0",
+    "particle_effect": {
+      "description": {
+        "identifier": "minecraft:campfire_tall_smoke_particle",
+        "basic_render_parameters": {
+          "material": "particles_blend",
+          "texture": "textures/particle/campfire_smoke"
+        }
+			},
+			  "components": {
+				"minecraft:emitter_shape_custom": {
+				  "offset": [ 0, 0, 0 ],
+				  "direction": [ 0.0, 1.0, 0.0 ]
+				},
+				"minecraft:emitter_initialization": {
+						"creation_expression": "variable.size = 0.25;"
+				},
+				"minecraft:emitter_rate_manual": {
+				  "max_particles": 200
+				},
+				"minecraft:emitter_lifetime_expression": {
+				  "activation_expression": 1,
+				  "expiration_expression": 0
+				},
+				"minecraft:particle_initial_speed": "Math.random(0.1, 0.4)",
+				"minecraft:particle_lifetime_expression": {
+				  "max_lifetime": "Math.random(0.01, 60.00)"
+				},
+				"minecraft:particle_motion_dynamic": {
+				  "linear_acceleration": [ "Math.random(-1.5, 1.7)", "Math.random(-0.3, 1.25)", "Math.random(-1.5, 1.7)" ],
+				  "linear_drag_coefficient": 0.7
+				},
+				"minecraft:particle_motion_collision": {
+						"enabled": "variable.particle_age > 0.1",
+						"collision_drag": 10,
+						"coefficient_of_restitution": 1,
+						"collision_radius": 0.10
+					},
+				"minecraft:particle_appearance_billboard": {
+						"size": ["(variable.size+variable.particle_age)/6", "(variable.size+variable.particle_age)/6"],
+						"facing_camera_mode": "lookat_xyz",
+						"uv": {
+							"texture_width": 128,
+							"texture_height": 6144,
+							"flipbook": {
+								"base_UV": [0, 0],
+								"size_UV": [128, 128],
+								"step_UV": [0, 128],
+								"frames_per_second": 6,
+								"max_frame": 40,
+								"stretch_to_lifetime": false,
+								"loop": true
+							}
+						}
+					},
+					"minecraft:particle_appearance_tinting": {
+					"color": {
+					"interpolant": "(variable.particle_age*variable.particle_lifetime)/125",
+					"gradient": {
+						"0.0": "#A8171717",
+						"1.2": "#00FFFFFF",
+						"2.2": "#528F9165",
+						"5.0": "#B5424242",
+						"7.5": "#BF262626",
+						"10.0": "#30212121"
+					}
+				}
+			},
+				"minecraft:particle_appearance_lighting": {}
+				
+				}
+			}
+        
+   }

@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:minecart_tnt",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "minecart_tnt",
+   "minecraft:render_offsets": "minecart_tnt"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:fridge",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/fridge/1",
+                "color2": "textures/furniture/fridge/1",
+                "color3": "textures/furniture/fridge/1"
+            },
+            "geometry": {
+                "default": "geometry.fridge"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "fridge",
+				"texture_index": 0
+            }
+        }
+    }
+}

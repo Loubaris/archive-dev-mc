@@ -1,0 +1,129 @@
+pack.name=Streamer Life RP
+pack.description=Resources Pack for Streamer Life
+
+
+item.cypress:color_tool.name=Color Tool
+item.cypress:removal_tool.name=Remove Tool
+item.cypress:moving_tool.name=Move Tool
+item.cypress:rotate_tool.name=Rotate Tool
+
+
+entity.unknown.name=§r
+
+
+item.spawn_egg.entity.cypress:armchair.name=Place Arm Chair
+entity.cypress:armchair.name=Arm Chair
+
+item.spawn_egg.entity.cypress:bed1.name=Place Bed
+entity.cypress:bed1.name=Bed
+
+item.spawn_egg.entity.cypress:camera.name=Place Camera
+entity.cypress:camera.name=Camera
+
+item.spawn_egg.entity.cypress:chair1.name=Place Chair One
+entity.cypress:chair1.name=Chair One
+
+item.spawn_egg.entity.cypress:chair2.name=Place Chair Two
+entity.cypress:chair2.name=Chair Two
+
+item.spawn_egg.entity.cypress:chair3.name=Place Chair Three
+entity.cypress:chair3.name=Chair Three
+
+item.spawn_egg.entity.cypress:console.name=Place Console
+entity.cypress:console.name=Console
+
+item.spawn_egg.entity.cypress:dinnertable.name=Place Dinner Table
+entity.cypress:dinnertable.name=Dinner Table
+
+item.spawn_egg.entity.cypress:flowerpot.name=Place Flower Pot
+entity.cypress:flowerpot.name=Flower Pot
+
+item.spawn_egg.entity.cypress:fridge.name=Place Fridge
+entity.cypress:fridge.name=Fridge
+
+item.spawn_egg.entity.cypress:greenscreen.name=Place Green Screen
+entity.cypress:greenscreen.name=Green Screen
+
+item.spawn_egg.entity.cypress:light.name=Place Light
+entity.cypress:light.name=Light
+
+item.spawn_egg.entity.cypress:oven.name=Place Oven
+entity.cypress:oven.name=Oven
+
+item.spawn_egg.entity.cypress:pc1.name=Place PC One
+entity.cypress:pc1.name=PC One
+
+item.spawn_egg.entity.cypress:pc2.name=Place PC Two
+entity.cypress:pc2.name=PC Two
+
+item.spawn_egg.entity.cypress:pc3.name=Place PC Three
+entity.cypress:pc3.name=PC Three
+
+item.spawn_egg.entity.cypress:pc4.name=Place PC Four
+entity.cypress:pc4.name=PC Four
+
+item.spawn_egg.entity.cypress:pc5.name=Place PC Five
+entity.cypress:pc5.name=PC Five
+
+item.spawn_egg.entity.cypress:shower.name=Place Shower
+entity.cypress:shower.name=Shower
+
+item.spawn_egg.entity.cypress:sink.name=Place Sink
+entity.cypress:sink.name=Sink
+
+item.spawn_egg.entity.cypress:sofa.name=Place Sofa
+entity.cypress:sofa.name=Sofa
+
+item.spawn_egg.entity.cypress:speaker.name=Place Speaker
+entity.cypress:speaker.name=Speaker
+
+item.spawn_egg.entity.cypress:toilet.name=Place Toilet
+entity.cypress:toilet.name=Toilet
+
+item.spawn_egg.entity.cypress:tv.name=Place TV
+entity.cypress:tv.name=TV
+
+item.spawn_egg.entity.cypress:coffee_table.name=Place Coffe Table
+entity.cypress:coffee_table.name=Coffe Table
+
+item.spawn_egg.entity.cypress:cupboard.name=Place Cupboard
+entity.cypress:cupboard.name=Cupboard
+
+item.spawn_egg.entity.cypress:garden_armchair.name=Place Garden Armchair
+entity.cypress:garden_armchair.name=Garden Armchair
+
+item.spawn_egg.entity.cypress:garden_table.name=Place Garden Table
+entity.cypress:garden_table.name=Garden Table
+
+item.spawn_egg.entity.cypress:garden_sofa.name=Place Garden Sofa
+entity.cypress:garden_sofa.name=Garden Sofa
+
+item.spawn_egg.entity.cypress:lamp.name=Place Lamp
+entity.cypress:lamp.name=Lamp
+
+item.spawn_egg.entity.cypress:sunbed.name=Place Sun Bed
+entity.cypress:sunbed.name=Sun Bed
+
+item.spawn_egg.entity.cypress:car1.name=Place Car One
+entity.cypress:car1.name=Car One
+
+item.spawn_egg.entity.cypress:car2.name=Place Car Two
+entity.cypress:car2.name=Car Two
+
+item.spawn_egg.entity.cypress:heli.name=Place Helicopter
+entity.cypress:heli.name=Helicopter
+
+
+action.hint.exit.cypress:sunbed=Tip: §7Crouch to dismount
+action.hint.exit.cypress:toilet=Tip: §7Crouch to dismount
+action.hint.exit.cypress:pc5=Tip: §7Crouch to dismount
+action.hint.exit.cypress:sofa=Tip: §7Crouch to dismount
+action.hint.exit.cypress:garden_sofa=Tip: §7Crouch to dismount
+action.hint.exit.cypress:chair1=Tip: §7Crouch to dismount
+action.hint.exit.cypress:chair2=Tip: §7Crouch to dismount
+action.hint.exit.cypress:chair3=Tip: §7Crouch to dismount
+action.hint.exit.cypress:armchair=Tip: §7Crouch to dismount
+action.hint.exit.cypress:bed1=Tip: §7Crouch to dismount
+action.hint.exit.cypress:car1=Tip: §7Crouch to dismount
+action.hint.exit.cypress:car2=Tip: §7Crouch to dismount
+action.hint.exit.cypress:heli=Tip: §7Crouch to dismount

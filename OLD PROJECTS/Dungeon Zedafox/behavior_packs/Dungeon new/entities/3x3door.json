@@ -1,0 +1,83 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:3x3door",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"door"
+				]
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 2.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"door1": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"door2": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			}
+		},
+		"events": {
+			"skin1": {
+				"add": {
+					"component_groups": [
+						"door1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"door2"
+					]
+				}
+			},
+			"skin2": {
+				"add": {
+					"component_groups": [
+						"door2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"door1"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+entity.nitric:hoverbike.name=Hoverbike
+item.spawn_egg.entity.nitric:hoverbike.name=Spawn Hoverbike
+
+entity.nitric:hoverbike_2.name=Hoverbike
+item.spawn_egg.entity.nitric:hoverbike_2.name=Spawn Hoverbike
+
+item.nitric:big_cannon.name=Big Cannon
+item.nitric:dagger.name=Dagger
+item.nitric:great_sword.name=Great Sword
+item.nitric:laser_gun.name=Laser Gun
+item.nitric:mini_gun_cannon.name=Mini Gun Cannon
+item.nitric:sword_blaster.name=Sword Blaster
+item.nitric:futuristic_armor.name=Futuristic Armor
+
+action.hint.exit.nitric:hoverbike_2=Exit the hoverbike
+action.hint.exit.nitric:hoverbike=Exit the hoverbike
+
+action.hint.enter.nitric:hoverbike_2=Enter the hoverbike
+action.hint.enter.nitric:hoverbike=Enter the hoverbike

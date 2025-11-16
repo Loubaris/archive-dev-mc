@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:cyclone",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/cyclone/color1"
+			},
+			"geometry": {
+				"default": "geometry.cyclone"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "cyclone",
+				"texture_index": 0
+			}
+		}
+	}
+}

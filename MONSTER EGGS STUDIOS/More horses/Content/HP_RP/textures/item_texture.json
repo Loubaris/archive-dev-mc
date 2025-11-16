@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "More Horses",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "mes_mrhrs_guide_book": {
+			"textures": "textures/mes/mrhrs/items/guide_book.png"
+		},
+     "mes_mrhrs_claw": {
+			"textures": "textures/mes/mrhrs/items/claw.png"
+		}
+  }
+}

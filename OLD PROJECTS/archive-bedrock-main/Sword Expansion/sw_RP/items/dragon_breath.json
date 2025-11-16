@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:dragon_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "dragon_sword",
+   "minecraft:render_offsets": "dragon_sword"
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"sw:dragon_armor",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "dragon_armor"
+    }
+    
+  }
+}

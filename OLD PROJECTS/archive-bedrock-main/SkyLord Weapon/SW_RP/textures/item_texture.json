@@ -1,0 +1,82 @@
+{
+  "resource_pack_name": "Ninja",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "magic_wand": {
+        "textures": "textures/items/magic_wand"
+       },
+     "tnt_wand": {
+        "textures": "textures/items/tnt_wand"
+       },
+     "inferno_wand": {
+        "textures": "textures/items/inferno_wand"
+       },
+     "legendary_hammer": {
+        "textures": "textures/items/legendary_hammer"
+       },
+     "legendary_sword": {
+        "textures": "textures/items/legendary_sword"
+       },
+     "sw_axe": {
+        "textures": "textures/items/sw_axe"
+       },
+     "sw_gold_axe": {
+        "textures": "textures/items/sw_gold_axe"
+       },
+     "sw_stone_axe": {
+        "textures": "textures/items/sw_stone_axe"
+       },
+     "sw_obsidian_axe": {
+        "textures": "textures/items/sw_obsidian_axe"
+       },
+     "obsidian_hammer": {
+        "textures": "textures/items/obsidian_hammer"
+       },
+     "stone_hammer": {
+        "textures": "textures/items/stone_hammer"
+       },
+     "gold_hammer": {
+        "textures": "textures/items/gold_hammer"
+       },
+     "hammer": {
+        "textures": "textures/items/hammer"
+       },
+     "obsidian_spear": {
+        "textures": "textures/items/obsidian_spear"
+       },
+     "gold_spear": {
+        "textures": "textures/items/gold_spear"
+       },
+     "spear": {
+        "textures": "textures/items/spear"
+       },
+     "stone_spear": {
+        "textures": "textures/items/stone_spear"
+       },
+     "sw_obsidian_sword": {
+        "textures": "textures/items/obsidian_sword"
+       },
+     "sw_gold_sword": {
+        "textures": "textures/items/sw_gold_sword"
+       },
+     "sw_stone_sword": {
+        "textures": "textures/items/sw_stone_sword"
+       },
+     "sw_sword": {
+        "textures": "textures/items/sword"
+       },
+     "health_staff": {
+        "textures": "textures/items/health_staff"
+       },
+     "safe_staff": {
+        "textures": "textures/items/safe_staff"
+       },
+     "strength_staff": {
+        "textures": "textures/items/strength_staff"
+       },
+     "shield": {
+        "textures": "textures/items/shield"
+       }
+
+  }
+}

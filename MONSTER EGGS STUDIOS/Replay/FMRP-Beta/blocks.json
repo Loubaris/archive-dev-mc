@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.40",
+    "mes_cnm:chroma_green": {
+        "textures": "mes_chroma_green",
+        "sound": "cloth"
+    },
+    "mes_cnm:chroma_blue": {
+        "textures": "mes_chroma_blue",
+        "sound": "cloth"
+    },
+    "mes_cnm:chroma_red": {
+        "textures": "mes_chroma_red",
+        "sound": "cloth"
+    },
+    "mes_cnm:chroma_magenta": {
+        "textures": "mes_chroma_magenta",
+        "sound": "cloth"
+    },
+    "mes_cnm:chroma_yellow": {
+        "textures": "mes_chroma_yellow",
+        "sound": "cloth"
+    },
+    "mes_cnm:chroma_white": {
+        "textures": "mes_chroma_white",
+        "sound": "cloth"
+    },
+    "mes_cnm:chroma_black": {
+        "textures": "mes_chroma_black",
+        "sound": "cloth"
+    }
+}

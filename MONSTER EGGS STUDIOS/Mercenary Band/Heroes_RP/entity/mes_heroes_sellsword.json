@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:sellsword",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "farmer": "textures/mes/heroes/entity/sellsword/blue",
+                "librarian": "textures/mes/heroes/entity/sellsword/fiery",
+                "priest": "textures/mes/heroes/entity/sellsword/luxury",
+                "smith": "textures/mes/heroes/entity/sellsword/red",
+                "butcher": "textures/mes/heroes/entity/sellsword/blue"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.sellsword"
+            },
+            "scripts": {
+                "animate": [
+                    "move_custom"
+                ]
+            },
+            "animations": {
+                "idle": "animation.mes_heroes.sellsword.idle",
+                "walk": "animation.mes_heroes.sellsword.walk",
+                "run": "animation.mes_heroes.sellsword.run",
+                "move_custom": "controller.animation.mes_heroes.move"
+            },
+            "spawn_egg": {
+                "texture": "mes_heroes_sellsword_spawn_egg"
+            },
+            "render_controllers": [
+                "controller.render.villager"
+            ]
+        }
+    }
+}

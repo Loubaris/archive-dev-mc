@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:beastwolf",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "farmer": "textures/mes/heroes/entity/beastwolf/default",
+                "librarian": "textures/mes/heroes/entity/beastwolf/dark",
+                "priest": "textures/mes/heroes/entity/beastwolf/arctic",
+                "smith": "textures/mes/heroes/entity/beastwolf/nature",
+                "butcher": "textures/mes/heroes/entity/beastwolf/default"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.beastwolf"
+            },
+            "scripts": {
+                "animate": [
+                    "move_attack"
+                ]
+            },
+            "animations": {
+                "idle": "animation.mes_heroes.beastwolf.idle",
+                "walk": "animation.mes_heroes.beastwolf.walk",
+                "attack": "animation.mes_heroes.beastwolf.attack",
+                "move_attack": "controller.animation.mes_heroes.move_attack"
+            },
+            "spawn_egg": {
+                "base_color": "#544f4f",
+                "overlay_color": "#deff7d"
+            },
+            "render_controllers": [
+                "controller.render.villager"
+            ]
+        }
+    }
+}

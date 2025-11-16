@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:boulder_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "boulder_sword",
+   "minecraft:render_offsets": "boulder_sword"
+  }
+ }
+}

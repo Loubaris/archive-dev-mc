@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"geometry.golem_glove": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 1.5,
+		"visible_bounds_offset": [0, 0.25, 0],
+		"bones": [
+			{
+				"name": "root",
+				"pivot": [0, -3, 0],
+				"cubes": [
+					{"origin": [-10, -4, -4], "size": [3, 8, 2], "uv": [27, 13]},
+					{"origin": [-9, -3, -4], "size": [6, 6, 8], "uv": [0, 0]},
+					{"origin": [-11, -3, -5], "size": [7, 3, 3], "uv": [21, 0]},
+					{"origin": [-10, -4, 2], "size": [3, 8, 2], "uv": [0, 28]},
+					{"origin": [-10, -4, -1], "size": [3, 8, 2], "uv": [25, 26]},
+					{"origin": [-3, -3, -3], "size": [7, 6, 6], "uv": [0, 15]}
+				]
+			}
+		]
+	}
+}

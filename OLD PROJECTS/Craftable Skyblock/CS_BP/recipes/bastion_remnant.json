@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:bastion_remnant_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "YXY",
+      "ZHZ",
+      "ZZZ"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:magma"
+      },
+      "H": {
+     	"item": "cs:nether_fortress_spawn_egg" 
+      },
+      "Y": {
+     	"item": "minecraft:polished_blackstone_brick_stairs"
+      },
+      "Z": {
+        "item": "minecraft:basalt"
+      }
+    },
+    "result": {
+      "item": "cs:bastion_remnant_spawn_egg"
+    }
+  }
+}

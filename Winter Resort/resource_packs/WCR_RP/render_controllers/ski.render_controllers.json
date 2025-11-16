@@ -1,0 +1,15 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.ski": {
+			"arrays": {
+				"textures": {
+				"Array.skins": [ "Texture.color1", "Texture.color2", "Texture.color3", "Texture.color4", "Texture.color5", "Texture.color6", "Texture.color7" ]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [ { "*": "Material.default" } ],
+			"textures": [ "Array.skins[query.variant]" ]
+		}
+	}
+}

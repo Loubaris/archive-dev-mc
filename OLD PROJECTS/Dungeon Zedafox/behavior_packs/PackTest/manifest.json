@@ -1,0 +1,19 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "By Zedafox",
+        "name": "Pack Test 1.4",
+        "uuid": "22aab7c7-ea9f-11e6-b006-92361f102111",
+        "min_engine_version": [ 1,8,0 ],
+        "version": [0, 0, 2]
+    },
+    "mi_engine_version": [ 1,8,0 ],
+    "modules": [
+        {
+            "description": "By Zedafox",
+            "type": "data",
+            "uuid": "22aab8c8-ea9f-11e6-b006-92361f102111",
+            "version": [0, 0, 2]
+        }
+    ]
+}

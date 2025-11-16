@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"4ks_ring:ender_ring",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "4ks_ring_ender_ring"
+    }
+    
+  }
+}

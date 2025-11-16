@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:raxly_bubble",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/raxly_bubble"
+			},
+			"geometry": {
+				"default": "geometry.raxly_bubble"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"raxly_bubble": "animation.wave.raxly_bubble"
+			},
+			"animation_controllers": [
+				{
+					"raxly_bubble": "controller.animation.raxly_bubble"
+				}
+			]
+		}
+	}
+}

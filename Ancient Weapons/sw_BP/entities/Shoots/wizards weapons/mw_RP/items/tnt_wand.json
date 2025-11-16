@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mw:tnt_wand",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "tnt_wand",
+   "minecraft:render_offsets": "tnt_wand"
+  }
+ }
+}

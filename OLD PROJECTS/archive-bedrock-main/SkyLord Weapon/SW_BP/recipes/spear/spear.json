@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:spear"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "ZZZ",
+      "ZGZ"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:iron_sword"
+      },
+      "Z": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "sw:spear"
+    }
+  }
+}

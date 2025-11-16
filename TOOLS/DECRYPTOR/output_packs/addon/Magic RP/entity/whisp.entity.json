@@ -1,0 +1,39 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"cyd_mgspl:whisp",
+         "materials":{
+            "default":"zombie",
+			"outline":"cyd_mgspl_outline"
+         },
+         "textures":{
+            "default":"textures/cyd/mgspl/entity/whisp"
+         },
+         "geometry":{
+            "default":"geometry.cyd_mgspl.whisp"
+         },
+		 "particle_effects": {
+			"whisp_sparks": "cyd_mgspl:whisp_sparks",
+			"whisp_glow": "cyd_mgspl:whisp_glow"
+		 },
+         "animations":{
+            "idle":"animation.cyd_mgspl.whisp.idle",
+			"particle": "animation.cyd_mgspl.whisp.particle"
+         },
+         "scripts":{
+            "animate":[
+			   "idle",
+			   "particle" 
+            ]
+         },
+         "render_controllers":[
+            "controller.render.cyd_mgspl.whisp"
+         ],
+         "spawn_egg":{
+            "base_color":"#c7c2b5",
+            "overlay_color":"#524f49"
+         }
+      }
+   }
+}

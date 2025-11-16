@@ -1,0 +1,4 @@
+gamerule commandblockoutput false
+gamerule sendcommandfeedback false
+
+scoreboard objectives add spawntime dummy

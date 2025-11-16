@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "mm:mob_head",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/mob_mask"
+			},
+			"geometry": {
+				"default": "geometry.mob_mask_angry"
+			},
+			"scripts": {
+				"animate": [
+					"third_person"
+				]
+			},
+			"animations": {
+				"third_person": "animation.mob_mask_angry.third_person"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"mm:mob_head": "(1.0)"
+			}
+		}
+	}
+}

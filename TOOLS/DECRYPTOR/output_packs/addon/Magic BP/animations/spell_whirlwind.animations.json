@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cyd_mgspl.whirlwind_timeline": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.whirlwind_loop @a[r=20]"],
+		"1.0": ["/event entity @s evt:attack"],
+		"1.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"2.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"3.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"4.0": ["/playsound cyd_mgspl.whirlwind_loop @a[r=20]"],
+		"4.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"5.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"6.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"7.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"8.0": ["/playsound cyd_mgspl.whirlwind_loop @a[r=20]"],
+		"8.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"9.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"10.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"11.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"12.0": ["/playsound cyd_mgspl.whirlwind_loop @a[r=20]"],
+		"12.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"13.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"14.1": ["/scriptevent cyd_mgspl:whirlwind impact"],
+		"15.1": ["/scriptevent cyd_mgspl:whirlwind impact"]
+      },
+      "animation_length": 16
+    }
+  }
+}

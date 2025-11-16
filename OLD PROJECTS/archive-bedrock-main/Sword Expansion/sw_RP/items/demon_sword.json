@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:demon_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "demon_sword",
+   "minecraft:render_offsets": "demon_sword"
+  }
+ }
+}

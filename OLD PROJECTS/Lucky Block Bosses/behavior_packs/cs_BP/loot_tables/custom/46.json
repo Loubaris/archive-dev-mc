@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dirt",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": "cake"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cake",
+                    "functions": []
+                }
+            ]
+        }
+    ]
+}

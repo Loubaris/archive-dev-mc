@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.robot.run": {
+			"loop": true,
+			"animation_length": 0.28,
+			"bones": {
+				"wheel0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.28": [360, 0, 0]
+					}
+				},
+				"wheel1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.28": [360, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

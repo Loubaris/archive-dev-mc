@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:levitation"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      " # ",
+      "AS "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:book"
+      },
+      "S": {
+        "item": "minecraft:feather"
+      },
+      "X": {
+        "item": "minecraft:gold_ingot"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:levitation",
+      "count": 1
+    }
+  }
+}

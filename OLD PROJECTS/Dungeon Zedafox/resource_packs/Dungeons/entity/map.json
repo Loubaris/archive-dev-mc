@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:map",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/map/map0",
+				"map1": "textures/entity/map/map1",
+				"map2": "textures/entity/map/map2",
+				"map3": "textures/entity/map/map3",
+				"map4": "textures/entity/map/map4"
+			},
+			"geometry": {
+				"default": "geometry.map"
+			},
+			"render_controllers": [
+				"controller.render.maps"
+			],
+			"animations": {
+				"map2": "animation.wave.map2"
+			},
+			"animation_controllers": [
+				{
+					"map2": "controller.animation.map2"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Particles by Zedafox v1.5",
+        "name": "MyParticles",
+        "uuid": "66c6e9a8-3093-463a-9c36-dbb043227434",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 2, 6]
+    },
+    "modules": [
+        {
+            "description": "Particles by Zedafox v1.2",
+            "type": "resources",
+            "uuid": "743f6949-53be-44b6-b336-398467615467",
+            "version": [0, 0, 1]
+        }
+    ]
+}

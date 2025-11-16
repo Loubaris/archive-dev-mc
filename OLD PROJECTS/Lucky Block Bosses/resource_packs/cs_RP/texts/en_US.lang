@@ -1,0 +1,25 @@
+pack.name=Lucky Block Bosses Resource Pack
+pack.description=Resource Pack for Lucky Block Bosses
+tile.cs:lucky_block.name=Lucky Block
+item.cs:autobridger.name=Auto Bridger
+
+item.spawn_egg.entity.cs:boar.name=Boar
+entity.cs:boar.name=Boar
+item.spawn_egg.entity.cs:dragon.name=Dragon
+entity.cs:dragon.name=Dragon
+item.spawn_egg.entity.cs:fire_lizard.name=Lizard
+entity.cs:fire_lizard.name=Fire Lizard
+item.spawn_egg.entity.cs:gargouille_monster.name=Gargouille
+entity.cs:gargouille_monster.name=Gargouille
+item.spawn_egg.entity.cs:mage.name=Mage
+entity.cs:mage_monster.name=Mage
+item.spawn_egg.entity.cs:mummy.name=Mummy
+entity.cs:mummy.name=Mummy
+item.spawn_egg.entity.cs:piranha_monster.name=Piranha
+entity.cs:piranha_monster.name=Piranha 
+item.spawn_egg.entity.cs:prof_yug.name=Prof Yug
+entity.cs:prof_yug.name=Prof Yug
+item.spawn_egg.entity.cs:sand_monster.name=Colors Monster
+entity.cs:sand_monster.name=Colors
+item.spawn_egg.entity.cs:zombie_giant.name=Giant Zombie
+entity.cs:giant_zombie.name=Giant Zombie

@@ -1,0 +1,36 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "zedafox:ice_cube",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphablend" 
+            },
+         "textures": { 
+            "default": "textures/entity/ice_cube"
+            }, 
+         "geometry": { 
+            "default": "geometry.ice_cube" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "ice_cube" : "animation.wave.ice_cube"
+              },
+         "animation_controllers" : [
+              {
+              "ice_cube" : "controller.animation.ice_cube"
+              } 
+         ] 
+       
+       
+       
+       
+         }
+      }
+}

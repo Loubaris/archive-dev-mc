@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:sw_obsidian_axe"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "GZZ",
+      "GUZ",
+      "UGG"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:stick"
+      },
+      "Z": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "sw:sw_obsidian_axe"
+    }
+  }
+}

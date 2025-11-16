@@ -1,0 +1,52 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "zedafox:cart",
+			"register_to_creative_menu": true,
+			        "properties": {
+          "minecraft:direction": {
+          }
+        }
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cart",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:on_interact": {
+			"event": "test_event"
+			},
+			"minecraft:geometry": "geometry.cart",
+				"minecraft:entity_collision": {
+					"origin": [-8,0,-8],
+					"size": [16,9,16]
+          },
+			"minecraft:pick_collision": {
+				"origin": [-8,0,-8],
+				"size": [16,9,16]
+          },
+			"minecraft:loot": "loot_tables/chests/persona.json",
+			"minecraft:destroy_time": 3.0,
+			"minecraft:friction": 0.6,
+			"minecraft:map_color": "#00ff00",
+			"minecraft:flammable": {
+				"flame_odds": 50,
+				"burn_odds": 0
+			},
+			"minecraft:block_light_emission": 0.0,
+			"minecraft:block_light_absorption": 0
+		},
+		      "events": {
+        "test_event": {
+            "run_command": {
+              "command": [ 
+                "function block/test"
+             ]
+            }
+        }
+      }
+	}
+}

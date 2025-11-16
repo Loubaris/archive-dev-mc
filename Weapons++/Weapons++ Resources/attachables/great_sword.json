@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "nitric:great_sword",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/great_sword"
+			},
+			"geometry": {
+				"default": "geometry.great_sword"
+			},
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.great_sword.first_person",
+				"third_person": "animation.great_sword.third_person",
+				"using_item": "animation.great_sword.using_item"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"item": {
+				"nitric:great_sword": "(1.0)"
+			}
+		}
+	}
+}

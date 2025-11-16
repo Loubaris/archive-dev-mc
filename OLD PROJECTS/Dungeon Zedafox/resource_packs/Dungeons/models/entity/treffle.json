@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"geometry.treffle": {
+		"texturewidth": 128,
+		"textureheight": 128,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 3, 1],
+				"rotation": [-10, 90, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-5, -2.95442, -10.47906], "size": [10, 4, 12], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "body2",
+				"pivot": [0, 3, 1],
+				"rotation": [-10, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-5, -2.95442, -10.47906], "size": [10, 4, 12], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "body3",
+				"pivot": [0, 3, 1],
+				"rotation": [-10, 180, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-5, -2.95442, -10.47906], "size": [10, 4, 12], "uv": [0, 0], "mirror": false}
+				]
+			},
+			{
+				"name": "body4",
+				"pivot": [0, 3, 1],
+				"rotation": [-10, -90, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-5, -2.95442, -10.47906], "size": [10, 4, 12], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

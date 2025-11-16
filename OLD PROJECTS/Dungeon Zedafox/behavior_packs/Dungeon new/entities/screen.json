@@ -1,0 +1,389 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:screen",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"screen"
+				]
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"screen0": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"screen1": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"screen2": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"screen3": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"screen4": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			},
+			"screen5": {
+				"minecraft:variant": {
+					"value": 5
+				}
+			},
+			"screen6": {
+				"minecraft:variant": {
+					"value": 6
+				}
+			},
+			"screen7": {
+				"minecraft:variant": {
+					"value": 7
+				}
+			},
+			"screen8": {
+				"minecraft:variant": {
+					"value": 8
+				}
+			},
+			"screen9": {
+				"minecraft:variant": {
+					"value": 9
+				}
+			},
+			"screen10": {
+				"minecraft:variant": {
+					"value": 10
+				}
+			},
+			"screen11": {
+				"minecraft:variant": {
+					"value": 11
+				}
+			},
+			"screen12": {
+				"minecraft:variant": {
+					"value": 12
+				}
+			},
+			"screen13": {
+				"minecraft:variant": {
+					"value": 13
+				}
+			},
+			"screen14": {
+				"minecraft:variant": {
+					"value": 14
+				}
+			},
+			"screen15": {
+				"minecraft:variant": {
+					"value": 15
+				}
+			},
+			"screen16": {
+				"minecraft:variant": {
+					"value": 16
+				}
+			},
+			"screen17": {
+				"minecraft:variant": {
+					"value": 17
+				}
+			},
+			"screen18": {
+				"minecraft:variant": {
+					"value": 18
+				}
+			},
+			"screen19": {
+				"minecraft:variant": {
+					"value": 19
+				}
+			}
+		},
+		"events": {
+			"skin0": {
+				"add": {
+					"component_groups": [
+						"screen0"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen4"
+					]
+				}
+			},
+			"skin1": {
+				"add": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen0"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen4"
+					]
+				}
+			},
+			"skin2": {
+				"add": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen0"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen4"
+					]
+				}
+			},
+			"skin3": {
+				"add": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen0"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen4"
+					]
+				}
+			},
+			"skin4": {
+				"add": {
+					"component_groups": [
+						"screen4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen3"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"screen0"
+					]
+				}
+			},
+			"skin5": {
+				"add": {
+					"component_groups": [
+						"screen5"
+					]
+				}
+			},
+			"skin6": {
+				"add": {
+					"component_groups": [
+						"screen6"
+					]
+				}
+			},
+			"skin7": {
+				"add": {
+					"component_groups": [
+						"screen7"
+					]
+				}
+			},
+			"skin8": {
+				"add": {
+					"component_groups": [
+						"screen8"
+					]
+				}
+			},
+			"skin9": {
+				"add": {
+					"component_groups": [
+						"screen9"
+					]
+				}
+			},
+			"skin10": {
+				"add": {
+					"component_groups": [
+						"screen10"
+					]
+				}
+			},
+			"skin11": {
+				"add": {
+					"component_groups": [
+						"screen11"
+					]
+				}
+			},
+			"skin12": {
+				"add": {
+					"component_groups": [
+						"screen12"
+					]
+				}
+			},
+			"skin13": {
+				"add": {
+					"component_groups": [
+						"screen13"
+					]
+				}
+			},
+			"skin14": {
+				"add": {
+					"component_groups": [
+						"screen14"
+					]
+				}
+			},
+			"skin15": {
+				"add": {
+					"component_groups": [
+						"screen15"
+					]
+				}
+			},
+			"skin16": {
+				"add": {
+					"component_groups": [
+						"screen16"
+					]
+				}
+			},
+			"skin17": {
+				"add": {
+					"component_groups": [
+						"screen17"
+					]
+				}
+			},
+			"skin18": {
+				"add": {
+					"component_groups": [
+						"screen18"
+					]
+				}
+			},
+			"skin19": {
+				"add": {
+					"component_groups": [
+						"screen19"
+					]
+				}
+			}
+		}
+	}
+}

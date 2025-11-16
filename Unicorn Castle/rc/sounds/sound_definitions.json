@@ -1,0 +1,66 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "sound.tutorial": {
+      "category": "natural",
+      "min_distance": 500.0,
+      "sounds": ["sounds/tutorial"]
+    },
+    "nitric.unicorn_run": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Unicorn_Run",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.unicorn_fly": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Unicorn_Fly",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.unicorn_spawn": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Unicorn_Spawn",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.unicorn_nay": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Unicorn_Nay",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.unicorn_idle": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/Unicorn_Idle",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	}
+    }
+  }
+}

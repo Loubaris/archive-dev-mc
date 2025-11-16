@@ -1,0 +1,26 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:flowerpot",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/furniture/flowerpot/1",
+                "color2": "textures/furniture/flowerpot/2",
+                "color3": "textures/furniture/flowerpot/3"
+            },
+            "geometry": {
+                "default": "geometry.flowerpot"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "flowerpot",
+				"texture_index": 0
+            }
+        }
+    }
+}

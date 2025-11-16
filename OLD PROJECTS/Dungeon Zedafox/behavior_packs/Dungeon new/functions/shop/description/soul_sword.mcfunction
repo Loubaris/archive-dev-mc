@@ -1,0 +1,1 @@
+tellraw @p[x=375,y=104,z=471] {"rawtext":[{"text":"§9----[ Soul Sword ]----\n§7Has a 1 in 3 chance to spawn a soul when hitting.\n§9-------------------"}]}

@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:laser_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "laser_sword",
+   "minecraft:render_offsets": "laser_sword"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bridge_gondola_up.execute_commands": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"execute_command_id_1": "query.skin_id == 1"
+						}
+					]
+				},
+				"execute_command_id_1": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 1"
+						}
+					],
+					"on_entry": [
+						"/effect @p[r=10] blindness 2 1 true",
+						"/execute @p[r=10] ~ ~ ~ teleport @e[type=nitric:cablecar_middledown]",
+						"@s bridge:remove_command_id_1"
+					]
+				}
+			}
+		}
+	}
+}

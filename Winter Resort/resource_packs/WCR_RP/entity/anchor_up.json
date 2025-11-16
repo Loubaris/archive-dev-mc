@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:anchor_up",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/skianchor/color1"
+			},
+			"geometry": {
+				"default": "geometry.skianchor"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "skianchor",
+				"texture_index": 0
+			}
+		}
+	}
+}

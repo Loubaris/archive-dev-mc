@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:explosion_n_startwo"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "HYH",
+      "Y#Y",
+      "HYH"
+    ],
+    "key": {
+      "#": {
+        "item": "ninja:n_star"
+      },
+      "Y": {
+        "item": "minecraft:tnt"
+      },
+      "H": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "result": {
+      "item": "ninja:explosion_n_startwo",
+      "count": 4
+    }
+  }
+}

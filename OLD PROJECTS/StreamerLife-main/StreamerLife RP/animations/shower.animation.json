@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.shower.open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 10000,
+			"bones": {
+				"bone2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 14]
+					}
+				},
+				"bone3": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-14, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.shower.close": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 10000,
+			"bones": {
+				"bone2": {
+					"position": {
+						"0.0": [0, 0, 14],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"bone3": {
+					"position": {
+						"0.0": [-14, 0, 0],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

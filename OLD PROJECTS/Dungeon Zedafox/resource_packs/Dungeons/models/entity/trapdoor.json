@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"geometry.trapdoor": {
+		"texturewidth": 128,
+		"textureheight": 128,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [2, 3, -1],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-11, 0, -11], "size": [22, 2, 3], "uv": [0, 40], "mirror": false},
+					{"origin": [-11, 0, 8], "size": [22, 2, 3], "uv": [22, 17], "mirror": false},
+					{"origin": [8, 0, -8], "size": [3, 2, 16], "uv": [22, 22], "mirror": false},
+					{"origin": [-11, 0, -8], "size": [3, 2, 16], "uv": [0, 17], "mirror": false}
+				]
+			},
+			{
+				"name": "bone",
+				"pivot": [0, 0, -8],
+				"cubes": [
+					{"origin": [-8, 0.5, -8], "size": [16, 1, 16], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

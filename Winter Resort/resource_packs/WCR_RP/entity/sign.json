@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:sign",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/sign/color1"
+			},
+			"geometry": {
+				"default": "geometry.sign"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "sign",
+				"texture_index": 0
+			}
+		}
+	}
+}

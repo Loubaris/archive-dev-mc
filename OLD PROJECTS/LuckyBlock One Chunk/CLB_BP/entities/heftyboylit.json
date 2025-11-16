@@ -1,0 +1,27 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "tnt:heftyboylit",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts":{"animate":["fuse","siren"]},
+      "animations":{"fuse":"controller.animation.fuse","siren":"controller.animation.siren"}
+    },
+    "components": {
+      "minecraft:explode": {
+        "fuse_length": 10,
+        "fuse_lit": true,
+        "power": 25,
+        "causes_fire": true
+      },
+      "minecraft:health": {
+        "value": 999,
+        "max": 999
+      },
+      "minecraft:physics": {
+      }
+    }
+  }
+}

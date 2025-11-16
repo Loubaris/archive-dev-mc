@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.laser": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"clickitem": "(query.is_using_item) && (query.get_equipped_item_name == 'laser')"
+						}
+					]
+				},
+				"clickitem": {
+					"on_entry": [
+						"/function laser/laser3"
+					],
+					"transitions": [
+						{
+							"default": "(!query.is_using_item) || (query.get_equipped_item_name != 'laser')"
+						}
+					]
+				}
+			}
+		}
+	}
+}

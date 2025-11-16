@@ -1,0 +1,112 @@
+{
+   "format_version":"1.20.60",
+   "minecraft:entity":{
+      "description":{
+         "identifier":"cyd_mgspl:projectile_gravity_vortex",
+         "is_spawnable":false,
+         "is_summonable":true,
+         "is_experimental":false,
+         "animations":{
+            "on_impact":"animation.cyd_mgspl.gravity_vortex.on_impact",
+			"launch": "animation.cyd_mgspl.gravity_vortex.launch"
+         },
+         "scripts":{
+            "animate":[
+               {"on_impact":"query.is_sheared"},
+			   "launch"
+            ]
+         }
+      },
+      "component_groups":{
+         "cyd_mgspl:despawn": {
+			"minecraft:instant_despawn": {}
+		 },
+		 "cyd_mgspl:explode":{
+            "minecraft:is_sheared":{}
+         },
+         "cyd_mgspl:timedown":{
+            "minecraft:timer":{
+               "time":6,
+               "looping":false,
+               "time_down_event":{
+                  "event":"evt:expire",
+                  "target":"self"
+               }
+            }
+         },
+		 "cyd_mgspl:projectile":{
+			"minecraft:projectile":{
+				"on_hit":{
+				   "definition_event":{
+					  "affect_projectile":true,
+					  "event_trigger":{
+						 "event":"evt:expire",
+						 "target":"self"
+					  }
+				   },
+				   "impact_damage":{
+					  "damage":0,
+					  "filter": "monster",
+					  "knockback":false,
+					  "semi_random_diff_damage":false
+				   }
+				},
+				"is_dangerous": false,
+				"power":1.5,
+				"gravity":0.0,
+				"uncertainty_base":0,
+				"uncertainty_multiplier":0,
+				"anchor":1,
+				"should_bounce":false,
+				"offset":[0,0,0]
+			}
+		 }
+      },
+      "components":{
+         "minecraft:type_family": {
+            "family": [
+               "projectile",
+               "gravity_vortex"
+            ]
+         },
+		 "minecraft:collision_box":{
+            "width":0.5,
+            "height":0.5
+         },
+         "minecraft:physics":{
+		  "has_collision": true
+		 },
+         "minecraft:pushable":{
+            "is_pushable":false,
+            "is_pushable_by_piston":false
+         },
+		 "minecraft:fire_immune": {}
+      },
+      "events":{
+         "minecraft:entity_spawned":{
+            "add":{
+               "component_groups":["cyd_mgspl:timedown","cyd_mgspl:projectile"]
+            }
+         },
+         "minecraft:entity_born":{
+            "add":{
+               "component_groups":["cyd_mgspl:timedown","cyd_mgspl:projectile"]
+            }
+         },
+         "evt:expire":{
+            "add":{
+               "component_groups":[
+                  "cyd_mgspl:explode"
+               ]
+            }
+         },
+		 "evt:despawn":{
+            "add":{
+               "component_groups":[
+                  "cyd_mgspl:despawn"
+               ]
+            }
+         }
+      }
+   }
+}

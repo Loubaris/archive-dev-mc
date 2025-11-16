@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.trade.move": {
+      "states": {
+        "default": {
+          "blend_transition": 0.2,
+          "animations": [
+            "move"
+          ],
+          "transitions": [
+            {
+              "default": "q.ground_speed <= 0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

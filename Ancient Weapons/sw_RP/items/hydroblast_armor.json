@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"sw:hydroblast_armor",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "hydroblast_armor"
+    }
+    
+  }
+}

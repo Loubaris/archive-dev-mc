@@ -1,0 +1,101 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nitric:flag",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"rotation"
+				]
+			},
+			"animations": {
+				"rotation": "controller.animation.furniture"
+			}
+		},
+		"component_groups": {
+			"nitric:color1": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"nitric:color2": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"nitric:color3": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"mob"
+				]
+			},
+			"minecraft:health": {
+				"value": 4,
+				"max": 4
+			},
+			"minecraft:navigation.walk": {},
+			"minecraft:movement.basic": {},
+			"minecraft:movement": {
+				"value": 0,
+				"max": 0
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100,
+				"max": 100
+			},
+			"minecraft:push_through": {
+				"value": 1.0
+			},
+			"minecraft:physics": {},
+			"minecraft:scale": {
+				"value": 3
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/nitric/flag.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 1
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color1"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color2"
+							]
+						}
+					},
+					{
+						"weight": 30,
+						"add": {
+							"component_groups": [
+								"nitric:color3"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

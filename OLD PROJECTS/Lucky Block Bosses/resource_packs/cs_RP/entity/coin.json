@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cs:coin",
+      "materials": { 
+         "default": "entity_alphatest" 
+      },
+      "textures": {
+        "default": "textures/entity/coin"
+      },
+      "geometry": {
+        "default": "geometry.coin"
+      },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "animations": {
+        "controller": "controller.animation.coin",
+        "idle": "animation.coin.spin"
+      },
+      "render_controllers": [ "controller.render.basic" ],
+      "spawn_egg": {
+        "base_color": "#a5adad",
+        "overlay_color": "#54545c"
+      }
+    }
+  }
+}

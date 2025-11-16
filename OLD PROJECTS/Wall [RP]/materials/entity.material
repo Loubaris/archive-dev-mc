@@ -1,0 +1,9 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "entity_alpha_depth:entity_alphatest": {
+      "depthFunc": "Always",
+      "depthBias": 1000000000
+    }
+  }
+}

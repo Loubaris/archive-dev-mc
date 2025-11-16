@@ -1,0 +1,20 @@
+﻿pack.name=Zombie outpost RP
+pack.description=RP Pack
+
+item.spawn_egg.entity.sw:normal.name=NPC
+item.spawn_egg.entity.sw:specials_trader.name=Specials Trader
+item.spawn_egg.entity.sw:weapons_trader.name=Weapons Trader
+item.spawn_egg.entity.sw:upgrades_trader.name=Upgrader
+item.spawn_egg.entity.sw:giant_zombie.name=Giant Zombie
+
+item.sw:fire_sword.name=Fire Sword
+item.sw:minecart_tnt.name=TNT Minecart
+item.sw:fireball.name=Fireball
+item.sw:freeze.name=Time Freeze
+item.sw:hopper.name=Items Hopper
+item.sw:invisibility.name=Invisibility
+item.sw:rocket.name=Rocket
+item.sw:campfire.name=Fire Trap
+item.sw:soul_campfire.name=Soul Trap
+item.sw:key.name=Invisible Key
+item.sw:key_open.name=Invisible Key

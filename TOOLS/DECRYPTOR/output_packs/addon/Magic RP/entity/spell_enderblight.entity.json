@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cyd_mgspl:spell_enderblight",
+	  "materials": {"default": "zombie"},
+	  "textures":  {"default": "textures/none"},
+      "geometry":  {"default": "geometry.cyd_mgspl.fireball_mesh"},
+      "render_controllers": [ "controller.render.zombie" ],
+	  
+	  "spawn_egg": {
+        "base_color": "#c7c2b5",
+        "overlay_color": "#524f49"
+      }
+    }
+  }
+}

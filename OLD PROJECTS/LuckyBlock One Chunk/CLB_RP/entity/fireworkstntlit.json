@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "tnt:fireworkstntlit",
+      "materials": {
+         "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/fireworkstnt"
+      },
+      "geometry": {
+        "default": "geometry.fireworkstnt"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "base_color": "#AFAFAF",
+        "overlay_color": "#4BFF43"
+      }
+    }
+  }
+}

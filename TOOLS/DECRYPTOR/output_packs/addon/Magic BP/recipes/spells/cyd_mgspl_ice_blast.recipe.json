@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cyd_mgspl:ice_blast"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " S ",
+      " X ",
+      "AX "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:snowball"
+      },
+      "X": {
+        "item": "minecraft:packed_ice"
+      },
+      "A": {
+        "item": "cyd_mgspl:manamote"
+      }
+    },
+    "unlock": [
+      {
+        "item": "cyd_mgspl:manamote"
+      }
+      ],
+    "result": {
+      "item": "cyd_mgspl:ice_blast",
+      "count": 1
+    }
+  }
+}

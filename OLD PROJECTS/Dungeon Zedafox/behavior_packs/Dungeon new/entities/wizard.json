@@ -1,0 +1,106 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:wizard",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"character", "wizard"
+				]
+			},
+			"minecraft:interact": [
+				{
+					"on_interact": {
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"event": "interact"
+					},
+					"interact_text": "Interact"
+				}
+			],
+			"minecraft:health": {
+				"value": 10,
+				"max": 10
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:scale": {
+				"value": 1.2
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"allowname": {
+				"minecraft:nameable": {
+					"always_show": true,
+					"allow_name_tag_renaming": true
+				}
+			},
+			"removename": {
+				"minecraft:nameable": {
+					"always_show": false,
+					"allow_name_tag_renaming": true
+				}
+			}
+		},
+		"events": {
+			"interact": {
+				"run_command": {
+					"command": [ 
+						"function chat"
+					]
+				}
+			},
+			"allowname": {
+				"add": {
+					"component_groups": [
+						"allowname"
+					]
+				}
+			},
+			"removename": {
+				"add": {
+					"component_groups": [
+						"removename"
+					]
+				}
+			}
+		}
+	}
+}

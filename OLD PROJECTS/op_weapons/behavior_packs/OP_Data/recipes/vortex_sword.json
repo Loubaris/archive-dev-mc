@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ninja:vortex_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZUZ",
+      "ZYZ",
+      "Z#Z"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:beacon"
+      },
+      "U": {
+        "item": "minecraft:ender_eye"
+      },
+      "Z": {
+        "item": "minecraft:crying_obsidian"
+      }
+    },
+    "result": {
+      "item": "ninja:vortex_sword"
+    }
+  }
+}

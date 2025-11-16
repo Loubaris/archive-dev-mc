@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mes_splbk:fire_book"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "/M/",
+            "BBM",
+            "BB/"
+        ],
+        "key": {
+            "/": {
+                "item": "minecraft:blaze_rod"
+            },
+            "M": {
+                "item": "minecraft:magma_cream"
+            },
+            "B": {
+                "item": "minecraft:book"
+            }
+        },
+        "result": {
+            "item": "mes_splbk:fire_book",
+            "count": 1
+        }
+    }
+}

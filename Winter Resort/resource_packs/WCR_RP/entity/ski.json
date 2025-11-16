@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:ski",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"color1": "textures/entity/ski/color1",
+				"color2": "textures/entity/ski/color2",
+				"color3": "textures/entity/ski/color3",
+				"color4": "textures/entity/ski/color4",
+				"color5": "textures/entity/ski/color5",
+				"color6": "textures/entity/ski/color6",
+				"color7": "textures/entity/ski/color7"
+			},
+			"geometry": {
+				"default": "geometry.ski"
+			},
+			"render_controllers": [
+				"controller.render.ski"
+			],
+			"spawn_egg": {
+				"texture": "ski",
+				"texture_index": 0
+			}
+		}
+	}
+}

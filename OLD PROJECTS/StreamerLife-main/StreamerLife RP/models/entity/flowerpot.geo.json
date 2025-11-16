@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.flowerpot",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -4], "size": [8, 8, 8], "uv": [0, 0]},
+						{"origin": [-8, 8, 0], "size": [16, 14, 0], "pivot": [0, 12.5, 0], "rotation": [0, -45, 0], "uv": [0, 16]},
+						{"origin": [-8, 8, 0], "size": [16, 14, 0], "pivot": [0, 14, 0], "rotation": [0, 45, 0], "uv": [0, 16]},
+						{"origin": [-4, 0, -4], "size": [8, 9, 1], "pivot": [0, 0, -4], "rotation": [5, 0, 0], "uv": [36, 30]},
+						{"origin": [3.37929, 0.36585, -4], "size": [1, 9, 8], "pivot": [0, 4.52645, 0], "rotation": [0, 0, 5], "uv": [18, 30]},
+						{"origin": [3.37929, 0.36585, -4], "size": [1, 9, 8], "pivot": [0, 4.52645, 0], "rotation": [180, 0, 175], "uv": [0, 30]},
+						{"origin": [-4, 0.02645, 3.3941], "size": [8, 9, 1], "pivot": [0, 4.52645, 3.8941], "rotation": [-175, 0, -180], "uv": [32, 0]}
+					]
+				}
+			]
+		}
+	]
+}

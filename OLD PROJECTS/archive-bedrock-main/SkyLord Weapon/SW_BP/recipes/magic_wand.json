@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:magic_wand"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZGZ",
+      "YYY",
+      "ZUZ"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:stick"
+      },
+      "Z": {
+        "item": "minecraft:gold_ingot"
+      },
+      "G": {
+        "item": "minecraft:diamond_block"
+      },
+      "Y": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "sw:magic_wand"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_splbk:icelance_shoot",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/mes/splbk/entity/icelance_shoot"
+            },
+            "geometry": {
+                "default": "geometry.mes_splbk.icelance_shoot"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+	}
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "cypress:car2",
+            "materials": {
+                "default": "cat"
+            },
+            "textures": {
+                "color1": "textures/vehicle/car2/1",
+                "color2": "textures/vehicle/car2/1",
+                "color3": "textures/vehicle/car2/1"
+            },
+            "scripts": {
+                "animate": [
+                    "general"
+                ]
+            },
+            "animations": {
+                "general": "controller.animation.vehicle.general",
+                "drive": "animation.car.drive"
+            },
+            "geometry": {
+                "default": "geometry.car2"
+            },
+            "render_controllers": [
+                "controller.render.three_color_furniture"
+            ],
+            "spawn_egg": {
+				"texture": "car2",
+				"texture_index": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:ignite_tripleshot_tnt",
+      "materials": {
+        "default": "tripleshot_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/tripleshot_tnt"
+      },
+      "geometry": {
+        "default": "geometry.tripleshot_tnt"
+      },
+      "render_controllers": [ "controller.render.tripleshot_tnt" ],
+      "spawn_egg": {
+        "base_color": "#919191"
+      }
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "nitric.music.flame_thrower": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/flame_thrower",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.garagedoor": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/garagedoor",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.buttonpress": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/buttonpress",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.notification": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/notification",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.sniper": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/sniper",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.executive_pistol": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/executive_pistol",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.freeze_rifle": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/freeze_rifle",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.big_pistol": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/big_pistol",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.automatic_laser_rifle": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/automatic_laser_rifle",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.heat_sinking_rifle": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/heat_sinking_rifle",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.pistol": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/pistol",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.dimensional_transporter": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/dimensional_transporter",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.flash_rifle": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/flash_rifle",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.music.mega_blaster": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/mega_blaster",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	}
+    }
+  }
+}

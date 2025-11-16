@@ -1,0 +1,71 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mes_heroes:rogue_campsite",
+            "is_spawnable": true,
+            "is_experimental": false,
+            "is_summonable": true
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "npc",
+                    "inac"
+                ]
+            },
+            "minecraft:damage_sensor": [
+                {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            ],
+            "minecraft:health": {
+                "value": 1,
+                "max": 1
+            },
+            "minecraft:pushable": {
+                "is_pushable": false
+            },
+            "minecraft:rideable": {
+                "seat_count": 0
+            },
+            "minecraft:collision_box": {
+                "width": 4.2,
+                "height": 1.5
+            },
+            "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:nameable": {
+                "alwaysShow": true,
+                "allowNameTagRenaming": true
+            },
+            "minecraft:physics": {
+                "has_gravity": true
+            },
+            "minecraft:push_through": {
+                "value": 1
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            }
+        },
+        "component_groups": {
+            "kill": {
+                "minecraft:health": {
+                    "value": -1
+                }
+            }
+        },
+        "events": {
+            "kill": {
+                "add": {
+                    "component_groups": [
+                        "kill"
+                    ]
+                }
+            }
+        }
+    }
+}

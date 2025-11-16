@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:cake",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/cake2"
+			},
+			"geometry": {
+				"default": "geometry.cake"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"cake": "animation.wave.cake"
+			},
+			"animation_controllers": [
+				{
+					"cake": "controller.animation.cake"
+				}
+			]
+		}
+	}
+}

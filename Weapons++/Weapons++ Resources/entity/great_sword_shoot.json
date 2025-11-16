@@ -1,0 +1,33 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "nitric:great_sword_shoot",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/great_sword_shoot"
+            }, 
+         "geometry": { 
+            "default": "geometry.great_sword_shoot" 
+            },
+	 "animations" : {
+              "great_sword_shoot" : "animation.great_sword_shoot.wave"
+              },
+         "animation_controllers" : [
+              {
+              "controller" : "controller.animation.great_sword_shoot"
+              } 
+         ],
+         "render_controllers": [ 
+              "controller.render.wave"
+              ]
+       
+         }
+      }
+}

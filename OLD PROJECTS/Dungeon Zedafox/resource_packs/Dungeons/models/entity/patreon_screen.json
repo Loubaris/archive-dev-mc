@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"geometry.patreon_screen": {
+		"texturewidth": 224,
+		"textureheight": 64,
+		"visible_bounds_width": 8,
+		"visible_bounds_height": 7,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 41, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-56, 0, 8], "size": [112, 64, 0], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

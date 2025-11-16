@@ -1,0 +1,23 @@
+pack.name=Mob Mask Resource Pack
+pack.description=Resource Pack for Mob Mask
+item.mm:mob_mask.name=Yuggy Mask
+
+
+
+action.hint.exit.axolotl=Tap jump to stop riding
+action.hint.exit.blaze=Tap jump to stop riding
+action.hint.exit.creeper=Tap jump to stop riding
+action.hint.exit.cow=Tap jump to stop riding
+action.hint.exit.piglin=Tap jump to stop riding
+action.hint.exit.pillager=Tap jump to stop riding
+action.hint.exit.rabbit=Tap jump to stop riding
+action.hint.exit.spider=Tap jump to stop riding
+action.hint.exit.snow_golem=Tap jump to stop riding
+action.hint.exit.wither=Tap jump to stop riding
+action.hint.exit.ravager=Tap jump to stop riding
+action.hint.exit.chicken=Tap jump to stop riding
+action.hint.exit.iron_golem=Tap jump to stop riding
+action.hint.exit.sheep=Tap jump to stop riding
+action.hint.exit.vindicator=Tap jump to stop riding
+action.hint.exit.dolphin=Tap jump to stop riding
+action.hint.exit.bat=Tap jump to stop riding

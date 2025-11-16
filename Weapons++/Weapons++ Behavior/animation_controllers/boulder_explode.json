@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.explode": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "stop": "query.is_on_ground"
+                        }
+                    ]
+                },
+                "stop": {
+                    "on_entry": [
+                        "/scoreboard players set @s bouldertime 48"
+                    ]
+                }
+            }
+        }
+    }
+}

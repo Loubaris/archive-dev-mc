@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier":"nitric:mini_gun_cannon",
+      
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "mini_gun_cannon"
+    }
+    
+  }
+}

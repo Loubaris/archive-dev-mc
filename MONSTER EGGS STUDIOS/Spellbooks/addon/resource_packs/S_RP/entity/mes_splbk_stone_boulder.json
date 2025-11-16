@@ -1,0 +1,33 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "mes_splbk:stone_boulder",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/mes/splbk/entity/stone_boulder"
+            }, 
+         "geometry": { 
+            "default": "geometry.mes_splbk.boulder_toss" 
+            },
+	 "animations" : {
+              "boulder" : "animation.mes_splbk.boulder.wave"
+              },
+         "animation_controllers" : [
+              {
+              "controller" : "controller.animation.mes_splbk.boulder"
+              } 
+         ],
+         "render_controllers": [ 
+              "controller.render.default"
+              ]
+       
+         }
+      }
+}

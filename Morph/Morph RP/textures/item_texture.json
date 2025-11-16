@@ -1,0 +1,51 @@
+{
+	"resource_pack_name": "Morph",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"default": {
+			"textures": "textures/items/steve"
+		},
+		"creeper": {
+			"textures": "textures/items/creeper"
+		},
+		"drowned": {
+			"textures": "textures/items/drowned"
+		},
+		"enderman": {
+			"textures": "textures/items/enderman"
+		},
+		"husk": {
+			"textures": "textures/items/husk"
+		},
+		"piglin": {
+			"textures": "textures/items/piglin"
+		},
+		"skeleton": {
+			"textures": "textures/items/skeleton"
+		},
+		"spider": {
+			"textures": "textures/items/spider"
+		},
+		"zoglin": {
+			"textures": "textures/items/zoglin"
+		},
+		"warden": {
+			"textures": "textures/items/Warden"
+		},
+		"witch": {
+			"textures": "textures/items/Witch"
+		},
+		"wither": {
+			"textures": "textures/items/Wither"
+		},
+		"wither_skeleton": {
+			"textures": "textures/items/wither_skeleton"
+		},
+		"zombie": {
+			"textures": "textures/items/zombie"
+		},
+		"zombie_villager": {
+			"textures": "textures/items/Zombie_Villager"
+		}
+	}
+}

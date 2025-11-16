@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.spot_light.spin": {
+			"loop": true,
+			"animation_length": 7,
+			"bones": {
+				"light": {
+					"rotation": {
+						"0.0": {
+							"post": [0, -15, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.48": {
+							"post": [0, 15, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.0": {
+							"post": [0, -15, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		}
+	}
+}

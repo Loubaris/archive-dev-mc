@@ -1,0 +1,26 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.hovercar_0" : {
+			"initial_state" : "default",
+			"states": {
+                "default": {
+                    "animations": [ "close" ],
+                    "transitions": [
+                        {
+                            "open": "query.skin_id == 0"
+                        }
+                    ]
+                },
+                "open": {
+                    "animations": [ "open" ],
+                    "transitions": [
+                        {
+                            "default": "query.skin_id == 1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

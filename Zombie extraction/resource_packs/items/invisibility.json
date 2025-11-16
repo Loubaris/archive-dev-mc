@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:invisibility",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "invisibility",
+   "minecraft:render_offsets": "invisibility"
+  }
+ }
+}

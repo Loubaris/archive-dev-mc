@@ -1,0 +1,29 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:ignite_tiny_tnt",
+      "materials": {
+        "default": "tiny_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/tiny_tnt"
+      },
+      "geometry": {
+        "default": "geometry.tiny_tnt"
+      },
+      "animations" : {
+        "potion" : "animation.wave.potion"
+      },
+      "animation_controllers" : [
+        {
+          "tylerhand" : "controller.animation.potion"
+        } 
+      ], 
+      "render_controllers": [ "controller.render.tiny_tnt" ],
+      "spawn_egg": {
+        "base_color": "#919191"
+      }
+    }
+  }
+}

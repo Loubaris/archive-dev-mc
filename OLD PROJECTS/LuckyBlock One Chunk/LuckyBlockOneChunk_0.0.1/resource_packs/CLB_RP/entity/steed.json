@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:steed",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/steed/color1"
+			},
+			"geometry": {
+				"default": "geometry.steed"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"spawn_egg": {
+				"texture": "steed",
+				"texture_index": 0
+			}
+		}
+	}
+}

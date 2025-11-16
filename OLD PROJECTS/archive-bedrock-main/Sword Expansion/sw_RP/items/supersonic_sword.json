@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:supersonic_sword",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "supersonic_sword",
+   "minecraft:render_offsets": "supersonic_sword"
+  }
+ }
+}

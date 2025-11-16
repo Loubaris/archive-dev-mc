@@ -1,0 +1,12 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "cs:pillager_outpost",
+         "spawn_egg": {
+            "texture": "pillager_outpost",
+            "texture_index": 0
+	 }
+      }
+   }
+}

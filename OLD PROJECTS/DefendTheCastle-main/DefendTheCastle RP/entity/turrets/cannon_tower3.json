@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+      "description": {
+          "identifier": "cypress:cannon_tower3",
+          "materials": {
+              "default": "skeleton"
+          },
+          "textures": {
+              "default": "textures/entity/turret/cannon_tower/3"
+          },
+          "geometry": {
+              "default": "geometry.cannon_tower3"
+          },
+          "animations": {
+            "attack": "animation.cannon.attack",
+            "attack_controller": "controller.animation.mage.attack"
+          },
+          "scripts": {
+            "animate": [
+              "attack_controller"
+            ]
+          },
+          "render_controllers": ["controller.render.basic"],
+          "spawn_egg": {
+              "base_color": "#52443b",
+              "overlay_color": "#b3927d"
+          }
+      }
+  }
+}

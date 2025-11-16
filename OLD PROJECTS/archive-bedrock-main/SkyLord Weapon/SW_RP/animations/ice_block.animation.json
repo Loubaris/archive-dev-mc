@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.thrown.wave": {
+			"loop": true,
+			"animation_length": 0.64,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.64": [360, 0, 360]
+					}
+				}
+			}
+		}
+	}
+}

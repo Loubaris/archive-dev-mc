@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:robot_frozen",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/robot_frozen"
+			},
+			"geometry": {
+				"default": "geometry.character"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			]
+		}
+	}
+}

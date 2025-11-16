@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:health_staff",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "health_staff",
+   "minecraft:render_offsets": "health_staff"
+  }
+ }
+}

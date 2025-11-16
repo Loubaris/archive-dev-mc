@@ -1,0 +1,197 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "zedafox:character_sit2",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"character"
+				]
+			},
+			"minecraft:interact": [
+				{
+					"on_interact": {
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"event": "interact"
+					},
+					"interact_text": "Interact"
+				}
+			],
+			"minecraft:health": {
+				"value": 10,
+				"max": 10
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.2
+			},
+			"minecraft:nameable": {
+				"always_show": false,
+				"allow_name_tag_renaming": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:has_gravity": {
+				"value": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			}
+		},
+		"component_groups": {
+			"character1": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"character2": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"character3": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"character4": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"character5": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			},
+			"character6": {
+				"minecraft:variant": {
+					"value": 5
+				}
+			},
+			"character7": {
+				"minecraft:variant": {
+					"value": 6
+				}
+			},
+			"allowname": {
+				"minecraft:nameable": {
+					"always_show": true,
+					"allow_name_tag_renaming": true
+				}
+			},
+			"removename": {
+				"minecraft:nameable": {
+					"always_show": false,
+					"allow_name_tag_renaming": true
+				}
+			},
+			"death": {
+				"minecraft:despawn": {}
+			}
+		},
+		"events": {
+			"to_death": {
+				"add": {
+					"component_groups": [
+						"death"
+					]
+				}
+			},
+			"interact": {
+				"run_command": {
+					"command": [
+						"function chat"
+					]
+				}
+			},
+			"skin1": {
+				"add": {
+					"component_groups": [
+						"character1"
+					]
+				}
+			},
+			"skin2": {
+				"add": {
+					"component_groups": [
+						"character2"
+					]
+				}
+			},
+			"skin3": {
+				"add": {
+					"component_groups": [
+						"character3"
+					]
+				}
+			},
+			"skin4": {
+				"add": {
+					"component_groups": [
+						"character4"
+					]
+				}
+			},
+			"skin5": {
+				"add": {
+					"component_groups": [
+						"character5"
+					]
+				}
+			},
+			"skin6": {
+				"add": {
+					"component_groups": [
+						"character6"
+					]
+				}
+			},
+			"skin7": {
+				"add": {
+					"component_groups": [
+						"character7"
+					]
+				}
+			},
+			"allowname": {
+				"add": {
+					"component_groups": [
+						"allowname"
+					]
+				}
+			},
+			"removename": {
+				"add": {
+					"component_groups": [
+						"removename"
+					]
+				}
+			}
+		}
+	}
+}

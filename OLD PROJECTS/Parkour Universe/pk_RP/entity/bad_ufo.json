@@ -1,0 +1,25 @@
+{ 
+   "format_version": "1.10.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "pk:bad_ufo",
+         "spawn_egg": {
+            "texture": "spawn_egg",
+            "texture_index": 39
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/bad_ufo"
+            }, 
+         "geometry": { 
+            "default": "geometry.bad_ufo" 
+            },
+
+         "render_controllers": [ 
+              "controller.render.wave"
+              ]
+         }
+      }
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "5ff0ab02-1d23-41bb-a4d9-6d8a09a5e80b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 13, 0]
+	},
+	"modules": [{
+		"type": "resources",
+		"uuid": "90efe26c-0397-44c3-838e-c6a658362e9e",
+		"version": [1, 0, 0]
+	}],
+	"metadata": {
+		"authors": ["Nitric Concepts"]
+	}
+}

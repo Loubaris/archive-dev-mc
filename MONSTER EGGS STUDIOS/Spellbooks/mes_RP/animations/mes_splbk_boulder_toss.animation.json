@@ -1,0 +1,77 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mes_splbk.boulder.small": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 8.4167,
+			"bones": {
+				"body0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0833": [-360, 0, 0],
+						"4.0833": [-720, 0, 0],
+						"6.5833": [-1080, 0, 0],
+						"8.4167": [-1340, 0, 0]
+					},
+					"position": [-15, 0, 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0.6, 0.6, 0.6]
+					}
+				}
+			}
+		},
+		"animation.mes_splbk.boulder.medium": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 8.4167,
+			"bones": {
+				"body0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0833": [-360, 0, 0],
+						"4.0833": [-720, 0, 0],
+						"6.5833": [-1080, 0, 0],
+						"8.4167": [-1340, 0, 0]
+					},
+					"position": [-15, 0, 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.1667": [1.2, 1.2, 1.2]
+					}
+				}
+			}
+		},
+		"animation.mes_splbk.boulder.wave": {
+			"loop": true,
+			"animation_length": 2.08,
+			"bones": {
+				"body0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.08": [-360, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.mes_splbk.boulder.big": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 8.4167,
+			"bones": {
+				"body0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0833": [-360, 0, 0],
+						"4.0833": [-720, 0, 0],
+						"6.5833": [-1080, 0, 0],
+						"8.4167": [-1340, 0, 0]
+					},
+					"position": [-15, 0, 0],
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [2.1, 2.1, 2.1]
+					}
+				}
+			}
+		}
+	}
+}

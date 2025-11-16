@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "mes_mrhrs:arcane_shoot",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/mes/mrhrs/particle/arcane_shoot"
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"creation_expression": "variable.size = 1;variable.lifetime = 1;"
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 3
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 0.5
+			},
+			"minecraft:particle_initial_speed": 0,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.4, 0.4],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 16,
+					"uv": [2, 2],
+					"uv_size": [12, 12]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#00000000",
+						"0.47": "#FF190404",
+						"0.96": "#FFFF0000",
+						"1.5": "#45EF0000"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+    "resource_pack_name": "Heroes",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "mes_heroes_guide_book": {
+            "textures": "textures/mes/heroes/items/guide_book.png"
+        },
+        "mes_heroes_contract": {
+            "textures": "textures/mes/heroes/items/contract.png"
+        },
+        "mes_heroes_shield_item": {
+            "textures": "textures/mes/heroes/items/shield_item.png"
+        },
+        "mes_heroes_archer_spawn_egg": {
+            "textures": "textures/mes/heroes/items/archer.png"
+        },
+        "mes_heroes_beastmaster_spawn_egg": {
+            "textures": "textures/mes/heroes/items/beastmaster.png"
+        },
+        "mes_heroes_sellsword_spawn_egg": {
+            "textures": "textures/mes/heroes/items/sellsword.png"
+        },
+        "mes_heroes_rogue_spawn_egg": {
+            "textures": "textures/mes/heroes/items/rogue.png"
+        },
+        "mes_heroes_cleric_spawn_egg": {
+            "textures": "textures/mes/heroes/items/cleric.png"
+        },
+        "mes_heroes_guardian_spawn_egg": {
+            "textures": "textures/mes/heroes/items/guardian.png"
+        },
+        "mes_heroes_guardian_campsite_spawn_egg": {
+            "textures": "textures/mes/heroes/items/guardian_camp.png"
+        },
+        "mes_heroes_archer_campsite_spawn_egg": {
+            "textures": "textures/mes/heroes/items/archer_camp.png"
+        },
+        "mes_heroes_beastmaster_campsite_spawn_egg": {
+            "textures": "textures/mes/heroes/items/beastmaster_camp.png"
+        },
+        "mes_heroes_sellsword_campsite_spawn_egg": {
+            "textures": "textures/mes/heroes/items/sellsword_camp.png"
+        },
+        "mes_heroes_rogue_campsite_spawn_egg": {
+            "textures": "textures/mes/heroes/items/rogue_camp.png"
+        },
+        "mes_heroes_cleric_campsite_spawn_egg": {
+            "textures": "textures/mes/heroes/items/cleric_camp.png"
+        }
+    }
+}

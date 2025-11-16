@@ -1,0 +1,16 @@
+{
+  "materials": {
+    "version": "1.0.0",
+	"cyd_mgspl_transparent_emissive:entity_emissive_alpha":{
+		"+states":["Blending"]
+	},
+	"cyd_mgspl_outline:entity_emissive_alpha": {
+      "+states": [
+        "InvertCulling"
+      ],
+      "-states": [
+        "DisableCulling"
+      ]
+    }
+  }
+}

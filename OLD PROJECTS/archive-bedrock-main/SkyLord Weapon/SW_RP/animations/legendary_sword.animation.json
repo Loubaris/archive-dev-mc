@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.legendary_sword.third_person": {
+			"loop": true,
+			"bones": {
+				"stick": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.legendary_sword.first_person": {
+			"loop": true,
+			"animation_length": 0.04,
+			"bones": {
+				"stick": {
+					"rotation": [-0.00001, 67.5, -90.00001],
+					"position": [0, -2, 11],
+					"scale": [1, 0.7, 0.7]
+				}
+			}
+		}
+	}
+}

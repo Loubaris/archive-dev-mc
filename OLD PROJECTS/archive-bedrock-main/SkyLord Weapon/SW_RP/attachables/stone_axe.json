@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "sw:sw_stone_axe",
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"textures": {
+				"default": "textures/entity/holdables/stone_axe"
+			},
+			"geometry": {
+				"default": "geometry.stone_axe"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"scripts": {
+				"animate": ["controller"]
+			},
+			"animations": {
+				"controller": "controller.animation.ffp",
+				"first_person": "animation.axe.first_person",
+				"third_person": "animation.axe.third_person"
+			},
+			"item": {
+				"sw:sw_stone_axe": "(1.0)"
+			}
+		}
+	}
+}

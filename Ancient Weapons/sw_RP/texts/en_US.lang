@@ -1,0 +1,16 @@
+pack.name=Ancient Weapons Resource Pack
+pack.description=Resource Pack for Ancient Weapons
+
+item.sw:golem_armor.name=Golem Armor
+item.sw:fire_armor.name=Fire Armor
+item.sw:dragon_armor.name=Dragon Armor
+item.sw:hydroblast_armor.name=Hydroblast Armor
+item.sw:claw_armor.name=Claw Armor
+item.sw:banished_sword.name=Banished Sword
+item.sw:boom_stick.name=BOOM Stick
+item.sw:dark_sword.name=Dark Sword
+item.sw:duskblade_sword.name=Duskblade Sword
+item.sw:lightning_sword.name=Lightning Sword
+item.sw:love_sword.name=Love Sword
+item.sw:maelstrom_sword.name=Maelstrom Sword
+item.sw:sand_sword.name=Sand Sword

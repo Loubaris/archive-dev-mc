@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cyd_mgspl.wand_default": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+	  "part_visibility": [
+        { "*": false },
+		{ "root_item": true },
+		{ "tip_plane": false },
+		{ "magic_effect": false }
+	  ]
+    },
+	"controller.render.cyd_mgspl.wand_nolight": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+	  "part_visibility": [
+        { "*": false },
+		{ "tip_plane": true },
+		{ "magic_effect": true }
+	  ],
+	  "ignore_lighting" : true
+    }
+  }
+}

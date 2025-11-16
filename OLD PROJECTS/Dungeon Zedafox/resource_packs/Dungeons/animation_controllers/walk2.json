@@ -1,0 +1,28 @@
+{ 
+   "format_version": "1.8.0",
+   "animation_controllers" : {
+      "controller.animation.walk2" : {
+			"states": {
+			   "default": {
+				  "transitions": [
+					 {
+						"walk2": "query.is_moving"
+					 }
+				  ],
+				  "blend_transition": 0.2
+			   },
+			   "walk2": {
+				  "animations": [
+					 "walk2"
+				  ],
+				  "transitions": [
+					 {
+						"default": "query.all_animations_finished || query.is_angry || query.is_roaring"
+					 }
+				  ],
+				  "blend_transition": 0.2
+			   }	  
+			}
+         } 
+      }
+} 

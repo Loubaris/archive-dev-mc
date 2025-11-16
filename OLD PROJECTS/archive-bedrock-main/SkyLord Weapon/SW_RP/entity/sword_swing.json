@@ -1,0 +1,32 @@
+{ 
+   "format_version": "1.10.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "sw:sword_swing_a",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/abilities/sword_swing"
+            }, 
+         "geometry": { 
+            "default": "geometry.sword_swing_a" 
+            },
+            "scripts": {
+                "animate": [
+                    "sword_swing_a"
+                ]
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "sword_swing_a" : "animation.sword_swing_a.wave"
+              }
+         }
+      }
+}

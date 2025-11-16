@@ -1,0 +1,24 @@
+{
+  "resource_pack_name": "Mythic Weapons",
+  "texture_name": "atlas.items",
+  "texture_data": {
+	  "ice_wand": {
+        "textures": "textures/items/ice_wand"
+       },
+     "fire_wand": {
+        "textures": "textures/items/fire_wand"
+       },
+	 "wind_wand": {
+        "textures": "textures/items/wind_wand"
+       },
+	 "lightning_wand": {
+        "textures": "textures/items/lightning_wand"
+       },
+	 "tnt_wand": {
+        "textures": "textures/items/tnt_wand"
+       },
+	 "gravity_wand": {
+        "textures": "textures/items/gravity_wand"
+       }
+  }
+}

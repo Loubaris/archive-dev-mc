@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+       "controller.animation.piranha_monster.move": {
+          "initial_state": "swimming",
+          "states": {
+             "swimming": {
+                "animations": [ "move" ],
+                "transitions": [
+                   {
+                      "attacking": "variable.attack_time"
+                   }
+                ],
+                "blend_transition": 0.1
+             },
+             "attacking": {
+                "animations": [ "attack" ],
+                "transitions": [
+                   {
+                      "swimming": "!variable.attack_time"
+                   }
+                ],
+                "blend_transition": 0.1
+             }
+          }
+       }
+    }
+}

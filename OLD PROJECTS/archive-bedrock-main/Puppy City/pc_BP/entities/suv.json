@@ -1,0 +1,83 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "pc:suv",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false,
+	"scripts": {
+	"animate": [
+		"car_sound"
+	]
+      },
+      "animations": {
+	"car_sound": "controller.animation.car_sound"
+	}
+      },
+      "component_groups": {
+        },
+      "components": {
+        "minecraft:type_family": {
+          "family": [ "bike", "monster", "mob" ]
+        },
+        "minecraft:collision_box" : {
+            "width": 0.5,
+            "height": 0.5
+        },
+        "minecraft:movement":{
+            "value":0.2
+        },
+        "minecraft:movement.basic": {
+        },
+        "minecraft:jump.static": {
+        },
+    "minecraft:health": {
+        "value": 50,
+        "max": 50
+      },
+    "minecraft:nameable": {
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100.0
+      },
+      "minecraft:rideable": {
+        "priority": 0,
+		"seat_count": 6,
+		"crouching_skip_interact": true,
+		"interact_text": "Drive",
+        "family_types": [
+          "player"
+        ],
+        "seats": [
+	    {
+           "position": [ 0.5, 0.5, 0.6]
+          },
+	   {
+           "position": [ -0.5, 0.5, 0.6]
+          },
+            {
+           "position": [ 0.5, 0.5, -0.8]
+          },
+	   {
+           "position": [ -0.5, 0.5, -0.8]
+          },
+           {
+           "position": [ -0.5, 0.5, -1.6]
+          },
+	   {
+           "position": [ 0.5, 0.5, -1.6]
+          }
+        ]
+      },
+      "minecraft:input_ground_controlled": {
+    },
+  "minecraft:physics": {
+    }
+  },
+  "events": {
+    "minecraft:entity_spawned": {
+    }
+  }
+}
+}

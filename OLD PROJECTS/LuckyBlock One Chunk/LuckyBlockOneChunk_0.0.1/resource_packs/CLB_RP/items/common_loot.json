@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nitric:common_loot",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "loot",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

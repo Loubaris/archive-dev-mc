@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:article",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/shop/article1",
+				"article2": "textures/entity/shop/article2",
+				"article3": "textures/entity/shop/article3",
+				"article4": "textures/entity/shop/article4",
+				"article5": "textures/entity/shop/article5",
+				"article6": "textures/entity/shop/article6",
+				"article7": "textures/entity/shop/article7",
+				"article8": "textures/entity/shop/article8",
+				"article9": "textures/entity/shop/article9",
+				"article10": "textures/entity/shop/article10",
+				"article11": "textures/entity/shop/article11",
+				"article12": "textures/entity/shop/article12"
+				
+			},
+			"geometry": {
+				"default": "geometry.shop_article"
+			},
+			"render_controllers": [
+				"controller.render.article"
+			],
+			"animations": {
+				"article": "animation.wave.article"
+			},
+			"animation_controllers": [
+				{
+					"article": "controller.animation.article"
+				}
+			]
+		}
+	}
+}

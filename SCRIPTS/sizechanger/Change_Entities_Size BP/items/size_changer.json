@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "douarmc:size_changer",
+            "menu_category": {
+                "category": "equipment", 
+                "is_hidden_in_commands": false 
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "douarmc:size_changer"
+                }
+            },
+            "minecraft:custom_components": [
+                "douarmc:size_changer"
+            ]
+        }
+    }
+}

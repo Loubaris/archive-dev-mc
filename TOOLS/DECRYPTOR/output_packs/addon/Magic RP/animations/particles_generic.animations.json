@@ -1,0 +1,70 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cyd_mgspl.double_trail": {
+			"loop": false,
+			"animation_length": 1.0,
+			"particle_effects": {
+				"0.0": {
+					"effect": "particle_1",
+					"locator": "locator_particle"
+				},
+				"0.05": {
+					"effect": "particle_2",
+					"locator": "locator_particle"
+				}
+			}
+		},
+		"animation.cyd_mgspl.triple_trail": {
+			"loop": false,
+			"animation_length": 1.0,
+			"particle_effects": {
+				"0.0": {
+					"effect": "particle_1",
+					"locator": "locator_particle"
+				},
+				"0.05": {
+					"effect": "particle_2",
+					"locator": "locator_particle"
+				},
+				"0.1": {
+					"effect": "particle_3",
+					"locator": "locator_particle"
+				}
+			}
+		},
+		"animation.cyd_mgspl.double_particle": {
+			"loop": true,
+			"animation_length": 1.0,
+			"particle_effects": {
+				"0.0": {
+					"effect": "particle_1"
+				},
+				"0.05": {
+					"effect": "particle_2"
+				}
+			}
+		},
+		"animation.cyd_mgspl.entity_1": {
+			"loop": true,
+			"animation_length": 1.0,
+			"particle_effects": {
+				"0.0": {
+					"effect": "particle_1"
+				}
+			}
+		},
+		"animation.cyd_mgspl.entity_2": {
+			"loop": true,
+			"animation_length": 1.0,
+			"particle_effects": {
+				"0.0": {
+					"effect": "particle_1"
+				},
+				"0.1": {
+					"effect": "particle_2"
+				}
+			}
+		}
+	}
+}

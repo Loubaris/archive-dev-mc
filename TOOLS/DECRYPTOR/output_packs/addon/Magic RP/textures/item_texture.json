@@ -1,0 +1,82 @@
+{
+	"texture_data": {
+		"cyd_mgspl_wizard_hat": {
+			"textures": "textures/cyd/mgspl/items/wizard_hat.png"
+		},
+		"cyd_mgspl_wizard_boots": {
+			"textures": "textures/cyd/mgspl/items/wizard_boots.png"
+		},
+		"cyd_mgspl_wizard_leggings": {
+			"textures": "textures/cyd/mgspl/items/wizard_leggings.png"
+		},
+		"cyd_mgspl_wizard_robe": {
+			"textures": "textures/cyd/mgspl/items/wizard_robe.png"
+		},
+		"cyd_mgspl_mineblast": {
+			"textures": "textures/cyd/mgspl/items/mineblast.png"
+		},
+		"cyd_mgspl_guidebook": {
+			"textures": "textures/cyd/mgspl/items/guidebook.png"
+		},
+		"cyd_mgspl_manamote": {
+			"textures": "textures/cyd/mgspl/items/manamote.png"
+		},
+		"cyd_mgspl_push": {
+			"textures": "textures/cyd/mgspl/items/push.png"
+		},
+		"cyd_mgspl_levitation": {
+			"textures": "textures/cyd/mgspl/items/levitation.png"
+		},
+		"cyd_mgspl_illuminate": {
+			"textures": "textures/cyd/mgspl/items/illuminate.png"
+		},
+		"cyd_mgspl_whirlwind": {
+			"textures": "textures/cyd/mgspl/items/whirlwind.png"
+		},
+		"cyd_mgspl_polymorph": {
+			"textures": "textures/cyd/mgspl/items/polymorph.png"
+		},
+		"cyd_mgspl_fireball": {
+			"textures": "textures/cyd/mgspl/items/fireball.png"
+		},
+		"cyd_mgspl_enderblight": {
+			"textures": "textures/cyd/mgspl/items/enderblight.png"
+		},
+		"cyd_mgspl_gravity_vortex": {
+			"textures": "textures/cyd/mgspl/items/gravity_vortex.png"
+		},
+		"cyd_mgspl_ice_blast": {
+			"textures": "textures/cyd/mgspl/items/ice_blast.png"
+		},
+		"cyd_mgspl_lightning_strike": {
+			"textures": "textures/cyd/mgspl/items/lightning_strike.png"
+		},
+		"cyd_mgspl_mana_cookie": {
+			"textures": "textures/cyd/mgspl/items/mana_cookie.png"
+		},
+		"cyd_mgspl_mana_potion": {
+			"textures": "textures/cyd/mgspl/items/mana_potion.png"
+		},
+		"cyd_mgspl_big_mana_potion": {
+			"textures": "textures/cyd/mgspl/items/big_mana_potion.png"
+		},
+		"cyd_mgspl_mind_potion": {
+			"textures": "textures/cyd/mgspl/items/mind_potion.png"
+		},
+		"cyd_mgspl_return": {
+			"textures": "textures/cyd/mgspl/items/return.png"
+		},
+		"cyd_mgspl_spell_potion": {
+			"textures": "textures/cyd/mgspl/items/spell_potion.png"
+		},
+		"cyd_mgspl_summon_minion": {
+			"textures": "textures/cyd/mgspl/items/summon_minion.png"
+		},
+		"cyd_mgspl_timewarp": {
+			"textures": "textures/cyd/mgspl/items/timewarp.png"
+		},
+		"cyd_mgspl_witherskulls": {
+			"textures": "textures/cyd/mgspl/items/witherskulls.png"
+		}
+	}
+}

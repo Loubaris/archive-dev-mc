@@ -1,0 +1,58 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "tsu_tnt:regular_explosion",
+			"basic_render_parameters": {
+				"texture": "textures/particles/weapons/big_glow_pixel",
+				"material": "particles_alpha"
+			}
+		},
+		"events": {
+			"core": {
+				"particle_effect": {
+					"effect": "tsu_tnt:regular_explosion_core",
+					"type": "emitter"
+				}
+			},
+			"dust": {
+				"particle_effect": {
+					"effect": "tsu_tnt:regular_explosion_dust",
+					"type": "emitter"
+				}
+			},
+			"debris": {
+				"particle_effect": {
+					"effect": "tsu_tnt:regular_explosion_debris",
+					"type": "emitter"
+				}
+			},
+			"shockwave":{
+				"particle_effect": {
+					"effect": "tsu_tnt:regular_explosion_shockwave",
+					"type": "emitter"
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 0
+			},
+			"minecraft:emitter_lifetime_events": {
+				"creation_event":[
+					"core", 
+					"dust",
+					"shockwave",
+					"debris",
+					"debris",
+					"debris",
+					"debris",
+					"debris"
+				]	
+			}
+		}
+	}
+}

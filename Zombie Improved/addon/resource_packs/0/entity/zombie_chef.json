@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nitric:zombie_chef",
+      "materials": {
+        "default": "zombie"
+      },
+      "textures": {
+        "default": "textures/entity/zombie_chef"
+      },
+      "geometry": {
+        "default": "geometry.zombie_chef"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 12
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ],
+        "animate": [
+          "move_custom",
+          "look_at_target_default"
+        ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "walk": "animation.zombie_chef.walk",
+        "attack": "animation.zombie_chef.attack",
+
+        "move_custom": "controller.animation.zombie_custom.move",
+        "look_at_target_custom": "controller.animation.zombie_custom.look_at_target"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

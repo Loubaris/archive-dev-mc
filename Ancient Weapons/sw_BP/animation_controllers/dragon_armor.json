@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.dragon_armor": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"dragon_armor_detection": "query.get_equipped_item_name == 'dragon_armor' && query.is_using_item == true"
+						}
+					]
+				},
+				"dragon_armor_detection": {
+					"on_entry": [
+						"/clear @p sw:dragon_armor",
+						"/playsound armor.equip_iron @p",
+						"/replaceitem entity @p slot.armor.head 0 sw:dragon_armor"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:guardian",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "farmer": "textures/mes/heroes/entity/guardian/default",
+                "librarian": "textures/mes/heroes/entity/guardian/holy",
+                "priest": "textures/mes/heroes/entity/guardian/aged",
+                "smith": "textures/mes/heroes/entity/guardian/crimson",
+                "butcher": "textures/mes/heroes/entity/guardian/default"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.guardian"
+            },
+            "scripts": {
+                "animate": [
+                    "move_custom"
+                ]
+            },
+            "animations": {
+                "idle": "animation.mes_heroes.guardian.idle",
+                "walk": "animation.mes_heroes.guardian.walk",
+                "run": "animation.mes_heroes.guardian.run",
+                "move_custom": "controller.animation.mes_heroes.move"
+            },
+            "spawn_egg": {
+                "texture": "mes_heroes_guardian_spawn_egg"
+            },
+            "render_controllers": [
+                "controller.render.villager"
+            ]
+        }
+    }
+}

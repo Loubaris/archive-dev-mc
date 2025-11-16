@@ -1,0 +1,28 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [1, 21, 0],
+		"uuid": "f45eabd0-f331-4531-a838-e0b2a83ecc7a",
+		"version": [1, 0, 8],
+		"pack_name": "Display_Player_And_Mob_Health",
+		"pack_type": "behavior",
+		"associated_pack": "None"
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "483d8132-9258-4ff4-8773-0119371f8edb",
+			"entry": "scripts/entry.js",
+			"version": [1, 0, 8]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+  "resource_pack_name": "Swords Expansion",
+  "texture_name": "atlas.items",
+  "texture_data": {
+     "tnt_sword": {
+        "textures": "textures/items/tnt_sword"
+       },
+     "boulder_sword": {
+        "textures": "textures/items/boulder_sword"
+       }, 
+     "crystal_sword": {
+        "textures": "textures/items/crystal_sword"
+       },
+     "demon_sword": {
+        "textures": "textures/items/demon_sword"
+       },
+     "dragon_sword": {
+        "textures": "textures/items/dragon_sword"
+       },
+     "ethereal_sword": {
+        "textures": "textures/items/ethereal_sword"
+       },
+     "fire_sword": {
+        "textures": "textures/items/fire_sword"
+       },
+     "ice_sword": {
+        "textures": "textures/items/ice_sword"
+       },
+     "inferno_sword": {
+        "textures": "textures/items/inferno_sword"
+       },
+     "laser_sword": {
+        "textures": "textures/items/laser_sword"
+       },
+     "plasma_sword": {
+        "textures": "textures/items/plasma_sword"
+       },
+     "shulker_sword": {
+        "textures": "textures/items/shulker_sword"
+       },
+     "spider_sword": {
+        "textures": "textures/items/spider_sword"
+       },
+     "supersonic_sword": {
+        "textures": "textures/items/supersonic_sword"
+       },
+     "ultra_sword": {
+        "textures": "textures/items/ultra_sword"
+       }
+  }
+}

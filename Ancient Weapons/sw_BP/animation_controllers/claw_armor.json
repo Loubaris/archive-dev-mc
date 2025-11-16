@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.claw_armor": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"claw_armor_detection": "query.get_equipped_item_name == 'claw_armor' && query.is_using_item == true"
+						}
+					]
+				},
+				"claw_armor_detection": {
+					"on_entry": [
+						"/clear @p sw:claw_armor",
+						"/playsound armor.equip_iron @p",
+						"/replaceitem entity @p slot.armor.head 0 sw:claw_armor"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

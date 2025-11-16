@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"geometry.grounddoor": {
+		"texturewidth": 256,
+		"textureheight": 256,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "bone",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [0, 0, -24], "size": [24, 6, 48], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-24, 0, -24], "size": [24, 6, 48], "uv": [0, 54], "mirror": false}
+				]
+			}
+		]
+	}
+}

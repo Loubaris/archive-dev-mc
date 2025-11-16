@@ -1,0 +1,51 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dagger.third_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"base": {
+					"rotation": [0, 0, 0],
+					"position": [-1, 0, 0],
+					"scale": [1, 1, 1]
+				},
+				"Main": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0],
+					"scale": [1, 1, 1]
+				}
+			}
+		},
+		"animation.dagger.first_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"base": {
+					"rotation": [50, 0, 0],
+					"position": [-2, -3, 4]
+				},
+				"Main": {
+					"position": [-3, 0, 4],
+					"scale": [1, 0.7, 0.7]
+				}
+			}
+		},
+		"animation.dagger.using_item": {
+			"animation_length": 0.33333,
+			"bones": {
+				"Main": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3333": [-35, 0, 0]
+					},
+					"position": {
+						"0.0": [-3, 0, 4],
+						"0.3333": [-3, 5, 4]
+					},
+					"scale": [1, 0.7, 0.7]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"geometry.pebble2": {
+		"texturewidth": 32,
+		"textureheight": 32,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 5, 6],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-5, 0, -3], "size": [4, 2, 4], "uv": [0, 7], "mirror": false},
+					{"origin": [-3, 0, -5], "size": [3, 1, 4], "uv": [12, 12], "mirror": false},
+					{"origin": [1, 0, 2], "size": [4, 3, 4], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

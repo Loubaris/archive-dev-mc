@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "nitric:cyber_elephant",
+        "materials": { 
+          "default": "spider" 
+        },
+        "textures": {
+          "default": "textures/entity/cyber_elephant"
+        },
+        "geometry": {
+          "default": "geometry.cyber_elephant"
+        },
+        "animations": {
+          "walk": "animation.cyber_elephant.walk"
+          },
+        "scripts": {
+          "animate": [
+            {"walk": "query.modified_move_speed" }
+          ]
+        },
+        "render_controllers": ["controller.render.default"],
+        "spawn_egg": {
+				"texture": "elephant",
+				"texture_index": 0
+			}
+      }
+    }
+  }

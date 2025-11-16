@@ -1,0 +1,81 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "nitric:diamondgen",
+            "is_spawnable": false,
+            "is_experimental": false,
+            "is_summonable": true
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "npc",
+                    "inac"
+                ]
+            },
+            "minecraft:damage_sensor": [
+                {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            ],
+            "minecraft:health": {
+                "value": 1,
+                "max": 1
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 0.5
+            },
+            "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:interact": [
+                {
+                    "on_interact": {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "minecraft:nameable": {
+                "alwaysShow": true,
+                "allowNameTagRenaming": true
+            },
+	    "minecraft:physics": {
+                "has_gravity": false,
+		"has_collision": false
+            },
+            "minecraft:push_through": {
+                "value": 1
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            }
+        },
+        "component_groups": {
+            "kill": {
+                "minecraft:health": {
+                    "value": -1
+                }
+            }
+        },
+        "events": {
+            "kill": {
+                "add": {
+                    "component_groups": [
+                        "kill"
+                    ]
+                }
+            }
+        }
+    }
+}

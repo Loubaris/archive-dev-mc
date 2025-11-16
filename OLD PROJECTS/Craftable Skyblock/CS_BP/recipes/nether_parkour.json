@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:nether_parkour_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "UFU",
+      "HEH",
+      "ZZZ"
+    ],
+    "key": {
+      "E": {
+        "item": "cs:bastion_remnant_spawn_egg"
+      },
+      "H": {
+     	"item": "minecraft:nether_brick" 
+      },
+      "Y": {
+     	"item": "minecraft:nether_wart_block"
+      }
+    },
+    "result": {
+      "item": "cs:nether_parkour_spawn_egg"
+    }
+  }
+}

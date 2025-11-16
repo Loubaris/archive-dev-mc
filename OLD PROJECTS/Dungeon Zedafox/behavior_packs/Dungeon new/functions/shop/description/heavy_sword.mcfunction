@@ -1,0 +1,1 @@
+tellraw @p[x=375,y=104,z=471] {"rawtext":[{"text":"§f----[ Heavy Sword ]----\n§7Causes 20 damage to the enemies.\n§f-------------------"}]}

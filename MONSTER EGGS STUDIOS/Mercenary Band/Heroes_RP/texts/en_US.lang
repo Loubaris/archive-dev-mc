@@ -1,0 +1,35 @@
+pack.name=Heroes Add-On
+pack.description=Resource Pack for Heroes
+
+item.mes_heroes:contract.name=Contract
+item.mes_heroes:guide_book.name=Guide Book
+item.mes_heroes:shield_item.name=§aPlace Shield
+
+item.spawn_egg.entity.mes_heroes:guardian.name=Guardian Hero
+item.spawn_egg.entity.mes_heroes:guardian_campsite.name=Guardian Campsite
+entity.mes_heroes:guardian.name=Guardian
+
+item.spawn_egg.entity.mes_heroes:rogue.name=Rogue Hero
+item.spawn_egg.entity.mes_heroes:rogue_campsite.name=Rogue Campsite
+entity.mes_heroes:rogue.name=Rogue
+
+item.spawn_egg.entity.mes_heroes:archer.name=Archer Hero
+item.spawn_egg.entity.mes_heroes:archer_campsite.name=Archer Campsite
+entity.mes_heroes:archer.name=Archer
+
+item.spawn_egg.entity.mes_heroes:sellsword.name=Sellsword Hero
+item.spawn_egg.entity.mes_heroes:sellsword_campsite.name=Sellsword Campsite
+entity.mes_heroes:sellsword.name=Sellsword
+
+item.spawn_egg.entity.mes_heroes:cleric.name=Cleric Hero
+item.spawn_egg.entity.mes_heroes:cleric_campsite.name=Cleric Campsite
+entity.mes_heroes:cleric.name=Cleric
+
+item.spawn_egg.entity.mes_heroes:beastwolf.name=Beastwolf Hero
+entity.mes_heroes:beastwolf.name=Beastwolf
+
+item.spawn_egg.entity.mes_heroes:beastmaster.name=Beastmaster Hero
+item.spawn_egg.entity.mes_heroes:beastmaster_campsite.name=Beastmaster Campsite
+entity.mes_heroes:beastmaster.name=Beastmaster
+
+action.hint.exit.mes_heroes:guardian=§aGuardian

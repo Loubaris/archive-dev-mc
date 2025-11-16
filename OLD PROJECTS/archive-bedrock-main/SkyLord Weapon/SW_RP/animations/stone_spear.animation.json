@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.spear.third_person": {
+			"loop": true,
+			"animation_length": 0.08,
+			"bones": {
+				"stick": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.spear.first_person": {
+			"loop": true,
+			"bones": {
+				"stick": {
+					"rotation": [-2.49762, -44.94549, 93.53329],
+					"position": [0, -13, 0],
+					"scale": [0.6, 0.7, 0.7]
+				}
+			}
+		}
+	}
+}

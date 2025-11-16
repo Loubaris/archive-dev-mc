@@ -1,0 +1,34 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "players",
+				"npc_name": "§2Game settings",
+				"text": { "rawtext": [ { "translate": "§2How many players ?", "with": ["\n"] } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "translate": "§c2" } ] },
+						"commands": [
+							"/function players/player2"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "§c3" } ] },
+						"commands": [
+							"/function players/player3"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "translate": "§c4" } ] },
+						"commands": [
+							"/function players/player4"
+						]
+					}
+				]
+			}
+		]
+	}
+}

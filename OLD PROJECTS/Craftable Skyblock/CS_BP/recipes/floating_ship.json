@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:floating_ship_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZZZ",
+      "YHY",
+      "FFF"
+    ],
+    "key": {
+      "Z": {
+        "item": "minecraft:wool"
+      },
+      "H": {
+        "item": "cs:castle_spawn_egg"
+      },
+      "Y": {
+        "item": "minecraft:fence"
+      },
+      "F": {
+        "item": "minecraft:planks",
+	"data": 5
+      }
+    },
+    "result": {
+      "item": "cs:floating_ship_spawn_egg"
+    }
+  }
+}

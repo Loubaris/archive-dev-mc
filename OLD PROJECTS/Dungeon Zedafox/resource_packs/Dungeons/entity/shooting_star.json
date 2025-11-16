@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zedafox:shooting_star",
+			"spawn_egg": {
+				"base_color": "#ADADAD",
+				"overlay_color": "#ADADAD"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/shooting_star"
+			},
+			"geometry": {
+				"default": "geometry.shooting_star"
+			},
+			"render_controllers": [
+				"controller.render.wave"
+			],
+			"animations": {
+				"shooting_star": "animation.wave.shooting_star"
+			},
+			"animation_controllers": [
+				{
+					"shooting_star": "controller.animation.shooting_star"
+				}
+			]
+		}
+	}
+}

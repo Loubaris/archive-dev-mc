@@ -1,0 +1,36 @@
+{ 
+   "format_version": "1.8.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "ninja:vortex",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/vortex"
+            }, 
+         "geometry": { 
+            "default": "geometry.vortex" 
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "vortex" : "animation.vortex.wave"
+              },
+         "animation_controllers" : [
+              {
+              "tylerHand" : "controller.animation.vortex"
+              } 
+         ] 
+       
+       
+       
+       
+         }
+      }
+}

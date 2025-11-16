@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.jetpack_fly": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flying": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/function jetpack",
+						"/tag @s add rider"
+					]
+				},
+				"flying": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function jetpack",
+						"/tag @s add rider"
+					]
+				}
+			}
+		}
+	}
+}

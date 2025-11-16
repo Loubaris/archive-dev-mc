@@ -1,0 +1,1 @@
+execute @e[type=zedafox:direction2] ~ ~ ~ function player/direction_test

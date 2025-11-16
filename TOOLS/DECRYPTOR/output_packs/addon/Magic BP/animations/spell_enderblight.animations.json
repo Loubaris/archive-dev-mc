@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+	"animation.cyd_mgspl.enderblight_loop": {
+      "loop": true,
+      "timeline": {
+        "0.0": ["/particle cyd_mgspl:enderblight_outline ~ ~ ~",
+				"/particle cyd_mgspl:enderblight_mist ~ ~ ~",
+				"/particle cyd_mgspl:enderblight_inner ~ ~ ~",
+				"/scriptevent cyd_mgspl:enderblight impact"]
+      },
+      "animation_length": 1
+    },
+	"animation.cyd_mgspl.enderblight_start": {
+      "loop": false,
+      "timeline": {
+        "0.0": ["/playsound cyd_mgspl.gravity_vortex_loop @a[r=30]"]
+      },
+      "animation_length": 1
+    }
+  }
+}

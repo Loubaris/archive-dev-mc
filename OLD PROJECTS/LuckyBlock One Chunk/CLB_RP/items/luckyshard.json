@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nitric:luckyshard",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "luckyshard",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

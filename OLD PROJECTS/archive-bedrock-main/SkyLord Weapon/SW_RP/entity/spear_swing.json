@@ -1,0 +1,32 @@
+{ 
+   "format_version": "1.10.0",
+   "minecraft:client_entity": { 
+      "description": { 
+         "identifier": "sw:spear_swing_a",
+         "spawn_egg": {
+            "base_color": "#FBFF00",
+            "overlay_color": "#FBFF00"
+         },
+         "materials": { 
+            "default": "entity_alphatest" 
+            },
+         "textures": { 
+            "default": "textures/entity/abilities/spear_swing"
+            }, 
+         "geometry": { 
+            "default": "geometry.spear_swing_a" 
+            },
+            "scripts": {
+                "animate": [
+                    "spear_swing_a"
+                ]
+            },
+         "render_controllers": [ 
+              "controller.render.wave"
+              ],
+         "animations" : {
+              "spear_swing_a" : "animation.spear_swing_a.wave"
+              }
+         }
+      }
+}

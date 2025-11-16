@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.checkpoint.off": {
+			"loop": true,
+			"animation_length": 0.08333,
+			"bones": {
+				"mouv": {
+					"rotation": [70, 0, 0]
+				},
+				"bas": {
+					"position": [0, -14, 0]
+				}
+			}
+		}
+	}
+}

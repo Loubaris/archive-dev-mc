@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"geometry.cyberlight": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-6, 0, -6], "size": [12, 4, 12], "uv": [0, 16], "mirror": false},
+					{"origin": [-5, 4, -5], "size": [10, 4, 10], "uv": [0, 32], "mirror": false},
+					{"origin": [-6, 8, -6], "size": [12, 4, 12], "uv": [0, 0], "mirror": false}
+				]
+			}
+		]
+	}
+}

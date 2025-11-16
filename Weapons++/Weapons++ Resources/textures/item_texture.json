@@ -1,0 +1,33 @@
+{
+	"resource_pack_name": "WeaponsPlusPlus",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"big_cannon": {
+			"textures": "textures/items/big_cannon"
+		},
+		"mini_gun_cannon": {
+			"textures": "textures/items/mini_gun_cannon"
+		},
+		"great_sword": {
+			"textures": "textures/items/great_sword"
+		},
+		"sword_blaster": {
+			"textures": "textures/items/sword_blaster"
+		},
+		"laser_gun": {
+			"textures": "textures/items/laser_gun"
+		},
+		"futuristic_armor": {
+			"textures": "textures/items/futuristic_armor"
+		},
+		"dagger": {
+			"textures": "textures/items/dagger"
+		},
+		"hoverbike_1": {
+			"textures": "textures/items/hoverbike_1"
+		},
+		"hoverbike_2": {
+			"textures": "textures/items/hoverbike_2"
+		}
+	}
+}

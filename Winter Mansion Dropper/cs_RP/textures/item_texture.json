@@ -1,0 +1,19 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "spawn": {
+			"textures": "textures/items/spawn"
+		},
+    "restart": {
+			"textures": "textures/items/restart"
+		},
+    "levitation": {
+			"textures": "textures/items/levitation"
+		},
+    "slow_falling": {
+			"textures": "textures/items/slow_falling"
+		}
+    
+  }
+}

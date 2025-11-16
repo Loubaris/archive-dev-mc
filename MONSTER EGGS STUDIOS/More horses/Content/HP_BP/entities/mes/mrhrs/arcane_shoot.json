@@ -1,0 +1,52 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mes_mrhrs:arcane_shoot",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:collision_box": {
+                "width": 1.2,
+                "height": 1.2
+            },
+            "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:projectile": {
+                "onHit": {
+                    "impact_damage": {
+                        "damage": 2,
+                        "knockback": true,
+                        "semi_random_diff_damage": false,
+                        "destroy_on_hit": false
+                    },
+                    "definition_event": {
+                        "affect_projectile": true
+                    },
+                    "stick_in_ground": {
+                        "shake_time": 0.35
+                    },
+                    "arrow_effect": {}
+                },
+                "power": 1,
+                "gravity": 0.001,
+                "angleoffset": 0
+            },
+	          "minecraft:physics": {
+      },
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:conditional_bandwidth_optimization": {
+                "default_values": {
+                    "max_optimized_distance": 1,
+                    "max_dropped_ticks": 1
+                }
+            }
+        }
+    }
+}

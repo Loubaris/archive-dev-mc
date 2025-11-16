@@ -1,0 +1,15 @@
+pack.name=Mythic Weapons Resource Pack
+pack.description=Resource Pack for Mythic Weapons
+item.mw:dragon_sword.name=Dragon Sword
+item.mw:ethereal_sword.name=Ethereal Sword
+item.mw:inferno_sword.name=Fire Sword
+item.mw:lightning_sword.name=Lightning Sword
+item.mw:maelstrom_sword.name=Maelstrom Sword
+item.mw:sand_sword.name=Sand Sword
+item.mw:smoke_sword.name=Smoke Sword
+item.mw:trap_sword.name=Trap Sword
+item.mw:infinity_axe.name=Infinity Axe
+item.mw:infinity_shovel.name=Infinity Shovel
+item.mw:infinity_pickaxe.name=Infinity Pickaxe
+
+item.mw:ice_wand.name=§bICE WAND

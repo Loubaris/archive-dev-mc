@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:fireball",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "fireball",
+   "minecraft:render_offsets": "fireball"
+  }
+ }
+}

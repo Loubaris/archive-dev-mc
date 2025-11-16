@@ -1,0 +1,33 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.mage_monster": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        { "idle": "query.modified_move_speed <= 0.1" },
+                        { "walk": "query.modified_move_speed > 0.1" }
+                    ],
+                    "transitions": [
+                        { "attack": "query.has_target && query.facing_target_to_range_attack" }
+                    ],
+                    "blend_transition": 0.2
+                },
+                "attack": {
+                    "on_entry": [
+                        "v.random_attack = Math.random_integer(1, 2);"
+                    ],
+                    "animations": [
+                        { "attack1": "v.random_attack == 1" },
+                        { "attack2": "v.random_attack == 2" }
+                    ],
+                    "transitions": [
+                        { "default": "query.any_animation_finished" }
+                    ],
+                    "blend_transition": 0.2
+                }
+            }
+        }
+    }
+}

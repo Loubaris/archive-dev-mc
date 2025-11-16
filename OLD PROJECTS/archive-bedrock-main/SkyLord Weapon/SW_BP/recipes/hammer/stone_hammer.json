@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "sw:stone_hammer"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "GZZ",
+      "GZZ",
+      "UGG"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:stick"
+      },
+      "Z": {
+        "item": "minecraft:stone"
+      }
+    },
+    "result": {
+      "item": "sw:stone_hammer"
+    }
+  }
+}

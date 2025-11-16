@@ -1,0 +1,217 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "item_shop",
+				"npc_name": "§l§bItem Shop",
+				"text": "§2Items SHOP!\n§aWeapons, armor, blocks and more here",
+				"buttons": [
+					{
+						"name": " §cBlocks",
+						"commands": [
+							"/dialogue open @s @initiator blocks"
+						]
+					},
+					{
+						"name": " §cWeapons",
+						"commands": [
+							"/dialogue open @s @initiator weapons"
+						]
+					},
+					{
+						"name": " §cArmor",
+						"commands": [
+							"/dialogue open @s @initiator armor"
+						]
+					},
+					{
+						"name": " §cTools",
+						"commands": [
+							"/dialogue open @s @initiator tools"
+						]
+					},
+					{
+						"name": " §cSpecial",
+						"commands": [
+							"/dialogue open @s @initiator special"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "blocks",
+				"npc_name": "§lBlocks",
+				"text": "§2Click To Buy",
+				"buttons": [
+					{
+						"name": "§0x5 = 16",
+						"commands": [
+							"/function shop/blocks_wool"
+						]
+					},
+					{
+						"name": "§0x10 = 8",
+						"commands": [
+							"/function shop/blocks_end_stone"
+						]
+					},
+					{
+						"name": "§0x1 = 4",
+						"commands": [
+							"/function shop/blocks_planks"
+						]
+					},
+					{
+						"name": "§l§cBACK",
+						"commands": [
+							"/dialogue open @s @initiator item_shop"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "weapons",
+				"npc_name": "§lWeapons",
+				"text": "§bClick To Buy",
+				"buttons": [
+					{
+						"name": "§0x10 = 1",
+						"commands": [
+							"/function shop/stone_sword"
+						]
+					},
+					{
+						"name": "§0x10 = 1",
+						"commands": [
+							"/function shop/iron_sword"
+						]
+					},
+					{
+						"name": "§0x4 = 1",
+						"commands": [
+							"/function shop/diamond_sword"
+						]
+					},
+					{
+						"name": "§0x5 = 1",
+						"commands": [
+							"/function shop/bow"
+						]
+					},
+					{
+						"name": "§0x16 = 4",
+						"commands": [
+							"/function shop/arrow"
+						]
+					},
+					{
+						"name": "§l§cBACK",
+						"commands": [
+							"/dialogue open @s @initiator item_shop"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "armor",
+				"npc_name": "§lArmor",
+				"text": "§bClick To Buy",
+				"buttons": [
+					{
+						"name": "§0x32 = ",
+						"commands": [
+							"/function shop/armor_chain"
+						]
+					},
+					{
+						"name": "§0x9 = ",
+						"commands": [
+							"/function shop/armor_iron"
+						]
+					},
+					{
+						"name": "§0x16 = ",
+						"commands": [
+							"/function shop/armor_diamond"
+						]
+					},
+					{
+						"name": "§l§cBACK",
+						"commands": [
+							"/dialogue open @s @initiator item_shop"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "tools",
+				"npc_name": "§lTools",
+				"text": "§bClick To Buy",
+				"buttons": [
+					{
+						"name": "§0x20 = 1",
+						"commands": [
+							"/function shop/shears"
+						]
+					},
+					{
+						"name": "§0x16 = 1",
+						"commands": [
+							"/function shop/wooden_pickaxe"
+						]
+					},
+					{
+						"name": "§0x6 = 1",
+						"commands": [
+							"/function shop/stone_pickaxe"
+						]
+					},
+					{
+						"name": "§0x5 = 1",
+						"commands": [
+							"/function shop/iron_pickaxe"
+						]
+					},
+					{
+						"name": "§0x10 = ",
+						"commands": [
+							"/function shop/stone_axe"
+						]
+					},
+					{
+						"name": "§l§cBACK",
+						"commands": [
+							"/dialogue open @s @initiator item_shop"
+						]
+					}
+				]
+			},
+			{
+				"scene_tag": "special",
+				"npc_name": "§lSpecial",
+				"text": "§bClick To Buy",
+				"buttons": [
+					{
+						"name": "§0x2 = 1",
+						"commands": [
+							"/function shop/golden_apple"
+						]
+					},
+					{
+						"name": "§0x4 = 1",
+						"commands": [
+							"/function shop/ender_pearl"
+						]
+					},
+					{
+						"name": "§l§cBACK",
+						"commands": [
+							"/dialogue open @s @initiator item_shop"
+						]
+					}
+				]
+			}
+		]
+	}
+}

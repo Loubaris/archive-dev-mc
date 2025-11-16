@@ -1,0 +1,72 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "nitric.zombie.attack_one": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/ZombieAttack_1",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.zombie.idle_one": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/ZombieIdle_1",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.zombie.idle_two": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/ZombieIdle_2",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.zombie.walking_one": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/ZombieWalking_1",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.zombie.walking_two": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/ZombieWalking_2",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	},
+    "nitric.zombie.attack_two": {
+		"category": "music",
+		"sounds": [
+			{
+				"name": "sounds/nitric/ZombieAttack_2",
+				"volume": 0.65,
+				"stream": true,
+				"load_on_low_memory": true
+			}
+		]
+	}
+    }
+  }
+}

@@ -1,0 +1,188 @@
+﻿pack.name=Complemento Hechizos mágicos	###
+pack.description=de Cyclone	###Cyclone is the name of the pack creator studio
+
+###ENTITY NAMES
+entity.cyd_mgspl:spell_summon_minion.name=Esbirro invocado	###minion created from a spell, its a stone golem type
+entity.cyd_mgspl:whisp.name=Voluta	###non hostile magic whisp spirit with a faint blue ish shine to it
+
+###ITEM NAMES
+item.cyd_mgspl:guidebook=§d§lGrimorio	###name of the guidebook
+item.cyd_mgspl:manamote=§bManamota§r	###name of the main crafting item, a blue-ish dust like substance that represents a tiny bit of magic potential
+item.cyd_mgspl:mana_potion=§bPoción de maná	###consumable potion to restore mana
+item.cyd_mgspl:mana_cookie=§bGalleta de maná	###consumable food to restore mana
+item.cyd_mgspl:spell_potion=§aPoción mental	###consumable potion to increase mana regeneration
+
+item.cyd_mgspl:enderblight=Hechizo: plaga de Ender	###magic spell item, conjures up a purple lingering damaging surface
+item.cyd_mgspl:fireball=Hechizo: bola de fuego	###magic spell item, hurls a damaging flaming projectile
+item.cyd_mgspl:gravity_vortex=Hechizo: Vórtice gravitatorio	###magic spell item, conjures a black hole type effect that sucks in enemies and deals minor damage
+item.cyd_mgspl:ice_blast=Hechizo: Explosión de hielo	###magic spell item, instantly blasts creatures in front of the caster with ice shards
+item.cyd_mgspl:illuminate=Hechizo: Iluminar	###magic spell item, spawns a glimmering light source at target location
+item.cyd_mgspl:levitation=Hechizo: Levitar	###magic spell item, grants temporary flight
+item.cyd_mgspl:lightning_strike=Hechizo: rayo	####magic spell item, call down lightning at location
+item.cyd_mgspl:mineblast=Hechizo: explosión de mina	###magic spell item, clears out blocks at target location
+item.cyd_mgspl:polymorph=Hechizo: polimorfismo	###magic spell item, transforms a creature into a harmless critter
+item.cyd_mgspl:push=Hechizo: empujar	###magic spell item, push away creatures around you in a shockwave
+item.cyd_mgspl:return=Hechizo: retorno	###magic spell item, brings you back to your last spawnpoint / bed location
+item.cyd_mgspl:summon_minion=Hechizo: invocar esbirro	###magic spell item, summon a golem minion to help in battle
+item.cyd_mgspl:timewarp=Hechizo: distorsión temporal	###magic spell item, speeds up time
+item.cyd_mgspl:whirlwind=Hechizo: torbellino	###magic spell item, summon a whirlwind that seeks out and launches enemies in the air
+item.cyd_mgspl:witherskulls=Hechizo: calaveras marchitas	###magic spell item, summons a bunch of homing witherskull projectiles
+
+item.cyd_mgspl:wizard_hat=§bSombrero mágico	###Part of an Armor set
+item.cyd_mgspl:wizard_robe=§bTúnica mágica	###Part of an Armor set
+item.cyd_mgspl:wizard_leggings=§bMallas mágicas	###Part of an Armor set
+item.cyd_mgspl:wizard_boots=§bBotas mágicas	###Part of an Armor set
+
+###GAMEPLAY FEEDBACK
+cyd_mgspl.feedback_out_of_bounds=§cNo se puede conjurar fuera del borde del mundo	###error message
+cyd_mgspl.feedback_not_enough_mana=§cNo hay suficiente maná	###error message
+cyd_mgspl.feedback_spell_on_cooldown=§cHechizo en tiempo de recuperación	###error message
+cyd_mgspl.feedback_mana=§bManá	###used in resources display, needs to be very short - mana is the resource used to cast spells
+cyd_mgspl.feedback_cooldown=§cTiempo de recuperación	###used in resources display, needs to be very short - cooldown of a magic spell after it has been cast
+cyd_mgspl.feedback_charge=§aCargar	###used in resources display, needs to be very short - some spells increase in power when charged up before being cast
+
+###GUIDEBOOK SECTION
+###Guidebook is made up of menus with a title, body and at least one button. I grouped them here per page of the guidebook for context.
+###Buttons lead deeper into sub menus except of course for the back button.
+
+###LANDING PAGE
+cyd_mgspl.menu_main_title=§lGrimorio	###guidebook landing page title
+cyd_mgspl.menu_main_body=El §d§lgrimorio§r contiene todo el conocimiento mágico que necesitarás. Aprende aquí hechizos, conoce nuevos objetos mágicos y ajusta la configuración.	###guidebook landing menu text
+cyd_mgspl.menu_button_tutorial=Cómo funciona	###guidebook landing page button that leads to the tutorial page
+cyd_mgspl.menu_button_spells=Lista de hechizos	###guidebook landing page button that leads to the spell list
+cyd_mgspl.menu_button_items=Lista de objetos	###guidebook landing page button that leads to the item list
+cyd_mgspl.menu_button_settings=Ajustes de complementos	###guidebook button that leads to the settings menu
+cyd_mgspl.menu_button_about=Acerca de	###guidebook button that leads to the credits sections
+cyd_mgspl.menu_button_return=Atrás	###guidebook generic button to navigate backwards in a menu structure
+
+###GUIDEBOOK TUTORIAL
+cyd_mgspl.menu_tutorial_title=§lTutorial de hechizos mágicos	###guidebook tutorial page title
+cyd_mgspl.menu_tutorial_body=Para empezar con los §dhechizos mágicos§r, necesitas encontrar una §bmanamota§r. Las criaturas hostiles, como los esqueletos y los zombis, tienen una pequeña probabilidad de soltar una.%1%1¡Presta atención en las zonas boscosas, pues las §bvolutas§r mágicas sueltan seguro al menos una §bmanamota§r!%1%1Cuando tengas tu primera §bmanamota§r, las recetas de fabricación se desbloquearán en el menú de recetas de cualquier mesa de trabajo.%1%1Puedes encontrar descripciones detalladas de cada objeto en las secciones §dHechizos§r y §eObjetos§r del grimorio.	###guidebook tutorial section menu text, use double line breaks to separate paragraphs
+
+cyd_mgspl.menu_button_howtospells=¿Cómo puedo lanzar hechizos?	###guidebook tutorial section button that leads to the spellcasting explain page
+cyd_mgspl.menu_button_mana=¿Qué es el maná?	###guidebook button that leads to the mana explain page
+
+###GUIDEBOOK TUTORIAL CASTING
+cyd_mgspl.menu_howtospell_title=§l¿Cómo se conjuran los hechizos?	###guidebook spellcasting explain page title
+cyd_mgspl.menu_howtospell_body=Cuando crees un §dhechizo mágico§r, podrás usar la interacción para lanzarlo.%1Cada hechizo consume una parte de tu §bmaná§r, así que asegúrate de tener suficiente antes de lanzarlo.%1%1Algunos §dhechizos§r se pueden §ccanalizar§r o §ccargar§r. En vez de pulsar el botón para lanzarlos, mantén presionado para activar el efecto.%1%1Puedes encontrar descripciones detalladas de cada hechizo en la §dlista de hechizos§r del grimorio.	###guidebook spellcasting explainer section menu text, use double line breaks to separate paragraphs
+cyd_mgspl.menu_button_list=¡Muéstrame los hechizos!	###guidebook button that leads to the spell list
+
+###GUIDEBOOK TUTORIAL MANA
+cyd_mgspl.menu_mana_title=§l¿Qué es el maná?	###guidebook mana explain page title
+cyd_mgspl.menu_mana_body=El maná representa tu potencial mágico para lanzar §dhechizos§r.%1%1Tienes §b100 de maná§r a tu disposición de forma predeterminada. Después de consumir una parte para lanzar un hechizo, el §bmaná§r se regenera de forma natural a una velocidad de §b2 puntos§r por segundo.%1%1Usar un §eatuendo mágico§r especial puede mejorar aún más tu potencial mágico.%1%1Puedes restaurar más rápido parte del §bmaná§r consumiendo §epociones mágicas§r o §egalletas de maná§r.	###guidebook mana explainer menu text, use double line breaks to separate paragraphs
+cyd_mgspl.menu_button_armor=¿Atuendo mágico?	###guidebook button that leads to the armor explain page
+cyd_mgspl.menu_button_potions=¿Pociones mágicas?	###guidebook button that leads to the potion explain page
+
+###GUIDEBOOK ITEM LIST
+cyd_mgspl.menu_item_title=§lLista de objetos mágicos	###guidebook list of items title
+cyd_mgspl.menu_item_body=Aquí encontrarás los mejores §eobjetos§r para ayudarte a destacar como §dhechicero§r.	###guidebook list of items menu text
+cyd_mgspl.menu_item_armor=Atuendo mágico	###guidebook button that leads to the armor explain page
+cyd_mgspl.menu_item_potions=Pociones mágicas	###guidebook button that leads to the armor explain page
+
+###GUIDEBOOK ITEMS ARMOR
+cyd_mgspl.menu_armor_title=§lArmadura mágica	###guidebook armor explain page title
+cyd_mgspl.menu_armor_body=Infundir tela común con §bmanamotas§r en una mesa de trabajo produce la armadura ideal para §dconjurar hechizos§r.%1La armadura mágica es sorprendentemente duradera, se puede encantar hasta niveles altos y otorga las siguientes bonificaciones adicionales:%1%1§eSombrero mágico §b+1 de regeneración de maná§r%1§eTúnica mágica §b+10 de maná máximo§r%1§eMallas mágicas §b+10 de maná máximo§r%1§eBotas mágicas §b+5 de maná máximo§r%1%1La armadura mágica se puede reparar en un yunque con lana o una §bmanamota§r.	###guidebook armor section menu text, use double line breaks to separate paragraphs
+
+###GUIDEBOOK ITEMS POTIONS
+cyd_mgspl.menu_potions_title=§lPociones mágicas	###guidebook potions and consumables page
+cyd_mgspl.menu_potions_body=Las §egalletas de maná§r se elaboran infundiéndole una §bmanamota§r a galletas normales en un soporte para pociones. Este proceso no solo las vuelve más sabrosas, sino que también hace que restablezcan §b25 de maná.§r%1%1Beber una §epoción de maná§r restablece nada menos que §b75 de maná§r al instante. Para elaborar una, derrite una §bmanamota§r en una botella de agua en un soporte para pociones%1%1La §epoción mental§r aumenta enormemente tu capacidad para generar §bmaná§r durante §b60 segundos§r.	###guidebook potion and consumables explainer menu text, use double line breaks to separate paragraphs
+
+###GUIDEBOOK SETTINGS
+cyd_mgspl.menu_settings_title=§lAjustes	###guidebook settings menu title
+cyd_mgspl.menu_settings_formatting=Selecciona el formato de texto para mostrar tu §bmaná§r y §dhechizos§r	###drop down menu description
+cyd_mgspl.settings_format_option_1=Estándar	###dropdown menu option
+cyd_mgspl.settings_format_option_2=Compacto	###dropdown menu option
+cyd_mgspl.settings_format_option_3=No	###dropdown menu option
+cyd_mgspl.menu_settings_fail=Selecciona las opciones de notificación cuando un §dhechizo§r no se pueda lanzar	###drop down menu description
+cyd_mgspl.settings_fail_option_1=Texto y sonido	###dropdown menu option
+cyd_mgspl.settings_fail_option_2=Sonido	###dropdown menu option
+cyd_mgspl.settings_fail_option_3=No	###dropdown menu option
+cyd_mgspl.settings_updated=§a¡Ajustes actualizados!	###conmfirm chat message on successful setting change	###
+
+###GUIDEBOOK SPELL LIST
+cyd_mgspl.menu_spells_title=§lLista de hechizos	###guidebook list of spells title
+cyd_mgspl.menu_spells_body=Elige un §dhechizo§r para ver una descripción más detallada.	###guidebook list of spells menu text
+
+cyd_mgspl.enderblight=Plaga de Ender	###magic spell, conjures up a purple lingering damaging surface
+cyd_mgspl.fireball=Bola de fuego	###magic spell, hurls a damaging flaming projectile
+cyd_mgspl.gravity_vortex=Vórtice gravitatorio	###magic spell, conjures a black hole type effect that sucks in enemies and deals minor damage
+cyd_mgspl.ice_blast=Explosión de hielo	###magic spell, instantly blasts creatures in front of the caster with ice shards
+cyd_mgspl.illuminate=Iluminar	###magic spell, spawns a glimmering light source at target location
+cyd_mgspl.levitation=Levitación	###magic spell, grants temporary flight
+cyd_mgspl.lightning_strike=Relámpago	###magic spell, call down lightning at location
+cyd_mgspl.mineblast=Explosión de mina	###magic spell, clears out blocks at target location
+cyd_mgspl.polymorph=Transfigurar	###magic spell, transforms a creature into a harmless critter
+cyd_mgspl.push=Pulsar	###magic spell, push away creatures around you in a shockwave
+cyd_mgspl.return=Volver	###magic spell, brings you back to your last spawnpoint / bed location
+cyd_mgspl.summon_minion=Invocar esbirro	###magic spell, summon a golem minion to help in battle
+cyd_mgspl.timewarp=Distorsión temporal	###magic spell, speeds up time
+cyd_mgspl.whirlwind=Torberllino	###magic spell, summon a whirlwind that seeks out and launches enemies in the air
+cyd_mgspl.witherskulls=Calaveras marchitas	###magic spell, summons a bunch of homing witherskull projectiles
+
+###GUIDEBOOK SPELL DETAIL MENU
+cyd_mgspl.menu_title.spell_detail=Detalle del hechizo	###guidebook spell detail page title
+
+cyd_mgspl.spells_data_Manacost=Coste de maná	###spell stat, a word followed by a number in the menu, example: "Manacost 10"
+cyd_mgspl.spells_data_Cooldown=Tiempo de recuperación	###spell stat, a word followed by a number in the menu, example: "Cooldown 2 Seconds"
+cyd_mgspl.spells_data_damage=Daño	###spell stat, a word followed by a number in the menu, example: "Damage 8"
+cyd_mgspl.spells_data_cast_range=Alcance del lanzamiento	###spell stat, a word followed by a number in the menu, example: "Cast Range 32 Block"
+cyd_mgspl.spells_data_effect_radius=Radio de efecto	###spell stat, a word followed by a number in the menu, example: "Effect Radius 5 Block"
+cyd_mgspl.spells_data_pull_radius=Radio de influencia	###spell stat, a word followed by a number in the menu, example: "Pull in Radius 20 Block"
+cyd_mgspl.spells_data_effect_duration=Duración del efecto	###spell stat, a word followed by a number in the menu, example: "Effect Duration 20 Seconds"
+
+cyd_mgspl.spells_unit_block=Bloquear	###spell stat unit, follows a number example: "Effect Radius: 4 Block"
+cyd_mgspl.spells_unit_seconds=Segundos	###spell stat unit, follows a number example: "Effect Duration: 4 Seconds"
+cyd_mgspl.spells_unit_per_second=por segundo	###spell stat unit, follows a number example: "Manacost: 4 per Second"
+cyd_mgspl.spells_unit_per_charge=por carga	###spell stat unit, follows a number example: "Damage: 4 per Charge"
+
+cyd_mgspl.spell_hint_none=%1	###placeholder hint for tech reasons, keep just the linebreak here - thanks
+cyd_mgspl.spell_hint_channelling=%1§cCanalizar:§f este hechizo se conjurará repetidamente mientras se mantenga pulsada la interacción y el usuario tenga suficiente maná, hasta entrar en tiempo de recuperación. %1%1	###spell type description hint, spells can only have one type
+cyd_mgspl.spell_hint_charging=%1§cCargar:§f este hechizo puede acumular cargas para aumentar su poder. Para cargar, mantén pulsada la interacción y luego suéltala para lanzar el hechizo.%1%1	###spell type description hint, spells can only have one type
+
+cyd_mgspl.enderblight.desc=Conjura una gran zona de plaga de Ender radiante en el suelo que inflige daño por segundo a las criaturas que haya en su interior.	###spell description
+cyd_mgspl.fireball.desc=Dispara un proyectil llameante que inflige daño al primer objetivo al que impacta y a una pequeña área alrededor.	###spell description
+cyd_mgspl.gravity_vortex.desc=Crea un vórtice que absorbe a las criaturas cercanas. Las criaturas atrapadas en el centro del efecto sufren daño cada segundo.	###spell description
+cyd_mgspl.ice_blast.desc=Golpea con una ráfaga de hielo a las criaturas situadas en un cono frente a ti.	###spell description
+cyd_mgspl.illuminate.desc=Conjura una fuente de luz en una ubicación objetivo dentro de su rango que permanecerá durante un tiempo limitado.	###spell description
+cyd_mgspl.levitation.desc=Otorga la capacidad de volar durante un tiempo limitado.	###spell description
+cyd_mgspl.lightning_strike.desc=Invoca rayos que impactan una ubicación objetivo dentro de su rango para infligir daño a las criaturas dentro del área de efecto. Este hechizo también carga a los Creepers.	###spell description
+cyd_mgspl.mineblast.desc=Despeja un área de bloques en la ubicación objetivo, dentro del alcance, para poder excavar rápidamente. No inflige daño a las criaturas.	###spell description
+cyd_mgspl.polymorph.desc=Transforma temporalmente a una criatura hostil en un bichito simpático e inofensivo.%1%1§cNo funciona con enemigos con una salud máxima muy alta, como los jefes.§r	###spell description
+cyd_mgspl.push.desc=Repele con fuerza a todas las criaturas que te rodean.	###spell description
+cyd_mgspl.return.desc=Conjura un círculo mágico en el suelo. Al cabo de 3 segundos, los jugadores y las criaturas dentro del círculo se teletransportan a tu punto de generación.	###spell description
+cyd_mgspl.summon_minion.desc=Invoca a una criatura aliada que te ayudará en el combate.	###spell description
+cyd_mgspl.timewarp.desc=Acelera rápidamente la hora del día. Convierte el día en noche y la noche en día en cuestión de segundos.	###spell description
+cyd_mgspl.whirlwind.desc=Invoca un velocísimo torbellino que persigue a los enemigos y los lanza por los aires. Solo funciona contra objetivos terrestres.	###spell description
+cyd_mgspl.witherskulls.desc=Dispara hasta 5 calaveras marchitas del Inframundo que buscan a las criaturas cercanas y explotan.	###spell description
+
+###GUIDEBOOK CREDITS
+cyd_mgspl.menu_about_title=§lAcerca del complemento	###guidebook credits page title
+cyd_mgspl.menu_about_body=§dHechizos mágicos§r es una creación de Cyclone.	###guidebook credits page contents, cyclone is the name of the creator studio
+cyd_mgspl.menu_about_version=Versión	###guidebook datapoint to showcase current add-on version
+cyd_mgspl.menu_about_changelog=Registro de cambios	###guidebook section to show a version changelog
+
+###COMPUTERS BY JIGARBOV INTEGRATION
+cyd_mgspl:jig_computer.addon_stats=Estadísticas de hechizos mágicos	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+
+cyd_mgspl:stat_mana_spent=Total de maná gastado	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_spells_cast=Total de hechizos conjurados	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_enderblight_cast=Lanzamiento de Plaga de Ender	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_fireball_cast=Lanzamiento de Bola de fuego	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_gravity_vortex_cast=Lanzamiento de Vórtice gravitatorio	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_ice_blast_cast=Lanzamiento de Explosión de hielo	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_illuminate_cast=Conjuraciones de Iluminar	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_levitation_cast=Lanzamiento de Levitación	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_lightning_strike_cast=Lanzamiento de Rayo	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_mineblast_cast=Lanzamiento de Explosión de mina	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_polymorph_cast=Lanzamiento de Polimorfismo	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_push_cast=Lanzamiento de Empuje	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_return_cast=Lanzamiento de Retorno	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_summon_minion_cast=Lanzamiento de Invocar esbirro	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_timewarp_cast=Lanzamiento de Distorsión temporal	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_whirlwind_cast=Lanzamiento de Torbellino	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+cyd_mgspl:stat_witherskulls_cast=Lanzamiento de Calaveras marchitas	###for inter-add-on compatibility to track numeric stats and showcase them to the player within a list in another add-on Example: "Total Mana spent: 6282"
+
+cyd_mgspl:credits.for.computers=Complemento Hechizos mágicos, de Cyclone	###
+
+
+

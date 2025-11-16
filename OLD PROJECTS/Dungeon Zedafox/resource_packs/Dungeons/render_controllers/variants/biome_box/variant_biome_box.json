@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.variant_biome_box": {
+	  "arrays": {
+        "materials": {
+          "Array.materials": [ "Material.default", "Material.invisible" ]
+        },
+	    "textures": {
+		  "Array.skins": [
+            "Texture.ice",
+            "Texture.forest",
+            "Texture.extreme_hills",
+            "Texture.beach",
+            "Texture.jungle",
+            "Texture.desert",
+            "Texture.flat",
+            "Texture.the_nether",
+            "Texture.mesa",
+            "Texture.plain",
+            "Texture.mushroom_island",
+            "Texture.ocean",
+            "Texture.river",
+            "Texture.savanna",
+            "Texture.stone_beach",
+            "Texture.swamp",
+            "Texture.taiga",
+            "Texture.the_end"
+		  ]
+		}
+	  },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Array.materials[query.is_invisible]" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

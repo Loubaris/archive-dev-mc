@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mes_heroes:dagger",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/mes/heroes/entity/dagger"
+            },
+            "geometry": {
+                "default": "geometry.mes_heroes.dagger"
+            },
+            "spawn_egg": {
+                "base_color": "#544f4f",
+                "overlay_color": "#deff7d"
+            },
+            "animations": {
+                "spin": "animation.mes_heroes.dagger.spin",
+                "ground": "animation.mes_heroes.dagger.ground"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "spin": "!q.is_on_ground"
+                    },
+                    {
+                        "ground": "q.is_on_ground"
+                    }
+                ]
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

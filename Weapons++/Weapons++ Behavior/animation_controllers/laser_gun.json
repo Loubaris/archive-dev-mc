@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.laser_gun_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"laser_gun_detection": "query.get_equipped_item_name == 'laser_gun' && query.is_using_item == true"
+						}
+					]
+				},
+				"laser_gun_detection": {
+					"on_entry": [
+						"/tag @p[r=1] add laser_gun"
+					],
+					"transitions": [ { "default": "(1.0)" } ]
+				}
+			}
+		}
+	}
+}

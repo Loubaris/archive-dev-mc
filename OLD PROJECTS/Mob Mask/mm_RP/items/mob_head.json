@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "mm:mob_head",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "mob_mask",
+   "minecraft:render_offsets": "mob_mask"
+  }
+ }
+}

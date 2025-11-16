@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 23
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "horsearmordiamond",
+                    "functions": []
+                }
+            ]
+        }
+    ]
+}

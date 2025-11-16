@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.zombie_tnt.attack": {
+      "loop": true,
+      "animation_length": 1,
+      "timeline": {
+        "0.4": [
+          "/execute @p[r=5] ~ ~ ~ summon nitric:instanttnt"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.laser.third_person": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"Main": {
+					"rotation": [92.5, 0, 0],
+					"position": [0, 0, -4]
+				}
+			}
+		},
+		"animation.laser.first_person": {
+			"loop": true,
+			"bones": {
+				"Main": {
+					"rotation": [152.5, 0, 0],
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.laser.using_item": {
+			"animation_length": 0.625,
+			"bones": {
+				"Main": {
+					"rotation": {
+						"0.0": [152.5, 0, 0],
+						"0.0833": [152.70113, 3.45533, 6.66067],
+						"0.3333": [152.70113, 3.45533, 6.66067],
+						"0.4167": [149.91653, -21.48944, -49.13788],
+						"0.625": [152.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 1],
+						"0.625": [0, 0, 1]
+					}
+				}
+			}
+		}
+	}
+}

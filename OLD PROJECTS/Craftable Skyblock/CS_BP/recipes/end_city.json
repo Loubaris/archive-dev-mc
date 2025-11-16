@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "cs:end_city_spawn_egg"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ZGZ",
+      "YHY",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:end_stone"
+      },
+      "Z": {
+        "item": "minecraft:purpur_stairs"
+      },
+      "Y": {
+        "item": "minecraft:purpur_block",
+	"data": 2
+      },
+      "G": {
+        "item": "minecraft:purpur_block",
+	"data": 0
+      },
+      "H": {
+        "item": "minecraft:end_bricks"
+      }
+    },
+    "result": {
+      "item": "cs:end_city_spawn_egg"
+    }
+  }
+}

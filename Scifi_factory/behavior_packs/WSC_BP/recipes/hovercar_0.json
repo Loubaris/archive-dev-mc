@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nitric:hovercar_0"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "YXX",
+      "UUU",
+      "ZXZ"
+    ],
+    "key": {
+      "U": {
+        "item": "minecraft:emerald"
+      },
+      "Y": {
+        "item": "minecraft:iron_ingot"
+      },
+      "Z": {
+        "item": "minecraft:emerald_block"
+      }
+    },
+    "result": {
+      "item": "nitric:hovercar_0_spawn_egg"
+    }
+  }
+}

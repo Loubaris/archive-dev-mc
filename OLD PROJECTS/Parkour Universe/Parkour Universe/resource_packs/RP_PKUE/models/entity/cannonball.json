@@ -1,0 +1,23 @@
+{
+	"format_version": "1.10.0",
+	"geometry.cannonball": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 2.5,
+		"visible_bounds_offset": [0, 0.75, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 5, 8],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-6, 0, -8], "size": [12, 12, 16], "uv": [0, 0], "mirror": false},
+					{"origin": [-5, 1, -10], "size": [10, 10, 2], "uv": [32, 32], "mirror": false},
+					{"origin": [-5, 1, 8], "size": [10, 10, 2], "uv": [40, 0], "mirror": false},
+					{"origin": [-6, 0, 10], "size": [12, 12, 4], "uv": [0, 28], "mirror": false}
+				]
+			}
+		]
+	}
+}

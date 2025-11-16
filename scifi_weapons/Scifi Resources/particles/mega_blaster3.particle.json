@@ -1,0 +1,64 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "nitric:mega_blaster3",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/particle/glow_squid3"
+			}
+		},
+		"curves": {
+			"variable.size1": {
+				"type": "bezier_chain",
+				"input": "v.particle_age",
+				"nodes": {
+					"0.0": {
+						"value": 0,
+						"slope": 0
+					},
+					"0.11": {
+						"value": 1.09,
+						"slope": -0.05
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_local_space": {
+				"position": true,
+				"rotation": true,
+				"velocity": true
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 12
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 2
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 0.2
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.random(-360, 360)",
+				"rotation_rate": "math.random(-360, 360)"
+			},
+			"minecraft:particle_initial_speed": 0,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["0.1+variable.size1", "0.1+variable.size1"],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 256,
+					"texture_height": 256,
+					"uv": [0, 0],
+					"uv_size": [256, 256]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": [0.91765, 0.25882, 0.20784, 1]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "nitric:i_automatic_laser_rifle",
+            "materials": {
+                "default": "entity_alphatest_change_color"
+            },
+            "textures": {
+                "default": "textures/entity/holdables/automatic_laser_rifle"
+            },
+            "geometry": {
+                "default": "geometry.automatic_laser_rifle"
+            },
+      "scripts": {
+        "animate": [ "controller" ]
+      },
+      "animations": {
+        "controller": "controller.animation.inactive",
+        "idle": "animation.weapon.spin"
+      },
+            "render_controllers": [
+                "controller.render.wave"
+            ]
+	}
+    }
+}

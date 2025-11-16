@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:cyclops",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/cyclops"
+			},
+			"geometry": {
+				"default": "geometry.cyclops"
+			},
+			"render_controllers": [
+				"controller.render.zombie"
+			],
+			"scripts": {
+				"animate": [
+					"look_at_target",
+					"root",
+					{"walk": "query.modified_move_speed"}
+				]
+			},
+			"animations": {
+				"look_at_target": "animation.common.look_at_target",
+				"root": "controller.animation.nitric.attack",
+				"attack": "animation.cyclops.attack",
+				"walk": "animation.cyclops.walk"
+			},
+			"spawn_egg": {
+				"base_color": "#F8CF00",
+				"overlay_color": "#FF9700"
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Monster Eggs"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.5.4"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Morph",
+		"description": "Giant Morph by Monster Eggs",
+		"uuid": "d74f0fa6-d76d-4e49-8d92-c23e7c250058",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			19,
+			50
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "063413c8-5a8d-45fd-a382-4888730e2361",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "89db7b43-5e29-42a9-a349-fabaf2abf0e1",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nitric:commonblock"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "planks",
+    "pattern": [
+      " # ",
+      "#F#",
+      " # "
+    ],
+    "key": {
+      "F": {
+        "item": "nitric:block"
+      },
+      "#": {
+        "item": "nitric:commongem"
+      }
+    },
+    "result": {
+      "item": "nitric:commonblock"
+    }
+  }
+}

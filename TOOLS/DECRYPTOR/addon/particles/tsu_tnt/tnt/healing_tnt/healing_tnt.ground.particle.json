@@ -1,0 +1,55 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "tsu_tnt:healing_tnt_ground",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/tsu_tnt/0/particle/shockwave"
+			}
+		},
+		"curves": {
+			"variable.size": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [0.1, 1]
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 25
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_point": {
+				"offset": [0, 0.1, 0]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "math.random(0,1)"
+			},
+			"minecraft:particle_initial_speed": 0,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["7*variable.size", "7*variable.size"],
+				"facing_camera_mode": "emitter_transform_xz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 16,
+					"uv": [0, 0],
+					"uv_size": [16, 16]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#FF45FF43",
+						"1.0": "#0000FFBF"
+					}
+				}
+			}
+		}
+	}
+}

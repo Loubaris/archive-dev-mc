@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nitric:flag",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"color1": "textures/entity/flag/color1",
+				"color2": "textures/entity/flag/color2",
+				"color3": "textures/entity/flag/color3"
+			},
+			"geometry": {
+				"default": "geometry.flag"
+			},
+			"render_controllers": [
+				"controller.render.flag"
+			],
+			"spawn_egg": {
+				"texture": "flag",
+				"texture_index": 0
+			}
+		}
+	}
+}

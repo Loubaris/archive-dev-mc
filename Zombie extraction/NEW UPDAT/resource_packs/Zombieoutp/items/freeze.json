@@ -1,0 +1,13 @@
+{
+ "format_version": "1.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "sw:freeze",
+   "category": "Equipment"
+  },
+  "components": {
+   "minecraft:icon": "clock",
+   "minecraft:render_offsets": "clock"
+  }
+ }
+}

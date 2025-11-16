@@ -1,0 +1,22 @@
+{
+  "format_version":"1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "kubo:jetpack",
+      "materials": {
+        "default": "tiny_tnt"
+      },
+      "textures": {
+        "default": "textures/entity/jetpack"
+      },
+      "geometry": {
+        "default": "geometry.jetpack"
+      },
+      "render_controllers": [ "controller.render.tiny_tnt" ],
+      "spawn_egg": {
+        "texture": "jetpack",
+        "texture_index": 0
+      }
+    }
+  }
+}
